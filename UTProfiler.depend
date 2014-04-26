@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1398516930 source:/home/antoine/Documents/UTC/LO21/UTProfiler/src/main.cpp
+	"uvmanager.hpp"
+
+1398516504 /home/antoine/Documents/UTC/LO21/UTProfiler/src/uvmanager.hpp
+	"uv.hpp"
+
+1398516912 /home/antoine/Documents/UTC/LO21/UTProfiler/src/uv.hpp
+	<string.h>
+	<map>
+	"structures.hpp"
+
+1398517499 /home/antoine/Documents/UTC/LO21/UTProfiler/src/structures.hpp
+	<string>
+

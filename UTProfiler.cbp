@@ -29,11 +29,26 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/structures.hpp" />
+		<Unit filename="src/uv.cpp" />
+		<Unit filename="src/uv.hpp" />
+		<Unit filename="src/uvmanager.cpp" />
+		<Unit filename="src/uvmanager.hpp" />
 		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="French" />
+				<doxyfile_build />
+				<doxyfile_warnings warn_if_undocumented="1" />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
 			<code_completion />
 			<envvars />
 			<debugger />
