@@ -34,6 +34,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="src/main.cpp" />
+		<Unit filename="src/manager.cpp" />
+		<Unit filename="src/manager.hpp" />
 		<Unit filename="src/structures.hpp" />
 		<Unit filename="src/uv.cpp" />
 		<Unit filename="src/uv.hpp" />

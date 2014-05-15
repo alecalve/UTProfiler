@@ -3,19 +3,22 @@
 
 #include <QMainWindow>
 
-namespace Ui {
-class MainWindow;
-}
+#include "src/uvmanager.hpp"
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
-    
-public:
+namespace Ui { class MainWindow; }
+
+class MainWindow : public QMainWindow {
+  Q_OBJECT
+
+  public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    
-private:
+
+  public slots:
+    void afficheUvs();
+
+  private:
+    void refreshUvs();
     Ui::MainWindow *ui;
 };
 

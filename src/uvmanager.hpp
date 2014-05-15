@@ -1,18 +1,10 @@
 #ifndef UVMANAGER_H
 #define UVMANAGER_H 1
 
+#include "manager.hpp"
 #include "uv.hpp"
+#include "singleton.hpp"
 
-class UvManager {
-
-  public:
-    static UvManager* getInstance();
-
-  private:
-    UvManager();
-    UvManager(const UvManager&);
-    UvManager operator=(const UvManager&);
-    static UvManager *instance;
-};
+typedef Singleton<Manager<Uv>> UvManager;
 
 #endif // UVMANAGER_H

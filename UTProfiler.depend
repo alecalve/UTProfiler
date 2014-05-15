@@ -5,11 +5,24 @@
 1398516504 /home/antoine/Documents/UTC/LO21/UTProfiler/src/uvmanager.hpp
 	"uv.hpp"
 
-1398516912 /home/antoine/Documents/UTC/LO21/UTProfiler/src/uv.hpp
+1399990666 /home/antoine/Documents/UTC/LO21/UTProfiler/src/uv.hpp
 	<string.h>
 	<map>
 	"structures.hpp"
 
 1398517499 /home/antoine/Documents/UTC/LO21/UTProfiler/src/structures.hpp
 	<string>
+
+1399996959 source:/home/antoine/Documents/UTC/LO21/UTProfiler/src/manager.cpp
+	"manager.hpp"
+
+1400007437 /home/antoine/Documents/UTC/LO21/UTProfiler/src/manager.hpp
+	<vector>
+	<string>
+	"singleton.hpp"
+
+1400007178 /home/antoine/Documents/UTC/LO21/UTProfiler/src/singleton.hpp
+
+1398517499 source:/home/antoine/Documents/UTC/LO21/UTProfiler/src/uv.cpp
+	"uv.hpp"
 

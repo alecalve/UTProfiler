@@ -13,7 +13,7 @@ PROJECT_NAME           = UTProfiler
 PROJECT_NUMBER         = 
 PROJECT_BRIEF          =
 PROJECT_LOGO           =
-OUTPUT_DIRECTORY       =
+OUTPUT_DIRECTORY       = /home/antoine/Documents/UTC/LO21/UTProfiler/doxygen
 CREATE_SUBDIRS         = NO
 OUTPUT_LANGUAGE        = French
 BRIEF_MEMBER_DESC      = YES
@@ -26,7 +26,7 @@ STRIP_FROM_PATH        =
 STRIP_FROM_INC_PATH    =
 SHORT_NAMES            = NO
 JAVADOC_AUTOBRIEF      = NO
-QT_AUTOBRIEF           = NO
+QT_AUTOBRIEF           = YES
 MULTILINE_CPP_IS_BRIEF = NO
 INHERIT_DOCS           = YES
 SEPARATE_MEMBER_PAGES  = NO
@@ -48,11 +48,11 @@ SYMBOL_CACHE_SIZE      = 0
 #---------------------------------------------------------------------------
 # Build related configuration options
 #---------------------------------------------------------------------------
-EXTRACT_ALL            = NO
-EXTRACT_PRIVATE        = NO
-EXTRACT_STATIC         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
 EXTRACT_LOCAL_CLASSES  = YES
-EXTRACT_LOCAL_METHODS  = NO
+EXTRACT_LOCAL_METHODS  = YES
 EXTRACT_ANON_NSPACES   = NO
 HIDE_UNDOC_MEMBERS     = NO
 HIDE_UNDOC_CLASSES     = NO
@@ -100,6 +100,12 @@ INPUT                  = \
 	"../src/uvmanager.hpp" \
 	"../src/uv.cpp" \
 	"../src/uv.hpp" \
+	"../src/structures.hpp" \
+	"../src/singleton.hpp" \
+	"../src/uv.hpp" \
+	"../src/uv.cpp" \
+	"../src/manager.hpp" \
+	"../src/manager.cpp" \
 	"../src/main.cpp" 
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          =

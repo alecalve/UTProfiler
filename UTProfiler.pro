@@ -4,7 +4,9 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
+
+QMAKE_CXXFLAGS += -std=c++11
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,8 +15,19 @@ TEMPLATE = app
 
 
 SOURCES += src/main.cpp\
-        qt/mainwindow.cpp
+        qt/mainwindow.cpp \
+    src/uvmanager.cpp \
+    src/uv.cpp \
+    src/xmlio.cpp
 
-HEADERS  += qt/mainwindow.h
+HEADERS  += qt/mainwindow.h \
+    src/uvmanager.hpp \
+    src/uv.hpp \
+    src/structures.hpp \
+    src/manager.hpp \
+    src/singleton.hpp \
+    src/exceptions.hpp \
+    src/xmlio.hpp \
+    src/abstractio.hpp
 
 FORMS    += qt/ui/mainwindow.ui
