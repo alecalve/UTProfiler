@@ -20,8 +20,8 @@ template<class T> class Manager {
         elements.push_back(t);
     }
 
-    //! Retourne un objet identifié par une string
-    const T& getItem(const std::string &s) const;
+    //! Retourne un objet identifié par une string (QString)
+    const T& getItem(const QString &s) const;
     inline void load() {
         elements = ioPolicy->load();
     }

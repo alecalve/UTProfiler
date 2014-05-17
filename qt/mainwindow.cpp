@@ -57,8 +57,8 @@ void MainWindow::afficheUvs() {
     for(auto it=uvs.begin(); it!=uvs.end(); it++) {
         QString code, descr, ouv;
         QStringList ouvertures;
-        code = QString::fromStdString(it->getCode());
-        descr = QString::fromStdString(it->getDescription());
+        code = it->getCode();
+        descr = it->getDescription();
 
         if (it->getOuverturePrintemps()) { ouvertures<<"Automne"; }
         if (it->getOuvertureAutomne()) { ouvertures<<"Printemps"; }

@@ -1,12 +1,12 @@
 #ifndef STRUCTURES_H
 #define STRUCTURES_H 1
 
-#include <string>
+#include <QString>
 
 //! Structure définissant les catégories d'UV
 struct CategorieUV {
   //! Nom de la catégorie
-  std::string nom;
+  QString nom;
 
   //! Opérateur de comparaison nécessaire pour l'usage dans un map
   inline bool operator<(const CategorieUV &cat) const {
@@ -18,7 +18,7 @@ struct CategorieUV {
 //! Structure définissant les notes obtenues aux UVs
 struct NoteUV {
   //! Note obtenue (A, B, C, ...)
-  std::string nom;
+  QString nom;
 
   //! Booléen indiquant la réussite de l'UV
   bool reussite;

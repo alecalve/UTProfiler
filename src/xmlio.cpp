@@ -16,17 +16,17 @@ void XmlIo::save(std::vector<Uv> uvs) {
     for(auto it=uvs.begin(); it!=uvs.end(); it++) {
         QDomElement uv = doc.createElement("uv");
 
-        uv.setAttribute(QString::fromStdString("code"), QString::fromStdString(it->getCode()));
-        uv.setAttribute(QString::fromStdString("descr"), QString::fromStdString(it->getDescription()));
+        uv.setAttribute(QString::fromStdString("code"), it->getCode());
+        uv.setAttribute(QString::fromStdString("descr"), it->getDescription());
         if (it->getOuvertureAutomne()) {
             QDomElement semestre = doc.createElement("semestre");
-            semestre.setAttribute(QString::fromStdString("nom"), QString::fromStdString("A"));
+            semestre.setAttribute(QString::fromStdString("nom"), "A");
             uv.appendChild(semestre);
         }
 
         if (it->getOuverturePrintemps()) {
             QDomElement semestre = doc.createElement("semestre");
-            semestre.setAttribute(QString::fromStdString("nom"), QString::fromStdString("P"));
+            semestre.setAttribute(QString::fromStdString("nom"), "P");
             uv.appendChild(semestre);
         }
 
@@ -69,13 +69,13 @@ std::vector<Uv> XmlIo::load() {
     QDomNodeList uvs = document.elementsByTagName("uv");
 
     for(int i=0; i<uvs.count(); i++) {
-        std::string code, descr;
+        QString code, descr;
 
         QDomNode node = uvs.at(i);
         QDomElement element = node.toElement();
 
-        code = element.attribute("code").toStdString();
-        descr = element.attribute("descr").toStdString();
+        code = element.attribute("code");
+        descr = element.attribute("descr");
         Uv uv = Uv(code, descr);
 
         //QDomNodeList rec = children(node, "recompenses");
@@ -84,7 +84,7 @@ std::vector<Uv> XmlIo::load() {
         QDomElement semestre = node.firstChildElement("semestre");
 
         for(; !semestre.isNull(); semestre=semestre.nextSiblingElement("semestre")) {
-            std::string nom = semestre.attribute("nom").toStdString();
+            QString nom = semestre.attribute("nom");
 
             if (nom == "A") {
                 uv.setOuvertureAutomne(true);
