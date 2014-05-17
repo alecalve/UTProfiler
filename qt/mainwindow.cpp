@@ -5,6 +5,7 @@
 
 #include <QTableWidget>
 #include <QStandardItem>
+#include <QFileDialog>
 #include <iostream>
 #include <QMessageBox>
 
@@ -23,9 +24,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->tableWidget->setRowCount(0);
     ui->tableWidget->setColumnCount(3);
     ui->tableWidget->setHorizontalHeaderLabels(cols);
-
-    UVM->setPolicy(new XmlIo("/home/antoine/uvs.xml"));
-    UVM->load();
 }
 
 MainWindow::~MainWindow() {
@@ -34,6 +32,10 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::afficheUvs() {
+    QString filename = QFileDialog::getOpenFileName(this, "Ouvrir le fichier");
+    UVM->setPolicy(new XmlIo(filename));
+    UVM->load();
+
     std::vector<Uv> uvs = UVM->iterator();
 
     ui->tableWidget->clearContents();
