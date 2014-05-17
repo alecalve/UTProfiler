@@ -16,6 +16,7 @@ class MainWindow : public QMainWindow {
 
   public slots:
     void afficheUvs();
+    void saveUvs();
 
   private:
     Ui::MainWindow *ui;

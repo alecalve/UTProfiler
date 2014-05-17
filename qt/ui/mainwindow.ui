@@ -97,22 +97,6 @@
  <resources/>
  <connections>
   <connection>
-   <sender>actionFermer</sender>
-   <signal>triggered()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>210</x>
-     <y>156</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>actionCharger_les_donn_es</sender>
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
@@ -128,8 +112,41 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSauvegarde</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveUvs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>afficheUvs()</slot>
+  <slot>saveUvs()</slot>
  </slots>
 </ui>

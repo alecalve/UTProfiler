@@ -2,10 +2,13 @@
 #include "ui_mainwindow.h"
 
 #include "src/xmlio.hpp"
+
 #include <QTableWidget>
 #include <QStandardItem>
-
 #include <iostream>
+#include <QMessageBox>
+
+#include "src/exceptions.hpp"
 
 #define UVM UvManager::getInstance()
 
@@ -53,5 +56,16 @@ void MainWindow::afficheUvs() {
         ui->tableWidget->setItem(i, 1, new QTableWidgetItem(descr));
         ui->tableWidget->setItem(i, 2, new QTableWidgetItem(ouv));
         i++;
+    }
+}
+
+void MainWindow::saveUvs() {
+    std::cout<<"Entered"<<std::endl;
+    try {
+        UVM->save();
+    } catch(const IOException& e) {
+        QMessageBox error(this);
+        error.setText("Impossible de sauvegader les UVs");
+        error.exec();
     }
 }
