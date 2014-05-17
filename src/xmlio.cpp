@@ -9,20 +9,23 @@
 
 void XmlIo::save(std::vector<Uv> uvs) {
 
-    QDomElement root = document.createElement("uvs");
+    QDomDocument doc;
+    QDomElement root = doc.createElement("uvs");
+    doc.appendChild(root);
 
     for(auto it=uvs.begin(); it!=uvs.end(); it++) {
-        QDomElement uv = document.createElement("uv");
+        QDomElement uv = doc.createElement("uv");
+
         uv.setAttribute(QString::fromStdString("code"), QString::fromStdString(it->getCode()));
         uv.setAttribute(QString::fromStdString("descr"), QString::fromStdString(it->getDescription()));
         if (it->getOuvertureAutomne()) {
-            QDomElement semestre = document.createElement("semestre");
+            QDomElement semestre = doc.createElement("semestre");
             semestre.setAttribute(QString::fromStdString("nom"), QString::fromStdString("A"));
             uv.appendChild(semestre);
         }
 
         if (it->getOuverturePrintemps()) {
-            QDomElement semestre = document.createElement("semestre");
+            QDomElement semestre = doc.createElement("semestre");
             semestre.setAttribute(QString::fromStdString("nom"), QString::fromStdString("P"));
             uv.appendChild(semestre);
         }
@@ -39,7 +42,7 @@ void XmlIo::save(std::vector<Uv> uvs) {
     //À partir d’ici, tout échec fait perdre les données
     // TODO: sauvegarder le fichier avant de tenter d’écrire
 
-    QString toWrite = document.toString();
+    QString toWrite = doc.toString();
     QTextStream stream(&fichier);
     stream << toWrite;
     fichier.close();
