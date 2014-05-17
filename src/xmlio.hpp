@@ -15,9 +15,8 @@ class XmlIo : public AbstractIo {
     XmlIo(const QString &s) : AbstractIo(s) {}
 
     std::vector<Uv> load();
-    void saveItem(const Uv&) {}
-
-  protected:
+    void save(std::vector<Uv> uvs);
+  private:
     QDomDocument document;
 
 };

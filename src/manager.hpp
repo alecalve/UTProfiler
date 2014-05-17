@@ -20,14 +20,14 @@ template<class T> class Manager {
         elements.push_back(t);
     }
 
-     //! Retourne un objet identifié par une string
+    //! Retourne un objet identifié par une string
     const T& getItem(const std::string &s) const;
     inline void load() {
         elements = ioPolicy->load();
     }
 
     //! Sauvegarde les objets en utilisant la stratégie définie auparavant
-    void save();
+    void save() { ioPolicy->save(elements); }
 
     //! Retourne un itérateur (vector) contenant les objets du manager
     std::vector<T> iterator() { return elements; }

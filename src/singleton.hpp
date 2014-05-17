@@ -1,9 +1,7 @@
 #ifndef SINGLETON_HPP
 #define SINGLETON_HPP 1
 
-#include <iostream>
-
- //! Classe template représentant le design pattern Singleton
+//! Classe template représentant le design pattern Singleton
 template<class T> class Singleton {
 
   public:
@@ -11,10 +9,9 @@ template<class T> class Singleton {
     //! Retourne (en créant au besoin) une instance vers la classe «singletonisée»
     static T* getInstance() {
         if (instance) {
-            std::cout<<"pas de création"<<std::endl;
             return instance;
         }
-        std::cout<<"création"<<std::endl;
+
         instance = new T;
         return instance;
     }

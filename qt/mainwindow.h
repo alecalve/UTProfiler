@@ -18,7 +18,6 @@ class MainWindow : public QMainWindow {
     void afficheUvs();
 
   private:
-    void refreshUvs();
     Ui::MainWindow *ui;
 };
 

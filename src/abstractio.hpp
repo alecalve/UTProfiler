@@ -16,7 +16,7 @@ class AbstractIo {
     const QString& getIdentifier() { return identifier; }
 
     virtual std::vector<Uv> load()=0;
-    virtual void saveItem(const Uv&)=0;
+    virtual void save(std::vector<Uv>)=0;
     virtual ~AbstractIo() {}
 
   protected:
