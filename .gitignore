@@ -23,3 +23,6 @@
 bin/*
 *.layout
 build*
+
+.DS_Store
+UTProfiler.pro.use*
