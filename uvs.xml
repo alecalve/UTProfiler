@@ -1,0 +1,11 @@
+<uvs>
+ <uv code="RO03" descr="des graphes.">
+  <semestre nom="P"/>
+ </uv>
+ <uv code="LO21" descr="des classes">
+  <semestre nom="P"/>
+ </uv>
+ <uv code="TE01" descr="Test de description très longue on va voir jusqu'ou on peut aller, aller, on rajoute des caractères et plus on le fait plus la string est longue">
+  <semestre nom="P"/>
+ </uv>
+</uvs>
