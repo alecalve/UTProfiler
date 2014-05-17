@@ -36,7 +36,7 @@ void XmlIo::save(std::vector<Uv> uvs) {
     QFile fichier(identifier);
 
     if (!fichier.open(QIODevice::WriteOnly)) {
-        throw IOException();
+        throw Exception("impossible de sauvegarder le fichier");
     }
 
     //À partir d’ici, tout échec fait perdre les données
@@ -55,12 +55,12 @@ std::vector<Uv> XmlIo::load() {
     QFile fichier(identifier);
 
     if (!fichier.open(QIODevice::ReadOnly)) {
-        throw IOException();
+        throw Exception("impossible d'ouvrir le fichier");
     }
 
     if (!document.setContent(&fichier)) {
         fichier.close();
-        throw XmlIOException();
+        throw Exception("Le fichier n'est pas valide");
     }
 
     fichier.close();

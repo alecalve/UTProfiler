@@ -37,7 +37,15 @@ void MainWindow::afficheUvs() {
     if (filename.isNull()) { return; }
 
     UVM->setPolicy(new XmlIo(filename));
-    UVM->load();
+    try {
+        UVM->load();
+    } catch(const Exception& e) {
+        QMessageBox error(this);
+        error.setText(e.getinfo());
+        error.exec();
+        return;
+    }
+
 
     std::vector<Uv> uvs = UVM->iterator();
 
@@ -65,12 +73,12 @@ void MainWindow::afficheUvs() {
 }
 
 void MainWindow::saveUvs() {
-    std::cout<<"Entered"<<std::endl;
+
     try {
         UVM->save();
-    } catch(const IOException& e) {
+    } catch(const Exception& e) {
         QMessageBox error(this);
-        error.setText("Impossible de sauvegader les UVs");
+        error.setText(e.getinfo());
         error.exec();
     }
 }

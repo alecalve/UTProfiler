@@ -10,5 +10,5 @@ const Uv& Manager<Uv>::getItem(const std::string &s) const {
         }
     }
 
-   throw ItemNotFoundException();
+   throw Exception("objet non trouvé.");
 }
