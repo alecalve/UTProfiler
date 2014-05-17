@@ -2,9 +2,6 @@
 
 #include "qt/mainwindow.h"
 #include "uvmanager.hpp"
-#include "xmlio.hpp"
-
-#include <iostream>
 
 int main(int argc, char *argv[])
 {
