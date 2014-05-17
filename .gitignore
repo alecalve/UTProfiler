@@ -26,3 +26,6 @@ build*
 
 .DS_Store
 UTProfiler.pro.use*
+*.autosave
+*.log
+html/
