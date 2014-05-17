@@ -48,7 +48,7 @@
      <x>0</x>
      <y>0</y>
      <width>421</width>
-     <height>23</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFichier">
@@ -62,21 +62,6 @@
    </widget>
    <addaction name="menuFichier"/>
   </widget>
-  <action name="actionOuvrir">
-   <property name="text">
-    <string>Ouvrir</string>
-   </property>
-  </action>
-  <action name="actionFermer">
-   <property name="text">
-    <string>Fermer</string>
-   </property>
-  </action>
-  <action name="actionParametres">
-   <property name="text">
-    <string>Paramètres</string>
-   </property>
-  </action>
   <action name="actionCharger_les_donn_es">
    <property name="text">
     <string>Charger les données</string>
