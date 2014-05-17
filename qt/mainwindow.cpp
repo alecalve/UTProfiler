@@ -32,7 +32,10 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::afficheUvs() {
+
     QString filename = QFileDialog::getOpenFileName(this, "Ouvrir le fichier");
+    if (filename.isNull()) { return; }
+
     UVM->setPolicy(new XmlIo(filename));
     UVM->load();
 
