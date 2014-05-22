@@ -58,9 +58,15 @@ std::vector<Uv> XmlIo::load() {
         throw Exception("impossible d'ouvrir le fichier");
     }
 
-    if (!document.setContent(&fichier)) {
+    int line = 0;
+    QString error = "";
+    if (!document.setContent(&fichier, &error, &line)) {
         fichier.close();
-        throw Exception("Le fichier n'est pas valide");
+        QString strline = QString::number(line);
+        error.prepend("Fichier invalide : '");
+        error.append("', ligne ");
+        error.append(strline);
+        throw Exception(error);
     }
 
     fichier.close();
