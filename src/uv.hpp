@@ -10,6 +10,7 @@
 class Uv {
 
   public:
+    //! Constructeur par défaut, met les ouvertures printemps et automne à false
     Uv(QString c, QString d) : code(c), description(d) {
         ouvertureAutomne = false;
         ouverturePrintemps = false;

@@ -7,6 +7,7 @@
 
 namespace Ui { class MainWindow; }
 
+//! Fenêtre principale de l'application
 class MainWindow : public QMainWindow {
   Q_OBJECT
 
