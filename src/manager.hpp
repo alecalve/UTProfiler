@@ -16,12 +16,13 @@ template<class T> class Manager {
 
   public:
     //! Ajoute la gestion d'un objet au manager
-    void addItem(const T& t) {
+    void addItem(T t) {
         elements.push_back(t);
     }
 
     //! Retourne un objet identifié par une string (QString)
-    const T& getItem(const QString &s) const;
+    T& getItem(const QString &s) const;
+
     inline void load() {
         elements = ioPolicy->load();
     }

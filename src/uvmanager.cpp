@@ -3,12 +3,15 @@
 #include "exceptions.hpp"
 
 template<>
-const Uv& Manager<Uv>::getItem(const QString &s) const {
-   for (auto it=elements.begin(); it!=elements.end(); it++) {
+Uv& Manager<Uv>::getItem(const QString &s) const {
+    int index = -1;
+    for (auto it=elements.begin(); it!=elements.end(); it++) {
+        index++;
         if (it->getCode() == s) {
-            return *it;
+            Uv& u = const_cast<Uv&>(elements.at(index));
+            return u;
         }
     }
 
-   throw Exception("objet non trouvé.");
+    throw Exception("objet non trouvé.");
 }
