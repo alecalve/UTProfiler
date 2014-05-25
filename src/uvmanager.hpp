@@ -6,5 +6,6 @@
 #include "singleton.hpp"
 
 typedef Singleton<Manager<Uv>> UvManager;
+// J'ai du mal à visualier ce que çà nous donne ^^
 
 #endif // UVMANAGER_H

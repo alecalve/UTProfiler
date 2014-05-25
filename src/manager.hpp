@@ -39,6 +39,9 @@ template<class T> class Manager {
         ioPolicy = p;
     }
 
+    //! Suppression d'un élément.
+    void suppItem(T t);
+
     ~Manager() { delete ioPolicy; }
 
   private:
