@@ -40,7 +40,20 @@ template<class T> class Manager {
     }
 
     //! Suppression d'un élément.
-    void suppItem(T t);
+    void suppItem(const QString& s) {
+        T item = getItem(s);
+        bool found = false;
+
+        for(auto it=elements.begin(); !found && it!=elements.end(); it++) {
+            if (*it == item) {
+                //On met it = devant pour ne pas invalider l’iterateur
+                //Sinon si on supprime des élements pendant une itération
+                //sans mettre à jour l’itérateur il se passe n’importe quoi
+                it = elements.erase(it);
+                found = true;
+            }
+        }
+    }
 
     ~Manager() { delete ioPolicy; }
 

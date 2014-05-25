@@ -5,7 +5,7 @@
 #include "uv.hpp"
 #include "singleton.hpp"
 
+//! Un UvManager est un alias pour un Singleton de Manager d’UV
 typedef Singleton<Manager<Uv>> UvManager;
-// J'ai du mal à visualier ce que çà nous donne ^^
 
 #endif // UVMANAGER_H

@@ -27,6 +27,7 @@ class Uv {
     inline void setOuvertureAutomne(const bool &b) { ouvertureAutomne = b; }
     inline void setDescription(const QString &d) { description = d; }
     inline void setCredits(const CategorieUV &cat, const unsigned int &creds) { recompenses[cat] = creds; }
+    inline bool operator==(const Uv& u) { return (u.getCode() == code); }
 
   private:
     QString code;

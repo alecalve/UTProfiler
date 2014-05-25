@@ -38,6 +38,8 @@ void MainWindow::afficheUvs() {
         return;
     }
 
+    UVM->suppItem("MQ13");
+
     ui->uvdisplay->refresh();
 }
 
