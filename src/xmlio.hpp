@@ -7,6 +7,7 @@
 #include <vector>
 
 #include "abstractio.hpp"
+#include "uvmanager.hpp"
 
 //! Implémentation de AbstractIo pour les exports XML
 class XmlIo : public AbstractIo {
@@ -14,8 +15,8 @@ class XmlIo : public AbstractIo {
   public:
     XmlIo(const QString &s) : AbstractIo(s) {}
 
-    std::vector<Uv> load();
-    void save(std::vector<Uv> uvs);
+    void load();
+    void save();
   private:
     QDomDocument document;
 

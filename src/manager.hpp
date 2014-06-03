@@ -25,11 +25,11 @@ template<class T> class Manager {
 
     //! Charge les UVs présentes dans la sauvegarde définie par la stratégie ioPolicy
     inline void load() {
-        elements = ioPolicy->load();
+        ioPolicy->load();
     }
 
     //! Sauvegarde les objets sauvegardés en utilisant la stratégie définie auparavant
-    void save() { ioPolicy->save(elements); }
+    void save() { ioPolicy->save(); }
 
     //! Retourne un itérateur (vector) contenant les objets du manager
     std::vector<T> iterator() { return elements; }

@@ -6,9 +6,12 @@
 #include "exceptions.hpp"
 #include "uv.hpp"
 
+#define UVM UvManager::getInstance()
 
-void XmlIo::save(std::vector<Uv> uvs) {
 
+void XmlIo::save() {
+
+    std::vector<Uv> uvs = UVM->iterator();
     QDomDocument doc;
     QDomElement root = doc.createElement("uvs");
     doc.appendChild(root);
@@ -49,7 +52,7 @@ void XmlIo::save(std::vector<Uv> uvs) {
 
 }
 
-std::vector<Uv> XmlIo::load() {
+void XmlIo::load() {
 
     document = QDomDocument();
     QFile fichier(identifier);
@@ -71,7 +74,6 @@ std::vector<Uv> XmlIo::load() {
 
     fichier.close();
 
-    std::vector<Uv> tab;
     QDomNodeList uvs = document.elementsByTagName("uv");
 
     for(int i=0; i<uvs.count(); i++) {
@@ -99,8 +101,7 @@ std::vector<Uv> XmlIo::load() {
             }
         }
 
-        tab.push_back(uv);
+        UVM->addItem(uv);
     }
 
-    return tab;
 }

@@ -15,11 +15,11 @@ class AbstractIo {
     void setIdentifier(const QString &s) { identifier = s; }
     const QString& getIdentifier() { return identifier; }
 
-    //! Renvoie la liste des UVs présentent dans la sauvegarde
-    virtual std::vector<Uv> load()=0;
+    //! Rempli les managers des données sauvegardées
+    virtual void load()=0;
 
-    //! Écrit une sauvegarde avec les UVs fournies en argument
-    virtual void save(std::vector<Uv>)=0;
+    //! Écrit une sauvegarde des données des managers
+    virtual void save()=0;
     virtual ~AbstractIo() {}
 
   protected:
