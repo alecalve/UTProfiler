@@ -6,12 +6,20 @@
 #include "exceptions.hpp"
 #include "uv.hpp"
 
+#define UVM UvManager::getInstance()
+#define CUM CategorieUVManager::getInstance()
 
-void XmlIo::save(std::vector<Uv> uvs) {
+
+void XmlIo::save() {
+
+    std::vector<Uv> uvs = UVM->iterator();
+    std::vector<CategorieUV> cats = CUM->iterator();
 
     QDomDocument doc;
-    QDomElement root = doc.createElement("uvs");
+    QDomElement root = doc.createElement("sauvegarde");
     doc.appendChild(root);
+    QDomElement rootUvs = doc.createElement("uvs");
+    root.appendChild(rootUvs);
 
     for(auto it=uvs.begin(); it!=uvs.end(); it++) {
         QDomElement uv = doc.createElement("uv");
@@ -30,8 +38,30 @@ void XmlIo::save(std::vector<Uv> uvs) {
             uv.appendChild(semestre);
         }
 
-        root.appendChild(uv);
+        auto recompenses = it->getRecompenses();
+        for(const auto &rec : recompenses) {
+            QDomElement recompense = doc.createElement("recompense");
+            recompense.setAttribute("cat", rec.first);
+            recompense.setAttribute("ects", rec.second);
+            uv.appendChild(recompense);
+        }
+
+        rootUvs.appendChild(uv);
     }
+
+    QDomElement rootCategories = doc.createElement("categories");
+    root.appendChild(rootCategories);
+
+    for(auto it=cats.begin(); it!=cats.end(); it++) {
+        QDomElement cat = doc.createElement("categorie");
+
+        cat.setAttribute(QString::fromStdString("nom"), it->nom);
+        cat.setAttribute(QString::fromStdString("abbr"), it->abbreviation);
+
+        rootCategories.appendChild(cat);
+    }
+
+
 
     QFile fichier(identifier);
 
@@ -49,7 +79,7 @@ void XmlIo::save(std::vector<Uv> uvs) {
 
 }
 
-std::vector<Uv> XmlIo::load() {
+void XmlIo::load() {
 
     document = QDomDocument();
     QFile fichier(identifier);
@@ -71,7 +101,6 @@ std::vector<Uv> XmlIo::load() {
 
     fichier.close();
 
-    std::vector<Uv> tab;
     QDomNodeList uvs = document.elementsByTagName("uv");
 
     for(int i=0; i<uvs.count(); i++) {
@@ -84,8 +113,13 @@ std::vector<Uv> XmlIo::load() {
         descr = element.attribute("descr");
         Uv uv = Uv(code, descr);
 
-        //QDomNodeList rec = children(node, "recompenses");
+        QDomElement recompense = node.firstChildElement("recompense");
 
+        for(; !recompense.isNull(); recompense=recompense.nextSiblingElement("recompense")) {
+            QString cat = recompense.attribute("cat");
+            unsigned int creds = recompense.attribute("ects").toUInt();
+            uv.setCredits(cat, creds);
+        }
 
         QDomElement semestre = node.firstChildElement("semestre");
 
@@ -99,8 +133,24 @@ std::vector<Uv> XmlIo::load() {
             }
         }
 
-        tab.push_back(uv);
+        UVM->addItem(uv);
     }
 
-    return tab;
+    QDomNodeList cats = document.elementsByTagName("categorie");
+
+    for(int i=0; i<cats.count(); i++) {
+        QString nom, abbr;
+
+        QDomNode node = cats.at(i);
+        QDomElement element = node.toElement();
+
+        nom = element.attribute("nom");
+        abbr = element.attribute("abbr");
+        CategorieUV cat;
+        cat.nom = nom;
+        cat.abbreviation = abbr;
+
+        CUM->addItem(cat);
+    }
+
 }
