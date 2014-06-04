@@ -7,8 +7,14 @@
 
 #include "changesemestredialog.h"
 #include "src/uvmanager.hpp"
+#include <istream>
 
 #define UVM UvManager::getInstance()
+#define NBCOLS 4
+#define CODE_COL 0
+#define DESCR_COL 1
+#define CREDS_COL 2
+#define OUV_COL 3
 
 UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
     QWidget(parent),
@@ -17,13 +23,15 @@ UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
     ui->setupUi(this);
 
     QStringList cols;
-    cols<<"Code"<<"Description"<<"Ouverture";
+    cols<<"Code"<<"Description"<<"Crédits"<<"Ouverture";
 
     ui->tableWidget->setRowCount(0);
-    ui->tableWidget->setColumnCount(3);
+    ui->tableWidget->setColumnCount(NBCOLS);
     ui->tableWidget->setHorizontalHeaderLabels(cols);
     ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
+    offset = 0;
 }
 
 UvDisplayWidget::~UvDisplayWidget() {
@@ -37,10 +45,10 @@ void UvDisplayWidget::changed(int row, int column) {
     QString value = ui->tableWidget->item(row, column)->text();
 
     switch (column) {
-        case 0:
+        case CODE_COL:
             concerned.setCode(value);
             break;
-        case 1:
+        case DESCR_COL:
             concerned.setDescription(value);
             break;
         default:
@@ -51,7 +59,7 @@ void UvDisplayWidget::changed(int row, int column) {
 
 void UvDisplayWidget::change(int row, int column) {
     Uv concerned = UVM->iterator().at(row);
-    if (column == 2) {
+    if (column == OUV_COL) {
         ChangeSemestreDialog* dialog = new ChangeSemestreDialog(this,
                                                                 concerned.getOuverturePrintemps(),
                                                                 concerned.getOuvertureAutomne(),
@@ -69,27 +77,50 @@ void UvDisplayWidget::choiceSemestre(int row, bool printemps, bool automne) {
     refresh();
 }
 
+void UvDisplayWidget::addUv(const Uv& u) {
+    QString code, descr, ouv, rec;
+    QStringList ouvertures, recs;
+    std::map<QString, unsigned int> recompenses = u.getRecompenses();
+
+    for(const auto &rec : recompenses) {
+        QString cat = rec.first;
+        QString creds = QString::number(rec.second);
+        QStringList l;
+        l << creds << cat;
+        recs << l.join(" ");
+    }
+
+    code = u.getCode();
+    descr = u.getDescription();
+
+    if (u.getOuverturePrintemps()) { ouvertures<<"Printemps"; }
+    if (u.getOuvertureAutomne()) { ouvertures<<"Automne"; }
+
+    ouv = ouvertures.join("/");
+    rec = recs.join(" et ");
+
+    ui->tableWidget->setItem(offset, CODE_COL, new QTableWidgetItem(code));
+    ui->tableWidget->setItem(offset, DESCR_COL, new QTableWidgetItem(descr));
+    ui->tableWidget->setItem(offset, OUV_COL, new QTableWidgetItem(ouv));
+    ui->tableWidget->setItem(offset, CREDS_COL, new QTableWidgetItem(rec));
+
+    offset++;
+}
+
+void UvDisplayWidget::addUv(const QString& code) {
+    Uv u = UVM->getItem(code);
+    ui->tableWidget->setRowCount(offset+1);
+    addUv(u);
+}
+
 void UvDisplayWidget::refresh() {
     std::vector<Uv> uvs = UVM->iterator();
     ui->tableWidget->clearContents();
+    offset = 0;
     ui->tableWidget->setRowCount(uvs.size());
-    ui->tableWidget->setColumnCount(3);
+    ui->tableWidget->setColumnCount(NBCOLS);
 
-    unsigned int i=0;
     for(auto it=uvs.begin(); it!=uvs.end(); it++) {
-        QString code, descr, ouv;
-        QStringList ouvertures;
-        code = it->getCode();
-        descr = it->getDescription();
-
-        if (it->getOuverturePrintemps()) { ouvertures<<"Printemps"; }
-        if (it->getOuvertureAutomne()) { ouvertures<<"Automne"; }
-
-        ouv = ouvertures.join("/");
-
-        ui->tableWidget->setItem(i, 0, new QTableWidgetItem(code));
-        ui->tableWidget->setItem(i, 1, new QTableWidgetItem(descr));
-        ui->tableWidget->setItem(i, 2, new QTableWidgetItem(ouv));
-        i++;
+        addUv(*it);
     }
 }

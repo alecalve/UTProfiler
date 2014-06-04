@@ -18,6 +18,7 @@ class UvDisplayWidget : public QWidget {
     explicit UvDisplayWidget(QWidget *parent = 0);
     ~UvDisplayWidget();
     void choiceSemestre(int row, bool printemps, bool automne);
+    void addUv(const QString&);
 
   public slots:
     void refresh();
@@ -26,6 +27,9 @@ class UvDisplayWidget : public QWidget {
 
   private:
     Ui::UvDisplayWidget *ui;
+    unsigned int offset;
+
+    void addUv(const Uv&);
 };
 
 #endif // UVDISPLAYWIDGET_H
