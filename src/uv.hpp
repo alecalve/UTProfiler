@@ -10,6 +10,9 @@
 class Uv {
 
   public:
+
+    Uv() {}
+
     //! Constructeur par défaut, met les ouvertures printemps et automne à false
     Uv(QString c, QString d) : code(c), description(d) {
         ouvertureAutomne = false;
@@ -21,18 +24,19 @@ class Uv {
     inline bool getOuvertureAutomne() const { return ouvertureAutomne; }
     inline bool getOuverturePrintemps() const { return ouverturePrintemps; }
     unsigned int getCredits() const;
+    inline const std::map<QString, unsigned int>& getRecompenses() const { return recompenses; }
 
     inline void setCode(const QString &c) { code = c; }
     inline void setOuverturePrintemps(const bool &b) { ouverturePrintemps = b; }
     inline void setOuvertureAutomne(const bool &b) { ouvertureAutomne = b; }
     inline void setDescription(const QString &d) { description = d; }
-    inline void setCredits(const CategorieUV &cat, const unsigned int &creds) { recompenses[cat] = creds; }
+    inline void setCredits(const QString &cat, const unsigned int &creds) { recompenses[cat] = creds; }
     inline bool operator==(const Uv& u) { return (u.getCode() == code); }
 
   private:
     QString code;
     QString description;
-    std::map<CategorieUV, unsigned int> recompenses;
+    std::map<QString, unsigned int> recompenses;
     bool ouvertureAutomne;
     bool ouverturePrintemps;
 
