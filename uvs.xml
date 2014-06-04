@@ -1,1741 +1,2274 @@
+<sauvegarde>
 <uvs>
-<uv code="MQ13" descr="Matériaux Composites" resp="Zoheir ABOURA">
+<uv code="LA03" descr="Allemand Niveau III" resp="Gabriele ORBACH-LIN">
 <semestre nom="A"/>
-</uv>
-<uv code="MQ12" descr="Choix Des Matériaux Et Des Procédés" resp="Salima BOUVIER">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ11" descr="Mise En Oeuvre Des Matériaux" resp="Abdelouahed LAKSIMI">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ10" descr="Comportement Mécanique Des Matériaux" resp="Nicolas BUIRON">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ17" descr="Introduction Aux Propriétés Mécaniques Et À L'Ingénierie Des Matériaux" resp="Marion RISBET-VOITOT">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="FQ03" descr="Conception Robuste Et Plans D'Experiences" resp="Zohra CHERFI-BOULANGER">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ14" descr="Optimisation En Mécanique" resp="Jean-Marc ROELANDT">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ19" descr="Dynamique Des Structures" resp="Etienne ARNOULT">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ18" descr="Cinématique Et Dynamique Des Systèmes" resp="Thomas BOULANGER">
-<semestre nom="P"/>
-</uv>
-<uv code="BT09" descr="Industries Agro-Alimentaires - Qualites De L'Aliment" resp="Elisabeth MOUTON">
-<semestre nom="A"/>
-</uv>
-<uv code="BA09" descr="Introduction Au Calcul Des Structures Du Batiment" resp="Jean-Louis BATOZ">
-<semestre nom="P"/>
-</uv>
-<uv code="BA01" descr="Equipements Techniques Du Batiment" resp="Manuela SECHILARIU">
-<semestre nom="P"/>
-</uv>
-<uv code="CM15" descr="Systemes Colloidaux - Applications Agroalimentaires" resp="Elisabeth VAN HECKE">
-<semestre nom="P"/>
-</uv>
-<uv code="BA03" descr="Matériaux De Construction" resp="Christian LEMAITRE">
-<semestre nom="A"/>
-</uv>
-<uv code="BA02" descr="Gestion Technique Du Patrimoine Immobilier" resp="Jean-Pascal FOUCAULT">
-<semestre nom="P"/>
-</uv>
-<uv code="BA05" descr="Automatismes, Régulations Et Batiments Intelligents" resp="Manuela SECHILARIU">
-<semestre nom="A"/>
-</uv>
-<uv code="BA04" descr="Conversion Et Gestion Des Energies Renouvelables" resp="Fabrice LOCMENT">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BA07" descr="Modes Opératoires De La Construction" resp="Frederic SEITZ">
-<semestre nom="P"/>
-</uv>
-<uv code="MAT02" descr="Mise En Forme Des Materiaux (Apprentissage)" resp="Kamel KHELLIL">
-<semestre nom="A"/>
-</uv>
-<uv code="MT31" descr="Introduction A La Logique Mathématique" resp="Bruno BACHIMONT">
-<semestre nom="A"/>
-</uv>
-<uv code="MAT01" descr="Choix Des Materiaux Et Procedes (Apprentissage)" resp="Salima BOUVIER">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI08" descr="Introduction A L'Ingenierie Systeme" resp="Walter SCHON">
-<semestre nom="P"/>
-</uv>
-<uv code="SCI09" descr="Decouverte D'Outils Et Methodes Pour Le Monde De La Recherche Scientifique" resp="Sabine BENSAMOUN">
-<semestre nom="P"/>
-</uv>
-<uv code="TMI03" descr="Ergonomie Des Situations De Travail (Apprentissage)" resp="Claude LEMARCHAND">
-<semestre nom="A"/>
-</uv>
-<uv code="LO01" descr="Bases De La Programmation" resp="Véronique CHERFAOUI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SC21" descr="Linguistique Et Philosophie Du Langage" resp="Jean-Baptiste GUIGNARD">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SC24" descr="Apprentissage Et Perception" resp="Olivier GAPENNE">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV58" descr="Eco Bilan Et Analyse Du Cycle De Vie" resp="Olivier SCHOEFS">
-<semestre nom="A"/>
-</uv>
-<uv code="HT02" descr="Histoire, Technologie &amp; Humanité : Les Temps De La Technique" resp="Guillaume CARNINO">
-<semestre nom="P"/>
-</uv>
-<uv code="SM04" descr="Physiologie" resp="Chantal PEROT">
-<semestre nom="A"/>
-</uv>
-<uv code="MT12" descr="Methodes Mathematiques Pour L'Analyse Du Signal Et De L'Image" resp="Nikolaos LIMNIOS">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="PS12" descr="Acoustique Architecturale Et Urbaine" resp="Nicolas DAUCHEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="MT10" descr="Structures,Calcul Formel Et Algorithmes" resp="Vincent ROBIN">
-<semestre nom="P"/>
-</uv>
-<uv code="PS13" descr="Problèmes Vibroacoustiques : Analyse Et Modélisation" resp="Mohamed Ali HAMDI">
-<semestre nom="A"/>
-</uv>
-<uv code="TN22" descr="Éléments De Bureau D'Études" resp="Yannick TRELON">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TN23" descr="Techniques De Fabrication" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="TN20" descr="Cao :  Modélisation Géométrique" resp="Alain RASSINEUX">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TN21" descr="Gestion Du Cycle De Vie Du Produit Et Ingenierie Collaborative" resp="Julien LE DUIGOU">
-<semestre nom="A"/>
-</uv>
-<uv code="PS05" descr="Fondements De L'Acoustique Et Modélisations" resp="Patrick LANCELEUR">
-<semestre nom="P"/>
-</uv>
-<uv code="PS04" descr="Thermodynamique" resp="Isabelle PEZRON">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TN24" descr="Technologies De Fabrication Et Outils Méthodes" resp="Alexandre DURUPT">
-<semestre nom="P"/>
-</uv>
-<uv code="PS09" descr="Acoustique Appliquée" resp="Jean-Michel VILLE">
-<semestre nom="P"/>
-</uv>
-<uv code="TN29" descr="Outils De Definition Et De Developpement De Systemes" resp="Matthieu BRICOGNE-CUIGNIÈRES">
-<semestre nom="P"/>
-</uv>
-<uv code="DPP01" descr="Developper Son Projet Professionnel" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="PS96" descr="Ondes Et Electromagnetisme 2" resp="Patrick LANCELEUR">
-<semestre nom="A"/>
-</uv>
-<uv code="UE41" descr="Asservissement" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE42" descr="Hydraulique" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE43" descr="Analyse Fonctionnelle" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE44" descr="Electrotechnique" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="PS93" descr="Optique Geometrique" resp="Erwan DUPONT">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="PS90" descr="Introduction A La Mesure" resp="Olivier SCHOEFS">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="PS91" descr="Mecanique Physique" resp="Pierre FEISSEL">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LC73" descr="Anglais Master Niveau 3" resp="Mark KAY">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="TTS11" descr="Traitement Et Soins 1 : Blocs Operatoires, Anesthesie, Reanimation" resp="Alain DONADEY">
-<semestre nom="A"/>
-</uv>
-<uv code="SL" descr="Suivi Linguistique" resp="Lynne FOREST">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TTS13" descr="Laboratoire D'Analyses Cliniques" resp="Alain DONADEY">
-<semestre nom="A"/>
-</uv>
-<uv code="TTS12" descr="Traitement Et Soins 2 : Hemodialyse, Radiotherapie" resp="Alain DONADEY">
-<semestre nom="A"/>
-</uv>
-<uv code="PH11" descr="Philosopher Aujourd'Hui" resp="François SEBBAH">
-<semestre nom="A"/>
-</uv>
-<uv code="PH10" descr="Analyse Phénoménologique Des Objets Audiovisuels" resp="Bernard STIEGLER">
-<semestre nom="A"/>
-</uv>
-<uv code="TTS17" descr="Organisation Du Systeme De Sante" resp="Isabelle CLAUDE">
-<semestre nom="A"/>
-</uv>
-<uv code="PH12" descr="L'Épreuve Du Mouvement. De Platon A L'Ingénieur Contemporain" resp="Hugues CHOPLIN">
-<semestre nom="P"/>
-</uv>
-<uv code="SI28" descr="Écriture Interactive Et Multimédia" resp="Serge BOUCHARDON">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="CT04" descr="Controles Non Destructifs" resp="Patrice SIMARD">
-<semestre nom="P"/>
-</uv>
-<uv code="CT02" descr="Maitrise Statistique Des Processus" resp="Ahmed Nassim BOUDAOUD">
-<semestre nom="P"/>
-</uv>
-<uv code="FQ04" descr="Qualité Et Exigences Réglementaires En Génie Biologique" resp="Elisabeth MOUTON">
-<semestre nom="A"/>
-</uv>
-<uv code="SMA01" descr="Modélisation Numérique Avancée Des Structures" resp="Delphine BRANCHERIE">
-<semestre nom="A"/>
-</uv>
-<uv code="MG01" descr="Management En Entreprise : Styles De Management, Construction D'Equipe Et Techniques De Travail En Groupe" resp="Nicolas-Louis DUCLOS">
-<semestre nom="P"/>
-</uv>
-<uv code="LG63" descr="Chinois Niveau III" resp="Li-Ying EMPINET">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LG62" descr="Chinois Niveau II" resp="Li-Ying EMPINET">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LG61" descr="Chinois Niveau I" resp="Yue-Hui DOREMUS">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LG60" descr="Chinois Initiation" resp="Li-Ying EMPINET">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="EI03" descr="Communication Interculturelle En Entreprises, Organisations Transnationales" resp="Jacques PATEAU">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GPF40" descr="Tp Formulation" resp="Isabelle PEZRON">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV56" descr="Valorisation Des Coproduits Et Minimisation Des Effluents" resp="Philippe SAJET">
-<semestre nom="A"/>
-</uv>
-<uv code="LC14" descr="Communication Scientifique Et Technique En Anglais" resp="Lynne FOREST">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="ASP04" descr="Connaissances En Shs Pour L'Analyse De Situations Professionnelles (Apprentissage)" resp="Frederic HUET">
-<semestre nom="P"/>
-</uv>
-<uv code="BT06" descr="Analyse Des Produits Biologiques Et Alimentaires" resp="Karsten HAUPT">
-<semestre nom="P"/>
-</uv>
-<uv code="BT07" descr="Formulation, Innovation, Nutrition" resp="Claire ROSSI">
-<semestre nom="A"/>
-</uv>
-<uv code="PR" descr="Réalisation De Projet" resp="Bruno RAMOND">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BT03" descr="Génie Des Systèmes Tissulaires Et Immunotechnologie" resp="Christophe EGLES">
-<semestre nom="A"/>
-</uv>
-<uv code="FQ05" descr="Fiabilite Industrielle" resp="Zohra CHERFI-BOULANGER">
-<semestre nom="A"/>
-</uv>
-<uv code="SP11" descr="Physiologie De L'Effort Sportif" resp="Didier GAMET">
-<semestre nom="P"/>
-</uv>
-<uv code="UE13" descr="Anglais" resp="Jérôme BLANC">
-<semestre nom="P"/>
-</uv>
-<uv code="UE12" descr="Connaissance De L'Entreprise" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE11" descr="Communication" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="GPF54" descr="Formulation, Applications Cosmetiques" resp="Isabelle PEZRON">
-<semestre nom="A"/>
-</uv>
-<uv code="NX17" descr="Introduction Aux Bases De Donnees" resp="Stéphane CROZAT">
-<semestre nom="P"/>
-</uv>
-<uv code="BA06" descr="Systèmes Constructifs Du Batiment" resp="Jean-Louis BATOZ">
-<semestre nom="A"/>
-</uv>
-<uv code="GE36" descr="Marketing" resp="Didier SERRANT">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="QRO01" descr="Normalisation, Metrologie, Essais Et Echanges Internationaux" resp="Jean-Pierre CALISTE">
-<semestre nom="A"/>
-</uv>
-<uv code="QRO03" descr="Aide A La Decision En Environnement Complexe : De La Metrologie A La Logique Floue" resp="Jean-Pierre CALISTE">
-<semestre nom="A"/>
-</uv>
-<uv code="QRO02" descr="Assurer Et Manager La Confiance Face Au Risque" resp="Jean ESCANDE">
-<semestre nom="A"/>
-</uv>
-<uv code="EI04" descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils" resp="Véronique MISSERI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="EI05" descr="Science, Technologie Et Société Dans L'Union Européenne" resp="Martin MORGENEYER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TR91" descr="Techniques De Recherche D'Information Pour L'Ingenieur" resp="Françoise QUILLAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SI90" descr="Séminaire De Communication Des Connaissances Technologiques" resp="Clément MABI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="QPO11" descr="Ingenierie De Projet" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="QPO12" descr="Communication Professionnelle De Projet" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="CP14" descr="Montage De Projet Européens" resp="Cornelia MARIN">
-<semestre nom="P"/>
-</uv>
-<uv code="UB02" descr="Systemes De Transport Urbain" resp="Hipolito MARTELL FLORES">
-<semestre nom="P"/>
-</uv>
-<uv code="UB01" descr="Composantes Des Systèmes Techniques Urbains" resp="Gilles MOREL">
-<semestre nom="A"/>
-</uv>
-<uv code="UB06" descr="Mises En Scènes Urbaines" resp="Jean-Jacques RAYNAUD">
-<semestre nom="P"/>
-</uv>
-<uv code="UB04" descr="Ambiances Et Environnement Lumineux" resp="Benoit BECKERS">
-<semestre nom="P"/>
-</uv>
-<uv code="SI02" descr="Communication Professionnelle De L'Ingénieur" resp="Morgan JEANNE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="UB08" descr="Hydrologie Urbaine" resp="Nassima MOUHOUS-VOYNEAU">
-<semestre nom="P"/>
-</uv>
-<uv code="SI06" descr="La Documentation Technique, Principes Et Méthodes" resp="Evelyne ROSS">
-<semestre nom="P"/>
-</uv>
-<uv code="SI07" descr="Medias Classiques Et Medias Numeriques" resp="Isabel GUGLIELMONE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SI05" descr="Theories De La Communication" resp="Virginie JULLIARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MEQ04" descr="Mecanique Des Fluides (Apprentissage)" resp="Emmanuel LEFRANCOIS">
-<semestre nom="A"/>
-</uv>
-<uv code="MEQ05" descr="Modélisation Numérique Niveau 2 (Apprentissage)" resp="Etienne ARNOULT">
-<semestre nom="A"/>
-</uv>
-<uv code="MEQ02" descr="Modelisation Numerique Niveau 1 (Apprentissage)" resp="Frederic DRUESNE">
-<semestre nom="A"/>
-</uv>
-<uv code="MEQ03" descr="Dynamique Des Solides (Apprentissage)" resp="Etienne ARNOULT">
-<semestre nom="P"/>
-</uv>
-<uv code="MEQ01" descr="Modelisation Geometrique (Apprentissage)" resp="Matthieu BRICOGNE-CUIGNIÈRES">
-<semestre nom="A"/>
-</uv>
-<uv code="CM06" descr="Calcul D'Une Opération Industrielle" resp="Khashayar SALEH">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="CM07" descr="Travaux Pratiques De Génie Chimique" resp="Khashayar SALEH">
-<semestre nom="A"/>
-</uv>
-<uv code="CM04" descr="Procédés Industriels" resp="Aissa OULD DRIS">
-<semestre nom="A"/>
-</uv>
-<uv code="CM05" descr="Thermodynamique Chimique" resp="François GOMEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="PIIN" descr="Developpement D'Un Module De Formation A Distance-Multimedia Pour L'Integration De La Propriete Industrielle Et Intellectuelle Dans Les Processus D'Inno" resp="Joseph ORLINSKI">
-<semestre nom="A"/>
-</uv>
-<uv code="CM01" descr="Physique De La Matière" resp="Philippe REVEL">
-<semestre nom="P"/>
-</uv>
-<uv code="TF11" descr="Introduction Aux Phénomènes De Transfert" resp="Gérard ANTONINI">
-<semestre nom="A"/>
-</uv>
-<uv code="LG41" descr="Portugais Niveau I" resp="Fatima FERNANDES">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LG40" descr="Portugais Initiation" resp="Fatima FERNANDES">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="TF15" descr="Procédés De Séparation" resp="Eugène VOROBIEV">
-<semestre nom="A"/>
-</uv>
-<uv code="LG42" descr="Portugais Niveau II" resp="Fatima FERNANDES">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="MT23" descr="Algèbre Linéaire Et Applications" resp="Vincent MARTIN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MT22" descr="Fonctions De Plusieurs Variables Réelles Et Applications" resp="Mohammed El Djalil KATEB">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SP22" descr="S'Apprendre Pour Mieux Gérer" resp="Marc MONETTI">
-<semestre nom="A"/>
-</uv>
-<uv code="TN12" descr="Conception Mécanique" resp="Charles FORSTER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="UB10" descr="Thermique Urbaine" resp="Benoit BECKERS">
-<semestre nom="A"/>
-</uv>
-<uv code="TN16" descr="Étude Interculturelle" resp="Helga SCHENZER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TN14" descr="Commande Hydraulique De Puissance" resp="Éric NOPPE">
-<semestre nom="A"/>
-</uv>
-<uv code="RR02" descr="Calculs Des Réacteurs Industriels" resp="Khalil SHAKOURZADEH BOLOURI">
-<semestre nom="A"/>
-</uv>
-<uv code="PH02" descr="L'Ingénieur, Le Philosophe Et Le Scientifique" resp="Hugues CHOPLIN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="RR01" descr="Cinétique Chimique Et Réacteurs Homogènes" resp="Khashayar SALEH">
-<semestre nom="P"/>
-</uv>
-<uv code="PH03" descr="Penser La Techniique Aujourd'Hui" resp="François SEBBAH">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="UE31" descr="Outils De Surveillance Et D'Inspection" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE33" descr="Approche Fmds" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="LB14" descr="Interculturalité Appliquée Aux Pays Anglophones" resp="Cindy MOREAU">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="UE34" descr="Outils Statistiques" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="MS01" descr="Méthodes D'Analyse Physico-Chimique" resp="François OUDET">
-<semestre nom="A"/>
-</uv>
-<uv code="SA11" descr="Pratiques Théatrales" resp="Emmanuel ANDRE OSTROVSKI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SR01" descr="Maitrise Des Systèmes Informatiques" resp="Yacine CHALLAL">
-<semestre nom="A"/>
-</uv>
-<uv code="BM01" descr="Introduction À L'Instrumentation Biomédicale" resp="Claire IMBAUD">
-<semestre nom="P"/>
-</uv>
-<uv code="SR03" descr="Architecture Des Applications Internet" resp="Dritan NACE">
-<semestre nom="P"/>
-</uv>
-<uv code="SR02" descr="Systèmes D'Exploitation : Des Concepts À La Programmation" resp="Yacine CHALLAL">
-<semestre nom="P"/>
-</uv>
-<uv code="SR05" descr="Algorithmes Et Systèmes Répartis" resp="Bertrand DUCOURTHIAL">
-<semestre nom="A"/>
-</uv>
-<uv code="SR04" descr="Réseaux Informatiques" resp="Abdelmadjid BOUABDALLAH">
-<semestre nom="A"/>
-</uv>
-<uv code="NF93" descr="Sciences De L'Informatique" resp="Dominique FONTAINE">
-<semestre nom="A"/>
-</uv>
-<uv code="C2I1" descr="Certificat Informatique Et Internet Niveau 1" resp="Philippe TRIGANO">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="EN90" descr="Electronique Numérique" resp="Catherine MARQUE">
-<semestre nom="A"/>
-</uv>
-<uv code="BL09" descr="Biophysique Des Systèmes Biologiques" resp="Didier GAMET">
-<semestre nom="P"/>
-</uv>
-<uv code="SL0A" descr="Projet Individualise (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SCI10" descr="Protocole Experimental, Instrumentation Et Traitement" resp="Sofiane BOUDAOUD">
-<semestre nom="P"/>
-</uv>
-<uv code="EL01" descr="Phénomènes Electromagnétiques" resp="Stéphane VIVIER">
-<semestre nom="P"/>
-</uv>
-<uv code="MP03" descr="Supply Chain Management" resp="Pierre VILLON">
-<semestre nom="A"/>
-</uv>
-<uv code="MP02" descr="Introduction Aux Méthodes De La Gpao" resp="Magali BOSCH">
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
 <uv code="BL01" descr="Sciences Biologiques Pour L'Ingénieur" resp="Murielle DUFRESNE">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="VDIN" descr="Veille Documentaire Et Technologique Sur Internet" resp="Joseph ORLINSKI">
-<semestre nom="A"/>
-</uv>
-<uv code="SC22" descr="Sociologie Cognitive, Lien Social Et Techniques" resp="Clement COMBES">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="API10" descr="Méthodes De Vérification Et Validation De Logiciel Et Programmation Sous Linux (Apprentissage)" resp="Mohamed SALLAK">
-<semestre nom="P"/>
-</uv>
-<uv code="SCI24" descr="Seminaires" resp="Philippe BONNIFAIT">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI25" descr="Atelier Projet" resp="Laurent PETIT">
-<semestre nom="A"/>
-</uv>
-<uv code="ICX03" descr="Atelier Projet / Experimentation" resp="Olivier GAPENNE">
-<semestre nom="A"/>
-</uv>
-<uv code="AP51" descr="Atelier Projet Conception Mécanique Intégrée" resp="Emmanuel DORE">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI20" descr="Analyse Avancée De Données" resp="Sofiane BOUDAOUD">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI21" descr="Conception Sûre Des Systèmes" resp="Walter SCHON">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI22" descr="Modélisation Et Propagation Des Incertitudes" resp="Thierry DENOEUX">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI23" descr="Optimisation" resp="Pierre VILLON">
-<semestre nom="A"/>
-</uv>
-<uv code="NF28" descr="Ingénierie Des Systèmes Intéractifs" resp="Dominique LENNE">
-<semestre nom="P"/>
-</uv>
-<uv code="NF29" descr="Ingénierie Documentaire Et Supports D'Information" resp="Stéphane CROZAT">
-<semestre nom="A"/>
-</uv>
-<uv code="QPO06" descr="Management Des Systemes D'Information" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="EV02" descr="Conception De Procédés Propres" resp="Martin MORGENEYER">
-<semestre nom="A"/>
-</uv>
-<uv code="EV01" descr="Procédés De Traitement Des Déchets" resp="Philippe SAJET">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV50" descr="Methodologies Pour La Recherche " resp="André PAUSS">
-<semestre nom="A"/>
-</uv>
-<uv code="PTV51" descr="Technologies Des Poudres Et Milieux Pulverulents" resp="Khashayar SALEH">
-<semestre nom="A"/>
-</uv>
-<uv code="PTV52" descr="Conception Et Conduite De Bioreacteurs" resp="André PAUSS">
-<semestre nom="A"/>
-</uv>
-<uv code="PTV53" descr="Technologies Emergentes Pour La Transformation Des Ressources Renouvelables" resp="Eugène VOROBIEV">
-<semestre nom="A"/>
-</uv>
-<uv code="NF24" descr="Modelisation Et Simulation Des Procedes" resp="François GOMEZ">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV55" descr="Procedes D'Extraction, Separation Et Purification Des Biomolecules" resp="Eugène VOROBIEV">
-<semestre nom="A"/>
-</uv>
-<uv code="NF26" descr="Data Warehouse Et Outils Décisionnels" resp="Pierre MORIZET-MAHOUDEAUX">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV57" descr="Valorisation Energetique De La Biomasse" resp="Mourad HAZI">
-<semestre nom="A"/>
-</uv>
-<uv code="MU03" descr="Pratique Collective Des Musiques Contemporaines" resp="Stephane KREGAR">
-<semestre nom="P"/>
-</uv>
-<uv code="GE37" descr="Gestion De Projet" resp="Manuel MAJADA">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LC72" descr="Anglais Master Niveau 2" resp="Mark KAY">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="GE39" descr="Management Et Marketing De L'Innovation" resp="Nathalie DARENE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE38" descr="Management Et Outils D'Aide À La Créativité Industrielle Et À L'Innovation" resp="Pascal ALBERTI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TH04" descr="Froid Industriel" resp="Mourad HAZI">
-<semestre nom="A"/>
-</uv>
-<uv code="DI07" descr="Design Transport" resp="Emmanuel CORBASSON">
-<semestre nom="A"/>
-</uv>
-<uv code="SI24" descr="Études Des Écritures Numériques Ordinaires" resp="Isabelle CAILLEAU">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="DI05" descr="Methodologie Et Analyse De La Valeur" resp="Nicolas SALZMANN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SI01" descr="Science Et Debat Public" resp="Virginie JULLIARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MT09" descr="Analyse Numérique" resp="Jean GIROIRE">
-<semestre nom="A"/>
-</uv>
-<uv code="DI02" descr="Initiation Au Design Graphique" resp="Christophe HARBONNIER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="DI01" descr="Initiation Au Design Industriel" resp="Pierre-Henri DEJEAN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SY31" descr="Capteurs Pour Les Systemes Intelligents" resp="Vincent FREMONT">
-<semestre nom="A"/>
-</uv>
-<uv code="AP52" descr="Modélisation - Optimisation Des Produits Et Structures" resp="Ludovic CAUVIN">
-<semestre nom="A"/>
-</uv>
-<uv code="AP53" descr="Production Intégrée Et Logistique" resp="Valerie MOREAU">
-<semestre nom="A"/>
-</uv>
-<uv code="LNG14" descr="American History And Civilization Through The Cinema (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="AP" descr="Atelier Projet" resp="Philippe DEHAN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="TN30" descr="Xao En Milieu Professionnel" resp="Pascal LARDEUR">
-<semestre nom="P"/>
-</uv>
-<uv code="NP94" descr="Preparation Scientifique A Un Sujet 'Challenge' De Tn04" resp="Didier LEMOINE">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ16" descr="Elements Finis Pour La Modelisation De Crash Et L'Analyse D'Impacts" resp="Hocine KEBIR">
-<semestre nom="A"/>
-</uv>
-<uv code="NP90" descr="Nano-Projets" resp="Jérôme FAVERGEON">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TO01" descr="Module De Preparation Au Toeic" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="BIO02" descr="Ingenierie Des Proteines Et Exploitation De La Diversite Moleculaire" resp="Bérangère AVALLE-BIHAN">
-<semestre nom="A"/>
-</uv>
-<uv code="BIO01" descr="Du Gene A La Macromolecule" resp="Sandrine MORANDAT">
-<semestre nom="A"/>
-</uv>
-<uv code="TO02" descr="Module De Preparation Au Toefl" resp="Anna WIACEK-LE VERGER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="UR03" descr="Cartographie Sémiologie Graphique Et Cao/Dao" resp="Eduard ANTALUCA">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BIO05" descr="Analyse Du Cycle De Vie II" resp="Daniel THOMAS">
-<semestre nom="A"/>
-</uv>
-<uv code="LO17" descr="Indexation Et Recherche D'Information" resp="Pierre MORIZET-MAHOUDEAUX">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="QCO03" descr="Démarche Qualité Intégrée En Rechecrhe - Développement - Innovation" resp="Gilbert FARGES">
-<semestre nom="P"/>
-</uv>
-<uv code="TTS02" descr="Pratique De L'Instrumentation Scientifique" resp="Sofiane BOUDAOUD">
-<semestre nom="P"/>
-</uv>
-<uv code="TTS01" descr="Acquisition De Signaux Et D'Images Medicales" resp="Catherine MARQUE">
-<semestre nom="A"/>
-</uv>
-<uv code="CM11" descr="Chimie Générale" resp="Karim EL KIRAT-CHATEL">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SIC02" descr="Economie Des Intangibles" resp="Yann MOULIER BOUTANG">
-<semestre nom="A"/>
-</uv>
-<uv code="SIC03" descr="Modélisation Et Exploration Du Complexe" resp="Yann MOULIER BOUTANG">
-<semestre nom="A"/>
-</uv>
-<uv code="ISS01" descr="Bases Des Reseaux" resp="Jean-Marc BERENGUIER">
-<semestre nom="A"/>
-</uv>
-<uv code="TN13" descr="Dimensionnement Pour La Conception Des Systemes Mecaniques" resp="Jean-Luc DULONG">
-<semestre nom="P"/>
-</uv>
-<uv code="DD02" descr="Introduction A L'Eco-Conception Et A L'Analyse De Cycle De Vie" resp="Flore VALLET">
-<semestre nom="P"/>
-</uv>
-<uv code="SC12" descr="Technologie, Cognition, Perception" resp="Charles LENAY">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SC11" descr="Théorie Des Sciences Cognitives : Computation Et Énaction" resp="Pierre STEINER">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="DD01" descr="Séminaire Développement Durable" resp="Pascal JOLLIVET-COURTOIS">
-<semestre nom="P"/>
-</uv>
-<uv code="BL22" descr="Microbiologie Et Biologie Moléculaire" resp="Nelly COCHET">
-<semestre nom="P"/>
-</uv>
-<uv code="BL20" descr="Métabolisme Et Physiologie Cellulaire" resp="Séverine PADIOLLEAU-LEFEVRE">
-<semestre nom="A"/>
-</uv>
-<uv code="MI01" descr="Structure D'Un Calculateur" resp="Mohamed SHAWKY">
-<semestre nom="A"/>
-</uv>
-<uv code="BC01" descr="Redaction Bibliographique De Fin D'Etudes" resp="Frederic HUET">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MI03" descr="Systèmes Temps Réel" resp="Jérôme DE MIRAS">
-<semestre nom="P"/>
-</uv>
-<uv code="ISI13" descr="Panorama Des Tendances Technologiques Et Impact Sur Les Métiers" resp="Richard PEYNOT">
-<semestre nom="P"/>
-</uv>
-<uv code="AR04" descr="Art, Ville, Architecture" resp="Frederic SEITZ">
-<semestre nom="A"/>
-</uv>
-<uv code="AR03" descr="Art Et Technologies Contemporaines" resp="Anne-Lise RENON">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="DI06" descr="Analyse Des Produits De Consommation" resp="Anne GUENAND-WACQUIEZ">
-<semestre nom="P"/>
-</uv>
-<uv code="SY15" descr="Automatique Avancée" resp="Ali CHARARA">
-<semestre nom="P"/>
-</uv>
-<uv code="SY14" descr="Éléments D'Automatique" resp="Ali CHARARA">
-<semestre nom="P"/>
-</uv>
-<uv code="SY16" descr="Les Applications Du Traitement Du Signal" resp="Solène MOREAU">
-<semestre nom="A"/>
-</uv>
-<uv code="BT22" descr="Les Agroressources" resp="Virginie DUCEL">
-<semestre nom="P"/>
-</uv>
-<uv code="SY10" descr="Logique Floue : Concepts Et Applications" resp="Zyed ZALILA">
-<semestre nom="A"/>
-</uv>
-<uv code="BT21" descr="Biotechnologies Moleculaires Et Genie Genetique" resp="Claude-Olivier SARDE">
-<semestre nom="P"/>
-</uv>
-<uv code="LA14" descr="Civilisation Du Monde Anglophone" resp="Herve PICTON">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA15" descr="Anglais Professionnel - Niveau V" resp="Marilyn PRICE">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BMI02" descr="Ingénierie Des Systèmes Biologiques Et Bioartificiels" resp="Christophe EGLES">
-<semestre nom="A"/>
-</uv>
-<uv code="NF01" descr="Algorithmique Et Programmation" resp="Philippe TRIGANO">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA11" descr="Anglais Niveau I" resp="Valérie BOUCHARDON">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA12" descr="Anglais Niveau II" resp="Lynne FOREST">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA13" descr="Anglais Niveau III" resp="Valérie BOUCHARDON">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="GE15" descr="Initiation A La Création Et Gestion D'Entreprises Innovantes" resp="Joseph ORLINSKI">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="GE10" descr="Économie Politique" resp="Yann MOULIER BOUTANG">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="GE13" descr="Les Risques Entre Technique Et Societe" resp="Celine PIERDET">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE12" descr="Géographie Et  Économie Des Territoires" resp="Alain BERNARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="BI01" descr="Modeles Pour La Bioinformatique" resp="Frédéric BOIS">
-<semestre nom="P"/>
-</uv>
-<uv code="UR02" descr="Théories Et Pratiques De L'Urbanisme Contemporain" resp="Philippe DEHAN">
-<semestre nom="A"/>
-</uv>
-<uv code="CM40" descr="Catalyse Heterogene" resp="Jamal BELKOUCH">
-<semestre nom="P"/>
-</uv>
-<uv code="UR06" descr="Géomatique" resp="Nathalie MOLINES">
-<semestre nom="A"/>
-</uv>
-<uv code="UR05" descr="Aménagement Et Environnement" resp="Nathalie MOLINES">
-<semestre nom="P"/>
-</uv>
-<uv code="UR04" descr=" Outils Pour Le Projet" resp="Bruno RAMOND">
-<semestre nom="A"/>
-</uv>
-<uv code="STS52" descr="Ingenierie Cellulaire Et Tissulaire" resp="Christophe EGLES">
-<semestre nom="A"/>
-</uv>
-<uv code="SSA03" descr="Communication Professionnelle (Apprentissage)" resp="Isabelle CAILLEAU">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SO06" descr="Organisation Des Systèmes De Santé" resp="Isabelle CLAUDE">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SSA06" descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils (Apprentissage)" resp="Véronique MISSERI">
-<semestre nom="P"/>
-</uv>
-<uv code="SSA04" descr="Approches Économiques Et Sociologiques De L'Organisation (Apprentissage)" resp="Frederic HUET">
-<semestre nom="P"/>
-</uv>
-<uv code="IA04" descr="Systèmes Multiagents" resp="Claude MOULIN">
-<semestre nom="P"/>
-</uv>
-<uv code="CM13" descr="Chimie Des Substances Organiques Et Biologiques" resp="Yolande PERRIN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="CM12" descr="Chimie Physique Minérale" resp="Christophe LEN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MAT03" descr="Mecanique Des Materiaux (Apprentissage)" resp="Zoheir ABOURA">
-<semestre nom="P"/>
-</uv>
-<uv code="IA01" descr="Intelligence Artificielle : Représentation" resp="Marie-Hélène ABEL">
-<semestre nom="A"/>
-</uv>
-<uv code="IA02" descr="Résolution De Problèmes Et Programmation Logique" resp="Dominique FONTAINE">
-<semestre nom="P"/>
-</uv>
-<uv code="IA03" descr="Techniques De Modélisation, Capitalisation Et Gestion Des Connaissances" resp="Marie-Hélène ABEL">
-<semestre nom="A"/>
-</uv>
-<uv code="ICX04" descr="Cycle De Conferences" resp="Yann MOULIER BOUTANG">
-<semestre nom="A"/>
-</uv>
-<uv code="PS15" descr="Thermodynamique Physique" resp="Richard CAPART">
-<semestre nom="A"/>
-</uv>
-<uv code="ICX01" descr="Atelier D'Innovation Et Eco-Conception" resp="Anne GUENAND-WACQUIEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="AA01" descr="Gestion Associative" resp="Jean HEREN">
-<semestre nom="P"/>
-</uv>
-<uv code="PS10" descr="Analyse Modale En Acoustique Et Vibrations" resp="Mohamed Ali HAMDI">
-<semestre nom="A"/>
-</uv>
-<uv code="ICX02" descr="Analyse Des Situations" resp="Pierre-Henri DEJEAN">
-<semestre nom="A"/>
-</uv>
-<uv code="SMA04" descr="Modélisation Et Simulation Systèmes" resp="Benoit EYNARD">
-<semestre nom="A"/>
-</uv>
-<uv code="SMA05" descr="Robustesse Pour La Conception De Systemes Mecaniques Et Mecatroniques" resp="Ahmed Nassim BOUDAOUD">
-<semestre nom="A"/>
-</uv>
-<uv code="LA94" descr="Francais Langue Étrangère Niveau IV" resp="Carole LEFRANCOIS-YASUDA">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SMA02" descr="Identification De Modèles En Mécanique" resp="Pierre FEISSEL">
-<semestre nom="A"/>
-</uv>
-<uv code="SMA03" descr="Capteur Et Actionneurs Compacts Innovants" resp="Frédéric LAMARQUE">
-<semestre nom="A"/>
-</uv>
-<uv code="LA04" descr="Pratique De La Communication En Allemand" resp="Gabriele ORBACH-LIN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="ASP06" descr="L'Ingénieur En Situation De Management (Apprentissage)" resp="Manuel MAJADA">
-<semestre nom="A"/>
-</uv>
-<uv code="SMA08" descr="Systemes Embarques : Entrainements Electriques Et Actionneurs" resp="Christophe FORGEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="ASP03" descr="Demarches Et Pratiques En Situation Professionnelle (Apprentissage)" resp="Helga SCHENZER">
-<semestre nom="A"/>
-</uv>
-<uv code="MU01" descr="Pratique Instrumentale D'Ensemble" resp="Philippe TENART">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LB24" descr="Le Monde Hispanique (Niveau IV): L'Espagne" resp="Maria Fatima SANCHEZ PANIAGUA">
-<semestre nom="P"/>
-</uv>
-<uv code="SI14" descr="Parole Publique En Anglais" resp="Theresa LEWIS-GHEORGHE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TF14" descr="Les Opérations De Transfert De Matière" resp="Martin MORGENEYER">
-<semestre nom="P"/>
-</uv>
-<uv code="SI11" descr="Expression Orale- Parole Publique" resp="Emmanuel ANDRE OSTROVSKI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MS02" descr="Principes Physiques Des Capteurs Et Instrumentation" resp="Frédéric LAMARQUE">
-<semestre nom="P"/>
-</uv>
-<uv code="MS03" descr="Pratique Expérimentale En Acoustique Et Vibrations" resp="Jean-Michel VILLE">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BM07" descr="Biocompatibilité" resp="Christophe EGLES">
-<semestre nom="A"/>
-</uv>
-<uv code="PH01" descr="Introduction À La Philosophie" resp="Jean-François GAUDEAUX">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="FPP03" descr="Ingénierie Robuste Et Maitrise Statistique Des Procédés (Apprentissage)" resp="Ahmed Nassim BOUDAOUD">
-<semestre nom="A"/>
-</uv>
-<uv code="FPP02" descr="Fiabilite Et Ingenierie Robuste De Produits (Apprentissage)" resp="Ahmed Nassim BOUDAOUD">
-<semestre nom="P"/>
-</uv>
-<uv code="FPP01" descr="Statistiques Generales Pour L'Ingenieur (Apprentissage)" resp="Fahed ABDALLAH">
-<semestre nom="A"/>
-</uv>
-<uv code="BM02" descr="Organes Artificiels Et Biorheologie" resp="Cécile LEGALLAIS">
-<semestre nom="P"/>
-</uv>
-<uv code="UXD01" descr="Design D'Experience" resp="Anne GUENAND-WACQUIEZ">
-<semestre nom="P"/>
-</uv>
-<uv code="UXD02" descr="Scenarisation D'Experience Utilisateur" resp="Anne GUENAND-WACQUIEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="PH09" descr="Éthiques : Approche Pluridisciplinaire" resp="François SEBBAH">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="BM08" descr="Modélisation Des Systèmes Biomécaniques" resp="Marie-Christine HO BA THO">
-<semestre nom="P"/>
-</uv>
-<uv code="BL40" descr="Génie Cellulaire" resp="Muriel VAYSSADE">
-<semestre nom="P"/>
-</uv>
-<uv code="PS94" descr="Electricite" resp="Philippe BONNIFAIT">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="NQCE1" descr="" resp="Jean-Pierre CALISTE">
-<semestre nom="A"/>
-</uv>
-<uv code="NQCE2" descr="Ms 'Normalisation, Qualité, Certification Et Essais'" resp="Jean-Pierre CALISTE">
-<semestre nom="A"/>
-</uv>
-<uv code="PS95" descr="Ondes Et Electromagnetisme 1" resp="Patrick LANCELEUR">
-<semestre nom="A"/>
-</uv>
-<uv code="LG30" descr="Japonais Initiation" resp="Valerie ROY">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LG31" descr="Japonais Niveau I" resp="Michiko KURIKI">
+<uv code="NF15" descr="Microprocesseurs, Interfaces Et Logiciels De Bases" resp="Philippe POULETAUT">
 <semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
 <uv code="LG32" descr="Japonais Niveau II" resp="Michiko KURIKI">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="PS92" descr="Dynamique Des Systemes Et Des Solides" resp="Nicolas BUIRON">
+<uv code="LG31" descr="Japonais Niveau I" resp="Michiko KURIKI">
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="HE05" descr="Culture Et Histoire Des Techniques" resp="Guillaume CARNINO">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="HE03" descr="Logique : Histoire Et Formalisme" resp="Dominique FONTAINE">
+<uv code="LG30" descr="Japonais Initiation" resp="Valerie ROY">
 <semestre nom="A"/>
 <semestre nom="P"/>
-</uv>
-<uv code="HE01" descr="Épistémologie Et Histoire Des Sciences" resp="Pierre STEINER">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BMI01" descr="Propriétés Mécaniques Des Systèmes Biologiques" resp="Sabine BENSAMOUN">
-<semestre nom="A"/>
-</uv>
-<uv code="API01" descr="Architecture J2ee Et Les Web Services (Apprentissage)" resp="Enrico NATALIZIO">
-<semestre nom="A"/>
-</uv>
-<uv code="BMI03" descr="Systèmes Microfuidiques Et Microsystèmes Appliquées À La Biologie Et À La Santé" resp="Eric LECLERC">
-<semestre nom="A"/>
-</uv>
-<uv code="ESI50" descr="Calculs Par Elements Finis Et Optimisation Multi-Disciplinaire" resp="Alain RASSINEUX">
-<semestre nom="A"/>
-</uv>
-<uv code="BMI05" descr="Modélisation Des Systèmes Ostéo-Articulaire Et Musculosquelettique En Interaction" resp="Marie-Christine HO BA THO">
-<semestre nom="A"/>
-</uv>
-<uv code="BMI04" descr="Modelisation Des Systemes Neuromusculaire Et Musculosquelettique En Interaction" resp="Sofiane BOUDAOUD">
-<semestre nom="A"/>
-</uv>
-<uv code="BMI07" descr="Modélisation Multiphysique Du Système Vasculaire" resp="Anne-Virginie SALSAC">
-<semestre nom="A"/>
-</uv>
-<uv code="BMI06" descr="Nanotecnologies Et Nanobiomécanique Des Systèmes Biologiques Complexes" resp="Karim EL KIRAT-CHATEL">
-<semestre nom="A"/>
-</uv>
-<uv code="AV01" descr="Initiation À L'Analyse Et À La Réalisation Audiovisuelle" resp="Sylvestre MIGET">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LO22" descr="Genie Logiciel" resp="Walter SCHON">
-<semestre nom="P"/>
-</uv>
-<uv code="MT90" descr="Fonctions D'Une Variable Reelle 1" resp="Ghislaine GAYRAUD">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="MT91" descr="Fonctions D'Une Variable Reelle 2" resp="Marie-Claude DUBAN">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TO0A" descr="Module De Preparation Au Toeic (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MT94" descr="Introduction Aux Mathematiques Appliquées" resp="Stéphane MOTTELET">
-<semestre nom="P"/>
-</uv>
-<uv code="GPF52" descr="Analyse Des Proprietes Optiques Et Structurales" resp="Isabelle PEZRON">
-<semestre nom="A"/>
-</uv>
-<uv code="API04" descr="Data Warehouse Et Outils Decisionnels (Apprentissage)" resp="Stéphane CROZAT">
-<semestre nom="A"/>
-</uv>
-<uv code="LG53" descr="Italien Niveau III" resp="Jean-Claude BOSCOLO">
-<semestre nom="P"/>
-</uv>
-<uv code="BL17" descr="Génie Des Protéines" resp="Claude-Olivier SARDE">
-<semestre nom="A"/>
-</uv>
-<uv code="BL16" descr="Génie Métabolique, Cultures Cellulaires Et Bioreacteurs" resp="Nelly COCHET">
-<semestre nom="A"/>
-</uv>
-<uv code="IC01" descr="Histoire Et Prospective Des Industries Culturelles" resp="Bernard STIEGLER">
-<semestre nom="P"/>
-</uv>
-<uv code="TF02" descr="Dynamique Des Fluides Réels Et Des Gaz" resp="Yuri MOLODTSOF">
-<semestre nom="P"/>
-</uv>
-<uv code="BL10" descr="Structures Et Physicochimie Des Molécules Biologiques" resp="Karsten HAUPT">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="QPO07" descr="Developpement De Son Projet Professionnel Et Autonomie" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="EN21" descr="Bases De L'Électronique Analogique" resp="Vincent LANFRANCHI">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="QPO04" descr="Qualite Et Management Des Organisations" resp="Nicolas-Louis DUCLOS">
-<semestre nom="A"/>
-</uv>
-<uv code="QPO01" descr="Pilotage Du Progres Et De La Performance" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="SCI32" descr="De La Microstructure Aux Propriétés Des Materiaux" resp="Fahmi BEDOUI">
-<semestre nom="A"/>
-</uv>
-<uv code="DI03" descr="Conception Formelle Des Produits" resp="Anne MEULEAU">
-<semestre nom="P"/>
-</uv>
-<uv code="QPO09" descr="Audit Et Evaluation Des Organisations :  Partie Pratique" resp="Jean-Pierre CALISTE">
-<semestre nom="P"/>
-</uv>
-<uv code="QPO08" descr="Audit Et Evaluation Des Organisations : Partie Pratique" resp="Jean-Pierre CALISTE">
-<semestre nom="A"/>
-</uv>
-<uv code="MC02" descr="Entrainements Électriques À Vitesse Variable" resp="Vincent LANFRANCHI">
-<semestre nom="A"/>
-</uv>
-<uv code="SI20" descr="Rhetorique Et Arts Du Discours" resp="Jean-Baptiste GUIGNARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MC01" descr="Machines Électriques" resp="Vincent LANFRANCHI">
-<semestre nom="P"/>
-</uv>
-<uv code="MC06" descr="Modélisation, Dimensionnement, Réglages D'Axes Électromécaniques" resp="Christophe FORGEZ">
-<semestre nom="A"/>
-</uv>
-<uv code="MC07" descr="Électronique De Puissance" resp="Nicolas PATIN">
-<semestre nom="P"/>
-</uv>
-<uv code="TTS10" descr="Imagerie Medicale Clinique" resp="Alain DONADEY">
-<semestre nom="A"/>
-</uv>
-<uv code="NF33" descr="Conception Et Architecture De Systèmes Numériques Informatiques" resp="Mohamed SHAWKY">
-<semestre nom="P"/>
-</uv>
-<uv code="MC08" descr="Ingénierie Robotique Et Actionneurs Électriques" resp="Guy FRIEDRICH">
-<semestre nom="A"/>
-</uv>
-<uv code="SI22" descr="Signes Et Contenus Numeriques" resp="Virginie JULLIARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TF08" descr="Hydrodynamique Des Systèmes Dispersés" resp="Yuri MOLODTSOF">
-<semestre nom="P"/>
-</uv>
-<uv code="DI08" descr="Design Industriel Et Création De Produits" resp="Emmanuel CORBASSON">
-<semestre nom="A"/>
-</uv>
-<uv code="GE40" descr="Management De Projets" resp="Thierry GIDEL">
-<semestre nom="A"/>
-</uv>
-<uv code="IC05" descr="Technologies Pour La Documentation Et L'Indexation Dans L'Hypermédia" resp="Franck GHITALLA">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TTS15" descr="Management Des Organisations Biomedicales" resp="Gilbert FARGES">
-<semestre nom="A"/>
-</uv>
-<uv code="CM70" descr="Travaux Pratiques De Gp (1)" resp="Olivier BALS">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ01" descr="Éléments De Resistance Des Matériaux" resp="Delphine BRANCHERIE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MQ02" descr="Mécanique Des Solides Déformables" resp="Mohamed RACHIK">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ03" descr="Mécanique Des Vibrations I" resp="Mabrouk BEN TAHAR">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MQ04" descr="Polymères" resp="Fahmi BEDOUI">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ05" descr="Tribologie" resp="Abdeljalil JOURANI">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ06" descr="Modélisation Des Structures Par Éléments Finis" resp="Pascal LARDEUR">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="MQ07" descr="Dégradation Et Protection Des Matériaux Dans Leur Environnement" resp="Christian LEMAITRE">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ08" descr="Elaboration Et Proprietes D'Usage Des Metaux" resp="Jérôme FAVERGEON">
-<semestre nom="P"/>
-</uv>
-<uv code="MQ09" descr="Mécanique Des Vibrations II" resp="Nicolas DAUCHEZ">
-<semestre nom="P"/>
-</uv>
-<uv code="TTS16" descr="Cycle De Vie D'Un Dispositif Medical" resp="Claire IMBAUD">
-<semestre nom="A"/>
-</uv>
-<uv code="TMI09" descr="International Workshop (Apprentissage)" resp="Valerie MOREAU">
-<semestre nom="A"/>
-</uv>
-<uv code="TMI08" descr="Conception Niveau 3 (Apprentissage)" resp="Benoit EYNARD">
-<semestre nom="A"/>
-</uv>
-<uv code="LO12" descr="Infographie Et Images De Synthèse" resp="Véronique CHERFAOUI">
-<semestre nom="A"/>
-</uv>
-<uv code="LA03" descr="Allemand Niveau III" resp="Gabriele ORBACH-LIN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="SCI11" descr="Flux Et Transduction D'Energie Dans Les Systemes" resp="Christine PRELLE">
-<semestre nom="P"/>
-</uv>
-<uv code="PTV54" descr="Procedes De Transformation Thermochimique Des Agroressources En Biocarburants" resp="Ammar BENSAKHRIA">
-<semestre nom="A"/>
-</uv>
-<uv code="BT10" descr="Risques Biologiques Et Sécurité Alimentaire" resp="Nelly COCHET">
-<semestre nom="P"/>
-</uv>
-<uv code="SP02" descr="Conduire Un Projet Sportif" resp="Arnaud VANNICATTE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SP01" descr="Un Corps Pour Comprendre Et Apprendre" resp="Arnaud VANNICATTE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TH02" descr="Production Et Transfert De Chaleur" resp="Ammar BENSAKHRIA">
-<semestre nom="A"/>
-</uv>
-<uv code="RO06" descr="Simulation Et Techniques D'Optimisation" resp="Aziz MOUKRIM">
-<semestre nom="A"/>
-</uv>
-<uv code="RO05" descr="Modélisation De Phénomènes Aléatoires" resp="Sergio ALVAREZ-ANDRADE">
-<semestre nom="A"/>
-</uv>
-<uv code="RO04" descr="Optimisation Et Recherche Opérationnelle" resp="Pierre VILLON">
-<semestre nom="P"/>
-</uv>
-<uv code="RO03" descr="Recherche Opérationnelle, Optimisation Combinatoire" resp="Jacques CARLIER">
-<semestre nom="P"/>
-</uv>
-<uv code="SY19" descr="Decision Et Apprentissage Automatique" resp="Thierry DENOEUX">
-<semestre nom="A"/>
-</uv>
-<uv code="LO18" descr="Projets Multimédia Pour La Formation" resp="Philippe TRIGANO">
-<semestre nom="P"/>
-</uv>
-<uv code="UE32" descr="Autodiagnostic, Telemaintenance" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="MT36" descr="Geometrie" resp="Vincent ROBIN">
-<semestre nom="A"/>
-</uv>
-<uv code="MU02" descr="Pratique Instrumentale De Haut Niveau" resp="Virginie JULLIARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
 <uv code="RV01" descr="Réalité Virtuelle" resp="Indira THOUVENIN">
 <semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="BL30" descr="Physiologie Des Systèmes Intégrés" resp="Francis CANON">
+<uv code="BL09" descr="Biophysique Des Systèmes Biologiques" resp="Didier GAMET">
 <semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="MT37" descr="Logiques, Quelques Approfondissements Mathématiques Et Philosophiques" resp="Bruno BACHIMONT">
+<uv code="BT21" descr="Biotechnologies Moleculaires Et Genie Genetique" resp="Claude-Olivier SARDE">
 <semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="IC06" descr="Industrie Et Conception Des Jeux Video" resp="Jean-Baptiste GUIGNARD">
-<semestre nom="A"/>
-</uv>
-<uv code="IC07" descr="Techniques Et Technologies Du Musical Et Du Sonore" resp="Raffaele CIAVARELLA">
+<uv code="BT22" descr="Les Agroressources" resp="Virginie DUCEL">
 <semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="API03" descr="Capteurs Intelligents Communicants (Apprentissage)" resp="Vincent FREMONT">
-<semestre nom="A"/>
-</uv>
-<uv code="API02" descr="Architecture Des Réseaux (Apprentissage)" resp="Abdelmadjid BOUABDALLAH">
-<semestre nom="A"/>
-</uv>
-<uv code="API05" descr="Modelisation Et Simulation Des Flux (Apprentissage)" resp="Borislav VIDOLOV">
-<semestre nom="A"/>
-</uv>
-<uv code="IC03" descr="Le Numérique : Des Formats Aux Chaines De Production" resp="Jean-Baptiste GUIGNARD">
+<uv code="AR03" descr="Art Et Technologies Contemporaines" resp="Anne-Lise RENON">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="API07" descr="Architecture Des Applications Internet, Programmation Web Et Securite (Apprentissage)" resp="Dritan NACE">
-<semestre nom="P"/>
-</uv>
-<uv code="API06" descr="Analyse De Donnees Et Data Mining (Apprentissage)" resp="Benjamin QUOST">
-<semestre nom="P"/>
-</uv>
-<uv code="API09" descr="Méthodes Et Outils Pour L'Optimisation Et La Simulation (Apprentissage)" resp="Dritan NACE">
-<semestre nom="P"/>
-</uv>
-<uv code="API08" descr="Ihm Et Multimédia (Apprentissage)" resp="Philippe TRIGANO">
-<semestre nom="P"/>
-</uv>
-<uv code="SCI31" descr="Methodes Avancees De Commande Des Systemes Dynamiques" resp="Ali CHARARA">
+<uv code="SR05" descr="Algorithmes Et Systèmes Répartis" resp="Bertrand DUCOURTHIAL">
 <semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="SCI30" descr="Methode Et Modelisation De Capture De Mouvement 3d" resp="Frédéric MARIN">
+<uv code="ASP04" descr="Connaissances En Shs Pour L'Analyse De Situations Professionnelles (Apprentissage)" resp="Frederic HUET">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PS13" descr="Problèmes Vibroacoustiques : Analyse Et Modélisation" resp="Mohamed Ali HAMDI">
 <semestre nom="A"/>
-<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="BM04" descr="Acquisition Et Traitement De Données Biomédicales" resp="Catherine MARQUE">
+<uv code="UB10" descr="Thermique Urbaine" resp="Benoit BECKERS">
 <semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="NF15" descr="Microprocesseurs, Interfaces Et Logiciels De Bases" resp="Philippe POULETAUT">
-<semestre nom="P"/>
-</uv>
-<uv code="NF17" descr="Conception De Bases De Données" resp="Stéphane CROZAT">
-<semestre nom="P"/>
-</uv>
-<uv code="NF16" descr="Algorithmique Et Structures De Données" resp="Aziz MOUKRIM">
+<uv code="GE12" descr="Géographie Et  Économie Des Territoires" resp="Alain BERNARD">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="NF11" descr="Théorie Des Langages De Programmation" resp="Mehdi SERAIRI">
-<semestre nom="P"/>
-</uv>
-<uv code="LA02" descr="Allemand Niveau II" resp="Gisela LUZIN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA01" descr="Allemand Niveau I" resp="Gisela LUZIN">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA00" descr="Allemand Initiation" resp="Nortrud Mathilde KIHM">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="ESI62" descr="Procedes De Transformation" resp="Kamel KHELLIL">
-<semestre nom="A"/>
-</uv>
-<uv code="TMI02" descr="Realisation De Prototypes (Apprentissage)" resp="Thomas BOULANGER">
-<semestre nom="A"/>
-</uv>
-<uv code="TMI01" descr="Conception Niveau 2 (Apprentissage)" resp="Jean-Luc DULONG">
-<semestre nom="P"/>
-</uv>
-<uv code="TMI07" descr="Capteurs Et Instrumentation (Apprentissage)" resp="Frédéric LAMARQUE">
-<semestre nom="A"/>
-</uv>
-<uv code="MA11" descr="Révision D'Analyse Et D'Algèbre (Gm, Gsm, Gp)" resp="Marie-Claude DUBAN">
+<uv code="GE13" descr="Les Risques Entre Technique Et Societe" resp="Celine PIERDET">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="TMI05" descr="Fabrication Assistee Par Ordinateur Et Machines A Commande Numerique (Apprentissage)" resp="Guy BEDEL">
-<semestre nom="P"/>
-</uv>
-<uv code="TMI04" descr="Technologie De Fabrication (Apprentissage)" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="GE20" descr="Économie Industrielle" resp="Frederic HUET">
+<uv code="GE10" descr="Économie Politique" resp="Yann MOULIER BOUTANG">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="GE21" descr="Économie Et Gestion De L'Innovation Et Du Numérique" resp="Pascal JOLLIVET-COURTOIS">
+<uv code="CP14" descr="Montage De Projet Européens" resp="Cornelia MARIN">
 <semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE22" descr="Économie Internationale" resp="Luc MEZZA">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="GE23" descr="Transferts De Technologies Et Développements" resp="Alain BERNARD">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE24" descr="Recherche Developpement : Ingenieur Et Investisseurs" resp="Christine DIVRY-GROFF">
-<semestre nom="P"/>
-</uv>
-<uv code="GE25" descr="Gestion Et Organisation De La Production" resp="Arnaud DUCASTELLE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE26" descr="Management Stratégique Des Ressources Humaines" resp="Laurence DELTOMBE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="GE27" descr="Gestion Financière De L'Entreprise" resp="Christine DIVRY-GROFF">
-<semestre nom="A"/>
-</uv>
-<uv code="GE28" descr="Économie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une Économie Reposant Sur La Connaissance" resp="Yann MOULIER BOUTANG">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TIS04" descr="Estimation Pour La Navigation Robotique" resp="Philippe BONNIFAIT">
-<semestre nom="A"/>
-</uv>
-<uv code="TIS07" descr="Algorithmes Et Protocoles Pour L'Interconnexion Des Systèmes" resp="Abdelmadjid BOUABDALLAH">
-<semestre nom="A"/>
-</uv>
-<uv code="SY12" descr="Modélisation Et Performance Des Systèmes De Production" resp="Benoit EYNARD">
-<semestre nom="P"/>
-</uv>
-<uv code="TS01" descr="Maitrise Des Risques" resp="Jean ESCANDE">
-<semestre nom="P"/>
-</uv>
-<uv code="TIS03" descr="Modélisation Et Optimisation Des Systèmes Discrets" resp="Jacques CARLIER">
-<semestre nom="A"/>
-</uv>
-<uv code="TS02" descr="Maitriser Les Risques Technologiques Majeurs" resp="Christophe PROUST">
-<semestre nom="A"/>
-</uv>
-<uv code="NF02" descr="Du Circuit Intégré Au Microprocesseur" resp="Luhui DING">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="CL02" descr="Moi Et Le Monde Scientifique " resp="Mark KAY">
-<semestre nom="P"/>
-</uv>
-<uv code="CL01" descr="Anglais Niveau Intermédiaire Supérieur" resp="Mark KAY">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="AS02" descr="Accompagnement Pour L'Analyse Des Situations De L'Ingenieur" resp="Isabelle CAILLEAU">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="BIO16" descr="Capteurs Et Biocapteurs" resp="Sandrine MORANDAT">
-<semestre nom="A"/>
+<recompense ects="5" cat="TSH"/>
 </uv>
 <uv code="AS01" descr="Introduction A L'Analyse Des Situations De L'Ingenieur" resp="Isabelle CAILLEAU">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="GPF53" descr="Technologies De Mise En Oeuvre Des Fluides Complexes" resp="Elisabeth VAN HECKE">
+<uv code="AA01" descr="Gestion Associative" resp="Jean HEREN">
+<semestre nom="P"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="GE15" descr="Initiation A La Création Et Gestion D'Entreprises Innovantes" resp="Joseph ORLINSKI">
 <semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="CT04" descr="Controles Non Destructifs" resp="Patrice SIMARD">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="BIO01" descr="Du Gene A La Macromolecule" resp="Sandrine MORANDAT">
+<semestre nom="A"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="SCI25" descr="Atelier Projet" resp="Laurent PETIT">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SCI24" descr="Seminaires" resp="Philippe BONNIFAIT">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="SCI23" descr="Optimisation" resp="Pierre VILLON">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SCI22" descr="Modélisation Et Propagation Des Incertitudes" resp="Thierry DENOEUX">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="CT02" descr="Maitrise Statistique Des Processus" resp="Ahmed Nassim BOUDAOUD">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SCI20" descr="Analyse Avancée De Données" resp="Sofiane BOUDAOUD">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="UE11" descr="Communication" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="SL" descr="Suivi Linguistique" resp="Lynne FOREST">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="UE13" descr="Anglais" resp="Jérôme BLANC">
+<semestre nom="P"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="LNG14" descr="American History And Civilization Through The Cinema (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="DI07" descr="Design Transport" resp="Emmanuel CORBASSON">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PS12" descr="Acoustique Architecturale Et Urbaine" resp="Nicolas DAUCHEZ">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SMA05" descr="Robustesse Pour La Conception De Systemes Mecaniques Et Mecatroniques" resp="Ahmed Nassim BOUDAOUD">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="ISS01" descr="Bases Des Reseaux" resp="Jean-Marc BERENGUIER">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="TIS07" descr="Algorithmes Et Protocoles Pour L'Interconnexion Des Systèmes" resp="Abdelmadjid BOUABDALLAH">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="TIS04" descr="Estimation Pour La Navigation Robotique" resp="Philippe BONNIFAIT">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
 </uv>
 <uv code="TIS05" descr="Commande De Robots Autonomes En Coopération" resp="Isabelle FANTONI-COICHOT">
 <semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
 </uv>
-<uv code="GPF51" descr="Phenomenes Aux Interfaces" resp="Léa METLAS">
+<uv code="TN29" descr="Outils De Definition Et De Developpement De Systemes" resp="Matthieu BRICOGNE-CUIGNIÈRES">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TIS03" descr="Modélisation Et Optimisation Des Systèmes Discrets" resp="Jacques CARLIER">
 <semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="TIS01" descr="Fondements Des Réseaux D'Interconnexion" resp="Bertrand DUCOURTHIAL">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="TN24" descr="Technologies De Fabrication Et Outils Méthodes" resp="Alexandre DURUPT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TN21" descr="Gestion Du Cycle De Vie Du Produit Et Ingenierie Collaborative" resp="Julien LE DUIGOU">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MT10" descr="Structures,Calcul Formel Et Algorithmes" resp="Vincent ROBIN">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TN23" descr="Techniques De Fabrication" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MT12" descr="Methodes Mathematiques Pour L'Analyse Du Signal Et De L'Image" resp="Nikolaos LIMNIOS">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
 <uv code="GPF50" descr="Physicochimie Des Systemes Disperses" resp="Isabelle PEZRON">
 <semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
 </uv>
-<uv code="FQ01" descr="Économie Globale Et Maitrise De La Qualité" resp="Jean-Marc PICARD">
-<semestre nom="P"/>
+<uv code="GPF51" descr="Phenomenes Aux Interfaces" resp="Léa METLAS">
 <semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="GPF52" descr="Analyse Des Proprietes Optiques Et Structurales" resp="Isabelle PEZRON">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="GPF53" descr="Technologies De Mise En Oeuvre Des Fluides Complexes" resp="Elisabeth VAN HECKE">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="GPF54" descr="Formulation, Applications Cosmetiques" resp="Isabelle PEZRON">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
 </uv>
 <uv code="GPF55" descr="Filmication, Peintures Et Encres" resp="Isabelle PEZRON">
 <semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
 </uv>
-<uv code="GE29" descr="Gestion Et Management International De L'Entreprise" resp="Az-Eddine BENNANI">
-<semestre nom="P"/>
+<uv code="PR" descr="Réalisation De Projet" resp="Bruno RAMOND">
 <semestre nom="A"/>
-</uv>
-<uv code="EN14" descr="Fonctions Électroniques Pour L'Ingénieur" resp="Guy FRIEDRICH">
 <semestre nom="P"/>
-</uv>
-<uv code="SR06" descr="Sécurité Systèmes Et Réseaux" resp="Enrico NATALIZIO">
-<semestre nom="A"/>
-</uv>
-<uv code="BIO11" descr="Procedes De Transformation Vegetale" resp="Yolande PERRIN">
-<semestre nom="A"/>
-</uv>
-<uv code="SY23" descr="Vision Et Image" resp="Djamal BOUKERROUI">
-<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
 </uv>
 <uv code="NF04" descr="Modélisation Numérique Des Problèmes De L'Ingénieur" resp="Mabrouk BEN TAHAR">
 <semestre nom="P"/>
 <semestre nom="A"/>
-</uv>
-<uv code="SY26" descr="Télécommunications" resp="Vincent FREMONT">
-<semestre nom="P"/>
-</uv>
-<uv code="SY27" descr="Machines Intelligentes" resp="Philippe BONNIFAIT">
-<semestre nom="A"/>
-</uv>
-<uv code="BIO03" descr="De La Fonction A La Physiologie" resp="Sandrine MORANDAT">
-<semestre nom="A"/>
-</uv>
-<uv code="TIS01" descr="Fondements Des Réseaux D'Interconnexion" resp="Bertrand DUCOURTHIAL">
-<semestre nom="A"/>
-</uv>
-<uv code="BIO13" descr="Interaction, Reconnaissance Supramoleculaire Et Biomimetisme" resp="Karsten HAUPT">
-<semestre nom="A"/>
-</uv>
-<uv code="BM06" descr="Traitement D'Images Médicales" resp="Jean-François LERALLUT">
-<semestre nom="A"/>
-</uv>
-<uv code="MQ20" descr="Introduction A La Mécanique Des Solides Et Des Fluides" resp="Luhui DING">
-<semestre nom="A"/>
-</uv>
-<uv code="NF92" descr="Traitement Automatique De L'Information" resp="Jean-Paul BOUFFLET">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="BT02" descr="Opérations Agro-Industrielles" resp="Olivier BALS">
-<semestre nom="P"/>
-</uv>
-<uv code="SC01" descr="Séminaire Interdisciplinaire De Sciences Et Technologies Cognitives" resp="François SEBBAH">
-<semestre nom="P"/>
-</uv>
-<uv code="ABIH4" descr="Intégration Professionnelle En Génie Biomédical" resp="Gilbert FARGES">
-<semestre nom="P"/>
-</uv>
-<uv code="ABIH3" descr="Management De La Fonction Biomédicale" resp="Gilbert FARGES">
-<semestre nom="P"/>
-</uv>
-<uv code="ABIH2" descr="Technologies Biomédicales" resp="Gilbert FARGES">
-<semestre nom="P"/>
-</uv>
-<uv code="EL02" descr="Électricité Industrielle Appliquée" resp="Didier LEMOINE">
-<semestre nom="P"/>
-</uv>
-<uv code="SY08" descr="Modélisation Des Systèmes A Évènements Discrets" resp="Borislav VIDOLOV">
-<semestre nom="A"/>
-</uv>
-<uv code="SY09" descr="Analyse Des Données Et Data Mining" resp="Gérard GOVAERT">
-<semestre nom="P"/>
-</uv>
-<uv code="GE90" descr="Organisation, Innovation Et International" resp="Yann MOULIER BOUTANG">
-<semestre nom="P"/>
-</uv>
-<uv code="SY02" descr="Méthodes Statistiques Pour L'Ingénieur" resp="Thierry DENOEUX">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SY03" descr="Introduction Aux Systemes D'Entrainements Electriques" resp="Didier LEMOINE">
-<semestre nom="A"/>
-</uv>
-<uv code="SY01" descr="Éléments De Probabilités" resp="Nikolaos LIMNIOS">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="SY06" descr="Analyse Et Traitement Du Signal" resp="Patrice SIMARD">
-<semestre nom="P"/>
-</uv>
-<uv code="TA02" descr="Évaluation Économique Des Procédés" resp="Gérard ANTONINI">
-<semestre nom="P"/>
-</uv>
-<uv code="SY04" descr="Systèmes Asservis Linéaires : Analyse Et Commande" resp="Christine PRELLE">
-<semestre nom="P"/>
-</uv>
-<uv code="SY05" descr="Conduite Des Procédés" resp="Khalil SHAKOURZADEH BOLOURI">
-<semestre nom="P"/>
-</uv>
-<uv code="LA21" descr="Espagnol Niveau I" resp="Juan HERNANDEZ">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA20" descr="Espagnol Initiation" resp="Juan HERNANDEZ">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA23" descr="Espagnol Niveau III" resp="Maria Del Mar EGEA RECHE">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA22" descr="Espagnol Niveau II" resp="Raul GOMEZ">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="LA24" descr="Le Monde Hispanique Contemporain : L'Amérique Latine (Niveau IV)" resp="Jose Maria LOPEZ CASADO">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="UR01" descr="Droit De L'Urbanisme, De La Construction Et De L'Environnement" resp="Nathalie MOLINES">
-<semestre nom="P"/>
-</uv>
-<uv code="STS49" descr="Seminaires" resp="Sabine BENSAMOUN">
-<semestre nom="A"/>
-</uv>
-<uv code="LO23" descr="Conduite De Projet Informatique" resp="Benjamin LUSSIER">
-<semestre nom="A"/>
-</uv>
-<uv code="NF22" descr="Micro-Ordinateurs Et Applications" resp="Catherine MARQUE">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LO21" descr="Programmation Et Conception Orientees Objet" resp="Antoine JOUGLET">
-<semestre nom="P"/>
-</uv>
-<uv code="LG52" descr="Italien Niveau II" resp="Xavier AUBERT">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="TF01" descr="Mécanique Des Fluides Incompressibles" resp="Emmanuel LEFRANCOIS">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LG50" descr="Italien Initiation" resp="Xavier AUBERT">
-<semestre nom="A"/>
-<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
 </uv>
 <uv code="LG51" descr="Italien Niveau I" resp="Xavier AUBERT">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="TF06" descr="Transfert De Chaleur" resp="Mourad HAZI">
-<semestre nom="P"/>
-</uv>
-<uv code="TF07" descr="Calcul Des Échangeurs Thermiques Industriels" resp="Eugène VOROBIEV">
-<semestre nom="P"/>
-</uv>
-<uv code="LNG04" descr="Anglais Niveau IV (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LNG05" descr="Anglais Professionnel (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LNG01" descr="Anglais Niveau II (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LNG02" descr="Anglais Niveau III A (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="LNG03" descr="Anglais Niveau III B (Apprentissage)" resp="Marleen VERLHAC">
-<semestre nom="P"/>
-<semestre nom="A"/>
-</uv>
-<uv code="TN08" descr="Dessin De Communication" resp="Emmanuel CORBASSON">
+<uv code="LG50" descr="Italien Initiation" resp="Xavier AUBERT">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="SO04" descr="Initiation Au Droit" resp="Christine DESCAMPS">
+<uv code="LG53" descr="Italien Niveau III" resp="Jean-Claude BOSCOLO">
 <semestre nom="P"/>
-<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="MT32" descr="Analyse 1 : Calcul Différentiel Et Intégral" resp="Mohammed El Djalil KATEB">
+<uv code="LG52" descr="Italien Niveau II" resp="Xavier AUBERT">
 <semestre nom="A"/>
-</uv>
-<uv code="MT33" descr="Algèbre 1 : Ensembles Et Groupes" resp="Vincent ROBIN">
-<semestre nom="A"/>
-</uv>
-<uv code="MT34" descr="Analyse 2 : Mesures, Intégrations, Probabilités" resp="Vincent ROBIN">
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="MT35" descr="Algèbre Linéaire" resp="Veronique HEDOU">
+<uv code="BT03" descr="Génie Des Systèmes Tissulaires Et Immunotechnologie" resp="Christophe EGLES">
 <semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BT02" descr="Opérations Agro-Industrielles" resp="Olivier BALS">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BT07" descr="Formulation, Innovation, Nutrition" resp="Claire ROSSI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BT06" descr="Analyse Des Produits Biologiques Et Alimentaires" resp="Karsten HAUPT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
 </uv>
 <uv code="TX" descr="Étude Expérimentale" resp="Sébastien CASTRIC">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
 </uv>
-<uv code="SO05" descr="Sociologie, Organisations Et Dynamiques Des Collectifs" resp="Michael VICENTE">
+<uv code="TN12" descr="Conception Mécanique" resp="Charles FORSTER">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
 </uv>
-<uv code="MT38" descr="Probabilités" resp="Pascal MOYAL">
+<uv code="MEQ03" descr="Dynamique Des Solides (Apprentissage)" resp="Etienne ARNOULT">
 <semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
 </uv>
-<uv code="TN01" descr="Éléments De Dessin Technique" resp="Hocine KEBIR">
-<semestre nom="A"/>
-<semestre nom="P"/>
-</uv>
-<uv code="TN02" descr="Introduction A La Conception Mécanique" resp="Laurent PETIT">
+<uv code="TR91" descr="Techniques De Recherche D'Information Pour L'Ingenieur" resp="Françoise QUILLAC">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
 </uv>
-<uv code="TN03" descr="Fabrication Mécanique" resp="Jérôme BLANC">
+<uv code="SCI09" descr="Decouverte D'Outils Et Methodes Pour Le Monde De La Recherche Scientifique" resp="Sabine BENSAMOUN">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SCI08" descr="Introduction A L'Ingenierie Systeme" resp="Walter SCHON">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TN13" descr="Dimensionnement Pour La Conception Des Systemes Mecaniques" resp="Jean-Luc DULONG">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="API01" descr="Architecture J2ee Et Les Web Services (Apprentissage)" resp="Enrico NATALIZIO">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="NF16" descr="Algorithmique Et Structures De Données" resp="Aziz MOUKRIM">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="TN04" descr="Réalisation" resp="Pierre VILLON">
+<uv code="NF17" descr="Conception De Bases De Données" resp="Stéphane CROZAT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="HT02" descr="Histoire, Technologie et Humanité : Les Temps De La Technique" resp="Guillaume CARNINO">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SR06" descr="Sécurité Systèmes Et Réseaux" resp="Enrico NATALIZIO">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ16" descr="Elements Finis Pour La Modelisation De Crash Et L'Analyse D'Impacts" resp="Hocine KEBIR">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SR04" descr="Réseaux Informatiques" resp="Abdelmadjid BOUABDALLAH">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="NF11" descr="Théorie Des Langages De Programmation" resp="Mehdi SERAIRI">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="PS95" descr="Ondes Et Electromagnetisme 1" resp="Patrick LANCELEUR">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PS94" descr="Electricite" resp="Philippe BONNIFAIT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PS96" descr="Ondes Et Electromagnetisme 2" resp="Patrick LANCELEUR">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PS91" descr="Mecanique Physique" resp="Pierre FEISSEL">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="PS90" descr="Introduction A La Mesure" resp="Olivier SCHOEFS">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="PS93" descr="Optique Geometrique" resp="Erwan DUPONT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PS92" descr="Dynamique Des Systemes Et Des Solides" resp="Nicolas BUIRON">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MQ20" descr="Introduction A La Mécanique Des Solides Et Des Fluides" resp="Luhui DING">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="PS04" descr="Thermodynamique" resp="Isabelle PEZRON">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="PS09" descr="Acoustique Appliquée" resp="Jean-Michel VILLE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ11" descr="Mise En Oeuvre Des Matériaux" resp="Abdelouahed LAKSIMI">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BA06" descr="Systèmes Constructifs Du Batiment" resp="Jean-Louis BATOZ">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="BA07" descr="Modes Opératoires De La Construction" resp="Frederic SEITZ">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="BA04" descr="Conversion Et Gestion Des Energies Renouvelables" resp="Fabrice LOCMENT">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BA05" descr="Automatismes, Régulations Et Batiments Intelligents" resp="Manuela SECHILARIU">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="BA02" descr="Gestion Technique Du Patrimoine Immobilier" resp="Jean-Pascal FOUCAULT">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="BA03" descr="Matériaux De Construction" resp="Christian LEMAITRE">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BA01" descr="Equipements Techniques Du Batiment" resp="Manuela SECHILARIU">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="QPO12" descr="Communication Professionnelle De Projet" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="QPO11" descr="Ingenierie De Projet" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="PS05" descr="Fondements De L'Acoustique Et Modélisations" resp="Patrick LANCELEUR">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BA09" descr="Introduction Au Calcul Des Structures Du Batiment" resp="Jean-Louis BATOZ">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="MT37" descr="Logiques, Quelques Approfondissements Mathématiques Et Philosophiques" resp="Bruno BACHIMONT">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
 </uv>
 <uv code="TN06" descr="Transmission Des Efforts En Mécanique" resp="Guy BEDEL">
 <semestre nom="P"/>
 <semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="BM05" descr="Techniques D'Explorations Fonctionnelles" resp="Didier GAMET">
+<uv code="MT35" descr="Algèbre Linéaire" resp="Veronique HEDOU">
 <semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
 </uv>
-<uv code="BIO14" descr="Genie Metabolique Industriel" resp="Daniel THOMAS">
+<uv code="TN04" descr="Réalisation" resp="Pierre VILLON">
 <semestre nom="A"/>
-</uv>
-<uv code="BIO15" descr="Biophysique Moleculaire Et Metabolique" resp="Sandrine MORANDAT">
-<semestre nom="A"/>
-</uv>
-<uv code="UE24" descr="Gestion De Production" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE22" descr="Gestion De Projet De Maintenance" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="UE23" descr="Gestion De Maintenance" resp="Jérôme BLANC">
-<semestre nom="A"/>
-</uv>
-<uv code="BIO12" descr="Alternatives Vegetales" resp="Brigitte THOMASSET">
-<semestre nom="A"/>
-</uv>
-<uv code="UE21" descr="Management" resp="Jérôme BLANC">
 <semestre nom="P"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="TN03" descr="Fabrication Mécanique" resp="Jérôme BLANC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TN02" descr="Introduction A La Conception Mécanique" resp="Laurent PETIT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TN01" descr="Éléments De Dessin Technique" resp="Hocine KEBIR">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SR02" descr="Systèmes D'Exploitation : Des Concepts À La Programmation" resp="Yacine CHALLAL">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TN08" descr="Dessin De Communication" resp="Emmanuel CORBASSON">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="SIC03" descr="Modélisation Et Exploration Du Complexe" resp="Yann MOULIER BOUTANG">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="SIC02" descr="Economie Des Intangibles" resp="Yann MOULIER BOUTANG">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MT36" descr="Geometrie" resp="Vincent ROBIN">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TTS12" descr="Traitement Et Soins 2 : Hemodialyse, Radiotherapie" resp="Alain DONADEY">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SP22" descr="S'Apprendre Pour Mieux Gérer" resp="Marc MONETTI">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="TTS10" descr="Imagerie Medicale Clinique" resp="Alain DONADEY">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TTS11" descr="Traitement Et Soins 1 : Blocs Operatoires, Anesthesie, Reanimation" resp="Alain DONADEY">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TTS16" descr="Cycle De Vie D'Un Dispositif Medical" resp="Claire IMBAUD">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="TTS17" descr="Organisation Du Systeme De Sante" resp="Isabelle CLAUDE">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="MQ18" descr="Cinématique Et Dynamique Des Systèmes" resp="Thomas BOULANGER">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BI01" descr="Modeles Pour La Bioinformatique" resp="Frédéric BOIS">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="MC01" descr="Machines Électriques" resp="Vincent LANFRANCHI">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="LA15" descr="Anglais Professionnel - Niveau V" resp="Marilyn PRICE">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA14" descr="Civilisation Du Monde Anglophone" resp="Herve PICTON">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA13" descr="Anglais Niveau III" resp="Valérie BOUCHARDON">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA12" descr="Anglais Niveau II" resp="Lynne FOREST">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA11" descr="Anglais Niveau I" resp="Valérie BOUCHARDON">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MC06" descr="Modélisation, Dimensionnement, Réglages D'Axes Électromécaniques" resp="Christophe FORGEZ">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MC08" descr="Ingénierie Robotique Et Actionneurs Électriques" resp="Guy FRIEDRICH">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MA11" descr="Révision D'Analyse Et D'Algèbre (Gm, Gsm, Gp)" resp="Marie-Claude DUBAN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BIO02" descr="Ingenierie Des Proteines Et Exploitation De La Diversite Moleculaire" resp="Bérangère AVALLE-BIHAN">
+<semestre nom="A"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="MT32" descr="Analyse 1 : Calcul Différentiel Et Intégral" resp="Mohammed El Djalil KATEB">
+<semestre nom="A"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="BMI02" descr="Ingénierie Des Systèmes Biologiques Et Bioartificiels" resp="Christophe EGLES">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="BMI03" descr="Systèmes Microfuidiques Et Microsystèmes Appliquées À La Biologie Et À La Santé" resp="Eric LECLERC">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="EN90" descr="Electronique Numérique" resp="Catherine MARQUE">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="BMI06" descr="Nanotecnologies Et Nanobiomécanique Des Systèmes Biologiques Complexes" resp="Karim EL KIRAT-CHATEL">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MT31" descr="Introduction A La Logique Mathématique" resp="Bruno BACHIMONT">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="BMI04" descr="Modelisation Des Systemes Neuromusculaire Et Musculosquelettique En Interaction" resp="Sofiane BOUDAOUD">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="BMI05" descr="Modélisation Des Systèmes Ostéo-Articulaire Et Musculosquelettique En Interaction" resp="Marie-Christine HO BA THO">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="API09" descr="Méthodes Et Outils Pour L'Optimisation Et La Simulation (Apprentissage)" resp="Dritan NACE">
+<semestre nom="P"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="GPF40" descr="Tp Formulation" resp="Isabelle PEZRON">
+<semestre nom="P"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="BIO05" descr="Analyse Du Cycle De Vie II" resp="Daniel THOMAS">
+<semestre nom="A"/>
+<recompense ects="2" cat="CS"/>
+</uv>
+<uv code="SCI21" descr="Conception Sûre Des Systèmes" resp="Walter SCHON">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MS01" descr="Méthodes D'Analyse Physico-Chimique" resp="François OUDET">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="LO01" descr="Bases De La Programmation" resp="Véronique CHERFAOUI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="GE38" descr="Management Et Outils D'Aide À La Créativité Industrielle Et À L'Innovation" resp="Pascal ALBERTI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="NF33" descr="Conception Et Architecture De Systèmes Numériques Informatiques" resp="Mohamed SHAWKY">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LC73" descr="Anglais Master Niveau 3" resp="Mark KAY">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LC72" descr="Anglais Master Niveau 2" resp="Mark KAY">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SR01" descr="Maitrise Des Systèmes Informatiques" resp="Yacine CHALLAL">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ03" descr="Mécanique Des Vibrations I" resp="Mabrouk BEN TAHAR">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="API10" descr="Méthodes De Vérification Et Validation De Logiciel Et Programmation Sous Linux (Apprentissage)" resp="Mohamed SALLAK">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="MQ01" descr="Éléments De Resistance Des Matériaux" resp="Delphine BRANCHERIE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="MQ07" descr="Dégradation Et Protection Des Matériaux Dans Leur Environnement" resp="Christian LEMAITRE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ06" descr="Modélisation Des Structures Par Éléments Finis" resp="Pascal LARDEUR">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ05" descr="Tribologie" resp="Abdeljalil JOURANI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="UE44" descr="Electrotechnique" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="SC21" descr="Linguistique Et Philosophie Du Langage" resp="Jean-Baptiste GUIGNARD">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MQ09" descr="Mécanique Des Vibrations II" resp="Nicolas DAUCHEZ">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SC22" descr="Sociologie Cognitive, Lien Social Et Techniques" resp="Clement COMBES">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="CM70" descr="Travaux Pratiques De Gp (1)" resp="Olivier BALS">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="SC24" descr="Apprentissage Et Perception" resp="Olivier GAPENNE">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SY09" descr="Analyse Des Données Et Data Mining" resp="Gérard GOVAERT">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY08" descr="Modélisation Des Systèmes A Évènements Discrets" resp="Borislav VIDOLOV">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="RO03" descr="Recherche Opérationnelle, Optimisation Combinatoire" resp="Jacques CARLIER">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="UE32" descr="Autodiagnostic, Telemaintenance" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="ASP03" descr="Demarches Et Pratiques En Situation Professionnelle (Apprentissage)" resp="Helga SCHENZER">
+<semestre nom="A"/>
+<recompense ects="3" cat="TSH"/>
+</uv>
+<uv code="SY01" descr="Éléments De Probabilités" resp="Nikolaos LIMNIOS">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="RO04" descr="Optimisation Et Recherche Opérationnelle" resp="Pierre VILLON">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY03" descr="Introduction Aux Systemes D'Entrainements Electriques" resp="Didier LEMOINE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SY02" descr="Méthodes Statistiques Pour L'Ingénieur" resp="Thierry DENOEUX">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY05" descr="Conduite Des Procédés" resp="Khalil SHAKOURZADEH BOLOURI">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SY04" descr="Systèmes Asservis Linéaires : Analyse Et Commande" resp="Christine PRELLE">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY06" descr="Analyse Et Traitement Du Signal" resp="Patrice SIMARD">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="UR01" descr="Droit De L'Urbanisme, De La Construction Et De L'Environnement" resp="Nathalie MOLINES">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UR02" descr="Théories Et Pratiques De L'Urbanisme Contemporain" resp="Philippe DEHAN">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="UR03" descr="Cartographie Sémiologie Graphique Et Cao/Dao" resp="Eduard ANTALUCA">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UR04" descr=" Outils Pour Le Projet" resp="Bruno RAMOND">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UR05" descr="Aménagement Et Environnement" resp="Nathalie MOLINES">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UR06" descr="Géomatique" resp="Nathalie MOLINES">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="AV01" descr="Initiation À L'Analyse Et À La Réalisation Audiovisuelle" resp="Sylvestre MIGET">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE36" descr="Marketing" resp="Didier SERRANT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE37" descr="Gestion De Projet" resp="Manuel MAJADA">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TS02" descr="Maitriser Les Risques Technologiques Majeurs" resp="Christophe PROUST">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TA02" descr="Évaluation Économique Des Procédés" resp="Gérard ANTONINI">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TS01" descr="Maitrise Des Risques" resp="Jean ESCANDE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TH02" descr="Production Et Transfert De Chaleur" resp="Ammar BENSAKHRIA">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
 </uv>
 <uv code="LB04" descr="Interculturalité Franco-Allemande" resp="Helga SCHENZER">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="MB11" descr="Révision D'Analyse Et D'Algèbre (Gb, Gi, Gsu)" resp="Faker BEN BELGACEM">
+<uv code="SO06" descr="Organisation Des Systèmes De Santé" resp="Isabelle CLAUDE">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="MC05" descr="Machines De Transfert De Fluides" resp="Didier LEMOINE">
+<uv code="SO05" descr="Sociologie, Organisations Et Dynamiques Des Collectifs" resp="Michael VICENTE">
 <semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SO04" descr="Initiation Au Droit" resp="Christine DESCAMPS">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SP01" descr="Un Corps Pour Comprendre Et Apprendre" resp="Arnaud VANNICATTE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="TTS13" descr="Laboratoire D'Analyses Cliniques" resp="Alain DONADEY">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="MQ19" descr="Dynamique Des Structures" resp="Etienne ARNOULT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="EV01" descr="Procédés De Traitement Des Déchets" resp="Philippe SAJET">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="EV02" descr="Conception De Procédés Propres" resp="Martin MORGENEYER">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="FQ03" descr="Conception Robuste Et Plans D'Experiences" resp="Zohra CHERFI-BOULANGER">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="FQ01" descr="Économie Globale Et Maitrise De La Qualité" resp="Jean-Marc PICARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
 </uv>
 <uv code="FQ07" descr="La Qualité Des Services A L'Industrie" resp="Jean-Pierre CALISTE">
 <semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
 </uv>
-<uv code="EG01" descr="Ergonomie" resp="Claude LEMARCHAND">
+<uv code="FQ04" descr="Qualité Et Exigences Réglementaires En Génie Biologique" resp="Elisabeth MOUTON">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="FQ05" descr="Fiabilite Industrielle" resp="Zohra CHERFI-BOULANGER">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MT09" descr="Analyse Numérique" resp="Jean GIROIRE">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="QPO09" descr="Audit Et Evaluation Des Organisations :  Partie Pratique" resp="Jean-Pierre CALISTE">
+<semestre nom="P"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="BL10" descr="Structures Et Physicochimie Des Molécules Biologiques" resp="Karsten HAUPT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TTS15" descr="Management Des Organisations Biomedicales" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TN30" descr="Xao En Milieu Professionnel" resp="Pascal LARDEUR">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="UB01" descr="Composantes Des Systèmes Techniques Urbains" resp="Gilles MOREL">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UB02" descr="Systemes De Transport Urbain" resp="Hipolito MARTELL FLORES">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UE12" descr="Connaissance De L'Entreprise" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="UB04" descr="Ambiances Et Environnement Lumineux" resp="Benoit BECKERS">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UB06" descr="Mises En Scènes Urbaines" resp="Jean-Jacques RAYNAUD">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TF08" descr="Hydrodynamique Des Systèmes Dispersés" resp="Yuri MOLODTSOF">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF07" descr="Calcul Des Échangeurs Thermiques Industriels" resp="Eugène VOROBIEV">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF06" descr="Transfert De Chaleur" resp="Mourad HAZI">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="EL02" descr="Électricité Industrielle Appliquée" resp="Didier LEMOINE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF02" descr="Dynamique Des Fluides Réels Et Des Gaz" resp="Yuri MOLODTSOF">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF01" descr="Mécanique Des Fluides Incompressibles" resp="Emmanuel LEFRANCOIS">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="EL01" descr="Phénomènes Electromagnétiques" resp="Stéphane VIVIER">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SC01" descr="Séminaire Interdisciplinaire De Sciences Et Technologies Cognitives" resp="François SEBBAH">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MC02" descr="Entrainements Électriques À Vitesse Variable" resp="Vincent LANFRANCHI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SI14" descr="Parole Publique En Anglais" resp="Theresa LEWIS-GHEORGHE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SP11" descr="Physiologie De L'Effort Sportif" resp="Didier GAMET">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MC05" descr="Machines De Transfert De Fluides" resp="Didier LEMOINE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LA24" descr="Le Monde Hispanique Contemporain : L'Amérique Latine (Niveau IV)" resp="Jose Maria LOPEZ CASADO">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="GPL02" descr="Recherche Operationnelle En Productique (Apprentissage)" resp="Pierre VILLON">
-<semestre nom="A"/>
-</uv>
-<uv code="GPL03" descr="Système De Production Et Usine Numérique (Apprentissage)" resp="Valerie MOREAU">
-<semestre nom="A"/>
-</uv>
-<uv code="GPL01" descr="Gestion De Production Et Erp (Apprentissage)" resp="Magali BOSCH">
-<semestre nom="P"/>
-</uv>
-<uv code="LA91" descr="Francais Langue Étrangère Niveau I" resp="Anna WIACEK-LE VERGER">
+<uv code="LA22" descr="Espagnol Niveau II" resp="Raul GOMEZ">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
-<uv code="LA92" descr="Francais Langue Étrangère Niveau II" resp="Anna WIACEK-LE VERGER">
+<uv code="LA23" descr="Espagnol Niveau III" resp="Maria Del Mar EGEA RECHE">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA20" descr="Espagnol Initiation" resp="Juan HERNANDEZ">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA21" descr="Espagnol Niveau I" resp="Juan HERNANDEZ">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SY23" descr="Vision Et Image" resp="Djamal BOUKERROUI">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MS03" descr="Pratique Expérimentale En Acoustique Et Vibrations" resp="Jean-Michel VILLE">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MS02" descr="Principes Physiques Des Capteurs Et Instrumentation" resp="Frédéric LAMARQUE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SY27" descr="Machines Intelligentes" resp="Philippe BONNIFAIT">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MC07" descr="Électronique De Puissance" resp="Nicolas PATIN">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="EI05" descr="Science, Technologie Et Société Dans L'Union Européenne" resp="Martin MORGENEYER">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LO21" descr="Programmation Et Conception Orientees Objet" resp="Antoine JOUGLET">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BL30" descr="Physiologie Des Systèmes Intégrés" resp="Francis CANON">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="LO22" descr="Genie Logiciel" resp="Walter SCHON">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MEQ05" descr="Modélisation Numérique Niveau 2 (Apprentissage)" resp="Etienne ARNOULT">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="LO23" descr="Conduite De Projet Informatique" resp="Benjamin LUSSIER">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="QPO07" descr="Developpement De Son Projet Professionnel Et Autonomie" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="SMA08" descr="Systemes Embarques : Entrainements Electriques Et Actionneurs" resp="Christophe FORGEZ">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MI03" descr="Systèmes Temps Réel" resp="Jérôme DE MIRAS">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="HE05" descr="Culture Et Histoire Des Techniques" resp="Guillaume CARNINO">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MI01" descr="Structure D'Un Calculateur" resp="Mohamed SHAWKY">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SMA04" descr="Modélisation Et Simulation Systèmes" resp="Benoit EYNARD">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SMA03" descr="Capteur Et Actionneurs Compacts Innovants" resp="Frédéric LAMARQUE">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SMA02" descr="Identification De Modèles En Mécanique" resp="Pierre FEISSEL">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SMA01" descr="Modélisation Numérique Avancée Des Structures" resp="Delphine BRANCHERIE">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="TN22" descr="Éléments De Bureau D'Études" resp="Yannick TRELON">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ14" descr="Optimisation En Mécanique" resp="Jean-Marc ROELANDT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="GE40" descr="Management De Projets" resp="Thierry GIDEL">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="UB08" descr="Hydrologie Urbaine" resp="Nassima MOUHOUS-VOYNEAU">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SI90" descr="Séminaire De Communication Des Connaissances Technologiques" resp="Clément MABI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PH09" descr="Éthiques : Approche Pluridisciplinaire" resp="François SEBBAH">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="FPP01" descr="Statistiques Generales Pour L'Ingenieur (Apprentissage)" resp="Fahed ABDALLAH">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="FPP02" descr="Fiabilite Et Ingenierie Robuste De Produits (Apprentissage)" resp="Ahmed Nassim BOUDAOUD">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="FPP03" descr="Ingénierie Robuste Et Maitrise Statistique Des Procédés (Apprentissage)" resp="Ahmed Nassim BOUDAOUD">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PH01" descr="Introduction À La Philosophie" resp="Jean-François GAUDEAUX">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PH03" descr="Penser La Techniique Aujourd'Hui" resp="François SEBBAH">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PH02" descr="L'Ingénieur, Le Philosophe Et Le Scientifique" resp="Hugues CHOPLIN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="EN21" descr="Bases De L'Électronique Analogique" resp="Vincent LANFRANCHI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="RO05" descr="Modélisation De Phénomènes Aléatoires" resp="Sergio ALVAREZ-ANDRADE">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="QPO06" descr="Management Des Systemes D'Information" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BM04" descr="Acquisition Et Traitement De Données Biomédicales" resp="Catherine MARQUE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LC14" descr="Communication Scientifique Et Technique En Anglais" resp="Lynne FOREST">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI01" descr="Science Et Debat Public" resp="Virginie JULLIARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="STS52" descr="Ingenierie Cellulaire Et Tissulaire" resp="Christophe EGLES">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MT22" descr="Fonctions De Plusieurs Variables Réelles Et Applications" resp="Mohammed El Djalil KATEB">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="MT23" descr="Algèbre Linéaire Et Applications" resp="Vincent MARTIN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TN14" descr="Commande Hydraulique De Puissance" resp="Éric NOPPE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TN16" descr="Étude Interculturelle" resp="Helga SCHENZER">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="BMI07" descr="Modélisation Multiphysique Du Système Vasculaire" resp="Anne-Virginie SALSAC">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="IC06" descr="Industrie Et Conception Des Jeux Video" resp="Jean-Baptiste GUIGNARD">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="UXD02" descr="Scenarisation D'Experience Utilisateur" resp="Anne GUENAND-WACQUIEZ">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="UXD01" descr="Design D'Experience" resp="Anne GUENAND-WACQUIEZ">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SI05" descr="Theories De La Communication" resp="Virginie JULLIARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="TTS01" descr="Acquisition De Signaux Et D'Images Medicales" resp="Catherine MARQUE">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="TTS02" descr="Pratique De L'Instrumentation Scientifique" resp="Sofiane BOUDAOUD">
+<semestre nom="P"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="SI07" descr="Medias Classiques Et Medias Numeriques" resp="Isabel GUGLIELMONE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA00" descr="Allemand Initiation" resp="Nortrud Mathilde KIHM">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA01" descr="Allemand Niveau I" resp="Gisela LUZIN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA02" descr="Allemand Niveau II" resp="Gisela LUZIN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SC11" descr="Théorie Des Sciences Cognitives : Computation Et Énaction" resp="Pierre STEINER">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA04" descr="Pratique De La Communication En Allemand" resp="Gabriele ORBACH-LIN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MAT01" descr="Choix Des Materiaux Et Procedes (Apprentissage)" resp="Salima BOUVIER">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MAT02" descr="Mise En Forme Des Materiaux (Apprentissage)" resp="Kamel KHELLIL">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MAT03" descr="Mecanique Des Materiaux (Apprentissage)" resp="Zoheir ABOURA">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MT94" descr="Introduction Aux Mathematiques Appliquées" resp="Stéphane MOTTELET">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BL16" descr="Génie Métabolique, Cultures Cellulaires Et Bioreacteurs" resp="Nelly COCHET">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BL17" descr="Génie Des Protéines" resp="Claude-Olivier SARDE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MT91" descr="Fonctions D'Une Variable Reelle 2" resp="Marie-Claude DUBAN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="MT90" descr="Fonctions D'Une Variable Reelle 1" resp="Ghislaine GAYRAUD">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="CM05" descr="Thermodynamique Chimique" resp="François GOMEZ">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="CM04" descr="Procédés Industriels" resp="Aissa OULD DRIS">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="CM07" descr="Travaux Pratiques De Génie Chimique" resp="Khashayar SALEH">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="CM06" descr="Calcul D'Une Opération Industrielle" resp="Khashayar SALEH">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="CM01" descr="Physique De La Matière" resp="Philippe REVEL">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="IA02" descr="Résolution De Problèmes Et Programmation Logique" resp="Dominique FONTAINE">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="EI03" descr="Communication Interculturelle En Entreprises, Organisations Transnationales" resp="Jacques PATEAU">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="TMI01" descr="Conception Niveau 2 (Apprentissage)" resp="Jean-Luc DULONG">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="IC05" descr="Technologies Pour La Documentation Et L'Indexation Dans L'Hypermédia" resp="Franck GHITALLA">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="IC07" descr="Techniques Et Technologies Du Musical Et Du Sonore" resp="Raffaele CIAVARELLA">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI02" descr="Communication Professionnelle De L'Ingénieur" resp="Morgan JEANNE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="IC01" descr="Histoire Et Prospective Des Industries Culturelles" resp="Bernard STIEGLER">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="IC03" descr="Le Numérique : Des Formats Aux Chaines De Production" resp="Jean-Baptiste GUIGNARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI06" descr="La Documentation Technique, Principes Et Méthodes" resp="Evelyne ROSS">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="DPP01" descr="Developper Son Projet Professionnel" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="ESI50" descr="Calculs Par Elements Finis Et Optimisation Multi-Disciplinaire" resp="Alain RASSINEUX">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="BIO13" descr="Interaction, Reconnaissance Supramoleculaire Et Biomimetisme" resp="Karsten HAUPT">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BIO12" descr="Alternatives Vegetales" resp="Brigitte THOMASSET">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BIO11" descr="Procedes De Transformation Vegetale" resp="Yolande PERRIN">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="RR01" descr="Cinétique Chimique Et Réacteurs Homogènes" resp="Khashayar SALEH">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BIO16" descr="Capteurs Et Biocapteurs" resp="Sandrine MORANDAT">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BIO15" descr="Biophysique Moleculaire Et Metabolique" resp="Sandrine MORANDAT">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BIO14" descr="Genie Metabolique Industriel" resp="Daniel THOMAS">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="LNG03" descr="Anglais Niveau III B (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="LNG02" descr="Anglais Niveau III A (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="LNG01" descr="Anglais Niveau II (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="UE21" descr="Management" resp="Jérôme BLANC">
+<semestre nom="P"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="LNG05" descr="Anglais Professionnel (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="1" cat="TSH"/>
+</uv>
+<uv code="LNG04" descr="Anglais Niveau IV (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="SR03" descr="Architecture Des Applications Internet" resp="Dritan NACE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BIO03" descr="De La Fonction A La Physiologie" resp="Sandrine MORANDAT">
+<semestre nom="A"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="MU02" descr="Pratique Instrumentale De Haut Niveau" resp="Virginie JULLIARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="8" cat="TSH"/>
+</uv>
+<uv code="QPO08" descr="Audit Et Evaluation Des Organisations : Partie Pratique" resp="Jean-Pierre CALISTE">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="TO0A" descr="Module De Preparation Au Toeic (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="1" cat="TSH"/>
+</uv>
+<uv code="BM08" descr="Modélisation Des Systèmes Biomécaniques" resp="Marie-Christine HO BA THO">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="SY19" descr="Decision Et Apprentissage Automatique" resp="Thierry DENOEUX">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TH04" descr="Froid Industriel" resp="Mourad HAZI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MT34" descr="Analyse 2 : Mesures, Intégrations, Probabilités" resp="Vincent ROBIN">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY12" descr="Modélisation Et Performance Des Systèmes De Production" resp="Benoit EYNARD">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MEQ04" descr="Mecanique Des Fluides (Apprentissage)" resp="Emmanuel LEFRANCOIS">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SY10" descr="Logique Floue : Concepts Et Applications" resp="Zyed ZALILA">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BM01" descr="Introduction À L'Instrumentation Biomédicale" resp="Claire IMBAUD">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="SY16" descr="Les Applications Du Traitement Du Signal" resp="Solène MOREAU">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PS10" descr="Analyse Modale En Acoustique Et Vibrations" resp="Mohamed Ali HAMDI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SY14" descr="Éléments D'Automatique" resp="Ali CHARARA">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="SY15" descr="Automatique Avancée" resp="Ali CHARARA">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TN20" descr="Cao :  Modélisation Géométrique" resp="Alain RASSINEUX">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SL0A" descr="Projet Individualise (Apprentissage)" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="LA94" descr="Francais Langue Étrangère Niveau IV" resp="Carole LEFRANCOIS-YASUDA">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
 </uv>
 <uv code="LA93" descr="Francais Langue Étrangère Niveau III" resp="Carole LEFRANCOIS-YASUDA">
 <semestre nom="A"/>
 <semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA92" descr="Francais Langue Étrangère Niveau II" resp="Anna WIACEK-LE VERGER">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LA91" descr="Francais Langue Étrangère Niveau I" resp="Anna WIACEK-LE VERGER">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SY26" descr="Télécommunications" resp="Vincent FREMONT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LB14" descr="Interculturalité Appliquée Aux Pays Anglophones" resp="Cindy MOREAU">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MT33" descr="Algèbre 1 : Ensembles Et Groupes" resp="Vincent ROBIN">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="UE24" descr="Gestion De Production" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="AR04" descr="Art, Ville, Architecture" resp="Frederic SEITZ">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="DI03" descr="Conception Formelle Des Produits" resp="Anne MEULEAU">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="EI04" descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils" resp="Véronique MISSERI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="NQCE2" descr="Ms 'Normalisation, Qualité, Certification Et Essais'" resp="Jean-Pierre CALISTE">
+<semestre nom="A"/>
+<recompense ects="60" cat="TM"/>
+</uv>
+<uv code="MG01" descr="Management En Entreprise : Styles De Management, Construction D'Equipe Et Techniques De Travail En Groupe" resp="Nicolas-Louis DUCLOS">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="NQCE1" descr="" resp="Jean-Pierre CALISTE">
+<semestre nom="A"/>
+<recompense ects="0" cat="TM"/>
+</uv>
+<uv code="EN14" descr="Fonctions Électroniques Pour L'Ingénieur" resp="Guy FRIEDRICH">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LG42" descr="Portugais Niveau II" resp="Fatima FERNANDES">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LG40" descr="Portugais Initiation" resp="Fatima FERNANDES">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LG41" descr="Portugais Niveau I" resp="Fatima FERNANDES">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="UE23" descr="Gestion De Maintenance" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="3" cat="TSH"/>
+</uv>
+<uv code="GE90" descr="Organisation, Innovation Et International" resp="Yann MOULIER BOUTANG">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="UE22" descr="Gestion De Projet De Maintenance" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="BT10" descr="Risques Biologiques Et Sécurité Alimentaire" resp="Nelly COCHET">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="SI22" descr="Signes Et Contenus Numeriques" resp="Virginie JULLIARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI20" descr="Rhetorique Et Arts Du Discours" resp="Jean-Baptiste GUIGNARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="DD02" descr="Introduction A L'Eco-Conception Et A L'Analyse De Cycle De Vie" resp="Flore VALLET">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="MU03" descr="Pratique Collective Des Musiques Contemporaines" resp="Stephane KREGAR">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI24" descr="Études Des Écritures Numériques Ordinaires" resp="Isabelle CAILLEAU">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SI28" descr="Écriture Interactive Et Multimédia" resp="Serge BOUCHARDON">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="QRO02" descr="Assurer Et Manager La Confiance Face Au Risque" resp="Jean ESCANDE">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="QRO03" descr="Aide A La Decision En Environnement Complexe : De La Metrologie A La Logique Floue" resp="Jean-Pierre CALISTE">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="QRO01" descr="Normalisation, Metrologie, Essais Et Echanges Internationaux" resp="Jean-Pierre CALISTE">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="QPO04" descr="Qualite Et Management Des Organisations" resp="Nicolas-Louis DUCLOS">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MT38" descr="Probabilités" resp="Pascal MOYAL">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SCI30" descr="Methode Et Modelisation De Capture De Mouvement 3d" resp="Frédéric MARIN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SCI31" descr="Methodes Avancees De Commande Des Systemes Dynamiques" resp="Ali CHARARA">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="SCI32" descr="De La Microstructure Aux Propriétés Des Materiaux" resp="Fahmi BEDOUI">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="DI08" descr="Design Industriel Et Création De Produits" resp="Emmanuel CORBASSON">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="AS02" descr="Accompagnement Pour L'Analyse Des Situations De L'Ingenieur" resp="Isabelle CAILLEAU">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="BM05" descr="Techniques D'Explorations Fonctionnelles" resp="Didier GAMET">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BM06" descr="Traitement D'Images Médicales" resp="Jean-François LERALLUT">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SY31" descr="Capteurs Pour Les Systemes Intelligents" resp="Vincent FREMONT">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="HE01" descr="Épistémologie Et Histoire Des Sciences" resp="Pierre STEINER">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="AP" descr="Atelier Projet" resp="Philippe DEHAN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="IA04" descr="Systèmes Multiagents" resp="Claude MOULIN">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="IA03" descr="Techniques De Modélisation, Capitalisation Et Gestion Des Connaissances" resp="Marie-Hélène ABEL">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BT09" descr="Industries Agro-Alimentaires - Qualites De L'Aliment" resp="Elisabeth MOUTON">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="IA01" descr="Intelligence Artificielle : Représentation" resp="Marie-Hélène ABEL">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BL40" descr="Génie Cellulaire" resp="Muriel VAYSSADE">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="GE29" descr="Gestion Et Management International De L'Entreprise" resp="Az-Eddine BENNANI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE28" descr="Économie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une Économie Reposant Sur La Connaissance" resp="Yann MOULIER BOUTANG">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="HE03" descr="Logique : Histoire Et Formalisme" resp="Dominique FONTAINE">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="UE31" descr="Outils De Surveillance Et D'Inspection" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="MU01" descr="Pratique Instrumentale D'Ensemble" resp="Philippe TENART">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE23" descr="Transferts De Technologies Et Développements" resp="Alain BERNARD">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE22" descr="Économie Internationale" resp="Luc MEZZA">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE21" descr="Économie Et Gestion De L'Innovation Et Du Numérique" resp="Pascal JOLLIVET-COURTOIS">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE20" descr="Économie Industrielle" resp="Frederic HUET">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE27" descr="Gestion Financière De L'Entreprise" resp="Christine DIVRY-GROFF">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE26" descr="Management Stratégique Des Ressources Humaines" resp="Laurence DELTOMBE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE25" descr="Gestion Et Organisation De La Production" resp="Arnaud DUCASTELLE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE24" descr="Recherche Developpement : Ingenieur Et Investisseurs" resp="Christine DIVRY-GROFF">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PTV58" descr="Eco Bilan Et Analyse Du Cycle De Vie" resp="Olivier SCHOEFS">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="MQ02" descr="Mécanique Des Solides Déformables" resp="Mohamed RACHIK">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="PTV53" descr="Technologies Emergentes Pour La Transformation Des Ressources Renouvelables" resp="Eugène VOROBIEV">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PTV52" descr="Conception Et Conduite De Bioreacteurs" resp="André PAUSS">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PTV51" descr="Technologies Des Poudres Et Milieux Pulverulents" resp="Khashayar SALEH">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="PTV50" descr="Methodologies Pour La Recherche " resp="André PAUSS">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PTV57" descr="Valorisation Energetique De La Biomasse" resp="Mourad HAZI">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="PTV56" descr="Valorisation Des Coproduits Et Minimisation Des Effluents" resp="Philippe SAJET">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="PTV55" descr="Procedes D'Extraction, Separation Et Purification Des Biomolecules" resp="Eugène VOROBIEV">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PTV54" descr="Procedes De Transformation Thermochimique Des Agroressources En Biocarburants" resp="Ammar BENSAKHRIA">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="PS15" descr="Thermodynamique Physique" resp="Richard CAPART">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="CL01" descr="Anglais Niveau Intermédiaire Supérieur" resp="Mark KAY">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="CL02" descr="Moi Et Le Monde Scientifique " resp="Mark KAY">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="QPO01" descr="Pilotage Du Progres Et De La Performance" resp="Gilbert FARGES">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="ICX04" descr="Cycle De Conferences" resp="Yann MOULIER BOUTANG">
+<semestre nom="A"/>
+<recompense ects="6" cat="TSH"/>
+</uv>
+<uv code="ICX02" descr="Analyse Des Situations" resp="Pierre-Henri DEJEAN">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="ICX03" descr="Atelier Projet / Experimentation" resp="Olivier GAPENNE">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PH10" descr="Analyse Phénoménologique Des Objets Audiovisuels" resp="Bernard STIEGLER">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="PH11" descr="Philosopher Aujourd'Hui" resp="François SEBBAH">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="CM40" descr="Catalyse Heterogene" resp="Jamal BELKOUCH">
+<semestre nom="P"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="LB24" descr="Le Monde Hispanique (Niveau IV): L'Espagne" resp="Maria Fatima SANCHEZ PANIAGUA">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MB11" descr="Révision D'Analyse Et D'Algèbre (Gb, Gi, Gsu)" resp="Faker BEN BELGACEM">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="UE42" descr="Hydraulique" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="MEQ01" descr="Modelisation Geometrique (Apprentissage)" resp="Matthieu BRICOGNE-CUIGNIÈRES">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="MQ04" descr="Polymères" resp="Fahmi BEDOUI">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LO17" descr="Indexation Et Recherche D'Information" resp="Pierre MORIZET-MAHOUDEAUX">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="BM07" descr="Biocompatibilité" resp="Christophe EGLES">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="NP94" descr="Preparation Scientifique A Un Sujet 'Challenge' De Tn04" resp="Didier LEMOINE">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="SM04" descr="Physiologie" resp="Chantal PEROT">
+<semestre nom="A"/>
+<recompense ects="0" cat="CS"/>
+</uv>
+<uv code="NP90" descr="Nano-Projets" resp="Jérôme FAVERGEON">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="NF93" descr="Sciences De L'Informatique" resp="Dominique FONTAINE">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="ASP06" descr="L'Ingénieur En Situation De Management (Apprentissage)" resp="Manuel MAJADA">
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="DI01" descr="Initiation Au Design Industriel" resp="Pierre-Henri DEJEAN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="DI02" descr="Initiation Au Design Graphique" resp="Christophe HARBONNIER">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="MEQ02" descr="Modelisation Numerique Niveau 1 (Apprentissage)" resp="Frederic DRUESNE">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TO02" descr="Module De Preparation Au Toefl" resp="Anna WIACEK-LE VERGER">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="DI05" descr="Methodologie Et Analyse De La Valeur" resp="Nicolas SALZMANN">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="DI06" descr="Analyse Des Produits De Consommation" resp="Anne GUENAND-WACQUIEZ">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TO01" descr="Module De Preparation Au Toeic" resp="Marleen VERLHAC">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="2" cat="TSH"/>
+</uv>
+<uv code="MQ08" descr="Elaboration Et Proprietes D'Usage Des Metaux" resp="Jérôme FAVERGEON">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SCI10" descr="Protocole Experimental, Instrumentation Et Traitement" resp="Sofiane BOUDAOUD">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SCI11" descr="Flux Et Transduction D'Energie Dans Les Systemes" resp="Christine PRELLE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PH12" descr="L'Épreuve Du Mouvement. De Platon A L'Ingénieur Contemporain" resp="Hugues CHOPLIN">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="ISI13" descr="Panorama Des Tendances Technologiques Et Impact Sur Les Métiers" resp="Richard PEYNOT">
+<semestre nom="P"/>
+<recompense ects="2" cat="CS"/>
+</uv>
+<uv code="NF01" descr="Algorithmique Et Programmation" resp="Philippe TRIGANO">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="NF02" descr="Du Circuit Intégré Au Microprocesseur" resp="Luhui DING">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="AP51" descr="Atelier Projet Conception Mécanique Intégrée" resp="Emmanuel DORE">
+<semestre nom="A"/>
+<recompense ects="8" cat="TM"/>
+</uv>
+<uv code="AP53" descr="Production Intégrée Et Logistique" resp="Valerie MOREAU">
+<semestre nom="A"/>
+<recompense ects="8" cat="TM"/>
+</uv>
+<uv code="AP52" descr="Modélisation - Optimisation Des Produits Et Structures" resp="Ludovic CAUVIN">
+<semestre nom="A"/>
+<recompense ects="8" cat="TM"/>
+</uv>
+<uv code="MQ10" descr="Comportement Mécanique Des Matériaux" resp="Nicolas BUIRON">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="PIIN" descr="Developpement D'Un Module De Formation A Distance-Multimedia Pour L'Integration De La Propriete Industrielle Et Intellectuelle Dans Les Processus D'Inno" resp="Joseph ORLINSKI">
+<semestre nom="A"/>
+<recompense ects="5" cat="TSH"/>
+</uv>
+<uv code="MQ12" descr="Choix Des Matériaux Et Des Procédés" resp="Salima BOUVIER">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MQ13" descr="Matériaux Composites" resp="Zoheir ABOURA">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="ICX01" descr="Atelier D'Innovation Et Eco-Conception" resp="Anne GUENAND-WACQUIEZ">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LG60" descr="Chinois Initiation" resp="Li-Ying EMPINET">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LG61" descr="Chinois Niveau I" resp="Yue-Hui DOREMUS">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LG62" descr="Chinois Niveau II" resp="Li-Ying EMPINET">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="LG63" descr="Chinois Niveau III" resp="Li-Ying EMPINET">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="C2I1" descr="Certificat Informatique Et Internet Niveau 1" resp="Philippe TRIGANO">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="SA11" descr="Pratiques Théatrales" resp="Emmanuel ANDRE OSTROVSKI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="BC01" descr="Redaction Bibliographique De Fin D'Etudes" resp="Frederic HUET">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="BL20" descr="Métabolisme Et Physiologie Cellulaire" resp="Séverine PADIOLLEAU-LEFEVRE">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="CM15" descr="Systemes Colloidaux - Applications Agroalimentaires" resp="Elisabeth VAN HECKE">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="CM12" descr="Chimie Physique Minérale" resp="Christophe LEN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="CM13" descr="Chimie Des Substances Organiques Et Biologiques" resp="Yolande PERRIN">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="RO06" descr="Simulation Et Techniques D'Optimisation" resp="Aziz MOUKRIM">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="LO18" descr="Projets Multimédia Pour La Formation" resp="Philippe TRIGANO">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="ABIH2" descr="Technologies Biomédicales" resp="Gilbert FARGES">
+<semestre nom="P"/>
+<recompense ects="0" cat="CS"/>
+</uv>
+<uv code="ABIH3" descr="Management De La Fonction Biomédicale" resp="Gilbert FARGES">
+<semestre nom="P"/>
+<recompense ects="0" cat="CS"/>
+</uv>
+<uv code="ABIH4" descr="Intégration Professionnelle En Génie Biomédical" resp="Gilbert FARGES">
+<semestre nom="P"/>
+<recompense ects="0" cat="CS"/>
+</uv>
+<uv code="SI11" descr="Expression Orale- Parole Publique" resp="Emmanuel ANDRE OSTROVSKI">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="VDIN" descr="Veille Documentaire Et Technologique Sur Internet" resp="Joseph ORLINSKI">
+<semestre nom="A"/>
+<recompense ects="5" cat="TSH"/>
+</uv>
+<uv code="MQ17" descr="Introduction Aux Propriétés Mécaniques Et À L'Ingénierie Des Matériaux" resp="Marion RISBET-VOITOT">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="QCO03" descr="Démarche Qualité Intégrée En Rechecrhe - Développement - Innovation" resp="Gilbert FARGES">
+<semestre nom="P"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="BL22" descr="Microbiologie Et Biologie Moléculaire" resp="Nelly COCHET">
+<semestre nom="P"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TMI08" descr="Conception Niveau 3 (Apprentissage)" resp="Benoit EYNARD">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TMI09" descr="International Workshop (Apprentissage)" resp="Valerie MOREAU">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="UE34" descr="Outils Statistiques" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="CS"/>
+</uv>
+<uv code="NX17" descr="Introduction Aux Bases De Donnees" resp="Stéphane CROZAT">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="GPL01" descr="Gestion De Production Et Erp (Apprentissage)" resp="Magali BOSCH">
+<semestre nom="P"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="UE33" descr="Approche Fmds" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="GPL03" descr="Système De Production Et Usine Numérique (Apprentissage)" resp="Valerie MOREAU">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="GPL02" descr="Recherche Operationnelle En Productique (Apprentissage)" resp="Pierre VILLON">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="MP02" descr="Introduction Aux Méthodes De La Gpao" resp="Magali BOSCH">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="MP03" descr="Supply Chain Management" resp="Pierre VILLON">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TMI02" descr="Realisation De Prototypes (Apprentissage)" resp="Thomas BOULANGER">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="TMI03" descr="Ergonomie Des Situations De Travail (Apprentissage)" resp="Claude LEMARCHAND">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TMI04" descr="Technologie De Fabrication (Apprentissage)" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="5" cat="TM"/>
+</uv>
+<uv code="TMI05" descr="Fabrication Assistee Par Ordinateur Et Machines A Commande Numerique (Apprentissage)" resp="Guy BEDEL">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="TMI07" descr="Capteurs Et Instrumentation (Apprentissage)" resp="Frédéric LAMARQUE">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="BMI01" descr="Propriétés Mécaniques Des Systèmes Biologiques" resp="Sabine BENSAMOUN">
+<semestre nom="A"/>
+<recompense ects="3" cat="CS"/>
+</uv>
+<uv code="CM11" descr="Chimie Générale" resp="Karim EL KIRAT-CHATEL">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="BM02" descr="Organes Artificiels Et Biorheologie" resp="Cécile LEGALLAIS">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="ESI62" descr="Procedes De Transformation" resp="Kamel KHELLIL">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="DD01" descr="Séminaire Développement Durable" resp="Pascal JOLLIVET-COURTOIS">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="EG01" descr="Ergonomie" resp="Claude LEMARCHAND">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SSA03" descr="Communication Professionnelle (Apprentissage)" resp="Isabelle CAILLEAU">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="3" cat="TSH"/>
+</uv>
+<uv code="SSA04" descr="Approches Économiques Et Sociologiques De L'Organisation (Apprentissage)" resp="Frederic HUET">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="SSA06" descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils (Apprentissage)" resp="Véronique MISSERI">
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="RR02" descr="Calculs Des Réacteurs Industriels" resp="Khalil SHAKOURZADEH BOLOURI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="UE43" descr="Analyse Fonctionnelle" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="NF26" descr="Data Warehouse Et Outils Décisionnels" resp="Pierre MORIZET-MAHOUDEAUX">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="UE41" descr="Asservissement" resp="Jérôme BLANC">
+<semestre nom="A"/>
+<recompense ects="2" cat="TM"/>
+</uv>
+<uv code="NF24" descr="Modelisation Et Simulation Des Procedes" resp="François GOMEZ">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="NF22" descr="Micro-Ordinateurs Et Applications" resp="Catherine MARQUE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="API08" descr="Ihm Et Multimédia (Apprentissage)" resp="Philippe TRIGANO">
+<semestre nom="P"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="LO12" descr="Infographie Et Images De Synthèse" resp="Véronique CHERFAOUI">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="API06" descr="Analyse De Donnees Et Data Mining (Apprentissage)" resp="Benjamin QUOST">
+<semestre nom="P"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="API07" descr="Architecture Des Applications Internet, Programmation Web Et Securite (Apprentissage)" resp="Dritan NACE">
+<semestre nom="P"/>
+<recompense ects="3" cat="TM"/>
+</uv>
+<uv code="API04" descr="Data Warehouse Et Outils Decisionnels (Apprentissage)" resp="Stéphane CROZAT">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="API05" descr="Modelisation Et Simulation Des Flux (Apprentissage)" resp="Borislav VIDOLOV">
+<semestre nom="A"/>
+<recompense ects="4" cat="CS"/>
+</uv>
+<uv code="API02" descr="Architecture Des Réseaux (Apprentissage)" resp="Abdelmadjid BOUABDALLAH">
+<semestre nom="A"/>
+<recompense ects="5" cat="CS"/>
+</uv>
+<uv code="API03" descr="Capteurs Intelligents Communicants (Apprentissage)" resp="Vincent FREMONT">
+<semestre nom="A"/>
+<recompense ects="4" cat="TM"/>
+</uv>
+<uv code="NF29" descr="Ingénierie Documentaire Et Supports D'Information" resp="Stéphane CROZAT">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="NF28" descr="Ingénierie Des Systèmes Intéractifs" resp="Dominique LENNE">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF11" descr="Introduction Aux Phénomènes De Transfert" resp="Gérard ANTONINI">
+<semestre nom="A"/>
+<recompense ects="6" cat="CS"/>
+</uv>
+<uv code="TF14" descr="Les Opérations De Transfert De Matière" resp="Martin MORGENEYER">
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="TF15" descr="Procédés De Séparation" resp="Eugène VOROBIEV">
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SC12" descr="Technologie, Cognition, Perception" resp="Charles LENAY">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="STS49" descr="Seminaires" resp="Sabine BENSAMOUN">
+<semestre nom="A"/>
+<recompense ects="2" cat="CS"/>
+</uv>
+<uv code="NF92" descr="Traitement Automatique De L'Information" resp="Jean-Paul BOUFFLET">
+<semestre nom="A"/>
+<semestre nom="P"/>
+<recompense ects="6" cat="TM"/>
+</uv>
+<uv code="SP02" descr="Conduire Un Projet Sportif" resp="Arnaud VANNICATTE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="4" cat="TSH"/>
+</uv>
+<uv code="GE39" descr="Management Et Marketing De L'Innovation" resp="Nathalie DARENE">
+<semestre nom="P"/>
+<semestre nom="A"/>
+<recompense ects="6" cat="TM"/>
 </uv>
 </uvs>
+ <categories>
+  <categorie nom="Techniques et Méthodes" abbr="TM"/>
+  <categorie nom="Connaissances Scientifiques" abbr="CS"/>
+  <categorie nom="Technologies et Sciences de l’Homme" abbr="TSH"/>
+  <categorie nom="Stages et Projets" abbr="SP"/>
+ </categories>
+</sauvegarde>
