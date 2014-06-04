@@ -21,7 +21,9 @@ SOURCES += src/main.cpp\
     src/uv.cpp \
     src/xmlio.cpp \
     qt/uvdisplaywidget.cpp \
-    qt/changesemestredialog.cpp
+    qt/changesemestredialog.cpp \
+    src/structures.cpp \
+    qt/addsemestredialog.cpp
 
 HEADERS  += qt/mainwindow.h \
     src/uvmanager.hpp \
@@ -33,8 +35,16 @@ HEADERS  += qt/mainwindow.h \
     src/xmlio.hpp \
     src/abstractio.hpp \
     qt/uvdisplaywidget.h \
-    qt/changesemestredialog.h
+    qt/changesemestredialog.h \
+    src/formation.hpp \
+    src/dossier.hpp \
+    src/semestre.hpp \
+    qt/addsemestredialog.h
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/uvdisplaywidget.ui \
-    qt/ui/changesemestredialog.ui
+    qt/ui/changesemestredialog.ui \
+    qt/addsemestredialog.ui
+
+RESOURCES += \
+    qt/icons.qrc
