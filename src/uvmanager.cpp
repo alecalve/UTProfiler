@@ -13,5 +13,5 @@ Uv& Manager<Uv>::getItem(const QString &s) const {
         }
     }
 
-    throw Exception("objet non trouvé.");
+    throw Exception("UV non trouvée.");
 }
