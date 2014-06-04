@@ -10,6 +10,12 @@
     <height>332</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>UTProfiler</string>
   </property>
@@ -57,20 +63,43 @@
    </widget>
    <addaction name="menuFichier"/>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFiltrer"/>
+  </widget>
   <action name="actionCharger_un_dossier">
    <property name="text">
-    <string>Charger un dossier</string>
+    <string>Charger une sauvegarde</string>
    </property>
   </action>
   <action name="actionSauvegarder_le_dossier">
    <property name="text">
-    <string>Sauvegarder  le dossier</string>
+    <string>Sauvegarder  les données</string>
    </property>
   </action>
   <action name="actionQuitter">
    <property name="text">
     <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionFiltrer">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/filter.ico</normaloff>:/new/icons/filter.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+   <property name="toolTip">
+    <string>Filtrer les UVs</string>
    </property>
   </action>
  </widget>
@@ -83,7 +112,9 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>actionQuitter</sender>
@@ -105,7 +136,7 @@
    <sender>actionCharger_un_dossier</sender>
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
-   <slot>afficheUvs()</slot>
+   <slot>loadFile()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>
@@ -121,7 +152,7 @@
    <sender>actionSauvegarder_le_dossier</sender>
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
-   <slot>saveUvs()</slot>
+   <slot>saveFile()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>
@@ -135,7 +166,7 @@
   </connection>
  </connections>
  <slots>
-  <slot>afficheUvs()</slot>
-  <slot>saveUvs()</slot>
+  <slot>loadFile()</slot>
+  <slot>saveFile()</slot>
  </slots>
 </ui>
