@@ -7,6 +7,7 @@
 
 #include "src/xmlio.hpp"
 #include "src/exceptions.hpp"
+#include "addsemestredialog.h"
 
 #define UVM UvManager::getInstance()
 
@@ -14,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow) {
     ui->setupUi(this);
-
+    QMainWindow::showMaximized();
 }
 
 MainWindow::~MainWindow() {
@@ -23,7 +24,7 @@ MainWindow::~MainWindow() {
 }
 
 
-void MainWindow::afficheUvs() {
+void MainWindow::loadFile() {
 
     QString filename = QFileDialog::getOpenFileName(this, "Ouvrir le fichier");
     if (filename.isNull()) { return; }
@@ -39,8 +40,17 @@ void MainWindow::afficheUvs() {
     }
 
     ui->uvdisplay->refresh();
+    AddSemestreDialog s(this);
+    s.exec();
 }
 
-void MainWindow::saveUvs() {
-    UVM->save();
+void MainWindow::saveFile() {
+    if (UVM->hasPolicyDefined()) {
+        UVM->save();
+    } else {
+        QMessageBox error(this);
+        error.setText("Aucune donnée chargée");
+        error.exec();
+        return;
+    }
 }
