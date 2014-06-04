@@ -20,16 +20,21 @@ template<class T> class Manager {
         elements.push_back(t);
     }
 
+    //! Indique si une stratégie de sauvegarde a été définie
+    bool hasPolicyDefined() {
+        return (ioPolicy != 0);
+    }
+
     //! Retourne un objet identifié par une string (QString)
     T& getItem(const QString &s) const;
 
     //! Charge les UVs présentes dans la sauvegarde définie par la stratégie ioPolicy
     inline void load() {
-        elements = ioPolicy->load();
+        ioPolicy->load();
     }
 
     //! Sauvegarde les objets sauvegardés en utilisant la stratégie définie auparavant
-    void save() { ioPolicy->save(elements); }
+    void save() { ioPolicy->save(); }
 
     //! Retourne un itérateur (vector) contenant les objets du manager
     std::vector<T> iterator() { return elements; }
@@ -58,7 +63,9 @@ template<class T> class Manager {
     ~Manager() { delete ioPolicy; }
 
   private:
-    Manager() {}
+    Manager() {
+        ioPolicy = 0;
+    }
     Manager(const Manager &) {}
     Manager operator=(const Manager&) {}
 
