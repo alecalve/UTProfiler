@@ -30,7 +30,8 @@ class Uv {
     inline void setOuverturePrintemps(const bool &b) { ouverturePrintemps = b; }
     inline void setOuvertureAutomne(const bool &b) { ouvertureAutomne = b; }
     inline void setDescription(const QString &d) { description = d; }
-    inline void setCredits(const QString &cat, const unsigned int &creds) { recompenses[cat] = creds; }
+    inline void setCredits(const QString cat, const unsigned int creds) { recompenses[cat] = creds; }
+    inline void resetCredits() { recompenses.clear(); }
     inline bool operator==(const Uv& u) { return (u.getCode() == code); }
 
   private:
