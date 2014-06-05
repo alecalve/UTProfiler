@@ -15,22 +15,16 @@ class ChangeSemestreDialog : public QDialog
     Q_OBJECT
 
   public:
-    explicit ChangeSemestreDialog(QWidget *parent = 0, bool p=false, bool a=false, int r=-1);
+    explicit ChangeSemestreDialog(QWidget *parent = 0, QString u="");
     ~ChangeSemestreDialog();
 
   public slots:
-
     //! Slot qui lorsque Ok est clické, déclenche le changement de valeur du semestre
     void closing();
 
-  signals:
-
-    //! Signal lancé lorsque Ok est clické
-    void choiceMade(int r, bool printemps, bool automne);
-
   private:
     Ui::ChangeSemestreDialog *ui;
-    int row;
+    QString uv;
 };
 
 #endif // CHANGESEMESTREDIALOG_H

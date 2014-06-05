@@ -1,17 +1,18 @@
 #include "changesemestredialog.h"
 #include "ui_changesemestredialog.h"
+#include "src/uvmanager.hpp"
 
-#include <iostream>
+#define UVM UvManager::getInstance()
 
-ChangeSemestreDialog::ChangeSemestreDialog(QWidget *parent, bool p, bool a, int r) :
+ChangeSemestreDialog::ChangeSemestreDialog(QWidget *parent, QString u) :
     QDialog(parent),
-    ui(new Ui::ChangeSemestreDialog)
+    ui(new Ui::ChangeSemestreDialog), uv(u)
 {
     ui->setupUi(this);
     this->setWindowTitle("Ouverture de l'UV");
-    row = r;
-    ui->printemps->setChecked(p);
-    ui->automne->setChecked(a);
+    Uv concerned = UVM->getItem(uv);
+    ui->printemps->setChecked(concerned.getOuverturePrintemps());
+    ui->automne->setChecked(concerned.getOuvertureAutomne());
     connect(this, SIGNAL(accepted()), this, SLOT(closing()));
 }
 
@@ -21,7 +22,7 @@ ChangeSemestreDialog::~ChangeSemestreDialog() {
 
 
 void ChangeSemestreDialog::closing() {
-    if (row != -1) {
-        ((UvDisplayWidget*) parentWidget())->choiceSemestre(row, ui->printemps->isChecked(), ui->automne->isChecked());
-    }
+    Uv &concerned = UVM->getItem(uv);
+    concerned.setOuvertureAutomne(ui->automne->isChecked());
+    concerned.setOuverturePrintemps(ui->printemps->isChecked());
 }

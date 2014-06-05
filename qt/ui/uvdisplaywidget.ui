@@ -61,5 +61,6 @@
  <slots>
   <slot>change(int,int)</slot>
   <slot>changed(int,int)</slot>
+  <slot>clicked(int,int)</slot>
  </slots>
 </ui>
