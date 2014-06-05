@@ -3,18 +3,21 @@
 
 #include <QTableWidget>
 #include <QStandardItem>
-#include <iostream>
+#include <QPushButton>
+#include <QMessageBox>
 
 #include "changesemestredialog.h"
+#include "changecreditsdialog.h"
 #include "src/uvmanager.hpp"
-#include <istream>
+
 
 #define UVM UvManager::getInstance()
-#define NBCOLS 4
+#define NBCOLS 5
 #define CODE_COL 0
 #define DESCR_COL 1
 #define CREDS_COL 2
 #define OUV_COL 3
+#define DEL_COL 4
 
 UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
     QWidget(parent),
@@ -23,7 +26,7 @@ UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
     ui->setupUi(this);
 
     QStringList cols;
-    cols<<"Code"<<"Description"<<"Crédits"<<"Ouverture";
+    cols<<"Code"<<"Description"<<"Crédits"<<"Ouverture"<<"Suppression";
 
     ui->tableWidget->setRowCount(0);
     ui->tableWidget->setColumnCount(NBCOLS);
@@ -40,9 +43,9 @@ UvDisplayWidget::~UvDisplayWidget() {
 
 
 void UvDisplayWidget::changed(int row, int column) {
-    QString code = UVM->iterator().at(row).getCode();
-    Uv& concerned = UVM->getItem(code);
+    QString code = ui->tableWidget->item(row, CODE_COL)->text();
     QString value = ui->tableWidget->item(row, column)->text();
+    Uv& concerned = UVM->getItem(code);
 
     switch (column) {
         case CODE_COL:
@@ -58,23 +61,36 @@ void UvDisplayWidget::changed(int row, int column) {
 
 
 void UvDisplayWidget::change(int row, int column) {
-    Uv concerned = UVM->iterator().at(row);
-    if (column == OUV_COL) {
-        ChangeSemestreDialog* dialog = new ChangeSemestreDialog(this,
-                                                                concerned.getOuverturePrintemps(),
-                                                                concerned.getOuvertureAutomne(),
-                                                                row);
-        dialog->exec();
+    QString code = ui->tableWidget->item(row, CODE_COL)->text();
 
+    switch (column) {
+        case OUV_COL: {
+            ChangeSemestreDialog* dialog = new ChangeSemestreDialog(this, code);
+            dialog->exec();
+            refresh();
+            break;
+        }
+        case DEL_COL: {
+            QMessageBox::StandardButton reply;
+            reply = QMessageBox::question(this, "Confirmer la suppression de l’UV",
+                                                "Voulez-vous vraiment supprimer cette UV ?",
+                                                QMessageBox::Yes|QMessageBox::No);
+            if (reply == QMessageBox::Yes) {
+                UVM->suppItem(code);
+                refresh();
+            }
+            break;
+        }
+
+        case CREDS_COL: {
+            ChangeCreditsDialog* dialog = new ChangeCreditsDialog(this, code);
+            dialog->exec();
+            refresh();
+            break;
+        }
+        default:
+            break;
     }
-}
-
-void UvDisplayWidget::choiceSemestre(int row, bool printemps, bool automne) {
-    QString code = ui->tableWidget->item(row, 0)->text();
-    Uv& concerned = UVM->getItem(code);
-    concerned.setOuvertureAutomne(automne);
-    concerned.setOuverturePrintemps(printemps);
-    refresh();
 }
 
 void UvDisplayWidget::addUv(const Uv& u) {
@@ -103,6 +119,7 @@ void UvDisplayWidget::addUv(const Uv& u) {
     ui->tableWidget->setItem(offset, DESCR_COL, new QTableWidgetItem(descr));
     ui->tableWidget->setItem(offset, OUV_COL, new QTableWidgetItem(ouv));
     ui->tableWidget->setItem(offset, CREDS_COL, new QTableWidgetItem(rec));
+    ui->tableWidget->setItem(offset, DEL_COL, new QTableWidgetItem("x"));
 
     offset++;
 }
