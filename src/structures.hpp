@@ -61,5 +61,6 @@ struct NoteUV {
 };
 
 typedef Singleton<Manager<CategorieUV>> CategorieUVManager;
+typedef Singleton<Manager<NoteUV>> NoteUVManager;
 
 #endif // STRUCTURES_H
