@@ -20,7 +20,7 @@ class Formation {
 
     inline void setNom(const QString &n) { nom = n; }
     inline void setAbbreviation(const QString &a) { abbreviation = a; }
-    inline void setRequirements(const QString &c, int n) {
+    inline void setRequirements(const QString &c, unsigned int n) {
         //Vérifie si la catégorie existe
         CUM->getItem(c);
         requirements[c] = n;
