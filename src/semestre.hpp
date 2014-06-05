@@ -12,14 +12,14 @@ class Semestre {
     inline void setSemestre(const QString& s) { semestre = SemestreT(s); }
     inline const SemestreT& getSemestre() const { return semestre; }
 
-    inline const std::map<QString, NoteUV>& getResultats() const { return resultats; }
+    inline const std::map<QString, QString>& getResultats() const { return resultats; }
 
   private:
     //! Semestre du semestre
     SemestreT semestre;
 
     //! Lien entre les uvs suivies et leurs résultats
-    std::map<QString, NoteUV> resultats;
+    std::map<QString, QString> resultats;
 
 };
 
