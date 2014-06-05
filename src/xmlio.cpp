@@ -8,12 +8,13 @@
 
 #define UVM UvManager::getInstance()
 #define CUM CategorieUVManager::getInstance()
-
+#define NUM NoteUVManager::getInstance()
 
 void XmlIo::save() {
 
     std::vector<Uv> uvs = UVM->iterator();
     std::vector<CategorieUV> cats = CUM->iterator();
+    std::vector<NoteUV> notes = NUM->iterator();
 
     QDomDocument doc;
     QDomElement root = doc.createElement("sauvegarde");
@@ -59,6 +60,22 @@ void XmlIo::save() {
         cat.setAttribute(QString::fromStdString("abbr"), it->abbreviation);
 
         rootCategories.appendChild(cat);
+    }
+
+    QDomElement rootNotes = doc.createElement("notes");
+    root.appendChild(rootNotes);
+
+    for(auto it=notes.begin(); it!=notes.end(); it++) {
+        QDomElement note = doc.createElement("note");
+
+        if(it->reussite) {
+            std::cout<<it->nom.toStdString()<<std::endl;
+        }
+
+        note.setAttribute(QString::fromStdString("nom"), it->nom);
+        note.setAttribute(QString::fromStdString("reussite"), it->reussite);
+
+        rootNotes.appendChild(note);
     }
 
 
@@ -151,6 +168,24 @@ void XmlIo::load() {
         cat.abbreviation = abbr;
 
         CUM->addItem(cat);
+    }
+
+    QDomNodeList notes = document.elementsByTagName("note");
+
+    for(int i=0; i<notes.count(); i++) {
+        QString nom;
+        bool reussite;
+
+        QDomNode node = notes.at(i);
+        QDomElement element = node.toElement();
+
+        nom = element.attribute("nom");
+        reussite = element.attribute("reussite").toInt();
+        NoteUV note;
+        note.nom = nom;
+        note.reussite= reussite;
+
+        NUM->addItem(note);
     }
 
 }
