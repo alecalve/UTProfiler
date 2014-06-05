@@ -20,11 +20,6 @@ public slots:
   //! Déclenché lors d’un click sur "Ajouter UV"
   void uvAdded();
 
-signals:
-
-  //! Signal lancé lorsque Ok est clické
-  void choiceMade(int r, bool printemps, bool automne);
-
 private:
     Ui::AddSemestreDialog *ui;
 };
