@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>422</width>
-    <height>203</height>
+    <width>276</width>
+    <height>395</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -58,7 +58,11 @@
        <item>
         <widget class="QPushButton" name="ajouter">
          <property name="text">
-          <string>Ajouter l’UV</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../icons.qrc">
+           <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
          </property>
         </widget>
        </item>
@@ -76,7 +80,7 @@
       </widget>
      </item>
      <item>
-      <widget class="UvDisplayWidget" name="widget" native="true"/>
+      <widget class="QTableWidget" name="tableWidget"/>
      </item>
     </layout>
    </item>
@@ -103,15 +107,9 @@
    </item>
   </layout>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>UvDisplayWidget</class>
-   <extends>QWidget</extends>
-   <header>qt/uvdisplaywidget.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
- <resources/>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

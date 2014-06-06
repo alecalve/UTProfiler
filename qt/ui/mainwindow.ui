@@ -73,33 +73,58 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionFiltrer"/>
+   <addaction name="actionCharger"/>
+   <addaction name="actionSauvegarder"/>
   </widget>
   <action name="actionCharger_un_dossier">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/load.png</normaloff>:/new/icons/load.png</iconset>
+   </property>
    <property name="text">
     <string>Charger une sauvegarde</string>
    </property>
   </action>
   <action name="actionSauvegarder_le_dossier">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/save.png</normaloff>:/new/icons/save.png</iconset>
+   </property>
    <property name="text">
     <string>Sauvegarder  les données</string>
    </property>
   </action>
   <action name="actionQuitter">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/close.png</normaloff>:/new/icons/close.png</iconset>
+   </property>
    <property name="text">
     <string>Quitter</string>
    </property>
   </action>
-  <action name="actionFiltrer">
+  <action name="actionSauvegarder">
    <property name="icon">
     <iconset resource="../icons.qrc">
-     <normaloff>:/new/icons/filter.ico</normaloff>:/new/icons/filter.ico</iconset>
+     <normaloff>:/new/icons/save.png</normaloff>:/new/icons/save.png</iconset>
    </property>
    <property name="text">
-    <string>Filtrer</string>
+    <string>Sauvegarder</string>
    </property>
    <property name="toolTip">
-    <string>Filtrer les UVs</string>
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionCharger">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/load.png</normaloff>:/new/icons/load.png</iconset>
+   </property>
+   <property name="text">
+    <string>Charger</string>
+   </property>
+   <property name="toolTip">
+    <string>Charger</string>
    </property>
   </action>
  </widget>
@@ -153,6 +178,38 @@
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
    <slot>saveFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>165</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSauvegarder</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>165</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionCharger</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>loadFile()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>

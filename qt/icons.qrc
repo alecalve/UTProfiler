@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/new/icons">
-        <file>filter.ico</file>
+        <file>save.png</file>
+        <file>load.png</file>
+        <file>close.png</file>
+        <file>add.png</file>
     </qresource>
 </RCC>
