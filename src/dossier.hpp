@@ -7,6 +7,8 @@
 #include "structures.hpp"
 #include "formation.hpp"
 #include "semestre.hpp"
+#include "singleton.hpp"
+#include "manager.hpp"
 
 class Dossier {
 
@@ -37,5 +39,7 @@ class Dossier {
     //! Formations suivies (pas forcément validées)
     std::vector<Formation> formations;
 };
+
+typedef Singleton<Manager<Dossier>> DossierManager;
 
 #endif // DOSSIER_HPP
