@@ -18,12 +18,21 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
         notes<<it->nom;
     }
     ui->noteBox->addItems(notes);
-
+    QStringList header;
+    header << "Code" << "Note";
+    ui->tableWidget->setColumnCount(2);
+    ui->tableWidget->setHorizontalHeaderLabels(header);
+    ui->tableWidget->setRowCount(0);
+    ui->tableWidget->setColumnCount(2);
+    ui->tableWidget->verticalHeader()->setVisible(false);
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
 void AddSemestreDialog::uvAdded() {
     QString code = ui->codeEdit->text();
     QString note = ui->noteBox->currentText();
+
+    ui->codeEdit->clear();
 
     try {
         UVM->getItem(code);
@@ -34,7 +43,18 @@ void AddSemestreDialog::uvAdded() {
         return;
     }
 
-    ui->widget->addUv(code);
+    //Si cette UV a été rajoutée auparavant
+    //On ignore l’ajout
+    for(int i=0; i<ui->tableWidget->rowCount(); i++) {
+        if(ui->tableWidget->item(i, 0)->text() == code) {
+            return;
+        }
+    }
+
+    ui->tableWidget->setRowCount(ui->tableWidget->rowCount() + 1);
+    ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 0, new QTableWidgetItem(code));
+    ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 1, new QTableWidgetItem(note));
+
 }
 
 AddSemestreDialog::~AddSemestreDialog() {
