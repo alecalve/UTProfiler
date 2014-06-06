@@ -6,15 +6,17 @@
 #include "structures.hpp"
 
 #define CUM CategorieUVManager::getInstance()
+#define FUM FormationManager::getInstance()
 
 //! Classe des Formations
 class Formation {
 
   public:
 
-    Formation(const QString& abbr, const QString& n) : abbreviation(abbr), nom(n) {}
+    Formation(const QString& abbr, const QString& n) : abbreviation(abbr), nom(n), parent("") {}
 
     inline const QString& getNom() const { return nom; }
+    inline const Formation& getParent() const { return nom; }
     inline const QString& getAbbreviation() const { return abbreviation; }
     inline const std::map<QString, int>& getRequirements() const { return requirements; }
 
@@ -29,6 +31,9 @@ class Formation {
   protected:
     QString abbreviation;
     QString nom;
+
+    //! Formation parente, vide si pas de parent
+    QString parent;
 
     //! Minimums de crédits requis par catégories
     std::map<QString, int> requirements;
