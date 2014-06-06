@@ -40,8 +40,6 @@ void MainWindow::loadFile() {
     }
 
     ui->uvdisplay->refresh();
-    AddSemestreDialog s(this);
-    s.exec();
 }
 
 void MainWindow::saveFile() {
