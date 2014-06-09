@@ -1,5 +1,5 @@
 #include "uvdisplaywidget.h"
-#include "ui_uvdisplaywidget.h"
+#include "ui_displaywidget.h"
 
 #include <QTableWidget>
 #include <QStandardItem>
@@ -9,38 +9,61 @@
 #include "changesemestredialog.h"
 #include "changecreditsdialog.h"
 #include "src/uvmanager.hpp"
-
+#include "src/exceptions.hpp"
 
 #define UVM UvManager::getInstance()
-#define NBCOLS 5
+#define NBCOLS 4
 #define CODE_COL 0
 #define DESCR_COL 1
 #define CREDS_COL 2
 #define OUV_COL 3
-#define DEL_COL 4
 
 UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::UvDisplayWidget)
+    DisplayWidget(parent)
 {
-    ui->setupUi(this);
-
     QStringList cols;
-    cols<<"Code"<<"Description"<<"Crédits"<<"Ouverture"<<"Suppression";
+    cols<<"Code"<<"Description"<<"Crédits"<<"Ouverture";
+    ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
     ui->tableWidget->setColumnCount(NBCOLS);
     ui->tableWidget->setHorizontalHeaderLabels(cols);
-    ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
-    offset = 0;
+
 }
 
-UvDisplayWidget::~UvDisplayWidget() {
-    delete ui;
-}
+UvDisplayWidget::~UvDisplayWidget() {  }
 
+void UvDisplayWidget::add() {}
+
+void UvDisplayWidget::del() {
+    QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
+
+    if (ranges.length() == 0) {
+        QMessageBox error(this);
+        error.setText("Aucune ligne sélectionnée");
+        error.exec();
+        return;
+    }
+
+    for(auto it=ranges.begin(); it!=ranges.end(); it++) {
+        for(int i=it->bottomRow(); i>=it->topRow(); --i) {
+            QString code = ui->tableWidget->itemAt(CODE_COL, i)->text();
+            std::cout<<i<<" "<<code.toStdString()<<std::endl;
+            try {
+                UVM->suppItem(code);
+            } catch (const Exception &e) {
+                QMessageBox error(this);
+                error.setText(e.getinfo());
+                error.exec();
+                return;
+            }
+        }
+    }
+
+    refresh();
+}
 
 void UvDisplayWidget::changed(int row, int column) {
     QString code = ui->tableWidget->item(row, CODE_COL)->text();
@@ -48,9 +71,6 @@ void UvDisplayWidget::changed(int row, int column) {
     Uv& concerned = UVM->getItem(code);
 
     switch (column) {
-        case CODE_COL:
-            concerned.setCode(value);
-            break;
         case DESCR_COL:
             concerned.setDescription(value);
             break;
@@ -59,6 +79,9 @@ void UvDisplayWidget::changed(int row, int column) {
     }
 }
 
+void UvDisplayWidget::filter(QString) {
+    refresh();
+}
 
 void UvDisplayWidget::change(int row, int column) {
     QString code = ui->tableWidget->item(row, CODE_COL)->text();
@@ -66,19 +89,7 @@ void UvDisplayWidget::change(int row, int column) {
     switch (column) {
         case OUV_COL: {
             ChangeSemestreDialog* dialog = new ChangeSemestreDialog(this, code);
-            dialog->exec();
-            refresh();
-            break;
-        }
-        case DEL_COL: {
-            QMessageBox::StandardButton reply;
-            reply = QMessageBox::question(this, "Confirmer la suppression de l’UV",
-                                                "Voulez-vous vraiment supprimer cette UV ?",
-                                                QMessageBox::Yes|QMessageBox::No);
-            if (reply == QMessageBox::Yes) {
-                UVM->suppItem(code);
-                refresh();
-            }
+            if (dialog->exec() == 1) { refresh(); }
             break;
         }
 
@@ -93,9 +104,11 @@ void UvDisplayWidget::change(int row, int column) {
     }
 }
 
-void UvDisplayWidget::addUv(const Uv& u) {
+void UvDisplayWidget::displayItem(const QString& item) {
     QString code, descr, ouv, rec;
     QStringList ouvertures, recs;
+    Uv u = UVM->getItem(item);
+
     std::map<QString, unsigned int> recompenses = u.getRecompenses();
 
     for(const auto &rec : recompenses) {
@@ -115,29 +128,48 @@ void UvDisplayWidget::addUv(const Uv& u) {
     ouv = ouvertures.join("/");
     rec = recs.join(" et ");
 
+    if (!ui->searchValue->text().isEmpty()) {
+        QString crit = ui->searchValue->text();
+        unsigned int col = ui->searchOptions->currentIndex();
+        switch (col) {
+            case CODE_COL:
+                if (!code.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
+            case CREDS_COL:
+                if (!rec.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
+            case DESCR_COL:
+                if (!descr.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
+            case OUV_COL:
+                if (!ouv.contains(crit , Qt::CaseInsensitive)) { return; }
+                break;
+
+            default:
+                break;
+        }
+    }
+
     ui->tableWidget->setItem(offset, CODE_COL, new QTableWidgetItem(code));
     ui->tableWidget->setItem(offset, DESCR_COL, new QTableWidgetItem(descr));
     ui->tableWidget->setItem(offset, OUV_COL, new QTableWidgetItem(ouv));
     ui->tableWidget->setItem(offset, CREDS_COL, new QTableWidgetItem(rec));
-    ui->tableWidget->setItem(offset, DEL_COL, new QTableWidgetItem("x"));
 
     offset++;
 }
 
-void UvDisplayWidget::addUv(const QString& code) {
-    Uv u = UVM->getItem(code);
-    ui->tableWidget->setRowCount(offset+1);
-    addUv(u);
-}
-
 void UvDisplayWidget::refresh() {
     std::vector<Uv> uvs = UVM->iterator();
+
     ui->tableWidget->clearContents();
     offset = 0;
     ui->tableWidget->setRowCount(uvs.size());
     ui->tableWidget->setColumnCount(NBCOLS);
 
-    for(auto it=uvs.begin(); it!=uvs.end(); it++) {
-        addUv(*it);
+    for (auto it=uvs.begin(); it!=uvs.end(); it++) {
+        displayItem((*it).getCode());
     }
 }

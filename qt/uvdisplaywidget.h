@@ -1,34 +1,29 @@
 #ifndef UVDISPLAYWIDGET_H
 #define UVDISPLAYWIDGET_H
 
-#include <QWidget>
-#include <QTextStream>
-#include <QTableWidgetItem>
+#include "displaywidget.h"
 
 #include "src/uv.hpp"
 
 namespace Ui {
-class UvDisplayWidget;
+class DisplayWidget;
 }
 
-class UvDisplayWidget : public QWidget {
+class UvDisplayWidget : public DisplayWidget {
     Q_OBJECT
 
   public:
-    explicit UvDisplayWidget(QWidget *parent = 0);
+    UvDisplayWidget(QWidget *parent = 0);
     ~UvDisplayWidget();
-    void addUv(const QString&);
+    void displayItem(const QString&);
 
   public slots:
     void refresh();
+    void del();
+    void add();
     void change(int row, int column);
     void changed(int row, int column);
-
-  private:
-    Ui::UvDisplayWidget *ui;
-    unsigned int offset;
-
-    void addUv(const Uv&);
+    void filter(QString);
 };
 
 #endif // UVDISPLAYWIDGET_H
