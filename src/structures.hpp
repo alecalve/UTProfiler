@@ -58,6 +58,11 @@ struct NoteUV {
 
   //! Booléen indiquant la réussite de l'UV
   bool reussite;
+
+  //! Opérateur d’égalité nécessaire pour la gestion par un manager
+  inline bool operator==(const NoteUV &n) const {
+      return (nom == n.nom) && (reussite == n.reussite);
+  }
 };
 
 typedef Singleton<Manager<CategorieUV>> CategorieUVManager;
