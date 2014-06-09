@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DisplayWidget</class>
+ <widget class="QWidget" name="DisplayWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Recherche</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="searchOptions"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="searchValue"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modifyButton">
+       <property name="text">
+        <string>Modifier ligne sélectionnée</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Ajouter objet</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Supprimer ligne sélectionnée</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>deleteButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>del()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>searchValue</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>filter(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>cellChanged(int,int)</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>changed(int,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>cellClicked(int,int)</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>change(int,int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>add(QString)</slot>
+  <slot>del()</slot>
+  <slot>filter(QString)</slot>
+  <slot>change(int,int)</slot>
+  <slot>changed(int,int)</slot>
+ </slots>
+</ui>
