@@ -34,9 +34,9 @@
         <string>Édition des UVs</string>
        </attribute>
       </widget>
-      <widget class="QWidget" name="tab_2">
+      <widget class="NoteDisplayWidget" name="notedisplay">
        <attribute name="title">
-        <string>Autre truc vide</string>
+        <string>Édition des notes</string>
        </attribute>
       </widget>
      </widget>
@@ -134,6 +134,12 @@
    <class>UvDisplayWidget</class>
    <extends>QWidget</extends>
    <header>qt/uvdisplaywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NoteDisplayWidget</class>
+   <extends>QWidget</extends>
+   <header>qt/notedisplaywidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

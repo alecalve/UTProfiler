@@ -40,6 +40,7 @@ void MainWindow::loadFile() {
     }
 
     ui->uvdisplay->refresh();
+    ui->notedisplay->refresh();
 }
 
 void MainWindow::saveFile() {
