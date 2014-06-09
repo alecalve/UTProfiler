@@ -50,6 +50,7 @@ template<class T> class Manager {
         bool found = false;
 
         for(auto it=elements.begin(); !found && it!=elements.end(); it++) {
+            if (found) { break; }
             if (*it == item) {
                 //On met it = devant pour ne pas invalider l’iterateur
                 //Sinon si on supprime des élements pendant une itération
