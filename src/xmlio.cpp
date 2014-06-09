@@ -68,10 +68,6 @@ void XmlIo::save() {
     for(auto it=notes.begin(); it!=notes.end(); it++) {
         QDomElement note = doc.createElement("note");
 
-        if(it->reussite) {
-            std::cout<<it->nom.toStdString()<<std::endl;
-        }
-
         note.setAttribute(QString::fromStdString("nom"), it->nom);
         note.setAttribute(QString::fromStdString("reussite"), it->reussite);
 
