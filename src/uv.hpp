@@ -5,18 +5,20 @@
 #include <map>
 
 #include "structures.hpp"
+#include "manager.hpp"
 
 //! Classe des UV
-class Uv {
+class Uv : public BaseItem {
 
   public:
 
-    Uv() {}
+    Uv() : BaseItem("") {}
 
     //! Constructeur par défaut, met les ouvertures printemps et automne à false
-    Uv(QString c, QString d) : code(c), description(d) {
+    Uv(QString c, QString d) : BaseItem(c), code(c), description(d) {
         ouvertureAutomne = false;
         ouverturePrintemps = false;
+        name = code;
     }
 
     inline const QString& getCode() const { return code; }
