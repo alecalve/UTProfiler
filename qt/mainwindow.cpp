@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 
 #include <QFileDialog>
-#include <iostream>
 #include <QMessageBox>
 
 #include "src/xmlio.hpp"
