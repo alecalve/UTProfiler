@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>692</width>
+    <width>722</width>
     <height>270</height>
    </rect>
   </property>
@@ -32,21 +32,29 @@
      <item>
       <widget class="QPushButton" name="modifyButton">
        <property name="text">
-        <string>Modifier ligne sélectionnée</string>
+        <string>Modifier</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="addButton">
        <property name="text">
-        <string>Ajouter objet</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../icons.qrc">
+         <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="deleteButton">
        <property name="text">
-        <string>Supprimer ligne sélectionnée</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../icons.qrc">
+         <normaloff>:/new/icons/close.png</normaloff>:/new/icons/close.png</iconset>
        </property>
       </widget>
      </item>
@@ -57,7 +65,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>deleteButton</sender>
@@ -123,9 +133,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>add()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>572</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>360</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
-  <slot>add(QString)</slot>
+  <slot>add()</slot>
   <slot>del()</slot>
   <slot>filter(QString)</slot>
   <slot>change(int,int)</slot>
