@@ -23,7 +23,7 @@ class UvDisplayWidget : public DisplayWidget {
     void add();
     void change(int row, int column);
     void changed(int row, int column);
-    void filter(QString);
+
 };
 
 #endif // UVDISPLAYWIDGET_H

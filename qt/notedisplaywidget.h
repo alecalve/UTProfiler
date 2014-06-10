@@ -23,7 +23,7 @@ class NoteDisplayWidget : public DisplayWidget {
     void add();
     void change(int row, int column);
     void changed(int row, int column);
-    void filter(QString);
+
 };
 
 #endif // NOTEDISPLAYWIDGET_H
