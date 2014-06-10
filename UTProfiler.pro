@@ -17,16 +17,16 @@ TEMPLATE = app
 
 SOURCES += src/main.cpp\
         qt/mainwindow.cpp \
-    src/uvmanager.cpp \
     src/uv.cpp \
     src/xmlio.cpp \
     qt/uvdisplaywidget.cpp \
     qt/changesemestredialog.cpp \
-    src/structures.cpp \
     qt/addsemestredialog.cpp \
     qt/changecreditsdialog.cpp \
     qt/displaywidget.cpp \
-    qt/notedisplaywidget.cpp
+    qt/notedisplaywidget.cpp \
+    qt/categoriedisplaywidget.cpp \
+    qt/adduvdialog.cpp
 
 HEADERS  += qt/mainwindow.h \
     src/uvmanager.hpp \
@@ -45,13 +45,16 @@ HEADERS  += qt/mainwindow.h \
     qt/addsemestredialog.h \
     qt/changecreditsdialog.h \
     qt/displaywidget.h \
-    qt/notedisplaywidget.h
+    qt/notedisplaywidget.h \
+    qt/categoriedisplaywidget.h \
+    qt/adduvdialog.h
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
     qt/ui/addsemestredialog.ui \
     qt/ui/changecreditsdialog.ui \
-    qt/ui/displaywidget.ui
+    qt/ui/displaywidget.ui \
+    qt/ui/adduvdialog.ui
 
 RESOURCES += \
     qt/icons.qrc
