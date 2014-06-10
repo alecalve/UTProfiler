@@ -8,6 +8,7 @@
 
 #include "src/structures.hpp"
 #include "src/exceptions.hpp"
+#include "addnotedialog.h"
 
 #include <iostream>
 
@@ -34,7 +35,14 @@ NoteDisplayWidget::NoteDisplayWidget(QWidget *parent) :
 
 NoteDisplayWidget::~NoteDisplayWidget() {  }
 
-void NoteDisplayWidget::add() {}
+void NoteDisplayWidget::add() {
+    AddNoteDialog *dialog = new AddNoteDialog(this);
+    dialog->exec();
+    delete dialog;
+
+    refresh();
+
+}
 
 void NoteDisplayWidget::del() {
     QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
