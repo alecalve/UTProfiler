@@ -41,28 +41,34 @@ struct SemestreT {
 
 };
 
-//! Structure définissant les catégories d'UV
-struct CategorieUV {
-  //! Nom de la catégorie
-  QString nom;
+//! Classe définissant les catégories d'UV
+class CategorieUV : public BaseItem {
 
-  //! Abbréviation de la catégorie
-  QString abbreviation;
+  public:
+    CategorieUV(const QString& n, const QString& a) : BaseItem(n), abbreviation(a) {}
+
+    const QString getAbbreviation() const { return abbreviation; }
+    void setAbbreviation(const QString& a) { abbreviation = a; }
+
+  private:
+    //! Abbréviation de la catégorie
+    QString abbreviation;
 
 };
 
-//! Structure définissant les notes obtenues aux UVs
-struct NoteUV {
-  //! Note obtenue (A, B, C, ...)
-  QString nom;
+//! Classe définissant les notes obtenues aux UVs
+class NoteUV : public BaseItem {
 
-  //! Booléen indiquant la réussite de l'UV
-  bool reussite;
+  public:
+    NoteUV(const QString& n, bool r): BaseItem(n), reussite(r) {}
 
-  //! Opérateur d’égalité nécessaire pour la gestion par un manager
-  inline bool operator==(const NoteUV &n) const {
-      return (nom == n.nom) && (reussite == n.reussite);
-  }
+    bool getReussite() { return reussite; }
+    void setReussite(bool r) { reussite = r; }
+
+  private:
+    //! Booléen indiquant la réussite de l'UV
+    bool reussite;
+
 };
 
 typedef Singleton<Manager<CategorieUV>> CategorieUVManager;
