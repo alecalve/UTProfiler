@@ -1,2285 +1,2285 @@
 <sauvegarde>
  <uvs>
   <uv descr="Allemand Niveau III" code="LA03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Sciences Biologiques Pour L'Ingénieur" code="BL01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Microprocesseurs, Interfaces Et Logiciels De Bases" code="NF15">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Japonais Niveau II" code="LG32">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Japonais Niveau I" code="LG31">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Japonais Initiation" code="LG30">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Réalité Virtuelle" code="RV01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Biophysique Des Systèmes Biologiques" code="BL09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Biotechnologies Moleculaires Et Genie Genetique" code="BT21">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Les Agroressources" code="BT22">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Art Et Technologies Contemporaines" code="AR03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Algorithmes Et Systèmes Répartis" code="SR05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Connaissances En Shs Pour L'Analyse De Situations Professionnelles (Apprentissage)" code="ASP04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Problèmes Vibroacoustiques : Analyse Et Modélisation" code="PS13">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Thermique Urbaine" code="UB10">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
-  <uv descr="Géographie Et  Économie Des Territoires" code="GE12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Géographie Et  Éconameie Des Territoires" code="GE12">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Les Risques Entre Technique Et Societe" code="GE13">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Économie Politique" code="GE10">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Politique" code="GE10">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Montage De Projet Européens" code="CP14">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="5"/>
   </uv>
   <uv descr="Introduction A L'Analyse Des Situations De L'Ingenieur" code="AS01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion Associative" code="AA01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Initiation A La Création Et Gestion D'Entreprises Innovantes" code="GE15">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Controles Non Destructifs" code="CT04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Du Gene A La Macromolecule" code="BIO01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Atelier Projet" code="SCI25">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Seminaires" code="SCI24">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Optimisation" code="SCI23">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Modélisation Et Propagation Des Incertitudes" code="SCI22">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Maitrise Statistique Des Processus" code="CT02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Avancée De Données" code="SCI20">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Communication" code="UE11">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Suivi Linguistique" code="SL">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Anglais" code="UE13">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="American History And Civilization Through The Cinema (Apprentissage)" code="LNG14">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Design Transport" code="DI07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Acoustique Architecturale Et Urbaine" code="PS12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Robustesse Pour La Conception De Systemes Mecaniques Et Mecatroniques" code="SMA05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Bases Des Reseaux" code="ISS01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Algorithmes Et Protocoles Pour L'Interconnexion Des Systèmes" code="TIS07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Estimation Pour La Navigation Robotique" code="TIS04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
-  <uv descr="Commande De Robots Autonomes En Coopération" code="TIS05">
-   <semestre nom="A"/>
+  <uv descr="Commande De Robots Autonamees En Coopération" code="TIS05">
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Outils De Definition Et De Developpement De Systemes" code="TN29">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Modélisation Et Optimisation Des Systèmes Discrets" code="TIS03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Fondements Des Réseaux D'Interconnexion" code="TIS01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Technologies De Fabrication Et Outils Méthodes" code="TN24">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Gestion Du Cycle De Vie Du Produit Et Ingenierie Collaborative" code="TN21">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Structures,Calcul Formel Et Algorithmes" code="MT10">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Techniques De Fabrication" code="TN23">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Methodes Mathematiques Pour L'Analyse Du Signal Et De L'Image" code="MT12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Physicochimie Des Systemes Disperses" code="GPF50">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
-  <uv descr="Phenomenes Aux Interfaces" code="GPF51">
-   <semestre nom="A"/>
+  <uv descr="Phenameenes Aux Interfaces" code="GPF51">
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Analyse Des Proprietes Optiques Et Structurales" code="GPF52">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Technologies De Mise En Oeuvre Des Fluides Complexes" code="GPF53">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Formulation, Applications Cosmetiques" code="GPF54">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Filmication, Peintures Et Encres" code="GPF55">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Réalisation De Projet" code="PR">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Modélisation Numérique Des Problèmes De L'Ingénieur" code="NF04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Italien Niveau I" code="LG51">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Italien Initiation" code="LG50">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Italien Niveau III" code="LG53">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Italien Niveau II" code="LG52">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Génie Des Systèmes Tissulaires Et Immunotechnologie" code="BT03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Opérations Agro-Industrielles" code="BT02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Formulation, Innovation, Nutrition" code="BT07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Des Produits Biologiques Et Alimentaires" code="BT06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Étude Expérimentale" code="TX">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Conception Mécanique" code="TN12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Dynamique Des Solides (Apprentissage)" code="MEQ03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Techniques De Recherche D'Information Pour L'Ingenieur" code="TR91">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Decouverte D'Outils Et Methodes Pour Le Monde De La Recherche Scientifique" code="SCI09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Introduction A L'Ingenierie Systeme" code="SCI08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Dimensionnement Pour La Conception Des Systemes Mecaniques" code="TN13">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Architecture J2ee Et Les Web Services (Apprentissage)" code="API01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Algorithmique Et Structures De Données" code="NF16">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Conception De Bases De Données" code="NF17">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Histoire, Technologie et Humanité : Les Temps De La Technique" code="HT02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Sécurité Systèmes Et Réseaux" code="SR06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Elements Finis Pour La Modelisation De Crash Et L'Analyse D'Impacts" code="MQ16">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Réseaux Informatiques" code="SR04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Théorie Des Langages De Programmation" code="NF11">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Ondes Et Electromagnetisme 1" code="PS95">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Electricite" code="PS94">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Ondes Et Electromagnetisme 2" code="PS96">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Mecanique Physique" code="PS91">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Introduction A La Mesure" code="PS90">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Optique Geometrique" code="PS93">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Dynamique Des Systemes Et Des Solides" code="PS92">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Introduction A La Mécanique Des Solides Et Des Fluides" code="MQ20">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Thermodynamique" code="PS04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Acoustique Appliquée" code="PS09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Mise En Oeuvre Des Matériaux" code="MQ11">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Systèmes Constructifs Du Batiment" code="BA06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Modes Opératoires De La Construction" code="BA07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Conversion Et Gestion Des Energies Renouvelables" code="BA04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Automatismes, Régulations Et Batiments Intelligents" code="BA05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Gestion Technique Du Patrimoine Immobilier" code="BA02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Matériaux De Construction" code="BA03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Equipements Techniques Du Batiment" code="BA01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Communication Professionnelle De Projet" code="QPO12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Ingenierie De Projet" code="QPO11">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Fondements De L'Acoustique Et Modélisations" code="PS05">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Introduction Au Calcul Des Structures Du Batiment" code="BA09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Logiques, Quelques Approfondissements Mathématiques Et Philosophiques" code="MT37">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Transmission Des Efforts En Mécanique" code="TN06">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Algèbre Linéaire" code="MT35">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Réalisation" code="TN04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Fabrication Mécanique" code="TN03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Introduction A La Conception Mécanique" code="TN02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Éléments De Dessin Technique" code="TN01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Systèmes D'Exploitation : Des Concepts À La Programmation" code="SR02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Dessin De Communication" code="TN08">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Modélisation Et Exploration Du Complexe" code="SIC03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
-  <uv descr="Economie Des Intangibles" code="SIC02">
-   <semestre nom="A"/>
+  <uv descr="Econameie Des Intangibles" code="SIC02">
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Geometrie" code="MT36">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Traitement Et Soins 2 : Hemodialyse, Radiotherapie" code="TTS12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="S'Apprendre Pour Mieux Gérer" code="SP22">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Imagerie Medicale Clinique" code="TTS10">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Traitement Et Soins 1 : Blocs Operatoires, Anesthesie, Reanimation" code="TTS11">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Cycle De Vie D'Un Dispositif Medical" code="TTS16">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Organisation Du Systeme De Sante" code="TTS17">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Cinématique Et Dynamique Des Systèmes" code="MQ18">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Modeles Pour La Bioinformatique" code="BI01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Machines Électriques" code="MC01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Anglais Professionnel - Niveau V" code="LA15">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Civilisation Du Monde Anglophone" code="LA14">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Anglais Niveau III" code="LA13">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Anglais Niveau II" code="LA12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Anglais Niveau I" code="LA11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Modélisation, Dimensionnement, Réglages D'Axes Électromécaniques" code="MC06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Ingénierie Robotique Et Actionneurs Électriques" code="MC08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Révision D'Analyse Et D'Algèbre (Gm, Gsm, Gp)" code="MA11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Ingenierie Des Proteines Et Exploitation De La Diversite Moleculaire" code="BIO02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Analyse 1 : Calcul Différentiel Et Intégral" code="MT32">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Ingénierie Des Systèmes Biologiques Et Bioartificiels" code="BMI02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Systèmes Microfuidiques Et Microsystèmes Appliquées À La Biologie Et À La Santé" code="BMI03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Electronique Numérique" code="EN90">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Nanotecnologies Et Nanobiomécanique Des Systèmes Biologiques Complexes" code="BMI06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Introduction A La Logique Mathématique" code="MT31">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Modelisation Des Systemes Neuromusculaire Et Musculosquelettique En Interaction" code="BMI04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Modélisation Des Systèmes Ostéo-Articulaire Et Musculosquelettique En Interaction" code="BMI05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Méthodes Et Outils Pour L'Optimisation Et La Simulation (Apprentissage)" code="API09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Tp Formulation" code="GPF40">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Analyse Du Cycle De Vie II" code="BIO05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="2"/>
   </uv>
   <uv descr="Conception Sûre Des Systèmes" code="SCI21">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Méthodes D'Analyse Physico-Chimique" code="MS01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Bases De La Programmation" code="LO01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Management Et Outils D'Aide À La Créativité Industrielle Et À L'Innovation" code="GE38">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Conception Et Architecture De Systèmes Numériques Informatiques" code="NF33">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Anglais Master Niveau 3" code="LC73">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Anglais Master Niveau 2" code="LC72">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Maitrise Des Systèmes Informatiques" code="SR01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Mécanique Des Vibrations I" code="MQ03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Méthodes De Vérification Et Validation De Logiciel Et Programmation Sous Linux (Apprentissage)" code="API10">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Éléments De Resistance Des Matériaux" code="MQ01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Dégradation Et Protection Des Matériaux Dans Leur Environnement" code="MQ07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Modélisation Des Structures Par Éléments Finis" code="MQ06">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Tribologie" code="MQ05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Electrotechnique" code="UE44">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Linguistique Et Philosophie Du Langage" code="SC21">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Mécanique Des Vibrations II" code="MQ09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Sociologie Cognitive, Lien Social Et Techniques" code="SC22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Travaux Pratiques De Gp (1)" code="CM70">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Apprentissage Et Perception" code="SC24">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Analyse Des Données Et Data Mining" code="SY09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Modélisation Des Systèmes A Évènements Discrets" code="SY08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Recherche Opérationnelle, Optimisation Combinatoire" code="RO03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Autodiagnostic, Telemaintenance" code="UE32">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Demarches Et Pratiques En Situation Professionnelle (Apprentissage)" code="ASP03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="3"/>
   </uv>
   <uv descr="Éléments De Probabilités" code="SY01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Optimisation Et Recherche Opérationnelle" code="RO04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Introduction Aux Systemes D'Entrainements Electriques" code="SY03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Méthodes Statistiques Pour L'Ingénieur" code="SY02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Conduite Des Procédés" code="SY05">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Systèmes Asservis Linéaires : Analyse Et Commande" code="SY04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Analyse Et Traitement Du Signal" code="SY06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Droit De L'Urbanisme, De La Construction Et De L'Environnement" code="UR01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Théories Et Pratiques De L'Urbanisme Contemporain" code="UR02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Cartographie Sémiologie Graphique Et Cao/Dao" code="UR03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr=" Outils Pour Le Projet" code="UR04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Aménagement Et Environnement" code="UR05">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Géomatique" code="UR06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Initiation À L'Analyse Et À La Réalisation Audiovisuelle" code="AV01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Marketing" code="GE36">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion De Projet" code="GE37">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Maitriser Les Risques Technologiques Majeurs" code="TS02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Évaluation Économique Des Procédés" code="TA02">
-   <semestre nom="P"/>
+  <uv descr="Évaluation Éconameique Des Procédés" code="TA02">
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Maitrise Des Risques" code="TS01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Production Et Transfert De Chaleur" code="TH02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Interculturalité Franco-Allemande" code="LB04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Organisation Des Systèmes De Santé" code="SO06">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Sociologie, Organisations Et Dynamiques Des Collectifs" code="SO05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Initiation Au Droit" code="SO04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Un Corps Pour Comprendre Et Apprendre" code="SP01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Laboratoire D'Analyses Cliniques" code="TTS13">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Dynamique Des Structures" code="MQ19">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Procédés De Traitement Des Déchets" code="EV01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Conception De Procédés Propres" code="EV02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Conception Robuste Et Plans D'Experiences" code="FQ03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Économie Globale Et Maitrise De La Qualité" code="FQ01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Globale Et Maitrise De La Qualité" code="FQ01">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="La Qualité Des Services A L'Industrie" code="FQ07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Qualité Et Exigences Réglementaires En Génie Biologique" code="FQ04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Fiabilite Industrielle" code="FQ05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Numérique" code="MT09">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Audit Et Evaluation Des Organisations :  Partie Pratique" code="QPO09">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Structures Et Physicochimie Des Molécules Biologiques" code="BL10">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Management Des Organisations Biomedicales" code="TTS15">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Xao En Milieu Professionnel" code="TN30">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Composantes Des Systèmes Techniques Urbains" code="UB01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Systemes De Transport Urbain" code="UB02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Connaissance De L'Entreprise" code="UE12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Ambiances Et Environnement Lumineux" code="UB04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Mises En Scènes Urbaines" code="UB06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Hydrodynamique Des Systèmes Dispersés" code="TF08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Calcul Des Échangeurs Thermiques Industriels" code="TF07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Transfert De Chaleur" code="TF06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Électricité Industrielle Appliquée" code="EL02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Dynamique Des Fluides Réels Et Des Gaz" code="TF02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Mécanique Des Fluides Incompressibles" code="TF01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
-  <uv descr="Phénomènes Electromagnétiques" code="EL01">
-   <semestre nom="P"/>
+  <uv descr="Phénameènes Electromagnétiques" code="EL01">
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Séminaire Interdisciplinaire De Sciences Et Technologies Cognitives" code="SC01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Entrainements Électriques À Vitesse Variable" code="MC02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Parole Publique En Anglais" code="SI14">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Physiologie De L'Effort Sportif" code="SP11">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Machines De Transfert De Fluides" code="MC05">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Le Monde Hispanique Contemporain : L'Amérique Latine (Niveau IV)" code="LA24">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Espagnol Niveau II" code="LA22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Espagnol Niveau III" code="LA23">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Espagnol Initiation" code="LA20">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Espagnol Niveau I" code="LA21">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Vision Et Image" code="SY23">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Pratique Expérimentale En Acoustique Et Vibrations" code="MS03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Principes Physiques Des Capteurs Et Instrumentation" code="MS02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Machines Intelligentes" code="SY27">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Électronique De Puissance" code="MC07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Science, Technologie Et Société Dans L'Union Européenne" code="EI05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Programmation Et Conception Orientees Objet" code="LO21">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Physiologie Des Systèmes Intégrés" code="BL30">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Genie Logiciel" code="LO22">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Modélisation Numérique Niveau 2 (Apprentissage)" code="MEQ05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Conduite De Projet Informatique" code="LO23">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Developpement De Son Projet Professionnel Et Autonomie" code="QPO07">
-   <semestre nom="A"/>
+  <uv descr="Developpement De Son Projet Professionnel Et Autonameie" code="QPO07">
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Systemes Embarques : Entrainements Electriques Et Actionneurs" code="SMA08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Systèmes Temps Réel" code="MI03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Culture Et Histoire Des Techniques" code="HE05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Structure D'Un Calculateur" code="MI01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Modélisation Et Simulation Systèmes" code="SMA04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Capteur Et Actionneurs Compacts Innovants" code="SMA03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Identification De Modèles En Mécanique" code="SMA02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Modélisation Numérique Avancée Des Structures" code="SMA01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Éléments De Bureau D'Études" code="TN22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Optimisation En Mécanique" code="MQ14">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Management De Projets" code="GE40">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Hydrologie Urbaine" code="UB08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Séminaire De Communication Des Connaissances Technologiques" code="SI90">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Éthiques : Approche Pluridisciplinaire" code="PH09">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Statistiques Generales Pour L'Ingenieur (Apprentissage)" code="FPP01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Fiabilite Et Ingenierie Robuste De Produits (Apprentissage)" code="FPP02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Ingénierie Robuste Et Maitrise Statistique Des Procédés (Apprentissage)" code="FPP03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Introduction À La Philosophie" code="PH01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Penser La Techniique Aujourd'Hui" code="PH03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="L'Ingénieur, Le Philosophe Et Le Scientifique" code="PH02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Bases De L'Électronique Analogique" code="EN21">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
-  <uv descr="Modélisation De Phénomènes Aléatoires" code="RO05">
-   <semestre nom="A"/>
+  <uv descr="Modélisation De Phénameènes Aléatoires" code="RO05">
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Management Des Systemes D'Information" code="QPO06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Acquisition Et Traitement De Données Biomédicales" code="BM04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Communication Scientifique Et Technique En Anglais" code="LC14">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Science Et Debat Public" code="SI01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Ingenierie Cellulaire Et Tissulaire" code="STS52">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Fonctions De Plusieurs Variables Réelles Et Applications" code="MT22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Algèbre Linéaire Et Applications" code="MT23">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Commande Hydraulique De Puissance" code="TN14">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Étude Interculturelle" code="TN16">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Modélisation Multiphysique Du Système Vasculaire" code="BMI07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Industrie Et Conception Des Jeux Video" code="IC06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Scenarisation D'Experience Utilisateur" code="UXD02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Design D'Experience" code="UXD01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Theories De La Communication" code="SI05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Acquisition De Signaux Et D'Images Medicales" code="TTS01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Pratique De L'Instrumentation Scientifique" code="TTS02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Medias Classiques Et Medias Numeriques" code="SI07">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Allemand Initiation" code="LA00">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Allemand Niveau I" code="LA01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Allemand Niveau II" code="LA02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Théorie Des Sciences Cognitives : Computation Et Énaction" code="SC11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Pratique De La Communication En Allemand" code="LA04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Choix Des Materiaux Et Procedes (Apprentissage)" code="MAT01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Mise En Forme Des Materiaux (Apprentissage)" code="MAT02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Mecanique Des Materiaux (Apprentissage)" code="MAT03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Introduction Aux Mathematiques Appliquées" code="MT94">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Génie Métabolique, Cultures Cellulaires Et Bioreacteurs" code="BL16">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Génie Des Protéines" code="BL17">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Fonctions D'Une Variable Reelle 2" code="MT91">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Fonctions D'Une Variable Reelle 1" code="MT90">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Thermodynamique Chimique" code="CM05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Procédés Industriels" code="CM04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Travaux Pratiques De Génie Chimique" code="CM07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Calcul D'Une Opération Industrielle" code="CM06">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Physique De La Matière" code="CM01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Résolution De Problèmes Et Programmation Logique" code="IA02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Communication Interculturelle En Entreprises, Organisations Transnationales" code="EI03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Conception Niveau 2 (Apprentissage)" code="TMI01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Technologies Pour La Documentation Et L'Indexation Dans L'Hypermédia" code="IC05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Techniques Et Technologies Du Musical Et Du Sonore" code="IC07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Communication Professionnelle De L'Ingénieur" code="SI02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Histoire Et Prospective Des Industries Culturelles" code="IC01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Le Numérique : Des Formats Aux Chaines De Production" code="IC03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="La Documentation Technique, Principes Et Méthodes" code="SI06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Developper Son Projet Professionnel" code="DPP01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Calculs Par Elements Finis Et Optimisation Multi-Disciplinaire" code="ESI50">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Interaction, Reconnaissance Supramoleculaire Et Biomimetisme" code="BIO13">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Alternatives Vegetales" code="BIO12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Procedes De Transformation Vegetale" code="BIO11">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Cinétique Chimique Et Réacteurs Homogènes" code="RR01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Capteurs Et Biocapteurs" code="BIO16">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Biophysique Moleculaire Et Metabolique" code="BIO15">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Genie Metabolique Industriel" code="BIO14">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Anglais Niveau III B (Apprentissage)" code="LNG03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Anglais Niveau III A (Apprentissage)" code="LNG02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Anglais Niveau II (Apprentissage)" code="LNG01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Management" code="UE21">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Anglais Professionnel (Apprentissage)" code="LNG05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="1"/>
   </uv>
   <uv descr="Anglais Niveau IV (Apprentissage)" code="LNG04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Architecture Des Applications Internet" code="SR03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="De La Fonction A La Physiologie" code="BIO03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Pratique Instrumentale De Haut Niveau" code="MU02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="8"/>
   </uv>
   <uv descr="Audit Et Evaluation Des Organisations : Partie Pratique" code="QPO08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Module De Preparation Au Toeic (Apprentissage)" code="TO0A">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="1"/>
   </uv>
   <uv descr="Modélisation Des Systèmes Biomécaniques" code="BM08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Decision Et Apprentissage Automatique" code="SY19">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Froid Industriel" code="TH04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse 2 : Mesures, Intégrations, Probabilités" code="MT34">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Modélisation Et Performance Des Systèmes De Production" code="SY12">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Mecanique Des Fluides (Apprentissage)" code="MEQ04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Logique Floue : Concepts Et Applications" code="SY10">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Introduction À L'Instrumentation Biomédicale" code="BM01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Les Applications Du Traitement Du Signal" code="SY16">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Modale En Acoustique Et Vibrations" code="PS10">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Éléments D'Automatique" code="SY14">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Automatique Avancée" code="SY15">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Cao :  Modélisation Géométrique" code="TN20">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Projet Individualise (Apprentissage)" code="SL0A">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Francais Langue Étrangère Niveau IV" code="LA94">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Francais Langue Étrangère Niveau III" code="LA93">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Francais Langue Étrangère Niveau II" code="LA92">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Francais Langue Étrangère Niveau I" code="LA91">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Télécommunications" code="SY26">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Interculturalité Appliquée Aux Pays Anglophones" code="LB14">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Algèbre 1 : Ensembles Et Groupes" code="MT33">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Gestion De Production" code="UE24">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Art, Ville, Architecture" code="AR04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Conception Formelle Des Produits" code="DI03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils" code="EI04">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Intelligence Éconameique : Stratégie D'Entreprise, Démarche Et Outils" code="EI04">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Ms 'Normalisation, Qualité, Certification Et Essais'" code="NQCE2">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="60"/>
   </uv>
   <uv descr="Management En Entreprise : Styles De Management, Construction D'Equipe Et Techniques De Travail En Groupe" code="MG01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="" code="NQCE1">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="0"/>
   </uv>
   <uv descr="Fonctions Électroniques Pour L'Ingénieur" code="EN14">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Portugais Niveau II" code="LG42">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Portugais Initiation" code="LG40">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Portugais Niveau I" code="LG41">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion De Maintenance" code="UE23">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="3"/>
   </uv>
   <uv descr="Organisation, Innovation Et International" code="GE90">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion De Projet De Maintenance" code="UE22">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Risques Biologiques Et Sécurité Alimentaire" code="BT10">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Signes Et Contenus Numeriques" code="SI22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Rhetorique Et Arts Du Discours" code="SI20">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Introduction A L'Eco-Conception Et A L'Analyse De Cycle De Vie" code="DD02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Pratique Collective Des Musiques Contemporaines" code="MU03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Études Des Écritures Numériques Ordinaires" code="SI24">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Écriture Interactive Et Multimédia" code="SI28">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Assurer Et Manager La Confiance Face Au Risque" code="QRO02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Aide A La Decision En Environnement Complexe : De La Metrologie A La Logique Floue" code="QRO03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Normalisation, Metrologie, Essais Et Echanges Internationaux" code="QRO01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Qualite Et Management Des Organisations" code="QPO04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Probabilités" code="MT38">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Methode Et Modelisation De Capture De Mouvement 3d" code="SCI30">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Methodes Avancees De Commande Des Systemes Dynamiques" code="SCI31">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="De La Microstructure Aux Propriétés Des Materiaux" code="SCI32">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Design Industriel Et Création De Produits" code="DI08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Accompagnement Pour L'Analyse Des Situations De L'Ingenieur" code="AS02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Techniques D'Explorations Fonctionnelles" code="BM05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Traitement D'Images Médicales" code="BM06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Capteurs Pour Les Systemes Intelligents" code="SY31">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Épistémologie Et Histoire Des Sciences" code="HE01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Atelier Projet" code="AP">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Systèmes Multiagents" code="IA04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Techniques De Modélisation, Capitalisation Et Gestion Des Connaissances" code="IA03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Industries Agro-Alimentaires - Qualites De L'Aliment" code="BT09">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Intelligence Artificielle : Représentation" code="IA01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Génie Cellulaire" code="BL40">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Gestion Et Management International De L'Entreprise" code="GE29">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Économie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une Économie Reposant Sur La Connaissance" code="GE28">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une Éconameie Reposant Sur La Connaissance" code="GE28">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Logique : Histoire Et Formalisme" code="HE03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Outils De Surveillance Et D'Inspection" code="UE31">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Pratique Instrumentale D'Ensemble" code="MU01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Transferts De Technologies Et Développements" code="GE23">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Économie Internationale" code="GE22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Internationale" code="GE22">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Économie Et Gestion De L'Innovation Et Du Numérique" code="GE21">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Et Gestion De L'Innovation Et Du Numérique" code="GE21">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Économie Industrielle" code="GE20">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Éconameie Industrielle" code="GE20">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion Financière De L'Entreprise" code="GE27">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Management Stratégique Des Ressources Humaines" code="GE26">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Gestion Et Organisation De La Production" code="GE25">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Recherche Developpement : Ingenieur Et Investisseurs" code="GE24">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Eco Bilan Et Analyse Du Cycle De Vie" code="PTV58">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Mécanique Des Solides Déformables" code="MQ02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Technologies Emergentes Pour La Transformation Des Ressources Renouvelables" code="PTV53">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Conception Et Conduite De Bioreacteurs" code="PTV52">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Technologies Des Poudres Et Milieux Pulverulents" code="PTV51">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Methodologies Pour La Recherche " code="PTV50">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Valorisation Energetique De La Biomasse" code="PTV57">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Valorisation Des Coproduits Et Minimisation Des Effluents" code="PTV56">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Procedes D'Extraction, Separation Et Purification Des Biomolecules" code="PTV55">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Procedes De Transformation Thermochimique Des Agroressources En Biocarburants" code="PTV54">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Thermodynamique Physique" code="PS15">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Anglais Niveau Intermédiaire Supérieur" code="CL01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Moi Et Le Monde Scientifique " code="CL02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Pilotage Du Progres Et De La Performance" code="QPO01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Cycle De Conferences" code="ICX04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="6"/>
   </uv>
   <uv descr="Analyse Des Situations" code="ICX02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Atelier Projet / Experimentation" code="ICX03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Analyse Phénoménologique Des Objets Audiovisuels" code="PH10">
-   <semestre nom="A"/>
+  <uv descr="Analyse Phénameénologique Des Objets Audiovisuels" code="PH10">
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Philosopher Aujourd'Hui" code="PH11">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Catalyse Heterogene" code="CM40">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Le Monde Hispanique (Niveau IV): L'Espagne" code="LB24">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Révision D'Analyse Et D'Algèbre (Gb, Gi, Gsu)" code="MB11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Hydraulique" code="UE42">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Modelisation Geometrique (Apprentissage)" code="MEQ01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Polymères" code="MQ04">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Indexation Et Recherche D'Information" code="LO17">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Biocompatibilité" code="BM07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Preparation Scientifique A Un Sujet 'Challenge' De Tn04" code="NP94">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Physiologie" code="SM04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="0"/>
   </uv>
   <uv descr="Nano-Projets" code="NP90">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Sciences De L'Informatique" code="NF93">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="L'Ingénieur En Situation De Management (Apprentissage)" code="ASP06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Initiation Au Design Industriel" code="DI01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Initiation Au Design Graphique" code="DI02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Modelisation Numerique Niveau 1 (Apprentissage)" code="MEQ02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Module De Preparation Au Toefl" code="TO02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Methodologie Et Analyse De La Valeur" code="DI05">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Des Produits De Consommation" code="DI06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Module De Preparation Au Toeic" code="TO01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="2"/>
   </uv>
   <uv descr="Elaboration Et Proprietes D'Usage Des Metaux" code="MQ08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Protocole Experimental, Instrumentation Et Traitement" code="SCI10">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Flux Et Transduction D'Energie Dans Les Systemes" code="SCI11">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="L'Épreuve Du Mouvement. De Platon A L'Ingénieur Contemporain" code="PH12">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Panorama Des Tendances Technologiques Et Impact Sur Les Métiers" code="ISI13">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="2"/>
   </uv>
   <uv descr="Algorithmique Et Programmation" code="NF01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Du Circuit Intégré Au Microprocesseur" code="NF02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Atelier Projet Conception Mécanique Intégrée" code="AP51">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="8"/>
   </uv>
   <uv descr="Production Intégrée Et Logistique" code="AP53">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="8"/>
   </uv>
   <uv descr="Modélisation - Optimisation Des Produits Et Structures" code="AP52">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="8"/>
   </uv>
   <uv descr="Comportement Mécanique Des Matériaux" code="MQ10">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Developpement D'Un Module De Formation A Distance-Multimedia Pour L'Integration De La Propriete Industrielle Et Intellectuelle Dans Les Processus D'Inno" code="PIIN">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="5"/>
   </uv>
   <uv descr="Choix Des Matériaux Et Des Procédés" code="MQ12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Matériaux Composites" code="MQ13">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Atelier D'Innovation Et Eco-Conception" code="ICX01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Chinois Initiation" code="LG60">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Chinois Niveau I" code="LG61">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Chinois Niveau II" code="LG62">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Chinois Niveau III" code="LG63">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Certificat Informatique Et Internet Niveau 1" code="C2I1">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Pratiques Théatrales" code="SA11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Redaction Bibliographique De Fin D'Etudes" code="BC01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Métabolisme Et Physiologie Cellulaire" code="BL20">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Systemes Colloidaux - Applications Agroalimentaires" code="CM15">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Chimie Physique Minérale" code="CM12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Chimie Des Substances Organiques Et Biologiques" code="CM13">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Simulation Et Techniques D'Optimisation" code="RO06">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Projets Multimédia Pour La Formation" code="LO18">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Technologies Biomédicales" code="ABIH2">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="0"/>
   </uv>
   <uv descr="Management De La Fonction Biomédicale" code="ABIH3">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="0"/>
   </uv>
   <uv descr="Intégration Professionnelle En Génie Biomédical" code="ABIH4">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="0"/>
   </uv>
   <uv descr="Expression Orale- Parole Publique" code="SI11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Veille Documentaire Et Technologique Sur Internet" code="VDIN">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TSH" ects="5"/>
   </uv>
   <uv descr="Introduction Aux Propriétés Mécaniques Et À L'Ingénierie Des Matériaux" code="MQ17">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Démarche Qualité Intégrée En Rechecrhe - Développement - Innovation" code="QCO03">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Microbiologie Et Biologie Moléculaire" code="BL22">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Conception Niveau 3 (Apprentissage)" code="TMI08">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="International Workshop (Apprentissage)" code="TMI09">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Outils Statistiques" code="UE34">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="2"/>
   </uv>
   <uv descr="Introduction Aux Bases De Donnees" code="NX17">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Gestion De Production Et Erp (Apprentissage)" code="GPL01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Approche Fmds" code="UE33">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Système De Production Et Usine Numérique (Apprentissage)" code="GPL03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Recherche Operationnelle En Productique (Apprentissage)" code="GPL02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Introduction Aux Méthodes De La Gpao" code="MP02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Supply Chain Management" code="MP03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Realisation De Prototypes (Apprentissage)" code="TMI02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
-  <uv descr="Ergonomie Des Situations De Travail (Apprentissage)" code="TMI03">
-   <semestre nom="A"/>
+  <uv descr="Ergonameie Des Situations De Travail (Apprentissage)" code="TMI03">
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Technologie De Fabrication (Apprentissage)" code="TMI04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="5"/>
   </uv>
   <uv descr="Fabrication Assistee Par Ordinateur Et Machines A Commande Numerique (Apprentissage)" code="TMI05">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Capteurs Et Instrumentation (Apprentissage)" code="TMI07">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Propriétés Mécaniques Des Systèmes Biologiques" code="BMI01">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="3"/>
   </uv>
   <uv descr="Chimie Générale" code="CM11">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Organes Artificiels Et Biorheologie" code="BM02">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Procedes De Transformation" code="ESI62">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Séminaire Développement Durable" code="DD01">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Ergonomie" code="EG01">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+  <uv descr="Ergonameie" code="EG01">
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Communication Professionnelle (Apprentissage)" code="SSA03">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="3"/>
   </uv>
-  <uv descr="Approches Économiques Et Sociologiques De L'Organisation (Apprentissage)" code="SSA04">
-   <semestre nom="P"/>
+  <uv descr="Approches Éconameiques Et Sociologiques De L'Organisation (Apprentissage)" code="SSA04">
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
-  <uv descr="Intelligence Économique : Stratégie D'Entreprise, Démarche Et Outils (Apprentissage)" code="SSA06">
-   <semestre nom="P"/>
+  <uv descr="Intelligence Éconameique : Stratégie D'Entreprise, Démarche Et Outils (Apprentissage)" code="SSA06">
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Calculs Des Réacteurs Industriels" code="RR02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse Fonctionnelle" code="UE43">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Data Warehouse Et Outils Décisionnels" code="NF26">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Asservissement" code="UE41">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="2"/>
   </uv>
   <uv descr="Modelisation Et Simulation Des Procedes" code="NF24">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Micro-Ordinateurs Et Applications" code="NF22">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Ihm Et Multimédia (Apprentissage)" code="API08">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Infographie Et Images De Synthèse" code="LO12">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Analyse De Donnees Et Data Mining (Apprentissage)" code="API06">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Architecture Des Applications Internet, Programmation Web Et Securite (Apprentissage)" code="API07">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="3"/>
   </uv>
   <uv descr="Data Warehouse Et Outils Decisionnels (Apprentissage)" code="API04">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Modelisation Et Simulation Des Flux (Apprentissage)" code="API05">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="4"/>
   </uv>
   <uv descr="Architecture Des Réseaux (Apprentissage)" code="API02">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="5"/>
   </uv>
   <uv descr="Capteurs Intelligents Communicants (Apprentissage)" code="API03">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="4"/>
   </uv>
   <uv descr="Ingénierie Documentaire Et Supports D'Information" code="NF29">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Ingénierie Des Systèmes Intéractifs" code="NF28">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
-  <uv descr="Introduction Aux Phénomènes De Transfert" code="TF11">
-   <semestre nom="A"/>
+  <uv descr="Introduction Aux Phénameènes De Transfert" code="TF11">
+   <semestre name="A"/>
    <recompense cat="CS" ects="6"/>
   </uv>
   <uv descr="Les Opérations De Transfert De Matière" code="TF14">
-   <semestre nom="P"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Procédés De Séparation" code="TF15">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Technologie, Cognition, Perception" code="SC12">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Seminaires" code="STS49">
-   <semestre nom="A"/>
+   <semestre name="A"/>
    <recompense cat="CS" ects="2"/>
   </uv>
   <uv descr="Traitement Automatique De L'Information" code="NF92">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
   <uv descr="Conduire Un Projet Sportif" code="SP02">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TSH" ects="4"/>
   </uv>
   <uv descr="Management Et Marketing De L'Innovation" code="GE39">
-   <semestre nom="A"/>
-   <semestre nom="P"/>
+   <semestre name="A"/>
+   <semestre name="P"/>
    <recompense cat="TM" ects="6"/>
   </uv>
  </uvs>
  <categories>
-  <categorie nom="Techniques et Méthodes" abbr="TM"/>
-  <categorie nom="Connaissances Scientifiques" abbr="CS"/>
-  <categorie nom="Technologies et Sciences de l’Homme" abbr="TSH"/>
-  <categorie nom="Stages et Projets" abbr="SP"/>
+  <categorie longname="Techniques et Méthodes" name="TM"/>
+  <categorie longname="Connaissances Scientifiques" name="CS"/>
+  <categorie longname="Technologies et Sciences de l’Homme" name="TSH"/>
+  <categorie longname="Stages et Projets" name="SP"/>
  </categories>
  <notes>
-  <note nom="A" reussite="1"/>
-  <note nom="B" reussite="1"/>
-  <note nom="C" reussite="1"/>
-  <note nom="D" reussite="1"/>
-  <note nom="E" reussite="1"/>
-  <note nom="F" reussite="0"/>
-  <note nom="Fx" reussite="0"/>
-  <note nom="RES" reussite="0"/>
-  <note nom="ABS" reussite="0"/>
+  <note name="A" reussite="1"/>
+  <note name="B" reussite="1"/>
+  <note name="C" reussite="1"/>
+  <note name="D" reussite="1"/>
+  <note name="E" reussite="1"/>
+  <note name="F" reussite="0"/>
+  <note name="Fx" reussite="0"/>
+  <note name="RES" reussite="0"/>
+  <note name="ABS" reussite="0"/>
  </notes>
 </sauvegarde>

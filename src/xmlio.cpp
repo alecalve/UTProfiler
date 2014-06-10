@@ -56,8 +56,8 @@ void XmlIo::save() {
     for(auto it=cats.begin(); it!=cats.end(); it++) {
         QDomElement cat = doc.createElement("categorie");
 
-        cat.setAttribute(QString::fromStdString("nom"), it->getName());
-        cat.setAttribute(QString::fromStdString("abbr"), it->getAbbreviation());
+        cat.setAttribute(QString::fromStdString("name"), it->getName());
+        cat.setAttribute(QString::fromStdString("longname"), it->getLongName());
 
         rootCategories.appendChild(cat);
     }
@@ -68,7 +68,7 @@ void XmlIo::save() {
     for(auto it=notes.begin(); it!=notes.end(); it++) {
         QDomElement note = doc.createElement("note");
 
-        note.setAttribute(QString::fromStdString("nom"), it->getName());
+        note.setAttribute(QString::fromStdString("name"), it->getName());
         note.setAttribute(QString::fromStdString("reussite"), it->getReussite());
 
         rootNotes.appendChild(note);
@@ -137,7 +137,7 @@ void XmlIo::load() {
         QDomElement semestre = node.firstChildElement("semestre");
 
         for(; !semestre.isNull(); semestre=semestre.nextSiblingElement("semestre")) {
-            QString nom = semestre.attribute("nom");
+            QString nom = semestre.attribute("name");
 
             if (nom == "A") {
                 uv.setOuvertureAutomne(true);
@@ -152,14 +152,14 @@ void XmlIo::load() {
     QDomNodeList cats = document.elementsByTagName("categorie");
 
     for(int i=0; i<cats.count(); i++) {
-        QString nom, abbr;
+        QString nom, longname;
 
         QDomNode node = cats.at(i);
         QDomElement element = node.toElement();
 
-        nom = element.attribute("nom");
-        abbr = element.attribute("abbr");
-        CategorieUV cat(nom, abbr);
+        nom = element.attribute("name");
+        longname = element.attribute("longname");
+        CategorieUV cat(nom, longname);
 
         CUM->addItem(cat);
     }
@@ -173,7 +173,7 @@ void XmlIo::load() {
         QDomNode node = notes.at(i);
         QDomElement element = node.toElement();
 
-        nom = element.attribute("nom");
+        nom = element.attribute("name");
         reussite = element.attribute("reussite").toInt();
         NoteUV note(nom, reussite);
         NUM->addItem(note);

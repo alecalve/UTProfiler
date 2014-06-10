@@ -45,14 +45,14 @@ struct SemestreT {
 class CategorieUV : public BaseItem {
 
   public:
-    CategorieUV(const QString& n, const QString& a) : BaseItem(n), abbreviation(a) {}
+    CategorieUV(const QString& n, const QString& l) : BaseItem(n), longName(l) {}
 
-    const QString getAbbreviation() const { return abbreviation; }
-    void setAbbreviation(const QString& a) { abbreviation = a; }
+    const QString getLongName() const { return longName; }
+    void setLongName(const QString& l) { longName = l; }
 
   private:
-    //! Abbréviation de la catégorie
-    QString abbreviation;
+    //! Nom développé de la catégorie
+    QString longName;
 
 };
 
