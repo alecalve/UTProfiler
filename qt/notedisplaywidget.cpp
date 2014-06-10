@@ -29,7 +29,7 @@ NoteDisplayWidget::NoteDisplayWidget(QWidget *parent) :
     ui->tableWidget->setHorizontalHeaderLabels(cols);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
-
+    ui->modifyButton->setVisible(false);
 }
 
 NoteDisplayWidget::~NoteDisplayWidget() {  }
@@ -65,15 +65,21 @@ void NoteDisplayWidget::del() {
 
 void NoteDisplayWidget::changed(int, int) {}
 
-void NoteDisplayWidget::filter(QString) {
-    refresh();
-}
+void NoteDisplayWidget::change(int row, int column) {
+    NoteUV& concerned = NUM->getItem(ui->tableWidget->item(row, NOM_COL)->text());
 
-void NoteDisplayWidget::change(int, int column) {
     switch (column) {
+        case REUSSITE_COL:
+            QMessageBox::Button reply;
+            reply = QMessageBox::question(this, "Changement réussite", "Cette note permet-elle de valider l’UV ?",
+                                          QMessageBox::No|QMessageBox::Yes);
+            concerned.setReussite(reply == QMessageBox::Yes);
+            break;
         default:
             break;
     }
+
+    refresh();
 }
 
 void NoteDisplayWidget::displayItem(const QString& item) {
@@ -81,11 +87,9 @@ void NoteDisplayWidget::displayItem(const QString& item) {
 
     NoteUV n = NUM->getItem(item);
 
-    nom = n.nom;
-    reussite = n.reussite ? "Oui" : "Non";
+    nom = n.getName();
+    reussite = n.getReussite() ? "Oui" : "Non";
 
-    std::cout<<nom.toStdString()<<std::endl;
-    std::cout<<item.toStdString()<<std::endl;
     if (!ui->searchValue->text().isEmpty()) {
         QString crit = ui->searchValue->text();
         unsigned int col = ui->searchOptions->currentIndex();
@@ -99,7 +103,9 @@ void NoteDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    ui->tableWidget->setItem(offset, NOM_COL, new QTableWidgetItem(nom));
+    QTableWidgetItem *nameItem = new QTableWidgetItem(nom);
+    nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
+    ui->tableWidget->setItem(offset, NOM_COL, nameItem);
     ui->tableWidget->setItem(offset, REUSSITE_COL, new QTableWidgetItem(reussite));
 
     offset++;
@@ -114,7 +120,7 @@ void NoteDisplayWidget::refresh() {
     ui->tableWidget->setColumnCount(NBCOLS);
 
     for (auto it=notes.begin(); it!=notes.end(); it++) {
-        displayItem((*it).nom);
+        displayItem((*it).getName());
     }
 }
 
