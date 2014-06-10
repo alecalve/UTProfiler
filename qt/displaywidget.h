@@ -22,7 +22,7 @@ public slots:
     virtual void del()=0;
     virtual void change(int row, int column)=0;
     virtual void changed(int row, int column)=0;
-    virtual void filter(QString)=0;
+    void filter(QString) { refresh(); }
 
 
 protected:
