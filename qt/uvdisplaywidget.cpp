@@ -10,6 +10,9 @@
 #include "changecreditsdialog.h"
 #include "src/uvmanager.hpp"
 #include "src/exceptions.hpp"
+#include "adduvdialog.h"
+
+#include <iostream>
 
 #define UVM UvManager::getInstance()
 #define NBCOLS 4
@@ -30,12 +33,18 @@ UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
     ui->tableWidget->setHorizontalHeaderLabels(cols);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
+    ui->modifyButton->setVisible(false);
+
 
 }
 
 UvDisplayWidget::~UvDisplayWidget() {  }
 
-void UvDisplayWidget::add() {}
+void UvDisplayWidget::add() {
+    AddUVDialog *dialog = new AddUVDialog(this);
+    dialog->exec();
+    delete dialog;
+}
 
 void UvDisplayWidget::del() {
     QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
@@ -49,7 +58,7 @@ void UvDisplayWidget::del() {
 
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
-            QString code = ui->tableWidget->itemAt(CODE_COL, i)->text();
+            QString code = ui->tableWidget->item(i, CODE_COL)->text();
             std::cout<<i<<" "<<code.toStdString()<<std::endl;
             try {
                 UVM->suppItem(code);
@@ -79,10 +88,6 @@ void UvDisplayWidget::changed(int row, int column) {
     }
 }
 
-void UvDisplayWidget::filter(QString) {
-    refresh();
-}
-
 void UvDisplayWidget::change(int row, int column) {
     QString code = ui->tableWidget->item(row, CODE_COL)->text();
 
@@ -90,12 +95,14 @@ void UvDisplayWidget::change(int row, int column) {
         case OUV_COL: {
             ChangeSemestreDialog* dialog = new ChangeSemestreDialog(this, code);
             if (dialog->exec() == 1) { refresh(); }
+            delete dialog;
             break;
         }
 
         case CREDS_COL: {
             ChangeCreditsDialog* dialog = new ChangeCreditsDialog(this, code);
             dialog->exec();
+            delete dialog;
             refresh();
             break;
         }
@@ -153,7 +160,9 @@ void UvDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    ui->tableWidget->setItem(offset, CODE_COL, new QTableWidgetItem(code));
+    QTableWidgetItem *codeItem = new QTableWidgetItem(code);
+    codeItem->setFlags(codeItem->flags() & ~Qt::ItemIsEditable);
+    ui->tableWidget->setItem(offset, CODE_COL, codeItem);
     ui->tableWidget->setItem(offset, DESCR_COL, new QTableWidgetItem(descr));
     ui->tableWidget->setItem(offset, OUV_COL, new QTableWidgetItem(ouv));
     ui->tableWidget->setItem(offset, CREDS_COL, new QTableWidgetItem(rec));
