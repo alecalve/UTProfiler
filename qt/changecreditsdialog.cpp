@@ -31,7 +31,7 @@ ChangeCreditsDialog::ChangeCreditsDialog(QWidget *parent, QString u) :
     QStringList categories;
     std::vector<CategorieUV> iterator = CUM->iterator();
     for(auto it=iterator.begin(); it!=iterator.end(); it++) {
-        categories << it->abbreviation;
+        categories << it->getAbbreviation();
     }
 
 

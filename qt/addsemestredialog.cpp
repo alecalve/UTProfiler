@@ -15,7 +15,7 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
     QStringList notes;
     std::vector<NoteUV> iterator = NUM->iterator();
     for(auto it=iterator.begin(); it!=iterator.end(); it++) {
-        notes<<it->nom;
+        notes<<it->getName();
     }
     ui->noteBox->addItems(notes);
     QStringList header;
