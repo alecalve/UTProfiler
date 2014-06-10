@@ -56,8 +56,8 @@ void XmlIo::save() {
     for(auto it=cats.begin(); it!=cats.end(); it++) {
         QDomElement cat = doc.createElement("categorie");
 
-        cat.setAttribute(QString::fromStdString("nom"), it->nom);
-        cat.setAttribute(QString::fromStdString("abbr"), it->abbreviation);
+        cat.setAttribute(QString::fromStdString("nom"), it->getName());
+        cat.setAttribute(QString::fromStdString("abbr"), it->getAbbreviation());
 
         rootCategories.appendChild(cat);
     }
@@ -68,8 +68,8 @@ void XmlIo::save() {
     for(auto it=notes.begin(); it!=notes.end(); it++) {
         QDomElement note = doc.createElement("note");
 
-        note.setAttribute(QString::fromStdString("nom"), it->nom);
-        note.setAttribute(QString::fromStdString("reussite"), it->reussite);
+        note.setAttribute(QString::fromStdString("nom"), it->getName());
+        note.setAttribute(QString::fromStdString("reussite"), it->getReussite());
 
         rootNotes.appendChild(note);
     }
@@ -159,9 +159,7 @@ void XmlIo::load() {
 
         nom = element.attribute("nom");
         abbr = element.attribute("abbr");
-        CategorieUV cat;
-        cat.nom = nom;
-        cat.abbreviation = abbr;
+        CategorieUV cat(nom, abbr);
 
         CUM->addItem(cat);
     }
@@ -177,10 +175,7 @@ void XmlIo::load() {
 
         nom = element.attribute("nom");
         reussite = element.attribute("reussite").toInt();
-        NoteUV note;
-        note.nom = nom;
-        note.reussite= reussite;
-
+        NoteUV note(nom, reussite);
         NUM->addItem(note);
     }
 
