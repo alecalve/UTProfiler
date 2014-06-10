@@ -8,14 +8,15 @@
 
 #include "src/structures.hpp"
 #include "src/exceptions.hpp"
+#include "addcategoriedialog.h"
 
 #include <iostream>
 
 
 #define CUM CategorieUVManager::getInstance()
 #define NBCOLS 2
-#define NOM_COL 0
-#define ABBR_COL 1
+#define NOM_COL 1
+#define ABBR_COL 0
 
 CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
@@ -36,7 +37,12 @@ CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
 
 CategorieDisplayWidget::~CategorieDisplayWidget() {  }
 
-void CategorieDisplayWidget::add() {}
+void CategorieDisplayWidget::add() {
+    AddCategorieDialog *dialog = new AddCategorieDialog(this);
+    dialog->exec();
+    delete dialog;
+    refresh();
+}
 
 void CategorieDisplayWidget::del() {
     QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
@@ -50,7 +56,7 @@ void CategorieDisplayWidget::del() {
 
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
-            QString nom = ui->tableWidget->itemAt(NOM_COL, i)->text();
+            QString nom = ui->tableWidget->item(i, ABBR_COL)->text();
             try {
                 CUM->suppItem(nom);
             } catch (const Exception &e) {
@@ -66,11 +72,11 @@ void CategorieDisplayWidget::del() {
 }
 
 void CategorieDisplayWidget::changed(int row, int column) {
-    CategorieUV& concerned = CUM->getItem(ui->tableWidget->item(row, NOM_COL)->text());
+    CategorieUV& concerned = CUM->getItem(ui->tableWidget->item(row, ABBR_COL)->text());
 
     switch (column) {
     case ABBR_COL:
-        concerned.setAbbreviation(ui->tableWidget->item(row, column)->text());
+        concerned.setName(ui->tableWidget->item(row, column)->text());
         break;
     default:
         break;
@@ -84,8 +90,8 @@ void CategorieDisplayWidget::displayItem(const QString& item) {
 
     CategorieUV n = CUM->getItem(item);
 
-    nom = n.getName();
-    abbr = n.getAbbreviation();
+    nom = n.getLongName();
+    abbr = n.getName();
 
     if (!ui->searchValue->text().isEmpty()) {
         QString crit = ui->searchValue->text();
@@ -104,10 +110,10 @@ void CategorieDisplayWidget::displayItem(const QString& item) {
     }
 
 
-    QTableWidgetItem *nameItem = new QTableWidgetItem(nom);
+    QTableWidgetItem *nameItem = new QTableWidgetItem(abbr);
     nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
-    ui->tableWidget->setItem(offset, NOM_COL, nameItem);
-    ui->tableWidget->setItem(offset, ABBR_COL, new QTableWidgetItem(abbr));
+    ui->tableWidget->setItem(offset, ABBR_COL, nameItem);
+    ui->tableWidget->setItem(offset, NOM_COL, new QTableWidgetItem(nom));
 
     offset++;
 }
