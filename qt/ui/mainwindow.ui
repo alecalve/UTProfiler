@@ -27,17 +27,31 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
-      <widget class="UvDisplayWidget" name="uvdisplay">
+      <widget class="UvDisplayWidget" name="uvDisplay">
        <attribute name="title">
-        <string>Édition des UVs</string>
+        <string>Édition UVs</string>
        </attribute>
       </widget>
-      <widget class="NoteDisplayWidget" name="notedisplay">
+      <widget class="QWidget" name="splitWidget">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
        <attribute name="title">
-        <string>Édition des notes</string>
+        <string>Édition notes et catégories</string>
        </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="NoteDisplayWidget" name="noteDisplay" native="true"/>
+        </item>
+        <item>
+         <widget class="CategorieDisplayWidget" name="categorieDisplay" native="true"/>
+        </item>
+       </layout>
       </widget>
      </widget>
     </item>
@@ -140,6 +154,12 @@
    <class>NoteDisplayWidget</class>
    <extends>QWidget</extends>
    <header>qt/notedisplaywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CategorieDisplayWidget</class>
+   <extends>QWidget</extends>
+   <header>qt/categoriedisplaywidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

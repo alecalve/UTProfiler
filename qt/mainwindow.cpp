@@ -39,8 +39,9 @@ void MainWindow::loadFile() {
         return;
     }
 
-    ui->uvdisplay->refresh();
-    ui->notedisplay->refresh();
+    ui->uvDisplay->refresh();
+    ui->noteDisplay->refresh();
+    ui->categorieDisplay->refresh();
 }
 
 void MainWindow::saveFile() {
