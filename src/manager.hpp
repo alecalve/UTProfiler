@@ -6,10 +6,25 @@
 
 #include "abstractio.hpp"
 #include "singleton.hpp"
+#include "exceptions.hpp"
 
-#include <iostream>
+class BaseItem {
 
- //! Classe template représentant les managers de ressources (UVs, filières, ...)
+  public:
+
+    BaseItem(const QString& n): name(n) {}
+    const QString& getName() const { return name; }
+    void setName(const QString& n) { name = n; }
+
+    bool operator==(const BaseItem& b) { return (name == b.getName());}
+
+  protected:
+    QString name;
+
+};
+
+//! Classe template représentant les managers de ressources (UVs, filières, ...)
+//! Les objets représentés doivent hériter de BaseItem
 template<class T> class Manager {
 
   friend class Singleton<Manager>;
@@ -26,7 +41,18 @@ template<class T> class Manager {
     }
 
     //! Retourne un objet identifié par une string (QString)
-    T& getItem(const QString &s) const;
+    T& getItem(const QString &s) const {
+        int index = -1;
+        for (auto it=elements.begin(); it!=elements.end(); it++) {
+            index++;
+            if (it->getName() == s) {
+                T& item = const_cast<T&>(elements.at(index));
+                return item;
+            }
+        }
+
+        throw Exception("Objet non trouvé.");
+    }
 
     //! Charge les UVs présentes dans la sauvegarde définie par la stratégie ioPolicy
     inline void load() {
