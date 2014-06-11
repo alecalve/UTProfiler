@@ -10,6 +10,9 @@
 #include "singleton.hpp"
 #include "manager.hpp"
 
+#define FM FormationManager::getInstance()
+
+
 class Dossier {
 
   public:
@@ -18,10 +21,15 @@ class Dossier {
     inline void setLogin(const QString& l) {login = l; }
     inline void setExtraScolaire(const bool& a) { extraScolaire = a; }
     inline void addSemestre(const Semestre& s) { semestres.push_back(s); }
+    inline void addFormation(const QString& f) {
+        Formation form = FM->getItem(f);
+        formations.push_back(form);
+    }
 
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
     inline const QString& getLogin() { return login; }
+    inline const std::vector<Formation>& getFormations() { return formations; }
 
   private:
     //! Login de la personne à qui appartient ce dossier
