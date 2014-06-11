@@ -16,7 +16,8 @@ class BaseItem {
     const QString& getName() const { return name; }
     void setName(const QString& n) { name = n; }
 
-    bool operator==(const BaseItem& b) { return (name == b.getName());}
+    bool operator==(const BaseItem& b) const { return (name == b.getName());}
+    bool operator<(const BaseItem& b) const { return (name<b.getName()); }
 
   protected:
     QString name;
