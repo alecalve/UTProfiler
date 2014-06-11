@@ -2282,4 +2282,9 @@
   <note name="RES" reussite="0"/>
   <note name="ABS" reussite="0"/>
  </notes>
+ <formations>
+   <formation name="Tronc Commun" abbr="TC">
+      <requirement categorie="CS" credits="48"/>   
+   </formation>
+ </formations>
 </sauvegarde>
