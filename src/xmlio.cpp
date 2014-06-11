@@ -8,12 +8,14 @@
 #define UVM UvManager::getInstance()
 #define CUM CategorieUVManager::getInstance()
 #define NUM NoteUVManager::getInstance()
+#define FM FormationManager::getInstance()
 
 void XmlIo::save() {
 
     std::vector<Uv> uvs = UVM->iterator();
     std::vector<CategorieUV> cats = CUM->iterator();
     std::vector<NoteUV> notes = NUM->iterator();
+    std::vector<Formation> formations = FM->iterator();
 
     QDomDocument doc;
     QDomElement root = doc.createElement("sauvegarde");
@@ -73,6 +75,25 @@ void XmlIo::save() {
         rootNotes.appendChild(note);
     }
 
+    QDomElement rootFormations = doc.createElement("formations");
+    root.appendChild(rootFormations);
+
+    for(auto it=formations.begin(); it!=formations.end(); it++) {
+        QDomElement formation = doc.createElement("formation");
+
+        formation.setAttribute(QString::fromStdString("abbr"), it->getName());
+        formation.setAttribute(QString::fromStdString("name"), it->getLongName());
+
+        std::map<CategorieUV, int> requirementsV = it->getRequirements();
+        for(auto i=requirementsV.begin(); i!=requirementsV.end(); i++) {
+            QDomElement requirement = doc.createElement("requirement");
+            requirement.setAttribute(QString::fromStdString("categorie"), i->first.getName());
+            requirement.setAttribute(QString::fromStdString("credits"), i->second);
+            formation.appendChild(requirement);
+        }
+
+        rootFormations.appendChild(formation);
+    }
 
 
     QFile fichier(identifier);
@@ -176,6 +197,28 @@ void XmlIo::load() {
         reussite = element.attribute("reussite").toInt();
         NoteUV note(nom, reussite);
         NUM->addItem(note);
+    }
+
+    QDomNodeList formations = document.elementsByTagName("formation");
+
+    std::cout<<formations.count()<<std::endl;
+    for(int i=0; i<formations.count(); i++) {
+        QDomNode node = formations.at(i);
+        QDomElement element = node.toElement();
+        QString nom, abbr;
+        nom = element.attribute("name");
+        abbr = element.attribute("abbr");
+        Formation f(abbr,nom);
+
+        QDomElement requirement = node.firstChildElement("requirement");
+
+        for(; !requirement.isNull(); requirement=requirement.nextSiblingElement("requirement")) {
+            QString cat = requirement.attribute("categorie");
+            unsigned int credits = requirement.attribute("credits").toUInt();
+            f.setRequirements(cat, credits);
+        }
+
+        FM->addItem(f);
     }
 
 }

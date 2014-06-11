@@ -9,6 +9,7 @@
 #include "abstractio.hpp"
 #include "uvmanager.hpp"
 #include "structures.hpp"
+#include "formation.hpp"
 
 //! Implémentation de AbstractIo pour les exports XML
 class XmlIo : public AbstractIo {
