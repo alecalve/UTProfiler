@@ -1,7 +1,6 @@
 #include "xmlio.hpp"
 
 #include <QTextStream>
-#include <iostream>
 
 #include "exceptions.hpp"
 #include "uv.hpp"

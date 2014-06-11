@@ -7,8 +7,6 @@
 #include "src/uvmanager.hpp"
 #include "src/exceptions.hpp"
 
-#include <iostream>
-
 #define CUM CategorieUVManager::getInstance()
 #define UVM UvManager::getInstance()
 
@@ -73,7 +71,6 @@ void ChangeCreditsDialog::closing() {
     for(int i=0; i<ui->tableWidget->rowCount(); i++) {
         unsigned int credits;
         credits = ui->tableWidget->item(i, 0)->text().toUInt();
-        std::cout<<credits<<" "<<ui->tableWidget->item(i, 1)->text().toStdString()<<std::endl;
         concerned.setCredits(ui->tableWidget->item(i, 1)->text(), credits);
     }
 }

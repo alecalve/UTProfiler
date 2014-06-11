@@ -10,9 +10,6 @@
 #include "src/exceptions.hpp"
 #include "addcategoriedialog.h"
 
-#include <iostream>
-
-
 #define CUM CategorieUVManager::getInstance()
 #define NBCOLS 2
 #define NOM_COL 1
@@ -126,7 +123,6 @@ void CategorieDisplayWidget::refresh() {
     ui->tableWidget->setRowCount(categories.size());
     ui->tableWidget->setColumnCount(NBCOLS);
 
-    std::cout<<categories.size()<<std::endl;
     for (auto it=categories.begin(); it!=categories.end(); it++) {
         //std::cout<<it->getName().toStdString()<<std::endl;
         displayItem(it->getName());

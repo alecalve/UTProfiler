@@ -12,8 +12,6 @@
 #include "src/exceptions.hpp"
 #include "adduvdialog.h"
 
-#include <iostream>
-
 #define UVM UvManager::getInstance()
 #define NBCOLS 4
 #define CODE_COL 0
@@ -59,7 +57,6 @@ void UvDisplayWidget::del() {
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
             QString code = ui->tableWidget->item(i, CODE_COL)->text();
-            std::cout<<i<<" "<<code.toStdString()<<std::endl;
             try {
                 UVM->suppItem(code);
             } catch (const Exception &e) {

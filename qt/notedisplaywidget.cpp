@@ -10,9 +10,6 @@
 #include "src/exceptions.hpp"
 #include "addnotedialog.h"
 
-#include <iostream>
-
-
 #define NUM NoteUVManager::getInstance()
 #define NBCOLS 2
 #define NOM_COL 0
