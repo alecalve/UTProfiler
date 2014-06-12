@@ -12,12 +12,8 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddSemestreDialog) {
     ui->setupUi(this);
-    QStringList notes;
-    std::vector<NoteUV> iterator = NUM->iterator();
-    for(auto it=iterator.begin(); it!=iterator.end(); it++) {
-        notes<<it->getName();
-    }
-    ui->noteBox->addItems(notes);
+
+    ui->noteBox->addItems(NUM->getItemNameList());
     QStringList header;
     header << "Code" << "Note";
     ui->tableWidget->setColumnCount(2);

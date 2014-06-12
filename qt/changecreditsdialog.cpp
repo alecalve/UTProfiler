@@ -26,15 +26,8 @@ ChangeCreditsDialog::ChangeCreditsDialog(QWidget *parent, QString u) :
         error.exec();
     }
 
-    QStringList categories;
-    std::vector<CategorieUV> iterator = CUM->iterator();
-    for(auto it=iterator.begin(); it!=iterator.end(); it++) {
-        categories << it->getName();
-    }
-
-
     ui->credits->setMinimum(0);
-    ui->categories->addItems(categories);
+    ui->categories->addItems(CUM->getItemNameList());
 
     QStringList header;
     header << "Crédits" << "Catégorie";

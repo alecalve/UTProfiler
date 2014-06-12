@@ -12,14 +12,9 @@ AddDossierDialog::AddDossierDialog(QWidget *parent) :
     ui(new Ui::AddDossierDialog)
 {
     ui->setupUi(this);
-    QStringList formations;
-    std::vector<Formation> iterator = FM->iterator();
 
-    for(auto it=iterator.begin(); it!=iterator.end(); it++) {
-        formations<<it->getName();
-    }
+    ui->formationBox->addItems(FM->getItemNameList());
 
-    ui->formationBox->addItems(formations);
     QStringList header;
     header << "Abbréviation" << "Nom";
     ui->tableWidget->setColumnCount(2);
@@ -41,10 +36,11 @@ void AddDossierDialog::createDossier() {
 }
 
 void AddDossierDialog::formationAdded() {
-    formations.push_back(ui->formationBox->currentText());
+    QString formation = ui->formationBox->currentText();
+    formations.push_back(formation);
     ui->formationBox->removeItem(ui->formationBox->currentIndex());
 
-    Formation f = FM->getItem(ui->formationBox->currentText());
+    Formation f = FM->getItem(formation);
 
     ui->tableWidget->setRowCount(ui->tableWidget->rowCount() + 1);
     ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 0, new QTableWidgetItem(f.getName()));
