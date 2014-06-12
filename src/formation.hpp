@@ -11,8 +11,12 @@
 
 #include <iostream>
 
+class Formation;
+typedef Singleton<Manager<Formation>> FormationManager;
+
 #define CUM CategorieUVManager::getInstance()
 #define UVM UvManager::getInstance()
+#define FM FormationManager::getInstance()
 
 //! Classe des Formations
 class Formation : public BaseItem {
@@ -20,22 +24,52 @@ class Formation : public BaseItem {
   public:
 
     Formation(const QString& abbr, const QString& n)
-        : BaseItem(abbr), longName(n), parent(0), nbLignes(0), nbColonnes(0),
+        : BaseItem(abbr), longName(n), parent(""), nbLignes(0), nbColonnes(0),
           minCredits(0), minNbUvRecommended(0) {}
 
     inline const QString& getLongName() const { return longName; }
-    inline const Formation* getParent() const { return parent; }
+    inline bool hasParent() const { return parent != ""; }
+
+    //! Retourne le parent de la formation, lève une exception s’il n’existe pas
+    inline const Formation& getParent() const { return FM->getItem(parent); }
+
     inline const std::map<CategorieUV, int>& getRequirements() const { return requirements; }
     inline unsigned int getLignesTSH() const { return nbLignes; }
     inline unsigned int getColonnesTSH() const { return nbColonnes; }
 
+    inline bool hasChildren() const {
+        std::vector<Formation> formations = FM->iterator();
+        for(auto it=formations.begin(); it!=formations.end(); it++) {
+            if (it->hasParent() && (it->getParent() == *this)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     inline void setLongName(const QString &l) { longName = l; }
     inline void setRequirements(const QString &c, unsigned int n) {
         //Vérifie si la catégorie existe
-        CategorieUV cat = CUM->getItem(c);
+        CategorieUV cat("", "");
+        try {
+            cat = CUM->getItem(c);
+        } catch (Exception) {
+            return;
+        }
+
         requirements[cat] = n;
     }
 
+    inline void setParent(const QString& p) {
+        //On vérifie que le parent existe
+        try {
+            FM->getItem(p);
+        } catch (Exception) {
+            return;
+        }
+
+        parent = p;
+    }
     inline void setLignesTSH(unsigned int l) { nbLignes = l; }
     inline void setColonnesTSH(unsigned int c) { nbColonnes = c; }
 
@@ -43,7 +77,7 @@ class Formation : public BaseItem {
     QString longName;
 
     //! Formation parente, vide si pas de parent
-    Formation* parent;
+    QString parent;
 
     //! Minimums de crédits requis par catégories
     std::map<CategorieUV, int> requirements;
@@ -67,8 +101,5 @@ class Formation : public BaseItem {
     unsigned int minNbUvRecommended;
 
 };
-
-
-typedef Singleton<Manager<Formation>> FormationManager;
 
 #endif // FORMATION_HPP
