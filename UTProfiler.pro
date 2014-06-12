@@ -28,7 +28,8 @@ SOURCES += src/main.cpp\
     qt/categoriedisplaywidget.cpp \
     qt/adduvdialog.cpp \
     qt/addcategoriedialog.cpp \
-    qt/addnotedialog.cpp
+    qt/addnotedialog.cpp \
+    qt/addformation.cpp
 
 HEADERS  += qt/mainwindow.h \
     src/uvmanager.hpp \
@@ -51,7 +52,8 @@ HEADERS  += qt/mainwindow.h \
     qt/categoriedisplaywidget.h \
     qt/adduvdialog.h \
     qt/addcategoriedialog.h \
-    qt/addnotedialog.h
+    qt/addnotedialog.h \
+    qt/addformation.h
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
