@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>UTProfiler</string>
+   <string notr="true">UTProfiler</string>
   </property>
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>true</bool>
@@ -26,12 +26,20 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QTabWidget" name="tabWidget">
-      <property name="currentIndex">
-       <number>0</number>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
       </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="DossierDisplayWidget" name="dossierDisplay">
+       <attribute name="title">
+        <string>Dossiers</string>
+       </attribute>
+      </widget>
       <widget class="UvDisplayWidget" name="uvDisplay">
        <attribute name="title">
-        <string>Édition UVs</string>
+        <string>UVs</string>
        </attribute>
       </widget>
       <widget class="QWidget" name="splitWidget">
@@ -42,7 +50,7 @@
         </size>
        </property>
        <attribute name="title">
-        <string>Édition notes et catégories</string>
+        <string>Notes et Catégories</string>
        </attribute>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
@@ -160,6 +168,12 @@
    <class>CategorieDisplayWidget</class>
    <extends>QWidget</extends>
    <header>qt/categoriedisplaywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DossierDisplayWidget</class>
+   <extends>QWidget</extends>
+   <header>qt/dossierdisplaywidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
