@@ -15,8 +15,6 @@
 class XmlIo : public AbstractIo {
 
   public:
-    XmlIo(const QString &s) : AbstractIo(s) {}
-
     void load();
     void save();
   private:
