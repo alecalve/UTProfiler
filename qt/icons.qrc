@@ -4,5 +4,6 @@
         <file>load.png</file>
         <file>close.png</file>
         <file>add.png</file>
+        <file>bin.png</file>
     </qresource>
 </RCC>
