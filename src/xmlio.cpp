@@ -201,7 +201,6 @@ void XmlIo::load() {
 
     QDomNodeList formations = document.elementsByTagName("formation");
 
-    std::cout<<formations.count()<<std::endl;
     for(int i=0; i<formations.count(); i++) {
         QDomNode node = formations.at(i);
         QDomElement element = node.toElement();
