@@ -29,7 +29,9 @@ SOURCES += src/main.cpp\
     qt/adduvdialog.cpp \
     qt/addcategoriedialog.cpp \
     qt/addnotedialog.cpp \
-    qt/addformation.cpp
+    qt/addformation.cpp \
+    qt/adddossierdialog.cpp \
+    qt/dossierdisplaywidget.cpp
 
 HEADERS  += qt/mainwindow.h \
     src/uvmanager.hpp \
@@ -53,7 +55,9 @@ HEADERS  += qt/mainwindow.h \
     qt/adduvdialog.h \
     qt/addcategoriedialog.h \
     qt/addnotedialog.h \
-    qt/addformation.h
+    qt/addformation.h \
+    qt/adddossierdialog.h \
+    qt/dossierdisplaywidget.h
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
@@ -63,7 +67,8 @@ FORMS    += qt/ui/mainwindow.ui \
     qt/ui/adduvdialog.ui \
     qt/ui/addcategoriedialog.ui \
     qt/ui/addformation.ui \
-    qt/ui/addnotedialog.ui
+    qt/ui/addnotedialog.ui \
+    qt/ui/adddossierdialog.ui
 
 RESOURCES += \
     qt/icons.qrc
