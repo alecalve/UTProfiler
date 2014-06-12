@@ -15,6 +15,15 @@ public:
     explicit addformation(QWidget *parent = 0);
     ~addformation();
 
+public slots :
+    void createFormation();
+    void uvAdded();
+    void formationparente();
+    void nbCreditCat();
+    void uvObligatoire();
+    void uvRecommended();
+    void minUvRecommended();
+
 private:
     Ui::addformation *ui;
 };
