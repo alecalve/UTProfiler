@@ -63,9 +63,12 @@ FORMS    += qt/ui/mainwindow.ui \
     qt/ui/adduvdialog.ui \
     qt/ui/addcategoriedialog.ui \
 <<<<<<< HEAD
+<<<<<<< HEAD
     qt/ui/addnotedialog.ui \
     qt/ui/addformation.ui
 =======
+=======
+>>>>>>> FETCH_HEAD
     qt/ui/addformation.ui \
     qt/ui/addnotedialog.ui
 >>>>>>> FETCH_HEAD
