@@ -8,6 +8,7 @@
 class AbstractIo {
 
   public:
+    AbstractIo() {}
     AbstractIo(const QString &s): identifier(s) {}
 
     void setIdentifier(const QString &s) { identifier = s; }
