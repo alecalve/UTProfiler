@@ -20,8 +20,6 @@ public slots :
     void uvAdded();
     void formationparente();
     void nbCreditCat();
-    void uvObligatoire();
-    void uvRecommended();
     void minUvRecommended();
 
 private:
