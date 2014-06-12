@@ -30,7 +30,7 @@
        <enum>QTabWidget::North</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>3</number>
       </property>
       <widget class="DossierDisplayWidget" name="dossierDisplay">
        <attribute name="title">
@@ -60,6 +60,11 @@
          <widget class="CategorieDisplayWidget" name="categorieDisplay" native="true"/>
         </item>
        </layout>
+      </widget>
+      <widget class="FormationDisplayWidget" name="formationDisplay">
+       <attribute name="title">
+        <string>Formations</string>
+       </attribute>
       </widget>
      </widget>
     </item>
@@ -174,6 +179,12 @@
    <class>DossierDisplayWidget</class>
    <extends>QWidget</extends>
    <header>qt/dossierdisplaywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormationDisplayWidget</class>
+   <extends>QWidget</extends>
+   <header>qt/formationdisplaywidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
