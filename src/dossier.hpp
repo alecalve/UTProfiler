@@ -13,28 +13,22 @@
 #define FM FormationManager::getInstance()
 
 
-class Dossier {
+class Dossier : public BaseItem {
 
   public:
-    Dossier(const QString& l) : login(l) {}
+    Dossier(const QString& l) : BaseItem(l) {}
 
-    inline void setLogin(const QString& l) {login = l; }
     inline void setExtraScolaire(const bool& a) { extraScolaire = a; }
     inline void addSemestre(const Semestre& s) { semestres.push_back(s); }
-    inline void addFormation(const QString& f) {
-        Formation form = FM->getItem(f);
-        formations.push_back(form);
+    inline void addFormation(const Formation& f) {
+        formations.push_back(f);
     }
 
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
-    inline const QString& getLogin() { return login; }
     inline const std::vector<Formation>& getFormations() { return formations; }
 
   private:
-    //! Login de la personne à qui appartient ce dossier
-    QString login;
-
     //! Semestres suivis
     std::vector<Semestre> semestres;
 
