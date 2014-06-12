@@ -62,7 +62,8 @@ FORMS    += qt/ui/mainwindow.ui \
     qt/ui/displaywidget.ui \
     qt/ui/adduvdialog.ui \
     qt/ui/addcategoriedialog.ui \
-    qt/ui/addnotedialog.ui
+    qt/ui/addnotedialog.ui \
+    qt/ui/addformation.ui
 
 RESOURCES += \
     qt/icons.qrc
