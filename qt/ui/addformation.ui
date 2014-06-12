@@ -1,188 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>addformation</class>
- <widget class="QWidget" name="addformation">
+ <class>AddFormation</class>
+ <widget class="QDialog" name="AddFormation">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>471</width>
-    <height>545</height>
+    <width>740</width>
+    <height>430</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>11</x>
-     <y>12</y>
-     <width>440</width>
-     <height>410</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout_2">
-    <item row="0" column="0" colspan="2">
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="1">
-       <widget class="QLineEdit" name="nomEdit"/>
-      </item>
-      <item row="1" column="0">
-       <widget class="QLineEdit" name="abbrEdit"/>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label_3">
-        <property name="text">
-         <string>Abréviation formation</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>Nom complet</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="2" column="1">
-     <widget class="QDialogButtonBox" name="buttonBox">
-      <property name="standardButtons">
-       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="1">
-     <widget class="QSpinBox" name="miniUv">
-      <property name="maximum">
-       <number>50</number>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QComboBox" name="comboBoxParent"/>
-    </item>
-    <item row="7" column="1">
-     <widget class="QDialogButtonBox" name="buttonBox_2">
-      <property name="standardButtons">
-       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="0" colspan="2">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Ajout d' UV à la formation</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="label_6">
-      <property name="text">
-       <string>Formation Parente</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QCheckBox" name="checkUvoblig">
-      <property name="text">
-       <string>UVobligatoire</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="1">
-     <widget class="QDialogButtonBox" name="validAddUv">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="standardButtons">
-       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>Valider ajout UV</string>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="1">
-     <widget class="QSpinBox" name="spinCatmin"/>
-    </item>
-    <item row="4" column="0">
-     <widget class="QComboBox" name="UvBox"/>
-    </item>
-    <item row="8" column="1">
-     <widget class="QComboBox" name="BoxCat"/>
-    </item>
-    <item row="6" column="0">
-     <widget class="QLabel" name="label_7">
-      <property name="text">
-       <string>Nombre UV mini à valider</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0">
-     <widget class="QLabel" name="label_8">
-      <property name="text">
-       <string>Nombre Crédits à valider par catégorie</string>
-      </property>
-     </widget>
-    </item>
-    <item row="10" column="1">
-     <widget class="QDialogButtonBox" name="buttonBox_3">
-      <property name="standardButtons">
-       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>470</y>
-     <width>175</width>
-     <height>65</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout_4">
-    <item row="1" column="0">
-     <widget class="QDialogButtonBox" name="validAddformation">
-      <property name="standardButtons">
-       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_5">
-      <property name="text">
-       <string>Valider Formation</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <zorder>validAddUv</zorder>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Abréviation formation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Nombre total minimum crédits</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5">
+    <widget class="QPushButton" name="addCredits">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../icons.qrc">
+       <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableUV"/>
+   </item>
+   <item row="3" column="4">
+    <widget class="QSpinBox" name="spinCatmin">
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3" colspan="3">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Nombre minimum de crédits par catégorie</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="spacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="abbrEdit"/>
+   </item>
+   <item row="0" column="3" colspan="2">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Formation Parente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="addUv">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../icons.qrc">
+       <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3" colspan="3">
+    <widget class="QTableWidget" name="tableCredits"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QComboBox" name="boxCat"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Ajout d'UV proposée à la formation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLineEdit" name="uvEdit"/>
+   </item>
+   <item row="1" column="5">
+    <widget class="QSpinBox" name="miniUv">
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="5">
+    <widget class="QDialogButtonBox" name="validAddformation">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="nomEdit"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Nom complet</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="2">
+    <widget class="QComboBox" name="boxParent"/>
+   </item>
+  </layout>
+  <zorder>label_3</zorder>
   <zorder>label</zorder>
-  <zorder>checkBox</zorder>
-  <zorder>nomEdit</zorder>
-  <zorder>nomEdit</zorder>
+  <zorder>tableUV</zorder>
+  <zorder>uvEdit</zorder>
+  <zorder>addUv</zorder>
+  <zorder>tableCredits</zorder>
+  <zorder>label_8</zorder>
+  <zorder>boxCat</zorder>
+  <zorder>spinCatmin</zorder>
+  <zorder>addCredits</zorder>
+  <zorder>spacer</zorder>
+  <zorder>validAddformation</zorder>
   <zorder>abbrEdit</zorder>
   <zorder>label_2</zorder>
-  <zorder>label_3</zorder>
-  <zorder>buttonBox_2</zorder>
-  <zorder>label</zorder>
-  <zorder></zorder>
-  <zorder>comboBoxuv</zorder>
-  <zorder>validAddformation</zorder>
-  <zorder>label_5</zorder>
-  <zorder>checkUvoblig</zorder>
+  <zorder>nomEdit</zorder>
+  <zorder>label_6</zorder>
+  <zorder>boxParent</zorder>
+  <zorder>label_7</zorder>
+  <zorder>miniUv</zorder>
  </widget>
- <resources/>
- <connections/>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>validAddformation</sender>
+   <signal>accepted()</signal>
+   <receiver>AddFormation</receiver>
+   <slot>createFormation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>validAddformation</sender>
+   <signal>rejected()</signal>
+   <receiver>AddFormation</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addUv</sender>
+   <signal>clicked()</signal>
+   <receiver>AddFormation</receiver>
+   <slot>uvAdded()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addCredits</sender>
+   <signal>clicked()</signal>
+   <receiver>AddFormation</receiver>
+   <slot>creditsAdded()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>118</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>createFormation()</slot>
+  <slot>uvAdded()</slot>
+  <slot>creditsAdded()</slot>
+ </slots>
 </ui>

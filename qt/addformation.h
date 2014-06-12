@@ -1,29 +1,27 @@
 #ifndef ADDFORMATION_H
-#define ADDFORMATION_H
+#define ADDFORMATION_H 1
 
-#include <QWidget>
+#include <QDialog>
 
 namespace Ui {
-class addformation;
+class AddFormation;
 }
 
-class addformation : public QWidget
+class AddFormation : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit addformation(QWidget *parent = 0);
-    ~addformation();
+    explicit AddFormation(QWidget *parent = 0);
+    ~AddFormation();
 
 public slots :
     void createFormation();
     void uvAdded();
-    void formationparente();
-    void nbCreditCat();
-    void minUvRecommended();
+    void creditsAdded();
 
 private:
-    Ui::addformation *ui;
+    Ui::AddFormation *ui;
 };
 
 #endif // ADDFORMATION_H
