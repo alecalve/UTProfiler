@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+#include "src/dossier.hpp"
+
 namespace Ui {
 class AddDossierDialog;
 }
@@ -13,6 +15,7 @@ class AddDossierDialog : public QDialog
 
 public:
     explicit AddDossierDialog(QWidget *parent = 0);
+    explicit AddDossierDialog(QWidget *parent = 0, Dossier &d=&Dossier());
     ~AddDossierDialog();
 
 public slots:
@@ -22,6 +25,9 @@ public slots:
 private:
     Ui::AddDossierDialog *ui;
     QStringList formations;
+
+    bool editionMode;
+    Dossier& dossier;
 };
 
 #endif // ADDDOSSIERDIALOG_H

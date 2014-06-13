@@ -12,6 +12,9 @@ AddDossierDialog::AddDossierDialog(QWidget *parent) :
     ui(new Ui::AddDossierDialog)
 {
     ui->setupUi(this);
+    editionMode = false;
+
+    dossier = NULL;
 
     ui->formationBox->addItems(FM->getItemNameList());
 
@@ -25,13 +28,45 @@ AddDossierDialog::AddDossierDialog(QWidget *parent) :
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
+AddDossierDialog::AddDossierDialog(QWidget *parent, Dossier& d)  :
+    QDialog(parent),
+    ui(new Ui::AddDossierDialog)
+{
+    ui->setupUi(this);
+    editionMode = true;
+    dossier = d;
+
+    ui->formationBox->addItems(FM->getItemNameList());
+
+    QStringList header;
+    header << "Abbréviation" << "Nom";
+    ui->tableWidget->setColumnCount(2);
+    ui->tableWidget->setHorizontalHeaderLabels(header);
+    ui->tableWidget->setRowCount(0);
+    ui->tableWidget->setColumnCount(2);
+    ui->tableWidget->verticalHeader()->setVisible(false);
+    ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+}
+
+
 void AddDossierDialog::createDossier() {
-    Dossier d(ui->loginEdit->text());
+    Dossier &d;
+    if (editionMode) {
+        d = dossier;
+        d.resetFormations();
+    } else {
+        d(ui->loginEdit->text());
+    }
+
     for(auto it=formations.begin(); it!=formations.end(); it++) {
         Formation f = FM->getItem(*it);
         d.addFormation(f);
     }
-    DM->addItem(d);
+
+    if (!editionMode) {
+        DM->addItem(d);
+    }
+
     close();
 }
 
