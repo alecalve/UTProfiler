@@ -16,13 +16,15 @@
 class Dossier : public BaseItem {
 
   public:
+    Dossier() : BaseItem() {}
     Dossier(const QString& l) : BaseItem(l) {}
-
     inline void setExtraScolaire(const bool& a) { extraScolaire = a; }
     inline void addSemestre(const Semestre& s) { semestres.push_back(s); }
     inline void addFormation(const Formation& f) {
         formations.push_back(f);
     }
+
+    inline void resetFormations() { formations.clear(); }
 
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
