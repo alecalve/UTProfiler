@@ -30,7 +30,12 @@ DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
 
 }
 
-DossierDisplayWidget::~DossierDisplayWidget() {  }
+DossierDisplayWidget::~DossierDisplayWidget() {
+    QString login = ui->tableWidget->item(NOM_COL, ui->tableWidget->currentRow());
+    Dossier d = DM->getItem(login);
+}
+
+void DossierDisplayWidget::modify() {}
 
 void DossierDisplayWidget::add() {
     AddDossierDialog *dialog = new AddDossierDialog(this);

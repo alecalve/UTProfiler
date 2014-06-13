@@ -33,6 +33,7 @@ CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
 }
 
 CategorieDisplayWidget::~CategorieDisplayWidget() {  }
+void CategorieDisplayWidget::modify() {}
 
 void CategorieDisplayWidget::add() {
     AddCategorieDialog *dialog = new AddCategorieDialog(this);

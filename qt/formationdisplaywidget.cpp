@@ -31,6 +31,7 @@ FormationDisplayWidget::FormationDisplayWidget(QWidget *parent) :
 }
 
 FormationDisplayWidget::~FormationDisplayWidget() {  }
+void FormationDisplayWidget::modify() {}
 
 void FormationDisplayWidget::add() {
     AddFormation *dialog = new AddFormation(this);

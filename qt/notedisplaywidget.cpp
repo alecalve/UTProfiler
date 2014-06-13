@@ -31,6 +31,7 @@ NoteDisplayWidget::NoteDisplayWidget(QWidget *parent) :
 }
 
 NoteDisplayWidget::~NoteDisplayWidget() {  }
+void NoteDisplayWidget::modify() {}
 
 void NoteDisplayWidget::add() {
     AddNoteDialog *dialog = new AddNoteDialog(this);

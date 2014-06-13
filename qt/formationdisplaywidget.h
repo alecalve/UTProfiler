@@ -21,6 +21,7 @@ class FormationDisplayWidget : public DisplayWidget {
     void refresh();
     void del();
     void add();
+    void modify();
     void change(int row, int column);
     void changed(int row, int column);
 

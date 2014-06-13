@@ -37,6 +37,7 @@ UvDisplayWidget::UvDisplayWidget(QWidget *parent) :
 }
 
 UvDisplayWidget::~UvDisplayWidget() {  }
+void UvDisplayWidget::modify() {}
 
 void UvDisplayWidget::add() {
     AddUVDialog *dialog = new AddUVDialog(this);
