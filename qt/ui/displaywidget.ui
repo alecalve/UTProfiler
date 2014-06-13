@@ -149,6 +149,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>modifyButton</sender>
+   <signal>clicked()</signal>
+   <receiver>DisplayWidget</receiver>
+   <slot>modify()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>561</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>360</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>add()</slot>
@@ -156,5 +172,6 @@
   <slot>filter(QString)</slot>
   <slot>change(int,int)</slot>
   <slot>changed(int,int)</slot>
+  <slot>modify()</slot>
  </slots>
 </ui>
