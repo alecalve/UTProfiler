@@ -4,7 +4,7 @@
 #include "src/structures.hpp"
 
 #define CUM CategorieUVManager::getInstance()
-
+//! Ouverture du Pop up de création de catégorie
 AddCategorieDialog::AddCategorieDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddCategorieDialog)
