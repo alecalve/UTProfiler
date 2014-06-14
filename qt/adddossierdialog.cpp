@@ -48,7 +48,7 @@ AddDossierDialog::AddDossierDialog(QWidget *parent, Dossier& d)  :
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
-
+//! Création d'un nouveau dossier
 void AddDossierDialog::createDossier() {
     Dossier &d;
     if (editionMode) {
@@ -70,6 +70,7 @@ void AddDossierDialog::createDossier() {
     close();
 }
 
+//! Ajout d'une formation au dossier (ex : TC, GI, SRI)
 void AddDossierDialog::formationAdded() {
     QString formation = ui->formationBox->currentText();
     formations.push_back(formation);
