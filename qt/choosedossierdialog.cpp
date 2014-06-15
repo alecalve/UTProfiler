@@ -26,6 +26,8 @@ void ChooseDossierDialog::callCompleter() {
     }
 
     ExigencesDialog *dialog = new ExigencesDialog(this);
+    Dossier d = DM->getItem(ui->dossierBox->currentText());
+    dialog->setDossier(&d);
     dialog->exec();
     delete dialog;
     close();

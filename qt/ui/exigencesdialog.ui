@@ -129,8 +129,42 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>addWish</sender>
+   <signal>clicked()</signal>
+   <receiver>ExigencesDialog</receiver>
+   <slot>wishAdded()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>152</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addReject</sender>
+   <signal>clicked()</signal>
+   <receiver>ExigencesDialog</receiver>
+   <slot>rejectAdded()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>484</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>152</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>resolve()</slot>
+  <slot>wishAdded()</slot>
+  <slot>rejectAdded()</slot>
  </slots>
 </ui>
