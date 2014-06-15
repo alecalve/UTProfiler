@@ -7,6 +7,7 @@
 #include "src/xmlio.hpp"
 #include "src/exceptions.hpp"
 #include "addsemestredialog.h"
+#include "src/dossier.hpp"
 
 #define UVM UvManager::getInstance()
 
@@ -22,6 +23,10 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow() {
     delete ui;
     UvManager::freeInstance();
+    FormationManager::freeInstance();
+    CategorieUVManager::freeInstance();
+    DossierManager::freeInstance();
+    NoteUVManager::freeInstance();
 }
 
 
