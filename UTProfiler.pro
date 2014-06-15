@@ -65,7 +65,9 @@ HEADERS  += qt/mainwindow.h \
     qt/formationdisplaywidget.h \
     src/equivalence.hpp \
     qt/exigencesdialog.h \
-    qt/choosedossierdialog.h
+    qt/choosedossierdialog.h \
+    src/strategy.hpp \
+    src/solvingcontext.hpp
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
