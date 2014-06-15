@@ -1,1616 +1,1616 @@
 <sauvegarde>
  <uvs>
   <uv printemps="1" automne="1" code="LA03" descr="Allemand Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="BL01" descr="Sciences Biologiques Pour L'Ingénieur">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="NF15" descr="Microprocesseurs, Interfaces Et Logiciels De Bases">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LG32" descr="Japonais Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="LG31" descr="Japonais Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG30" descr="Japonais Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="RV01" descr="Réalité Virtuelle">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BL09" descr="Biophysique Des Systèmes Biologiques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BT21" descr="Biotechnologies Moleculaires Et Genie Genetique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BT22" descr="Les Agroressources">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="AR03" descr="Art Et Technologies Contemporaines">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="SR05" descr="Algorithmes Et Systèmes Répartis">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="ASP04" descr="Connaissances En Shs Pour L'Analyse De Situations Professionnelles (Apprentissage)">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="PS13" descr="Problèmes Vibroacoustiques : Analyse Et Modélisation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="UB10" descr="Thermique Urbaine">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="GE12" descr="Géographie Et  Éconameie Des Territoires">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE13" descr="Les Risques Entre Technique Et Societe">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE10" descr="Éconameie Politique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="CP14" descr="Montage De Projet Européens">
-   <recompense ects="5" cat="TSH"/>
+   <recompense cat="TSH" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="AS01" descr="Introduction A L'Analyse Des Situations De L'Ingenieur">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="AA01" descr="Gestion Associative">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="GE15" descr="Initiation A La Création Et Gestion D'Entreprises Innovantes">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="CT04" descr="Controles Non Destructifs">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="BIO01" descr="Du Gene A La Macromolecule">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv automne="1" code="SCI25" descr="Atelier Projet">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SCI24" descr="Seminaires">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="SCI23" descr="Optimisation">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SCI22" descr="Modélisation Et Propagation Des Incertitudes">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="CT02" descr="Maitrise Statistique Des Processus">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SCI20" descr="Analyse Avancée De Données">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="UE11" descr="Communication">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="SL" descr="Suivi Linguistique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="UE13" descr="Anglais">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG14" descr="American History And Civilization Through The Cinema (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv automne="1" code="DI07" descr="Design Transport">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="PS12" descr="Acoustique Architecturale Et Urbaine">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SMA05" descr="Robustesse Pour La Conception De Systemes Mecaniques Et Mecatroniques">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="ISS01" descr="Bases Des Reseaux">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="TIS07" descr="Algorithmes Et Protocoles Pour L'Interconnexion Des Systèmes">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="TIS04" descr="Estimation Pour La Navigation Robotique">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="TIS05" descr="Commande De Robots Autonamees En Coopération">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="TN29" descr="Outils De Definition Et De Developpement De Systemes">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TIS03" descr="Modélisation Et Optimisation Des Systèmes Discrets">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="TIS01" descr="Fondements Des Réseaux D'Interconnexion">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="TN24" descr="Technologies De Fabrication Et Outils Méthodes">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TN21" descr="Gestion Du Cycle De Vie Du Produit Et Ingenierie Collaborative">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MT10" descr="Structures,Calcul Formel Et Algorithmes">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="TN23" descr="Techniques De Fabrication">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MT12" descr="Methodes Mathematiques Pour L'Analyse Du Signal Et De L'Image">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="GPF50" descr="Physicochimie Des Systemes Disperses">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="GPF51" descr="Phenameenes Aux Interfaces">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="GPF52" descr="Analyse Des Proprietes Optiques Et Structurales">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="GPF53" descr="Technologies De Mise En Oeuvre Des Fluides Complexes">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="GPF54" descr="Formulation, Applications Cosmetiques">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="GPF55" descr="Filmication, Peintures Et Encres">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="PR" descr="Réalisation De Projet">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="NF04" descr="Modélisation Numérique Des Problèmes De L'Ingénieur">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LG51" descr="Italien Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG50" descr="Italien Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="LG53" descr="Italien Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG52" descr="Italien Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="BT03" descr="Génie Des Systèmes Tissulaires Et Immunotechnologie">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BT02" descr="Opérations Agro-Industrielles">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BT07" descr="Formulation, Innovation, Nutrition">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BT06" descr="Analyse Des Produits Biologiques Et Alimentaires">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TX" descr="Étude Expérimentale">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="TN12" descr="Conception Mécanique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MEQ03" descr="Dynamique Des Solides (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="TR91" descr="Techniques De Recherche D'Information Pour L'Ingenieur">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv printemps="1" code="SCI09" descr="Decouverte D'Outils Et Methodes Pour Le Monde De La Recherche Scientifique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SCI08" descr="Introduction A L'Ingenierie Systeme">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TN13" descr="Dimensionnement Pour La Conception Des Systemes Mecaniques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="API01" descr="Architecture J2ee Et Les Web Services (Apprentissage)">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="NF16" descr="Algorithmique Et Structures De Données">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="NF17" descr="Conception De Bases De Données">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="HT02" descr="Histoire, Technologie et Humanité : Les Temps De La Technique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="SR06" descr="Sécurité Systèmes Et Réseaux">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MQ16" descr="Elements Finis Pour La Modelisation De Crash Et L'Analyse D'Impacts">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SR04" descr="Réseaux Informatiques">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="NF11" descr="Théorie Des Langages De Programmation">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="PS95" descr="Ondes Et Electromagnetisme 1">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="PS94" descr="Electricite">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="PS96" descr="Ondes Et Electromagnetisme 2">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="PS91" descr="Mecanique Physique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="PS90" descr="Introduction A La Mesure">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="PS93" descr="Optique Geometrique">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="PS92" descr="Dynamique Des Systemes Et Des Solides">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="MQ20" descr="Introduction A La Mécanique Des Solides Et Des Fluides">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="PS04" descr="Thermodynamique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="PS09" descr="Acoustique Appliquée">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MQ11" descr="Mise En Oeuvre Des Matériaux">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BA06" descr="Systèmes Constructifs Du Batiment">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="BA07" descr="Modes Opératoires De La Construction">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="BA04" descr="Conversion Et Gestion Des Energies Renouvelables">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BA05" descr="Automatismes, Régulations Et Batiments Intelligents">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="BA02" descr="Gestion Technique Du Patrimoine Immobilier">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="BA03" descr="Matériaux De Construction">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="BA01" descr="Equipements Techniques Du Batiment">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="QPO12" descr="Communication Professionnelle De Projet">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="QPO11" descr="Ingenierie De Projet">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" code="PS05" descr="Fondements De L'Acoustique Et Modélisations">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="BA09" descr="Introduction Au Calcul Des Structures Du Batiment">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="MT37" descr="Logiques, Quelques Approfondissements Mathématiques Et Philosophiques">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="TN06" descr="Transmission Des Efforts En Mécanique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="MT35" descr="Algèbre Linéaire">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN04" descr="Réalisation">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="TN03" descr="Fabrication Mécanique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN02" descr="Introduction A La Conception Mécanique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN01" descr="Éléments De Dessin Technique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="SR02" descr="Systèmes D'Exploitation : Des Concepts À La Programmation">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN08" descr="Dessin De Communication">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="SIC03" descr="Modélisation Et Exploration Du Complexe">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv automne="1" code="SIC02" descr="Econameie Des Intangibles">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MT36" descr="Geometrie">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="TTS12" descr="Traitement Et Soins 2 : Hemodialyse, Radiotherapie">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SP22" descr="S'Apprendre Pour Mieux Gérer">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="TTS10" descr="Imagerie Medicale Clinique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TTS11" descr="Traitement Et Soins 1 : Blocs Operatoires, Anesthesie, Reanimation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TTS16" descr="Cycle De Vie D'Un Dispositif Medical">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="TTS17" descr="Organisation Du Systeme De Sante">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" code="MQ18" descr="Cinématique Et Dynamique Des Systèmes">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="BI01" descr="Modeles Pour La Bioinformatique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="MC01" descr="Machines Électriques">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LA15" descr="Anglais Professionnel - Niveau V">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA14" descr="Civilisation Du Monde Anglophone">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA13" descr="Anglais Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA12" descr="Anglais Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA11" descr="Anglais Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MC06" descr="Modélisation, Dimensionnement, Réglages D'Axes Électromécaniques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MC08" descr="Ingénierie Robotique Et Actionneurs Électriques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MA11" descr="Révision D'Analyse Et D'Algèbre (Gm, Gsm, Gp)">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="BIO02" descr="Ingenierie Des Proteines Et Exploitation De La Diversite Moleculaire">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv automne="1" code="MT32" descr="Analyse 1 : Calcul Différentiel Et Intégral">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv automne="1" code="BMI02" descr="Ingénierie Des Systèmes Biologiques Et Bioartificiels">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="BMI03" descr="Systèmes Microfuidiques Et Microsystèmes Appliquées À La Biologie Et À La Santé">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="EN90" descr="Electronique Numérique">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="BMI06" descr="Nanotecnologies Et Nanobiomécanique Des Systèmes Biologiques Complexes">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="MT31" descr="Introduction A La Logique Mathématique">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="BMI04" descr="Modelisation Des Systemes Neuromusculaire Et Musculosquelettique En Interaction">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="BMI05" descr="Modélisation Des Systèmes Ostéo-Articulaire Et Musculosquelettique En Interaction">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="API09" descr="Méthodes Et Outils Pour L'Optimisation Et La Simulation (Apprentissage)">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv printemps="1" code="GPF40" descr="Tp Formulation">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="BIO05" descr="Analyse Du Cycle De Vie II">
-   <recompense ects="2" cat="CS"/>
+   <recompense cat="CS" ects="2"/>
   </uv>
   <uv automne="1" code="SCI21" descr="Conception Sûre Des Systèmes">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="MS01" descr="Méthodes D'Analyse Physico-Chimique">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="LO01" descr="Bases De La Programmation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="GE38" descr="Management Et Outils D'Aide À La Créativité Industrielle Et À L'Innovation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="NF33" descr="Conception Et Architecture De Systèmes Numériques Informatiques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LC73" descr="Anglais Master Niveau 3">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LC72" descr="Anglais Master Niveau 2">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="SR01" descr="Maitrise Des Systèmes Informatiques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MQ03" descr="Mécanique Des Vibrations I">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="API10" descr="Méthodes De Vérification Et Validation De Logiciel Et Programmation Sous Linux (Apprentissage)">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="MQ01" descr="Éléments De Resistance Des Matériaux">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="MQ07" descr="Dégradation Et Protection Des Matériaux Dans Leur Environnement">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MQ06" descr="Modélisation Des Structures Par Éléments Finis">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MQ05" descr="Tribologie">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="UE44" descr="Electrotechnique">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="SC21" descr="Linguistique Et Philosophie Du Langage">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="MQ09" descr="Mécanique Des Vibrations II">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SC22" descr="Sociologie Cognitive, Lien Social Et Techniques">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="CM70" descr="Travaux Pratiques De Gp (1)">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" code="SC24" descr="Apprentissage Et Perception">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SY09" descr="Analyse Des Données Et Data Mining">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="SY08" descr="Modélisation Des Systèmes A Évènements Discrets">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="RO03" descr="Recherche Opérationnelle, Optimisation Combinatoire">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="UE32" descr="Autodiagnostic, Telemaintenance">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="ASP03" descr="Demarches Et Pratiques En Situation Professionnelle (Apprentissage)">
-   <recompense ects="3" cat="TSH"/>
+   <recompense cat="TSH" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="SY01" descr="Éléments De Probabilités">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="RO04" descr="Optimisation Et Recherche Opérationnelle">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="SY03" descr="Introduction Aux Systemes D'Entrainements Electriques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SY02" descr="Méthodes Statistiques Pour L'Ingénieur">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="SY05" descr="Conduite Des Procédés">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="SY04" descr="Systèmes Asservis Linéaires : Analyse Et Commande">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="SY06" descr="Analyse Et Traitement Du Signal">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="UR01" descr="Droit De L'Urbanisme, De La Construction Et De L'Environnement">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="UR02" descr="Théories Et Pratiques De L'Urbanisme Contemporain">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="UR03" descr="Cartographie Sémiologie Graphique Et Cao/Dao">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="UR04" descr=" Outils Pour Le Projet">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="UR05" descr="Aménagement Et Environnement">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="UR06" descr="Géomatique">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="AV01" descr="Initiation À L'Analyse Et À La Réalisation Audiovisuelle">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE36" descr="Marketing">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE37" descr="Gestion De Projet">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TS02" descr="Maitriser Les Risques Technologiques Majeurs">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TA02" descr="Évaluation Éconameique Des Procédés">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TS01" descr="Maitrise Des Risques">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TH02" descr="Production Et Transfert De Chaleur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LB04" descr="Interculturalité Franco-Allemande">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SO06" descr="Organisation Des Systèmes De Santé">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SO05" descr="Sociologie, Organisations Et Dynamiques Des Collectifs">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SO04" descr="Initiation Au Droit">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SP01" descr="Un Corps Pour Comprendre Et Apprendre">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="TTS13" descr="Laboratoire D'Analyses Cliniques">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv printemps="1" code="MQ19" descr="Dynamique Des Structures">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="EV01" descr="Procédés De Traitement Des Déchets">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="EV02" descr="Conception De Procédés Propres">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="FQ03" descr="Conception Robuste Et Plans D'Experiences">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="FQ01" descr="Éconameie Globale Et Maitrise De La Qualité">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="FQ07" descr="La Qualité Des Services A L'Industrie">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="FQ04" descr="Qualité Et Exigences Réglementaires En Génie Biologique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="FQ05" descr="Fiabilite Industrielle">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MT09" descr="Analyse Numérique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="QPO09" descr="Audit Et Evaluation Des Organisations :  Partie Pratique">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="BL10" descr="Structures Et Physicochimie Des Molécules Biologiques">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="TTS15" descr="Management Des Organisations Biomedicales">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="TN30" descr="Xao En Milieu Professionnel">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="UB01" descr="Composantes Des Systèmes Techniques Urbains">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="UB02" descr="Systemes De Transport Urbain">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="UE12" descr="Connaissance De L'Entreprise">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" code="UB04" descr="Ambiances Et Environnement Lumineux">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="UB06" descr="Mises En Scènes Urbaines">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="TF08" descr="Hydrodynamique Des Systèmes Dispersés">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TF07" descr="Calcul Des Échangeurs Thermiques Industriels">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TF06" descr="Transfert De Chaleur">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="EL02" descr="Électricité Industrielle Appliquée">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="TF02" descr="Dynamique Des Fluides Réels Et Des Gaz">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TF01" descr="Mécanique Des Fluides Incompressibles">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="EL01" descr="Phénameènes Electromagnétiques">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="SC01" descr="Séminaire Interdisciplinaire De Sciences Et Technologies Cognitives">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MC02" descr="Entrainements Électriques À Vitesse Variable">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SI14" descr="Parole Publique En Anglais">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SP11" descr="Physiologie De L'Effort Sportif">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="MC05" descr="Machines De Transfert De Fluides">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LA24" descr="Le Monde Hispanique Contemporain : L'Amérique Latine (Niveau IV)">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA22" descr="Espagnol Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA23" descr="Espagnol Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA20" descr="Espagnol Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA21" descr="Espagnol Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SY23" descr="Vision Et Image">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MS03" descr="Pratique Expérimentale En Acoustique Et Vibrations">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MS02" descr="Principes Physiques Des Capteurs Et Instrumentation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SY27" descr="Machines Intelligentes">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MC07" descr="Électronique De Puissance">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="EI05" descr="Science, Technologie Et Société Dans L'Union Européenne">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="LO21" descr="Programmation Et Conception Orientees Objet">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BL30" descr="Physiologie Des Systèmes Intégrés">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="LO22" descr="Genie Logiciel">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MEQ05" descr="Modélisation Numérique Niveau 2 (Apprentissage)">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv automne="1" code="LO23" descr="Conduite De Projet Informatique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="QPO07" descr="Developpement De Son Projet Professionnel Et Autonameie">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="SMA08" descr="Systemes Embarques : Entrainements Electriques Et Actionneurs">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="MI03" descr="Systèmes Temps Réel">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="HE05" descr="Culture Et Histoire Des Techniques">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MI01" descr="Structure D'Un Calculateur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SMA04" descr="Modélisation Et Simulation Systèmes">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SMA03" descr="Capteur Et Actionneurs Compacts Innovants">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SMA02" descr="Identification De Modèles En Mécanique">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SMA01" descr="Modélisation Numérique Avancée Des Structures">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="TN22" descr="Éléments De Bureau D'Études">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MQ14" descr="Optimisation En Mécanique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="GE40" descr="Management De Projets">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="UB08" descr="Hydrologie Urbaine">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SI90" descr="Séminaire De Communication Des Connaissances Technologiques">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="PH09" descr="Éthiques : Approche Pluridisciplinaire">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="FPP01" descr="Statistiques Generales Pour L'Ingenieur (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="FPP02" descr="Fiabilite Et Ingenierie Robuste De Produits (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="FPP03" descr="Ingénierie Robuste Et Maitrise Statistique Des Procédés (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="PH01" descr="Introduction À La Philosophie">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="PH03" descr="Penser La Techniique Aujourd'Hui">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="PH02" descr="L'Ingénieur, Le Philosophe Et Le Scientifique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="EN21" descr="Bases De L'Électronique Analogique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="RO05" descr="Modélisation De Phénameènes Aléatoires">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="QPO06" descr="Management Des Systemes D'Information">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="BM04" descr="Acquisition Et Traitement De Données Biomédicales">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LC14" descr="Communication Scientifique Et Technique En Anglais">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SI01" descr="Science Et Debat Public">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="STS52" descr="Ingenierie Cellulaire Et Tissulaire">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="MT22" descr="Fonctions De Plusieurs Variables Réelles Et Applications">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MT23" descr="Algèbre Linéaire Et Applications">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="TN14" descr="Commande Hydraulique De Puissance">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN16" descr="Étude Interculturelle">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="BMI07" descr="Modélisation Multiphysique Du Système Vasculaire">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="IC06" descr="Industrie Et Conception Des Jeux Video">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="UXD02" descr="Scenarisation D'Experience Utilisateur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="UXD01" descr="Design D'Experience">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SI05" descr="Theories De La Communication">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="TTS01" descr="Acquisition De Signaux Et D'Images Medicales">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv printemps="1" code="TTS02" descr="Pratique De L'Instrumentation Scientifique">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="SI07" descr="Medias Classiques Et Medias Numeriques">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA00" descr="Allemand Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA01" descr="Allemand Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA02" descr="Allemand Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SC11" descr="Théorie Des Sciences Cognitives : Computation Et Énaction">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA04" descr="Pratique De La Communication En Allemand">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MAT01" descr="Choix Des Materiaux Et Procedes (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="MAT02" descr="Mise En Forme Des Materiaux (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="MAT03" descr="Mecanique Des Materiaux (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="MT94" descr="Introduction Aux Mathematiques Appliquées">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BL16" descr="Génie Métabolique, Cultures Cellulaires Et Bioreacteurs">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BL17" descr="Génie Des Protéines">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="MT91" descr="Fonctions D'Une Variable Reelle 2">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="MT90" descr="Fonctions D'Une Variable Reelle 1">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv automne="1" code="CM05" descr="Thermodynamique Chimique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="CM04" descr="Procédés Industriels">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="CM07" descr="Travaux Pratiques De Génie Chimique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="CM06" descr="Calcul D'Une Opération Industrielle">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="CM01" descr="Physique De La Matière">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="IA02" descr="Résolution De Problèmes Et Programmation Logique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="EI03" descr="Communication Interculturelle En Entreprises, Organisations Transnationales">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="TMI01" descr="Conception Niveau 2 (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="IC05" descr="Technologies Pour La Documentation Et L'Indexation Dans L'Hypermédia">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="IC07" descr="Techniques Et Technologies Du Musical Et Du Sonore">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SI02" descr="Communication Professionnelle De L'Ingénieur">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="IC01" descr="Histoire Et Prospective Des Industries Culturelles">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="IC03" descr="Le Numérique : Des Formats Aux Chaines De Production">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SI06" descr="La Documentation Technique, Principes Et Méthodes">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="DPP01" descr="Developper Son Projet Professionnel">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv automne="1" code="ESI50" descr="Calculs Par Elements Finis Et Optimisation Multi-Disciplinaire">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv automne="1" code="BIO13" descr="Interaction, Reconnaissance Supramoleculaire Et Biomimetisme">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="BIO12" descr="Alternatives Vegetales">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="BIO11" descr="Procedes De Transformation Vegetale">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" code="RR01" descr="Cinétique Chimique Et Réacteurs Homogènes">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="BIO16" descr="Capteurs Et Biocapteurs">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="BIO15" descr="Biophysique Moleculaire Et Metabolique">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="BIO14" descr="Genie Metabolique Industriel">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG03" descr="Anglais Niveau III B (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG02" descr="Anglais Niveau III A (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG01" descr="Anglais Niveau II (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" code="UE21" descr="Management">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG05" descr="Anglais Professionnel (Apprentissage)">
-   <recompense ects="1" cat="TSH"/>
+   <recompense cat="TSH" ects="1"/>
   </uv>
   <uv printemps="1" automne="1" code="LNG04" descr="Anglais Niveau IV (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" code="SR03" descr="Architecture Des Applications Internet">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BIO03" descr="De La Fonction A La Physiologie">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="MU02" descr="Pratique Instrumentale De Haut Niveau">
-   <recompense ects="8" cat="TSH"/>
+   <recompense cat="TSH" ects="8"/>
   </uv>
   <uv automne="1" code="QPO08" descr="Audit Et Evaluation Des Organisations : Partie Pratique">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="TO0A" descr="Module De Preparation Au Toeic (Apprentissage)">
-   <recompense ects="1" cat="TSH"/>
+   <recompense cat="TSH" ects="1"/>
   </uv>
   <uv printemps="1" code="BM08" descr="Modélisation Des Systèmes Biomécaniques">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="SY19" descr="Decision Et Apprentissage Automatique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TH04" descr="Froid Industriel">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="MT34" descr="Analyse 2 : Mesures, Intégrations, Probabilités">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="SY12" descr="Modélisation Et Performance Des Systèmes De Production">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MEQ04" descr="Mecanique Des Fluides (Apprentissage)">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SY10" descr="Logique Floue : Concepts Et Applications">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="BM01" descr="Introduction À L'Instrumentation Biomédicale">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="SY16" descr="Les Applications Du Traitement Du Signal">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="PS10" descr="Analyse Modale En Acoustique Et Vibrations">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="SY14" descr="Éléments D'Automatique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="SY15" descr="Automatique Avancée">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN20" descr="Cao :  Modélisation Géométrique">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SL0A" descr="Projet Individualise (Apprentissage)">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="LA94" descr="Francais Langue Étrangère Niveau IV">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA93" descr="Francais Langue Étrangère Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA92" descr="Francais Langue Étrangère Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LA91" descr="Francais Langue Étrangère Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SY26" descr="Télécommunications">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LB14" descr="Interculturalité Appliquée Aux Pays Anglophones">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MT33" descr="Algèbre 1 : Ensembles Et Groupes">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="UE24" descr="Gestion De Production">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv automne="1" code="AR04" descr="Art, Ville, Architecture">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="DI03" descr="Conception Formelle Des Produits">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="EI04" descr="Intelligence Éconameique : Stratégie D'Entreprise, Démarche Et Outils">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="NQCE2" descr="Ms 'Normalisation, Qualité, Certification Et Essais'">
-   <recompense ects="60" cat="TM"/>
+   <recompense cat="TM" ects="60"/>
   </uv>
   <uv printemps="1" code="MG01" descr="Management En Entreprise : Styles De Management, Construction D'Equipe Et Techniques De Travail En Groupe">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="NQCE1" descr="">
-   <recompense ects="0" cat="TM"/>
+   <recompense cat="TM" ects="0"/>
   </uv>
   <uv printemps="1" code="EN14" descr="Fonctions Électroniques Pour L'Ingénieur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LG42" descr="Portugais Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG40" descr="Portugais Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG41" descr="Portugais Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="UE23" descr="Gestion De Maintenance">
-   <recompense ects="3" cat="TSH"/>
+   <recompense cat="TSH" ects="3"/>
   </uv>
   <uv printemps="1" code="GE90" descr="Organisation, Innovation Et International">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="UE22" descr="Gestion De Projet De Maintenance">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" code="BT10" descr="Risques Biologiques Et Sécurité Alimentaire">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="SI22" descr="Signes Et Contenus Numeriques">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SI20" descr="Rhetorique Et Arts Du Discours">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="DD02" descr="Introduction A L'Eco-Conception Et A L'Analyse De Cycle De Vie">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" code="MU03" descr="Pratique Collective Des Musiques Contemporaines">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SI24" descr="Études Des Écritures Numériques Ordinaires">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SI28" descr="Écriture Interactive Et Multimédia">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="QRO02" descr="Assurer Et Manager La Confiance Face Au Risque">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="QRO03" descr="Aide A La Decision En Environnement Complexe : De La Metrologie A La Logique Floue">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="QRO01" descr="Normalisation, Metrologie, Essais Et Echanges Internationaux">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="QPO04" descr="Qualite Et Management Des Organisations">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="MT38" descr="Probabilités">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="SCI30" descr="Methode Et Modelisation De Capture De Mouvement 3d">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SCI31" descr="Methodes Avancees De Commande Des Systemes Dynamiques">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="SCI32" descr="De La Microstructure Aux Propriétés Des Materiaux">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="DI08" descr="Design Industriel Et Création De Produits">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="AS02" descr="Accompagnement Pour L'Analyse Des Situations De L'Ingenieur">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="BM05" descr="Techniques D'Explorations Fonctionnelles">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BM06" descr="Traitement D'Images Médicales">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="SY31" descr="Capteurs Pour Les Systemes Intelligents">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="HE01" descr="Épistémologie Et Histoire Des Sciences">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="AP" descr="Atelier Projet">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="IA04" descr="Systèmes Multiagents">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="IA03" descr="Techniques De Modélisation, Capitalisation Et Gestion Des Connaissances">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BT09" descr="Industries Agro-Alimentaires - Qualites De L'Aliment">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="IA01" descr="Intelligence Artificielle : Représentation">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="BL40" descr="Génie Cellulaire">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="GE29" descr="Gestion Et Management International De L'Entreprise">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE28" descr="Éconameie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une Éconameie Reposant Sur La Connaissance">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="HE03" descr="Logique : Histoire Et Formalisme">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="UE31" descr="Outils De Surveillance Et D'Inspection">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="MU01" descr="Pratique Instrumentale D'Ensemble">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE23" descr="Transferts De Technologies Et Développements">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE22" descr="Éconameie Internationale">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE21" descr="Éconameie Et Gestion De L'Innovation Et Du Numérique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE20" descr="Éconameie Industrielle">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="GE27" descr="Gestion Financière De L'Entreprise">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE26" descr="Management Stratégique Des Ressources Humaines">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE25" descr="Gestion Et Organisation De La Production">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="GE24" descr="Recherche Developpement : Ingenieur Et Investisseurs">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="PTV58" descr="Eco Bilan Et Analyse Du Cycle De Vie">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" code="MQ02" descr="Mécanique Des Solides Déformables">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="PTV53" descr="Technologies Emergentes Pour La Transformation Des Ressources Renouvelables">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="PTV52" descr="Conception Et Conduite De Bioreacteurs">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="PTV51" descr="Technologies Des Poudres Et Milieux Pulverulents">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="PTV50" descr="Methodologies Pour La Recherche ">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="PTV57" descr="Valorisation Energetique De La Biomasse">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="PTV56" descr="Valorisation Des Coproduits Et Minimisation Des Effluents">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="PTV55" descr="Procedes D'Extraction, Separation Et Purification Des Biomolecules">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="PTV54" descr="Procedes De Transformation Thermochimique Des Agroressources En Biocarburants">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv automne="1" code="PS15" descr="Thermodynamique Physique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="CL01" descr="Anglais Niveau Intermédiaire Supérieur">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="CL02" descr="Moi Et Le Monde Scientifique ">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="QPO01" descr="Pilotage Du Progres Et De La Performance">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="ICX04" descr="Cycle De Conferences">
-   <recompense ects="6" cat="TSH"/>
+   <recompense cat="TSH" ects="6"/>
   </uv>
   <uv automne="1" code="ICX02" descr="Analyse Des Situations">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="ICX03" descr="Atelier Projet / Experimentation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="PH10" descr="Analyse Phénameénologique Des Objets Audiovisuels">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="PH11" descr="Philosopher Aujourd'Hui">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="CM40" descr="Catalyse Heterogene">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" code="LB24" descr="Le Monde Hispanique (Niveau IV): L'Espagne">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="MB11" descr="Révision D'Analyse Et D'Algèbre (Gb, Gi, Gsu)">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="UE42" descr="Hydraulique">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="MEQ01" descr="Modelisation Geometrique (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="MQ04" descr="Polymères">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LO17" descr="Indexation Et Recherche D'Information">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="BM07" descr="Biocompatibilité">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="NP94" descr="Preparation Scientifique A Un Sujet 'Challenge' De Tn04">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="SM04" descr="Physiologie">
-   <recompense ects="0" cat="CS"/>
+   <recompense cat="CS" ects="0"/>
   </uv>
   <uv printemps="1" automne="1" code="NP90" descr="Nano-Projets">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="NF93" descr="Sciences De L'Informatique">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="ASP06" descr="L'Ingénieur En Situation De Management (Apprentissage)">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="DI01" descr="Initiation Au Design Industriel">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="DI02" descr="Initiation Au Design Graphique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="MEQ02" descr="Modelisation Numerique Niveau 1 (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="TO02" descr="Module De Preparation Au Toefl">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="DI05" descr="Methodologie Et Analyse De La Valeur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="DI06" descr="Analyse Des Produits De Consommation">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="TO01" descr="Module De Preparation Au Toeic">
-   <recompense ects="2" cat="TSH"/>
+   <recompense cat="TSH" ects="2"/>
   </uv>
   <uv printemps="1" code="MQ08" descr="Elaboration Et Proprietes D'Usage Des Metaux">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="SCI10" descr="Protocole Experimental, Instrumentation Et Traitement">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="SCI11" descr="Flux Et Transduction D'Energie Dans Les Systemes">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="PH12" descr="L'Épreuve Du Mouvement. De Platon A L'Ingénieur Contemporain">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="ISI13" descr="Panorama Des Tendances Technologiques Et Impact Sur Les Métiers">
-   <recompense ects="2" cat="CS"/>
+   <recompense cat="CS" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="NF01" descr="Algorithmique Et Programmation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="NF02" descr="Du Circuit Intégré Au Microprocesseur">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="AP51" descr="Atelier Projet Conception Mécanique Intégrée">
-   <recompense ects="8" cat="TM"/>
+   <recompense cat="TM" ects="8"/>
   </uv>
   <uv automne="1" code="AP53" descr="Production Intégrée Et Logistique">
-   <recompense ects="8" cat="TM"/>
+   <recompense cat="TM" ects="8"/>
   </uv>
   <uv automne="1" code="AP52" descr="Modélisation - Optimisation Des Produits Et Structures">
-   <recompense ects="8" cat="TM"/>
+   <recompense cat="TM" ects="8"/>
   </uv>
   <uv printemps="1" code="MQ10" descr="Comportement Mécanique Des Matériaux">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="PIIN" descr="Developpement D'Un Module De Formation A Distance-Multimedia Pour L'Integration De La Propriete Industrielle Et Intellectuelle Dans Les Processus D'Inno">
-   <recompense ects="5" cat="TSH"/>
+   <recompense cat="TSH" ects="5"/>
   </uv>
   <uv automne="1" code="MQ12" descr="Choix Des Matériaux Et Des Procédés">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MQ13" descr="Matériaux Composites">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="ICX01" descr="Atelier D'Innovation Et Eco-Conception">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="LG60" descr="Chinois Initiation">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG61" descr="Chinois Niveau I">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG62" descr="Chinois Niveau II">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="LG63" descr="Chinois Niveau III">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="C2I1" descr="Certificat Informatique Et Internet Niveau 1">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="SA11" descr="Pratiques Théatrales">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="BC01" descr="Redaction Bibliographique De Fin D'Etudes">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="BL20" descr="Métabolisme Et Physiologie Cellulaire">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="CM15" descr="Systemes Colloidaux - Applications Agroalimentaires">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="CM12" descr="Chimie Physique Minérale">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="CM13" descr="Chimie Des Substances Organiques Et Biologiques">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="RO06" descr="Simulation Et Techniques D'Optimisation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="LO18" descr="Projets Multimédia Pour La Formation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="ABIH2" descr="Technologies Biomédicales">
-   <recompense ects="0" cat="CS"/>
+   <recompense cat="CS" ects="0"/>
   </uv>
   <uv printemps="1" code="ABIH3" descr="Management De La Fonction Biomédicale">
-   <recompense ects="0" cat="CS"/>
+   <recompense cat="CS" ects="0"/>
   </uv>
   <uv printemps="1" code="ABIH4" descr="Intégration Professionnelle En Génie Biomédical">
-   <recompense ects="0" cat="CS"/>
+   <recompense cat="CS" ects="0"/>
   </uv>
   <uv printemps="1" automne="1" code="SI11" descr="Expression Orale- Parole Publique">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="VDIN" descr="Veille Documentaire Et Technologique Sur Internet">
-   <recompense ects="5" cat="TSH"/>
+   <recompense cat="TSH" ects="5"/>
   </uv>
   <uv printemps="1" automne="1" code="MQ17" descr="Introduction Aux Propriétés Mécaniques Et À L'Ingénierie Des Matériaux">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="QCO03" descr="Démarche Qualité Intégrée En Rechecrhe - Développement - Innovation">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv printemps="1" code="BL22" descr="Microbiologie Et Biologie Moléculaire">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv automne="1" code="TMI08" descr="Conception Niveau 3 (Apprentissage)">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TMI09" descr="International Workshop (Apprentissage)">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="UE34" descr="Outils Statistiques">
-   <recompense ects="2" cat="CS"/>
+   <recompense cat="CS" ects="2"/>
   </uv>
   <uv printemps="1" code="NX17" descr="Introduction Aux Bases De Donnees">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="GPL01" descr="Gestion De Production Et Erp (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="UE33" descr="Approche Fmds">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv automne="1" code="GPL03" descr="Système De Production Et Usine Numérique (Apprentissage)">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="GPL02" descr="Recherche Operationnelle En Productique (Apprentissage)">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv printemps="1" code="MP02" descr="Introduction Aux Méthodes De La Gpao">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="MP03" descr="Supply Chain Management">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TMI02" descr="Realisation De Prototypes (Apprentissage)">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="TMI03" descr="Ergonameie Des Situations De Travail (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv automne="1" code="TMI04" descr="Technologie De Fabrication (Apprentissage)">
-   <recompense ects="5" cat="TM"/>
+   <recompense cat="TM" ects="5"/>
   </uv>
   <uv printemps="1" code="TMI05" descr="Fabrication Assistee Par Ordinateur Et Machines A Commande Numerique (Apprentissage)">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="TMI07" descr="Capteurs Et Instrumentation (Apprentissage)">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="BMI01" descr="Propriétés Mécaniques Des Systèmes Biologiques">
-   <recompense ects="3" cat="CS"/>
+   <recompense cat="CS" ects="3"/>
   </uv>
   <uv printemps="1" automne="1" code="CM11" descr="Chimie Générale">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="BM02" descr="Organes Artificiels Et Biorheologie">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="ESI62" descr="Procedes De Transformation">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv printemps="1" code="DD01" descr="Séminaire Développement Durable">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="EG01" descr="Ergonameie">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SSA03" descr="Communication Professionnelle (Apprentissage)">
-   <recompense ects="3" cat="TSH"/>
+   <recompense cat="TSH" ects="3"/>
   </uv>
   <uv printemps="1" code="SSA04" descr="Approches Éconameiques Et Sociologiques De L'Organisation (Apprentissage)">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" code="SSA06" descr="Intelligence Éconameique : Stratégie D'Entreprise, Démarche Et Outils (Apprentissage)">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv automne="1" code="RR02" descr="Calculs Des Réacteurs Industriels">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="UE43" descr="Analyse Fonctionnelle">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv printemps="1" code="NF26" descr="Data Warehouse Et Outils Décisionnels">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="UE41" descr="Asservissement">
-   <recompense ects="2" cat="TM"/>
+   <recompense cat="TM" ects="2"/>
   </uv>
   <uv printemps="1" code="NF24" descr="Modelisation Et Simulation Des Procedes">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="NF22" descr="Micro-Ordinateurs Et Applications">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="API08" descr="Ihm Et Multimédia (Apprentissage)">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="LO12" descr="Infographie Et Images De Synthèse">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="API06" descr="Analyse De Donnees Et Data Mining (Apprentissage)">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv printemps="1" code="API07" descr="Architecture Des Applications Internet, Programmation Web Et Securite (Apprentissage)">
-   <recompense ects="3" cat="TM"/>
+   <recompense cat="TM" ects="3"/>
   </uv>
   <uv automne="1" code="API04" descr="Data Warehouse Et Outils Decisionnels (Apprentissage)">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="API05" descr="Modelisation Et Simulation Des Flux (Apprentissage)">
-   <recompense ects="4" cat="CS"/>
+   <recompense cat="CS" ects="4"/>
   </uv>
   <uv automne="1" code="API02" descr="Architecture Des Réseaux (Apprentissage)">
-   <recompense ects="5" cat="CS"/>
+   <recompense cat="CS" ects="5"/>
   </uv>
   <uv automne="1" code="API03" descr="Capteurs Intelligents Communicants (Apprentissage)">
-   <recompense ects="4" cat="TM"/>
+   <recompense cat="TM" ects="4"/>
   </uv>
   <uv automne="1" code="NF29" descr="Ingénierie Documentaire Et Supports D'Information">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" code="NF28" descr="Ingénierie Des Systèmes Intéractifs">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TF11" descr="Introduction Aux Phénameènes De Transfert">
-   <recompense ects="6" cat="CS"/>
+   <recompense cat="CS" ects="6"/>
   </uv>
   <uv printemps="1" code="TF14" descr="Les Opérations De Transfert De Matière">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv automne="1" code="TF15" descr="Procédés De Séparation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SC12" descr="Technologie, Cognition, Perception">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="TN05" descr="Stage ouvrier">
-   <recompense ects="6" cat="SP"/>
+   <recompense cat="SP" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN07" descr="Stage interculturel">
-   <recompense ects="6" cat="SP"/>
+   <recompense cat="SP" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="TN09" descr="Stage assistant ingénieur">
-   <recompense ects="30" cat="SP"/>
+   <recompense cat="SP" ects="30"/>
   </uv>
   <uv printemps="1" automne="1" code="TN10" descr="Stage de fin d’études">
-   <recompense ects="30" cat="SP"/>
+   <recompense cat="SP" ects="30"/>
   </uv>
   <uv automne="1" code="STS49" descr="Seminaires">
-   <recompense ects="2" cat="CS"/>
+   <recompense cat="CS" ects="2"/>
   </uv>
   <uv printemps="1" automne="1" code="NF92" descr="Traitement Automatique De L'Information">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
   <uv printemps="1" automne="1" code="SP02" descr="Conduire Un Projet Sportif">
-   <recompense ects="4" cat="TSH"/>
+   <recompense cat="TSH" ects="4"/>
   </uv>
   <uv printemps="1" automne="1" code="GE39" descr="Management Et Marketing De L'Innovation">
-   <recompense ects="6" cat="TM"/>
+   <recompense cat="TM" ects="6"/>
   </uv>
  </uvs>
  <categories>
-  <categorie name="TM" longname="Techniques et Méthodes"/>
-  <categorie name="CS" longname="Connaissances Scientifiques"/>
-  <categorie name="TSH" longname="Technologies et Sciences de l’Homme"/>
-  <categorie name="SP" longname="Stages et Projets"/>
+  <categorie longname="Techniques et Méthodes" name="TM"/>
+  <categorie longname="Connaissances Scientifiques" name="CS"/>
+  <categorie longname="Technologies et Sciences de l’Homme" name="TSH"/>
+  <categorie longname="Stages et Projets" name="SP"/>
  </categories>
  <notes>
-  <note name="A" reussite="1"/>
-  <note name="B" reussite="1"/>
-  <note name="C" reussite="1"/>
-  <note name="D" reussite="1"/>
-  <note name="E" reussite="1"/>
-  <note name="F" reussite="0"/>
-  <note name="Fx" reussite="0"/>
-  <note name="RES" reussite="0"/>
-  <note name="ABS" reussite="0"/>
+  <note reussite="1" name="A"/>
+  <note reussite="1" name="B"/>
+  <note reussite="1" name="C"/>
+  <note reussite="1" name="D"/>
+  <note reussite="1" name="E"/>
+  <note reussite="0" name="F"/>
+  <note reussite="0" name="Fx"/>
+  <note reussite="0" name="RES"/>
+  <note reussite="0" name="ABS"/>
  </notes>
  <formations>
   <formation abbr="TC" name="Tronc Commun">
-   <requirement categorie="CS" credits="48"/>
-   <requirement categorie="SP" credits="6"/>
-   <requirement categorie="TM" credits="24"/>
-   <requirement categorie="TSH" credits="24"/>
+   <requirement credits="48" categorie="CS"/>
+   <requirement credits="6" categorie="SP"/>
+   <requirement credits="24" categorie="TM"/>
+   <requirement credits="24" categorie="TSH"/>
    <uvformation name="MT90"/>
    <uvformation name="MT91"/>
    <uvformation name="MT94"/>
@@ -1756,10 +1756,10 @@
    <uvformation name="DI02"/>
   </formation>
   <formation abbr="BR" name="Branche">
-   <requirement categorie="CS" credits="30"/>
-   <requirement categorie="SP" credits="60"/>
-   <requirement categorie="TM" credits="30"/>
-   <requirement categorie="TSH" credits="28"/>
+   <requirement credits="30" categorie="CS"/>
+   <requirement credits="60" categorie="SP"/>
+   <requirement credits="30" categorie="TM"/>
+   <requirement credits="28" categorie="TSH"/>
    <uvformation name="SC01"/>
    <uvformation name="LNG14"/>
    <uvformation name="LG61"/>
@@ -1888,7 +1888,7 @@
    <uvformation name="ASP03"/>
    <uvformation name="DD01"/>
   </formation>
-  <formation abbr="GI" name="Génie Informatique" parent="BR">
+  <formation parent="BR" abbr="GI" name="Génie Informatique">
    <uvformation name="SY06"/>
    <uvformation name="SY02"/>
    <uvformation name="IA02"/>
@@ -1955,7 +1955,7 @@
    <uvformation name="GE40"/>
    <uvformation name="TX"/>
   </formation>
-  <formation abbr="GB" name="Génie Biologique" parent="BR">
+  <formation parent="BR" abbr="GB" name="Génie Biologique">
    <uvformation name="SY06"/>
    <uvformation name="SY02"/>
    <uvformation name="SY09"/>
@@ -2014,7 +2014,7 @@
    <uvformation name="MQ12"/>
    <uvformation name="TX"/>
   </formation>
-  <formation abbr="GP" name="Génie des Procédés" parent="BR">
+  <formation parent="BR" abbr="GP" name="Génie des Procédés">
    <uvformation name="SY05"/>
    <uvformation name="TF08"/>
    <uvformation name="TF07"/>
@@ -2060,7 +2060,7 @@
    <uvformation name="MA11"/>
    <uvformation name="NF04"/>
   </formation>
-  <formation abbr="GM" name="Génie Mécanique" parent="BR">
+  <formation parent="BR" abbr="GM" name="Génie Mécanique">
    <uvformation name="SY04"/>
    <uvformation name="SY06"/>
    <uvformation name="SY02"/>
@@ -2157,7 +2157,7 @@
    <uvformation name="MEQ01"/>
    <uvformation name="TN22"/>
   </formation>
-  <formation abbr="GSM" name="Génie des Systèmes Mécaniques" parent="BR">
+  <formation parent="BR" abbr="GSM" name="Génie des Systèmes Mécaniques">
    <uvformation name="SY03"/>
    <uvformation name="LO01"/>
    <uvformation name="MQ16"/>
@@ -2239,7 +2239,7 @@
    <uvformation name="MQ18"/>
    <uvformation name="MEQ05"/>
   </formation>
-  <formation abbr="GSU" name="Génie des Systèmes Urbains" parent="BR">
+  <formation parent="BR" abbr="GSU" name="Génie des Systèmes Urbains">
    <uvformation name="SY02"/>
    <uvformation name="TF06"/>
    <uvformation name="MQ20"/>
@@ -2284,16 +2284,75 @@
    <uvformation name="TX"/>
    <uvformation name="AP"/>
   </formation>
-  <formation abbr="MPI" name="Management de projets innovants" parent="BR">
-  </formation>
-  <formation abbr="STRIE" name="Systèmes temps réel Informatique Embarquée" parent="GI">
-  </formation>
-  <formation abbr="FDD" name="Fouille de Donnèes et Décisionnel (Data Mining)" parent="GI"/>
-  <formation abbr="ICSI" name="Ingénierie des Connaissances et des Supports d'Information" parent="GI"/>
-  <formation abbr="SRI" name="Systèmes et Réseaux Informatique" parent="GI"/>
-  <formation abbr="ADEL" name="Aide à la décision en logistique" parent="GI"/>
-  <formation abbr="STI" name="Systèmes techniques intégrés" parent="GSU"/>
-  <formation abbr="SR" name="Systèmes et réseaux pour l’environnement construit" parent="GSU"/>
-  <formation abbr="AIE" name="Aménagement et Industrie de l’Environnement" parent="GSU"/>
+  <formation parent="BR" abbr="MPI" name="Management de projets innovants"/>
+  <formation parent="GI" abbr="STRIE" name="Systèmes temps réel Informatique Embarquée"/>
+  <formation parent="GI" abbr="FDD" name="Fouille de Donnèes et Décisionnel (Data Mining)"/>
+  <formation parent="GI" abbr="ICSI" name="Ingénierie des Connaissances et des Supports d'Information"/>
+  <formation parent="GI" abbr="SRI" name="Systèmes et Réseaux Informatique"/>
+  <formation parent="GI" abbr="ADEL" name="Aide à la décision en logistique"/>
+  <formation parent="GSU" abbr="STI" name="Systèmes techniques intégrés"/>
+  <formation parent="GSU" abbr="SR" name="Systèmes et réseaux pour l’environnement construit"/>
+  <formation parent="GSU" abbr="AIE" name="Aménagement et Industrie de l’Environnement"/>
  </formations>
+ <dossiers>g
+  <dossier extrascolaire="0" login="alecalve">
+   <formationetu name="TC"/>
+   <formationetu name="BR"/>
+   <formationetu name="GI"/>
+   <semestreetu nom="TC01" formation="TC" semestre="A11">
+    <resultat note="D" uv="LA23"/>
+    <resultat note="C" uv="MT90"/>
+    <resultat note="C" uv="MT91"/>
+    <resultat note="B" uv="NP90"/>
+    <resultat note="C" uv="PH01"/>
+    <resultat note="C" uv="PS90"/>
+    <resultat note="C" uv="PS93"/>
+    <resultat note="F" uv="PS94"/>
+    <resultat note="B" uv="TN04"/>
+   </semestreetu>
+   <semestreetu nom="TC02" formation="TC" semestre="P12">
+    <resultat note="B" uv="LA14"/>
+    <resultat note="C" uv="MT22"/>
+    <resultat note="A" uv="NF01"/>
+    <resultat note="B" uv="PS91"/>
+    <resultat note="C" uv="PS94"/>
+    <resultat note="F" uv="TN01"/>
+    <resultat note="C" uv="TN05"/>
+   </semestreetu>
+   <semestreetu nom="TC03" formation="TC" semestre="A12">
+    <resultat note="B" uv="IC05"/>
+    <resultat note="C" uv="MT23"/>
+    <resultat note="C" uv="NF92"/>
+    <resultat note="C" uv="NF93"/>
+    <resultat note="C" uv="PS95"/>
+    <resultat note="C" uv="PS96"/>
+    <resultat note="B" uv="TN01"/>
+   </semestreetu>
+   <semestreetu nom="TC04" formation="TC" semestre="P13">
+    <resultat note="B" uv="AA01"/>
+    <resultat note="A" uv="GE10"/>
+    <resultat note="C" uv="HE01"/>
+    <resultat note="C" uv="NF16"/>
+    <resultat note="B" uv="NF17"/>
+    <resultat note="C" uv="SY01"/>
+   </semestreetu>
+   <semestreetu nom="GI01" formation="GI" semestre="A13">
+    <resultat note="A" uv="GE21"/>
+    <resultat note="A" uv="HE03"/>
+    <resultat note="A" uv="IA01"/>
+    <resultat note="C" uv="SR01"/>
+    <resultat note="C" uv="SY02"/>
+    <resultat note="B" uv="SY08"/>
+   </semestreetu>
+   <semestreetu nom="GI02" formation="GI" semestre="P14">
+    <resultat note="RES" uv="GE28"/>
+    <resultat note="RES" uv="LO21"/>
+    <resultat note="RES" uv="NF26"/>
+    <resultat note="RES" uv="PR"/>
+    <resultat note="RES" uv="RO03"/>
+    <resultat note="RES" uv="SY09"/>
+    <resultat note="RES" uv="TX"/>
+   </semestreetu>
+  </dossier>
+ </dossiers>
 </sauvegarde>
