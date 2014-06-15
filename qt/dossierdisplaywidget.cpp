@@ -18,6 +18,8 @@
 #define SEM_COL 2
 #define EQ_COL 3
 
+
+//! Onglet de gestion des dossiers etudiants
 DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
