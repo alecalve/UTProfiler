@@ -4,6 +4,8 @@
 
 #define UVM UvManager::getInstance()
 
+//! Ouverture du pop up de changement de semestre d'ouverture pour une UV
+//! Initialisation des boutons check en fonction de l'ouverture de l'uv
 ChangeSemestreDialog::ChangeSemestreDialog(QWidget *parent, QString u) :
     QDialog(parent),
     ui(new Ui::ChangeSemestreDialog), uv(u)
@@ -20,7 +22,7 @@ ChangeSemestreDialog::~ChangeSemestreDialog() {
     delete ui;
 }
 
-
+//! fermeture du pop up et enregistrement de l'uv
 void ChangeSemestreDialog::closing() {
     Uv &concerned = UVM->getItem(uv);
     concerned.setOuvertureAutomne(ui->automne->isChecked());

@@ -41,6 +41,7 @@ ChangeCreditsDialog::ChangeCreditsDialog(QWidget *parent, QString u) :
     connect(this, SIGNAL(accepted()), this, SLOT(closing()));
 }
 
+//! Ajout de crédits dans une catégorie pour une UV
 void ChangeCreditsDialog::ajouter() {
     QString credits = QString::number(ui->credits->value());
     QString categorie =  ui->categories->currentText();
@@ -59,6 +60,7 @@ void ChangeCreditsDialog::ajouter() {
     ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 1, new QTableWidgetItem(categorie));
 }
 
+//! fermeture du pop up et sauvegarde des nouveaux crédits
 void ChangeCreditsDialog::closing() {
     Uv& concerned = UVM->getItem(uv);
     concerned.resetCredits();
