@@ -9,96 +9,79 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>276</width>
-    <height>395</height>
+    <width>585</width>
+    <height>451</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Ajout d’un semestre d’étude</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2">
-   <item>
-    <layout class="QVBoxLayout" name="saisieLayout">
-     <item>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="1" column="0">
-        <widget class="QLineEdit" name="codeEdit"/>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>Code de l’UV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Note obtenue</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="noteBox"/>
-       </item>
-      </layout>
-     </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QPushButton" name="ajouter">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset resource="../icons.qrc">
-           <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QVBoxLayout" name="uvsLayout">
-     <item>
-      <widget class="QLabel" name="label_2">
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_7">
        <property name="text">
-        <string>UVs choisies :</string>
+        <string>Formation en cours</string>
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QTableWidget" name="tableWidget"/>
-     </item>
-    </layout>
-   </item>
-   <item>
-    <layout class="QVBoxLayout" name="additionnalSaisieLayout">
-     <item>
-      <widget class="QCheckBox" name="extrascolaire">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>Activité extrascolaire validée</string>
+        <string>Code de l’UV</string>
        </property>
       </widget>
      </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="codeEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Note obtenue</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="noteBox"/>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QPushButton" name="ajouter">
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../icons.qrc">
+         <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="formationBox"/>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
     </layout>
    </item>
-   <item>
+   <item row="4" column="0">
+    <layout class="QVBoxLayout" name="additionnalSaisieLayout"/>
+   </item>
+   <item row="4" column="1" colspan="3">
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -107,6 +90,94 @@
       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
+   </item>
+   <item row="2" column="0" rowspan="2" colspan="4">
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>UVs choisies :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="3">
+    <layout class="QFormLayout" name="formLayout_2">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Semestre</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Année</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QComboBox" name="semestreBox">
+       <property name="currentText">
+        <string>A</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>A</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>P</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="anneeBox">
+       <property name="minimum">
+        <number>2000</number>
+       </property>
+       <property name="maximum">
+        <number>3000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QCheckBox" name="extrascolaire">
+       <property name="text">
+        <string>Activité extrascolaire validée</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Nom du semestre</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="semestreEdit"/>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
@@ -118,7 +189,7 @@
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
    <receiver>AddSemestreDialog</receiver>
-   <slot>accept()</slot>
+   <slot>completeDossier()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>248</x>
@@ -165,5 +236,6 @@
  </connections>
  <slots>
   <slot>uvAdded()</slot>
+  <slot>completeDossier()</slot>
  </slots>
 </ui>

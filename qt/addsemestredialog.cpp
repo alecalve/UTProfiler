@@ -9,11 +9,11 @@
 #define NUM NoteUVManager::getInstance()
 
 //! Creation du pop up d'ajout de semestre
-AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
+AddSemestreDialog::AddSemestreDialog(QWidget *parent, Dossier *d) :
     QDialog(parent),
     ui(new Ui::AddSemestreDialog) {
     ui->setupUi(this);
-
+    dossier = d;
     ui->noteBox->addItems(NUM->getItemNameList());
     QStringList header;
     header << "Code" << "Note";
@@ -22,7 +22,28 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
     ui->tableWidget->setRowCount(0);
     ui->tableWidget->setColumnCount(2);
     ui->tableWidget->verticalHeader()->setVisible(false);
+    ui->tableWidget->setEnabled(false);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
+    ui->formationBox->addItems(d->getFormationsName());
+}
+
+void AddSemestreDialog::completeDossier() {
+    Semestre semestre(ui->semestreEdit->text());
+    SemestreT s(ui->semestreBox->currentText(), (unsigned int) ui->anneeBox->value());
+    semestre.setSemestre(s);
+    dossier->setExtraScolaire(ui->extrascolaire->isChecked());
+
+    for(int i=0; i<ui->tableWidget->rowCount(); i++) {
+        QTableWidgetItem *uv = ui->tableWidget->item(i, 0);
+        QTableWidgetItem *note= ui->tableWidget->item(i, 1);
+        semestre.setResultat(uv->text(), note->text());
+    }
+
+    dossier->addSemestre(semestre);
+
+    close();
+
 }
 
 //! Ajout d'une uv au semestre et de la note obtenue,
