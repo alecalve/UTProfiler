@@ -37,6 +37,14 @@ DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
 DossierDisplayWidget::~DossierDisplayWidget() {}
 
 void DossierDisplayWidget::modify() {
+    if (ui->tableWidget->currentRow() < 0) {
+        QMessageBox error(this);
+        error.setText("Aucune ligne sélectionnée");
+        error.exec();
+        return;
+    }
+
+
     Dossier d = DM->getItem(ui->tableWidget->item(ui->tableWidget->currentRow(), NOM_COL)->text());
 
     AddDossierDialog *dialog = new AddDossierDialog(this);
@@ -68,7 +76,7 @@ void DossierDisplayWidget::del() {
 
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
-            QString nom = ui->tableWidget->itemAt(NOM_COL, i)->text();
+            QString nom = ui->tableWidget->item(i, NOM_COL)->text();
             try {
                 DM->suppItem(nom);
             } catch (const Exception &e) {
