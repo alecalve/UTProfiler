@@ -9,6 +9,7 @@
 #include "semestre.hpp"
 #include "singleton.hpp"
 #include "manager.hpp"
+#include "equivalence.hpp"
 
 #define FM FormationManager::getInstance()
 
@@ -20,17 +21,25 @@ class Dossier : public BaseItem {
     Dossier(const QString& l) : BaseItem(l) {}
     inline void setExtraScolaire(const bool& a) { extraScolaire = a; }
     inline void addSemestre(const Semestre& s) { semestres.push_back(s); }
-    inline void addFormation(const Formation& f) {
-        formations.push_back(f);
-    }
+    inline void addEquivalence(const Equivalence& e) { equivalences.push_back(e); }
+    inline void addFormation(const Formation& f) { formations.push_back(f); }
 
-    inline void resetFormations() { formations.clear(); }
     inline void removeFormation(QString f) {
         Formation form = FM->getItem(f);
         bool found = false;
         for(auto it=formations.begin(); !found && it!=formations.end(); it++) {
             if (*it == form) {
                 it = formations.erase(it);
+                found = true;
+            }
+        }
+    }
+
+    inline void removeEquivalence(QString e) {
+        bool found = false;
+        for(auto it=equivalences.begin(); !found && it!=equivalences.end(); it++) {
+            if (it->getName() == e) {
+                it = equivalences.erase(it);
                 found = true;
             }
         }
@@ -48,6 +57,7 @@ class Dossier : public BaseItem {
 
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
+    inline const std::vector<Equivalence>& getEquivalences() { return equivalences; }
     inline const std::vector<Formation>& getFormations() { return formations; }
     inline const QStringList getFormationsName() {
         QStringList list;
@@ -60,6 +70,9 @@ class Dossier : public BaseItem {
   private:
     //! Semestres suivis
     std::vector<Semestre> semestres;
+
+    //! Équivalences eues
+    std::vector<Equivalence> equivalences;
 
     //! Activité extra-scolaire validée
     bool extraScolaire;
