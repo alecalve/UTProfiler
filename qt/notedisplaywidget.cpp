@@ -109,9 +109,7 @@ void NoteDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    QTableWidgetItem *nameItem = new QTableWidgetItem(nom);
-    nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
-    ui->tableWidget->setItem(offset, NOM_COL, nameItem);
+    ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(note));
     ui->tableWidget->setItem(offset, REUSSITE_COL, new QTableWidgetItem(reussite));
 
     offset++;

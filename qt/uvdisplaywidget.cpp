@@ -126,6 +126,7 @@ void UvDisplayWidget::displayItem(const QString& item) {
 
     code = u.getCode();
     descr = u.getDescription();
+    std::cout<<u.getOuvertureAutomne()<<u.getOuverturePrintemps()<<std::endl;
 
     if (u.getOuverturePrintemps()) { ouvertures<<"Printemps"; }
     if (u.getOuvertureAutomne()) { ouvertures<<"Automne"; }
@@ -158,9 +159,7 @@ void UvDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    QTableWidgetItem *codeItem = new QTableWidgetItem(code);
-    codeItem->setFlags(codeItem->flags() & ~Qt::ItemIsEditable);
-    ui->tableWidget->setItem(offset, CODE_COL, codeItem);
+    ui->tableWidget->setItem(offset, CODE_COL, getUneditableItem(code));
     ui->tableWidget->setItem(offset, DESCR_COL, new QTableWidgetItem(descr));
     ui->tableWidget->setItem(offset, OUV_COL, new QTableWidgetItem(ouv));
     ui->tableWidget->setItem(offset, CREDS_COL, new QTableWidgetItem(rec));

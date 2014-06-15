@@ -107,10 +107,7 @@ void CategorieDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-
-    QTableWidgetItem *nameItem = new QTableWidgetItem(abbr);
-    nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
-    ui->tableWidget->setItem(offset, ABBR_COL, nameItem);
+    ui->tableWidget->setItem(offset, ABBR_COL, getUneditableItem(abbr));
     ui->tableWidget->setItem(offset, NOM_COL, new QTableWidgetItem(nom));
 
     offset++;

@@ -11,16 +11,16 @@
 #include "addformation.h"
 
 #define FM FormationManager::getInstance()
-#define NBCOLS 3
+#define NBCOLS 4
 #define ABBR_COL 0
 #define NOM_COL 1
 #define PARENT_COL 2
-
+#define NUV_COL 3
 FormationDisplayWidget::FormationDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
     QStringList cols;
-    cols<<"Abbréviation"<<"Nom"<<"Formation parente";
+    cols<<"Abbréviation"<<"Nom"<<"Formation parente"<<"Nombre d’UVs dans la formation";
     ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
@@ -74,12 +74,14 @@ void FormationDisplayWidget::changed(int, int) {}
 void FormationDisplayWidget::change(int, int) {}
 
 void FormationDisplayWidget::displayItem(const QString& item) {
-    QString nom, abbr, parent;
+    QString nom, abbr, parent, nuv;
 
     Formation f = FM->getItem(item);
 
     nom = f.getLongName();
     abbr = f.getName();
+    nuv = QString::number(f.getUvs().size());
+
     if (f.hasParent()) {
         parent = f.getParent().getName();
     } else {
@@ -102,23 +104,19 @@ void FormationDisplayWidget::displayItem(const QString& item) {
                 if (!parent.contains(crit, Qt::CaseInsensitive)) { return; }
                 break;
 
+            case NUV_COL:
+                if (!nuv.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
             default:
                 break;
         }
     }
 
-    QTableWidgetItem *nameItem = new QTableWidgetItem(nom);
-    nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
-
-    QTableWidgetItem *abbrItem = new QTableWidgetItem(abbr);
-    abbrItem->setFlags(abbrItem->flags() & ~Qt::ItemIsEditable);
-
-    QTableWidgetItem *parentItem = new QTableWidgetItem(parent);
-    parentItem->setFlags(parentItem->flags() & ~Qt::ItemIsEditable);
-
-    ui->tableWidget->setItem(offset, NOM_COL, nameItem);
-    ui->tableWidget->setItem(offset, ABBR_COL, abbrItem);
-    ui->tableWidget->setItem(offset, PARENT_COL, parentItem);
+    ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(nom));
+    ui->tableWidget->setItem(offset, ABBR_COL, getUneditableItem(abbr));
+    ui->tableWidget->setItem(offset, PARENT_COL, getUneditableItem(parent));
+    ui->tableWidget->setItem(offset, NUV_COL, getUneditableItem(nuv));
 
     offset++;
 }
