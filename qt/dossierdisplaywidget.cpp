@@ -12,15 +12,18 @@
 #include "adddossierdialog.h"
 
 #define DM DossierManager::getInstance()
-#define NBCOLS 2
+#define NBCOLS 3
 #define NOM_COL 0
 #define FORM_COL 1
+#define SEM_COL 2
+
+
 //! Onglet de gestion des dossiers etudiants
 DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
     QStringList cols;
-    cols<<"Login"<<"Formations suivies";
+    cols<<"Login"<<"Formations suivies"<<"Semestres ajoutés";
     ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
@@ -87,7 +90,7 @@ void DossierDisplayWidget::changed(int, int) {}
 void DossierDisplayWidget::change(int, int) {}
 
 void DossierDisplayWidget::displayItem(const QString& item) {
-    QString nom, formation;
+    QString nom, formation, semestresSuivis;
 
     Dossier n = DM->getItem(item);
 
@@ -97,6 +100,14 @@ void DossierDisplayWidget::displayItem(const QString& item) {
     for(auto it=formations.begin(); it!=formations.end(); it++) {
         f<<it->getName();
     }
+
+    QStringList sems;
+    std::vector<Semestre> semestres = n.getSemestres();
+    for (auto it=semestres.begin(); it!=semestres.end(); it++) {
+        sems << it->getName();
+    }
+
+    semestresSuivis = sems.join(" ");
 
     formation = f.join("/");
 
@@ -112,6 +123,10 @@ void DossierDisplayWidget::displayItem(const QString& item) {
                 if (!formation.contains(crit, Qt::CaseInsensitive)) { return; }
                 break;
 
+            case SEM_COL:
+                if (!semestresSuivis.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
             default:
                 break;
         }
@@ -119,6 +134,7 @@ void DossierDisplayWidget::displayItem(const QString& item) {
 
     ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(nom));
     ui->tableWidget->setItem(offset, FORM_COL, getUneditableItem(formation));
+    ui->tableWidget->setItem(offset, SEM_COL, getUneditableItem(semestresSuivis));
 
     offset++;
 }

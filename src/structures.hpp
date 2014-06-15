@@ -8,11 +8,21 @@
 //! Structure représentant un semestre temporel
 struct SemestreT {
 
+    //! Constructeur par défaut
+    SemestreT() {}
+
     //! Constructeur, prend en argument une QString ex: "A12"
     SemestreT(const QString& s) {
         representation = s;
         isPrintemps = s.startsWith('P');
-        annee = 2000 + s.left(1).toInt();
+        annee = 2000 + s.right(2).toInt();
+    }
+
+    //! Constructeur, prend en argument une année et un caractère
+    SemestreT(QString c, unsigned int a) {
+        representation = c.append(QString::number(a).right(2));
+        isPrintemps = c.startsWith('P');
+        annee = a;
     }
 
     //! Représentation du semestre ex: "A12"
