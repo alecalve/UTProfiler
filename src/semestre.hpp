@@ -5,6 +5,7 @@
 #include <map>
 #include "structures.hpp"
 #include "manager.hpp"
+#include "formation.hpp"
 
 //! Représente un semestre d´étude
 class Semestre : public BaseItem {
