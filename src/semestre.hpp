@@ -24,7 +24,7 @@ class Semestre : public BaseItem {
         QStringList ret;
         for(auto it=resultats.begin(); it!=resultats.end(); it++) {
             QStringList temp;
-            temp << it->first << " (" << it->second << ")";
+            temp << it->first << "(" << it->second << ")";
             ret << temp.join("");
         }
         return ret;

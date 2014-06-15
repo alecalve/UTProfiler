@@ -34,7 +34,6 @@ AddDossierDialog::AddDossierDialog(QWidget *parent) :
     ui->tableSemestre->setHorizontalHeaderLabels(headerSemestre);
     ui->tableSemestre->setRowCount(0);
     ui->tableSemestre->verticalHeader()->setVisible(true);
-    ui->tableSemestre->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
 void AddDossierDialog::setDossier(const QString &name) {
@@ -112,13 +111,13 @@ void AddDossierDialog::refresh() {
     for(auto it=semestres.begin(); it!=semestres.end(); it++) {
         ui->tableSemestre->setItem(semestreOffset, 0, getUneditableItem(it->getName()));
         ui->tableSemestre->setItem(semestreOffset, 1, getUneditableItem(it->getSemestre().representation));
-        ui->tableSemestre->setItem(semestreOffset, 2, getUneditableItem(it->getUvList().join(" ")));
+        ui->tableSemestre->setItem(semestreOffset, 2, getUneditableItem(it->getUvList().join(", ")));
         semestreOffset++;
     }
     for(auto it=equivalences.begin(); it!=equivalences.end(); it++) {
         ui->tableSemestre->setItem(semestreOffset, 0, getUneditableItem(it->getName()));
         ui->tableSemestre->setItem(semestreOffset, 1, getUneditableItem(it->getSemestre().representation));
-        ui->tableSemestre->setItem(semestreOffset, 2, getUneditableItem(it->getCreditsList().join(" ")));
+        ui->tableSemestre->setItem(semestreOffset, 2, getUneditableItem(it->getCreditsList().join(", ")));
         semestreOffset++;
     }
 
