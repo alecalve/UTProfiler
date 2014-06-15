@@ -21,7 +21,7 @@ DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
     QStringList cols;
-    cols<<"Login"<<"Formations suivies"<<"Semestres saisis";
+    cols<<"Login"<<"Formations suivies"<<"Semestres ajoutés";
     ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
