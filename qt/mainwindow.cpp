@@ -11,6 +11,7 @@
 
 #define UVM UvManager::getInstance()
 
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -29,7 +30,7 @@ MainWindow::~MainWindow() {
     NoteUVManager::freeInstance();
 }
 
-
+//! Fonction de chargement du ficher contenant les uvs
 void MainWindow::loadFile() {
 
     QString filename = QFileDialog::getOpenFileName(this, "Ouvrir le fichier");
@@ -56,6 +57,7 @@ void MainWindow::loadFile() {
     ui->formationDisplay->refresh();
 }
 
+//! Fonction de sauvegarde du fichier
 void MainWindow::saveFile() {
     if (ioPolicy != 0) {
         ioPolicy->save();
