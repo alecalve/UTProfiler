@@ -16,6 +16,8 @@
 #define NOM_COL 1
 #define PARENT_COL 2
 #define NUV_COL 3
+
+//! Onglet de gestion des formations
 FormationDisplayWidget::FormationDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
