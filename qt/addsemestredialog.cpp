@@ -57,8 +57,8 @@ void AddSemestreDialog::completeDossier() {
         equivalence.setSemestre(s);
 
         for(int i=0; i<ui->tableCredits->rowCount(); i++) {
-            QTableWidgetItem *cat= ui->tableWidget->item(i, 0);
-            QTableWidgetItem *creds= ui->tableWidget->item(i, 1);
+            QTableWidgetItem *cat= ui->tableCredits->item(i, 0);
+            QTableWidgetItem *creds= ui->tableCredits->item(i, 1);
             equivalence.setCredits(cat->text(), creds->text().toUInt());
         }
 
@@ -77,9 +77,6 @@ void AddSemestreDialog::completeDossier() {
 
         dossier->addSemestre(semestre);
     }
-
-
-
 
     close();
 
@@ -114,6 +111,35 @@ void AddSemestreDialog::uvAdded() {
     ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 0, new QTableWidgetItem(code));
     ui->tableWidget->setItem(ui->tableWidget->rowCount()-1, 1, new QTableWidgetItem(note));
 
+}
+
+void AddSemestreDialog::creditsAdded() {
+    unsigned int c = ui->creditsBox->value();
+    QString creds = QString::number(c);
+    QString cat = ui->categorieBox->currentText();
+
+    ui->creditsBox->clear();
+
+    try {
+        CUM->getItem(cat);
+    } catch(const Exception& e) {
+        QMessageBox error(this);
+        error.setText(e.getinfo());
+        error.exec();
+        return;
+    }
+
+    //Si cette catégorie a été rajoutée auparavant on met à jour
+    for(int i=0; i<ui->tableCredits->rowCount(); i++) {
+        if(ui->tableCredits->item(i, 0)->text() == cat) {
+            ui->tableCredits->setItem(i, 1, new QTableWidgetItem(creds));
+            return;
+        }
+    }
+
+    ui->tableCredits->setRowCount(ui->tableCredits->rowCount() + 1);
+    ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 0, new QTableWidgetItem(cat));
+    ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 1, new QTableWidgetItem(creds));
 }
 
 AddSemestreDialog::~AddSemestreDialog() {

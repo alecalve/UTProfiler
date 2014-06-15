@@ -21,6 +21,9 @@ public slots:
   //! Déclenché lors d’un click sur "Ajouter UV"
   void uvAdded();
 
+  //! Déclenché à l’ajout de crédits d’équivalence
+  void creditsAdded();
+
   //! Déclenché à la fermeture du dialog, crée le semestre et met à jour le dossier
   void completeDossier();
 
