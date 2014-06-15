@@ -196,6 +196,38 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>deleteFormation</sender>
+   <signal>clicked()</signal>
+   <receiver>AddDossierDialog</receiver>
+   <slot>formationRemoved()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>302</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>deleteSemestre</sender>
+   <signal>clicked()</signal>
+   <receiver>AddDossierDialog</receiver>
+   <slot>semestreRemoved()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>537</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>createDossier()</slot>

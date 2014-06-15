@@ -55,10 +55,13 @@ void AddDossierDialog::formationRemoved() {
         error.exec();
         return;
     }
-
+    std::cout<<ranges.length()<<std::endl;
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
+        std::cout<<it->bottomRow()<<" "<<it->topRow()<<std::endl;
+
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
             QString nom = ui->tableWidget->item(i, 0)->text();
+            std::cout<<nom.toStdString()<<std::endl;
             try {
                 dossier.removeFormation(nom);
             } catch (const Exception &e) {
@@ -147,11 +150,15 @@ void AddDossierDialog::semestreAdded() {
 
 //! Création d'un nouveau dossier
 void AddDossierDialog::createDossier() {
-    dossier.setName(ui->loginEdit->text());
 
     if (!editionMode) {
+        dossier.setName(ui->loginEdit->text());
         DM->addItem(dossier);
+    } else {
+        Dossier& concerned = DM->getItem(dossier.getName());
+        concerned = dossier;
     }
+
 
     close();
 }
