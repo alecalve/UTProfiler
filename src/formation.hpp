@@ -22,7 +22,7 @@ typedef Singleton<Manager<Formation>> FormationManager;
 class Formation : public BaseItem {
 
   public:
-
+    Formation() {}
     Formation(const QString& abbr, const QString& n)
         : BaseItem(abbr), longName(n), parent(""), nbLignes(0), nbColonnes(0),
           minCredits(0) {}
