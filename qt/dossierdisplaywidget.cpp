@@ -31,11 +31,20 @@ DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
 }
 
 DossierDisplayWidget::~DossierDisplayWidget() {
-    QString login = ui->tableWidget->item(NOM_COL, ui->tableWidget->currentRow());
+    QString login = ui->tableWidget->item(NOM_COL, ui->tableWidget->currentRow())->text();
     Dossier d = DM->getItem(login);
 }
 
-void DossierDisplayWidget::modify() {}
+void DossierDisplayWidget::modify() {
+    Dossier d = DM->getItem(ui->tableWidget->item(ui->tableWidget->currentRow(), NOM_COL)->text());
+
+    AddDossierDialog *dialog = new AddDossierDialog(this);
+    dialog->setDossier(d.getName());
+    dialog->exec();
+    delete dialog;
+
+    refresh();
+}
 
 void DossierDisplayWidget::add() {
     AddDossierDialog *dialog = new AddDossierDialog(this);
@@ -108,14 +117,8 @@ void DossierDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    QTableWidgetItem *nameItem = new QTableWidgetItem(nom);
-    nameItem->setFlags(nameItem->flags() & ~Qt::ItemIsEditable);
-
-    QTableWidgetItem *formationItem = new QTableWidgetItem(formation);
-    formationItem->setFlags(formationItem->flags() & ~Qt::ItemIsEditable);
-
-    ui->tableWidget->setItem(offset, NOM_COL, nameItem);
-    ui->tableWidget->setItem(offset, FORM_COL, formationItem);
+    ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(nom));
+    ui->tableWidget->setItem(offset, FORM_COL, getUneditableItem(formation));
 
     offset++;
 }

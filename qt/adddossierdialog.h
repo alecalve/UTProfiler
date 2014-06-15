@@ -15,8 +15,8 @@ class AddDossierDialog : public QDialog
 
 public:
     explicit AddDossierDialog(QWidget *parent = 0);
-    explicit AddDossierDialog(QWidget *parent = 0, Dossier &d=&Dossier());
     ~AddDossierDialog();
+    void setDossier(const QString& name);
 
 public slots:
     void formationAdded();
@@ -27,7 +27,7 @@ private:
     QStringList formations;
 
     bool editionMode;
-    Dossier& dossier;
+    Dossier dossier;
 };
 
 #endif // ADDDOSSIERDIALOG_H
