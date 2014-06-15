@@ -25,6 +25,26 @@ class Dossier : public BaseItem {
     }
 
     inline void resetFormations() { formations.clear(); }
+    inline void removeFormation(QString f) {
+        Formation form = FM->getItem(f);
+        bool found = false;
+        for(auto it=formations.begin(); !found && it!=formations.end(); it++) {
+            if (*it == form) {
+                it = formations.erase(it);
+                found = true;
+            }
+        }
+    }
+
+    inline void removeSemestre(QString s) {
+        bool found = false;
+        for(auto it=semestres.begin(); !found && it!=semestres.end(); it++) {
+            if (it->getName() == s) {
+                it = semestres.erase(it);
+                found = true;
+            }
+        }
+    }
 
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
