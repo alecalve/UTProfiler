@@ -29,7 +29,7 @@ AddDossierDialog::AddDossierDialog(QWidget *parent) :
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
     QStringList headerSemestre;
-    header << "Semestre" << "Date";
+    headerSemestre << "Semestre" << "Date";
     ui->tableSemestre->setColumnCount(2);
     ui->tableSemestre->setHorizontalHeaderLabels(headerSemestre);
     ui->tableSemestre->setRowCount(0);
@@ -158,7 +158,6 @@ void AddDossierDialog::createDossier() {
         Dossier& concerned = DM->getItem(dossier.getName());
         concerned = dossier;
     }
-
 
     close();
 }
