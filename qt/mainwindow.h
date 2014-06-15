@@ -23,6 +23,9 @@ class MainWindow : public QMainWindow {
     //! Slot qui permet de sauvegarder les données
     void saveFile();
 
+    //! Lance la complétion d’un dossier
+    void completeDossier();
+
   private:
     Ui::MainWindow *ui;
 

@@ -8,6 +8,7 @@
 #include "src/exceptions.hpp"
 #include "addsemestredialog.h"
 #include "src/dossier.hpp"
+#include "choosedossierdialog.h"
 
 #define UVM UvManager::getInstance()
 
@@ -70,5 +71,7 @@ void MainWindow::saveFile() {
 }
 
 void MainWindow::completeDossier() {
-
+    ChooseDossierDialog *dialog = new ChooseDossierDialog(this);
+    dialog->exec();
+    delete dialog;
 }

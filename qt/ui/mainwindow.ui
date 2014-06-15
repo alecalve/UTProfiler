@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>445</width>
+    <width>504</width>
     <height>332</height>
    </rect>
   </property>
@@ -23,14 +23,14 @@
    <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="tabPosition">
        <enum>QTabWidget::North</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="DossierDisplayWidget" name="dossierDisplay">
        <attribute name="title">
@@ -75,7 +75,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>445</width>
+     <width>504</width>
      <height>23</height>
     </rect>
    </property>
@@ -102,6 +102,8 @@
    </attribute>
    <addaction name="actionCharger"/>
    <addaction name="actionSauvegarder"/>
+   <addaction name="separator"/>
+   <addaction name="actionCompl_ter"/>
   </widget>
   <action name="actionCharger_un_dossier">
    <property name="icon">
@@ -152,6 +154,18 @@
    </property>
    <property name="toolTip">
     <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionCompl_ter">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/new/icons/book.png</normaloff>:/new/icons/book.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compléter</string>
+   </property>
+   <property name="toolTip">
+    <string>Compléter un dossier</string>
    </property>
   </action>
  </widget>
@@ -272,9 +286,26 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>actionCompl_ter</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>completeDossier()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>165</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>loadFile()</slot>
   <slot>saveFile()</slot>
+  <slot>completeDossier()</slot>
  </slots>
 </ui>
