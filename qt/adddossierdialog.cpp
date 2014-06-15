@@ -86,17 +86,12 @@ void AddDossierDialog::semestreRemoved() {
         return;
     }
 
+    std::cout<<ranges.length()<<std::endl;
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
-            QString nom = ui->tableWidget->item(i, 0)->text();
-            try {
-                dossier.removeSemestre(nom);
-            } catch (const Exception &e) {
-                QMessageBox error(this);
-                error.setText(e.getinfo());
-                error.exec();
-                return;
-            }
+            QString nom = ui->tableSemestre->item(i, 0)->text();
+            dossier.removeSemestre(nom);
+            dossier.removeEquivalence(nom);
         }
     }
 
@@ -106,14 +101,20 @@ void AddDossierDialog::semestreRemoved() {
 void AddDossierDialog::refresh() {
     std::vector<Semestre> semestres = dossier.getSemestres();
     std::vector<Formation> formations = dossier.getFormations();
+    std::vector<Equivalence> equivalences = dossier.getEquivalences();
 
     ui->tableSemestre->clearContents();
-    ui->tableSemestre->setRowCount(semestres.size());
+    ui->tableSemestre->setRowCount(semestres.size() + equivalences.size());
     ui->tableWidget->clearContents();
     ui->tableWidget->setRowCount(formations.size());
 
     int semestreOffset = 0;
     for(auto it=semestres.begin(); it!=semestres.end(); it++) {
+        ui->tableSemestre->setItem(semestreOffset, 0, getUneditableItem(it->getName()));
+        ui->tableSemestre->setItem(semestreOffset, 1, getUneditableItem(it->getSemestre().representation));
+        semestreOffset++;
+    }
+    for(auto it=equivalences.begin(); it!=equivalences.end(); it++) {
         ui->tableSemestre->setItem(semestreOffset, 0, getUneditableItem(it->getName()));
         ui->tableSemestre->setItem(semestreOffset, 1, getUneditableItem(it->getSemestre().representation));
         semestreOffset++;

@@ -4,9 +4,11 @@
 #include <QMessageBox>
 #include "src/uvmanager.hpp"
 #include "src/exceptions.hpp"
+#include "src/equivalence.hpp"
 
 #define UVM UvManager::getInstance()
 #define NUM NoteUVManager::getInstance()
+#define CUM CategorieUVManager::getInstance()
 
 //! Creation du pop up d'ajout de semestre
 AddSemestreDialog::AddSemestreDialog(QWidget *parent, Dossier *d) :
@@ -15,9 +17,10 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent, Dossier *d) :
     ui->setupUi(this);
     dossier = d;
     ui->noteBox->addItems(NUM->getItemNameList());
+    ui->categorieBox->addItems(CUM->getItemNameList());
+
     QStringList header;
     header << "Code" << "Note";
-    ui->tableWidget->setColumnCount(2);
     ui->tableWidget->setHorizontalHeaderLabels(header);
     ui->tableWidget->setRowCount(0);
     ui->tableWidget->setColumnCount(2);
@@ -25,28 +28,58 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent, Dossier *d) :
     ui->tableWidget->setEnabled(false);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
+    QStringList header2;
+    header2 << "Catégorie" << "Crédits";
+    ui->tableCredits->setHorizontalHeaderLabels(header2);
+    ui->tableCredits->setRowCount(0);
+    ui->tableCredits->setColumnCount(2);
+    ui->tableCredits->verticalHeader()->setVisible(false);
+    ui->tableCredits->setEnabled(false);
+    ui->tableCredits->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
     ui->formationBox->addItems(d->getFormationsName());
 }
 
 void AddSemestreDialog::completeDossier() {
+
     if (ui->semestreEdit->text().isEmpty()) {
         QMessageBox error(this);
         error.setText("Vous devez nommer le semestre !");
         error.exec();
         return;
     }
-    Semestre semestre(ui->semestreEdit->text());
+
     SemestreT s(ui->semestreBox->currentText(), (unsigned int) ui->anneeBox->value());
-    semestre.setSemestre(s);
     dossier->setExtraScolaire(ui->extrascolaire->isChecked());
 
-    for(int i=0; i<ui->tableWidget->rowCount(); i++) {
-        QTableWidgetItem *uv = ui->tableWidget->item(i, 0);
-        QTableWidgetItem *note= ui->tableWidget->item(i, 1);
-        semestre.setResultat(uv->text(), note->text());
+    if (ui->equivalenceCheckBox->isChecked()) {
+        Equivalence equivalence(ui->semestreEdit->text(), ui->justificationEdit->text());
+        equivalence.setSemestre(s);
+
+        for(int i=0; i<ui->tableCredits->rowCount(); i++) {
+            QTableWidgetItem *cat= ui->tableWidget->item(i, 0);
+            QTableWidgetItem *creds= ui->tableWidget->item(i, 1);
+            equivalence.setCredits(cat->text(), creds->text().toUInt());
+        }
+
+        dossier->addEquivalence(equivalence);
+
+
+    } else {
+        Semestre semestre(ui->semestreEdit->text());
+        semestre.setSemestre(s);
+        semestre.setFormation(FM->getItem(ui->formationBox->currentText()));
+        for(int i=0; i<ui->tableWidget->rowCount(); i++) {
+            QTableWidgetItem *uv = ui->tableWidget->item(i, 0);
+            QTableWidgetItem *note= ui->tableWidget->item(i, 1);
+            semestre.setResultat(uv->text(), note->text());
+        }
+
+        dossier->addSemestre(semestre);
     }
 
-    dossier->addSemestre(semestre);
+
+
 
     close();
 
