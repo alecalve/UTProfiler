@@ -31,13 +31,23 @@
      </item>
      <item>
       <widget class="QPushButton" name="modifyButton">
+       <property name="toolTip">
+        <string>Modifier la ligne sélectionnée</string>
+       </property>
        <property name="text">
-        <string>Modifier</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../icons.qrc">
+         <normaloff>:/new/icons/edit.png</normaloff>:/new/icons/edit.png</iconset>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="addButton">
+       <property name="toolTip">
+        <string>Ajouter</string>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -49,6 +59,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="deleteButton">
+       <property name="toolTip">
+        <string>Supprimer la ligne sélectionnée</string>
+       </property>
        <property name="text">
         <string/>
        </property>
