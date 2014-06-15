@@ -34,10 +34,7 @@ DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
 
 }
 
-DossierDisplayWidget::~DossierDisplayWidget() {
-    QString login = ui->tableWidget->item(NOM_COL, ui->tableWidget->currentRow())->text();
-    Dossier d = DM->getItem(login);
-}
+DossierDisplayWidget::~DossierDisplayWidget() {}
 
 void DossierDisplayWidget::modify() {
     Dossier d = DM->getItem(ui->tableWidget->item(ui->tableWidget->currentRow(), NOM_COL)->text());
