@@ -4,7 +4,7 @@
 #include "src/structures.hpp"
 
 #define CUM CategorieUVManager::getInstance()
-
+//! Ouverture du Pop up de création de catégorie
 AddCategorieDialog::AddCategorieDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddCategorieDialog)
@@ -12,6 +12,8 @@ AddCategorieDialog::AddCategorieDialog(QWidget *parent) :
     ui->setupUi(this);
 }
 
+//! Création d'une nouvelle catégorie (équivalente aux CS/TM/TSH)
+//! Récupération du code et du nom dans un champ de texte
 void AddCategorieDialog::createCategorie() {
     close();
     QString abbr, nom;

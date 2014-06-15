@@ -9,7 +9,7 @@
 #define CUM CategorieUVManager::getInstance()
 #define FM FormationManager::getInstance()
 
-
+//! Ouverture du Pop Up Création de formation
 AddFormation::AddFormation(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddFormation)
@@ -37,7 +37,8 @@ AddFormation::AddFormation(QWidget *parent) :
     ui->tableUV->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
-
+//! Création d'une formation (ex : GI, GP)
+//! Récupération du code et du nom dans 2 champs texte, puis appel du constructeur de la classe formation.
 void AddFormation::createFormation() {
     QString abbr, nom;
     abbr = ui->abbrEdit->text();
@@ -59,6 +60,8 @@ void AddFormation::createFormation() {
     close();
 }
 
+//! Ajout d'UV à la formation
+//! Recupération du code de l'uv dans un champ texte puis on vérifie que l'uv existe et n'a pas déja été ajoutée.
 void AddFormation::uvAdded(){
 
     QString code = ui->uvEdit->text();

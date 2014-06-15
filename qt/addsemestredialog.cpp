@@ -8,6 +8,7 @@
 #define UVM UvManager::getInstance()
 #define NUM NoteUVManager::getInstance()
 
+//! Creation du pop up d'ajout de semestre
 AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddSemestreDialog) {
@@ -24,6 +25,8 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent) :
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
+//! Ajout d'une uv au semestre et de la note obtenue,
+//! On vérifie que l'uv n'a pas déja été ajoutée et si elle existe bien
 void AddSemestreDialog::uvAdded() {
     QString code = ui->codeEdit->text();
     QString note = ui->noteBox->currentText();

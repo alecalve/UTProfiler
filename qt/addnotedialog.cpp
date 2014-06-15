@@ -4,7 +4,7 @@
 #include "src/structures.hpp"
 
 #define NUM NoteUVManager::getInstance()
-
+//! Ouverture du Pop Up de création de note
 AddNoteDialog::AddNoteDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddNoteDialog)
@@ -12,6 +12,7 @@ AddNoteDialog::AddNoteDialog(QWidget *parent) :
     ui->setupUi(this);
 }
 
+//! Création d'une note par récupération d'un nom et de la validation ou non de l'uv par l'obtention de celle ci.
 void AddNoteDialog::createNote() {
     QString note = ui->nomEdit->text();
     bool reussite = ui->checkBox->isChecked();

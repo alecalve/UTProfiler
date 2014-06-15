@@ -7,8 +7,9 @@
 #define FM FormationManager::getInstance()
 #define DM DossierManager::getInstance()
 
-AddDossierDialog::AddDossierDialog(QWidget *parent)  :
-    QDialog(parent), dossier(""),
+//! Ouverture du Pop up création de dossier
+AddDossierDialog::AddDossierDialog(QWidget *parent) :
+    QDialog(parent),
     ui(new Ui::AddDossierDialog)
 {
     ui->setupUi(this);
@@ -32,7 +33,7 @@ void AddDossierDialog::setDossier(const QString &name) {
     ui->loginEdit->setDisabled(true);
 }
 
-
+//! Création d'un nouveau dossier
 void AddDossierDialog::createDossier() {
     if (!editionMode) {
         dossier = Dossier();
@@ -54,6 +55,7 @@ void AddDossierDialog::createDossier() {
     close();
 }
 
+//! Ajout d'une formation au dossier (ex : TC, GI, SRI)
 void AddDossierDialog::formationAdded() {
     QString formation = ui->formationBox->currentText();
     formations.push_back(formation);

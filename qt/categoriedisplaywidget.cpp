@@ -15,6 +15,7 @@
 #define NOM_COL 1
 #define ABBR_COL 0
 
+//! Onglet des catégories
 CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
@@ -35,6 +36,7 @@ CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
 CategorieDisplayWidget::~CategorieDisplayWidget() {  }
 void CategorieDisplayWidget::modify() {}
 
+//! Ouverture de l'outil de création de catégorie
 void CategorieDisplayWidget::add() {
     AddCategorieDialog *dialog = new AddCategorieDialog(this);
     dialog->exec();
@@ -42,6 +44,7 @@ void CategorieDisplayWidget::add() {
     refresh();
 }
 
+//! Supresion d'une catégorie
 void CategorieDisplayWidget::del() {
     QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
 
@@ -113,6 +116,7 @@ void CategorieDisplayWidget::displayItem(const QString& item) {
     offset++;
 }
 
+//! Raffraichir le tableau
 void CategorieDisplayWidget::refresh() {
     std::vector<CategorieUV> categories = CUM->iterator();
 

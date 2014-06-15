@@ -7,6 +7,7 @@
 
 #define UVM UvManager::getInstance()
 
+//! Ouverture du Pop up d'ajout d'UV
 AddUVDialog::AddUVDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddUVDialog)
@@ -14,6 +15,7 @@ AddUVDialog::AddUVDialog(QWidget *parent) :
     ui->setupUi(this);
 }
 
+//! Fermeture du pop up et création de l'UV par l'obtention d'un code et d'une description
 void AddUVDialog::endCreationProcess() {
 
     close();
