@@ -126,7 +126,6 @@ void UvDisplayWidget::displayItem(const QString& item) {
 
     code = u.getCode();
     descr = u.getDescription();
-    std::cout<<u.getOuvertureAutomne()<<u.getOuverturePrintemps()<<std::endl;
 
     if (u.getOuverturePrintemps()) { ouvertures<<"Printemps"; }
     if (u.getOuvertureAutomne()) { ouvertures<<"Automne"; }
