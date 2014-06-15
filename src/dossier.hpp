@@ -29,6 +29,13 @@ class Dossier : public BaseItem {
     inline const std::vector<Semestre>& getSemestres() { return semestres; }
     inline bool getExtraScolaire() { return extraScolaire; }
     inline const std::vector<Formation>& getFormations() { return formations; }
+    inline const QStringList getFormationsName() {
+        QStringList list;
+        for(auto it=formations.begin(); it!=formations.end(); it++) {
+            list << it->getName();
+        }
+        return list;
+    }
 
   private:
     //! Semestres suivis
