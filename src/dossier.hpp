@@ -77,9 +77,6 @@ class Dossier : public BaseItem {
     //! Activité extra-scolaire validée
     bool extraScolaire;
 
-    //! Niveaux de langues ex: "Anglais" => "C1"
-    std::map<QString, QString> langues;
-
     //! Formations suivies (pas forcément validées)
     std::vector<Formation> formations;
 };
