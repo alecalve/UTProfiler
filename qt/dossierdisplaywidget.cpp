@@ -12,16 +12,17 @@
 #include "adddossierdialog.h"
 
 #define DM DossierManager::getInstance()
-#define NBCOLS 3
+#define NBCOLS 4
 #define NOM_COL 0
 #define FORM_COL 1
 #define SEM_COL 2
+#define EQ_COL 3
 
 DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
     QStringList cols;
-    cols<<"Login"<<"Formations suivies"<<"Semestres ajoutés";
+    cols<<"Login"<<"Formations suivies"<<"Semestres ajoutés"<<"Équivalences";
     ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
@@ -88,7 +89,7 @@ void DossierDisplayWidget::changed(int, int) {}
 void DossierDisplayWidget::change(int, int) {}
 
 void DossierDisplayWidget::displayItem(const QString& item) {
-    QString nom, formation, semestresSuivis;
+    QString nom, formation, semestresSuivis, equivalence;
 
     Dossier n = DM->getItem(item);
 
@@ -105,8 +106,14 @@ void DossierDisplayWidget::displayItem(const QString& item) {
         sems << it->getName();
     }
 
-    semestresSuivis = sems.join(" ");
+    QStringList eqs;
+    std::vector<Equivalence> equivalences = n.getEquivalences();
+    for (auto it=equivalences.begin(); it!=equivalences.end(); it++) {
+        eqs << it->getName();
+    }
 
+    semestresSuivis = sems.join(" ");
+    equivalence = eqs.join(" ");
     formation = f.join("/");
 
     if (!ui->searchValue->text().isEmpty()) {
@@ -125,6 +132,10 @@ void DossierDisplayWidget::displayItem(const QString& item) {
                 if (!semestresSuivis.contains(crit, Qt::CaseInsensitive)) { return; }
                 break;
 
+            case EQ_COL:
+                if (!equivalence.contains(crit, Qt::CaseInsensitive)) { return; }
+                break;
+
             default:
                 break;
         }
@@ -133,6 +144,7 @@ void DossierDisplayWidget::displayItem(const QString& item) {
     ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(nom));
     ui->tableWidget->setItem(offset, FORM_COL, getUneditableItem(formation));
     ui->tableWidget->setItem(offset, SEM_COL, getUneditableItem(semestresSuivis));
+    ui->tableWidget->setItem(offset, EQ_COL, getUneditableItem(equivalence));
 
     offset++;
 }
