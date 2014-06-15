@@ -56,6 +56,7 @@ void MainWindow::loadFile() {
     ui->noteDisplay->refresh();
     ui->categorieDisplay->refresh();
     ui->formationDisplay->refresh();
+    ui->dossierDisplay->refresh();
 }
 
 //! Fonction de sauvegarde du fichier
@@ -74,4 +75,5 @@ void MainWindow::completeDossier() {
     ChooseDossierDialog *dialog = new ChooseDossierDialog(this);
     dialog->exec();
     delete dialog;
+    ui->dossierDisplay->refresh();
 }
