@@ -29,6 +29,12 @@ AddSemestreDialog::AddSemestreDialog(QWidget *parent, Dossier *d) :
 }
 
 void AddSemestreDialog::completeDossier() {
+    if (ui->semestreEdit->text().isEmpty()) {
+        QMessageBox error(this);
+        error.setText("Vous devez nommer le semestre !");
+        error.exec();
+        return;
+    }
     Semestre semestre(ui->semestreEdit->text());
     SemestreT s(ui->semestreBox->currentText(), (unsigned int) ui->anneeBox->value());
     semestre.setSemestre(s);
