@@ -2,7 +2,7 @@
 #define ADDCATEGORIEDIALOG_H
 
 #include <QDialog>
-
+//! Classe pour l'ouverture du pop up de modification/ajout de catégorie
 namespace Ui {
 class AddCategorieDialog;
 }
