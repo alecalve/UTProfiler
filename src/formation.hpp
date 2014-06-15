@@ -25,10 +25,12 @@ class Formation : public BaseItem {
 
     Formation(const QString& abbr, const QString& n)
         : BaseItem(abbr), longName(n), parent(""), nbLignes(0), nbColonnes(0),
-          minCredits(0), minNbUvRecommended(0) {}
+          minCredits(0) {}
 
     inline const QString& getLongName() const { return longName; }
     inline bool hasParent() const { return parent != ""; }
+    inline void addUv(const QString& u) { uvs.push_back(UVM->getItem(u)); }
+    inline void addUv(Uv u) { uvs.push_back(u); }
 
     //! Retourne le parent de la formation, lève une exception s’il n’existe pas
     inline const Formation& getParent() const { return FM->getItem(parent); }
@@ -36,6 +38,7 @@ class Formation : public BaseItem {
     inline const std::map<CategorieUV, int>& getRequirements() const { return requirements; }
     inline unsigned int getLignesTSH() const { return nbLignes; }
     inline unsigned int getColonnesTSH() const { return nbColonnes; }
+    inline const std::vector<Uv>& getUvs() const { return uvs; }
 
     inline bool hasChildren() const {
         std::vector<Formation> formations = FM->iterator();
@@ -82,11 +85,8 @@ class Formation : public BaseItem {
     //! Minimums de crédits requis par catégories
     std::map<CategorieUV, int> requirements;
 
-    //! UVs dont la validation est nécessaire
-    std::vector<Uv> compulsory;
-
-    //! UVs dont la validation est recommandée
-    std::vector<Uv> recommended;
+    //! UVs de la formation
+    std::vector<Uv> uvs;
 
     //! Nombre de lignes présentes dans le tableau TSH
     unsigned int nbLignes;
@@ -97,8 +97,6 @@ class Formation : public BaseItem {
     //! Nombre minimum de crédits à valider toutes catégories confondues
     unsigned int minCredits;
 
-    //! Nombre minimum d’UV à valider dans les UVs recommandées
-    unsigned int minNbUvRecommended;
 
 };
 
