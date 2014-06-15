@@ -68,3 +68,7 @@ void MainWindow::saveFile() {
         return;
     }
 }
+
+void MainWindow::completeDossier() {
+
+}
