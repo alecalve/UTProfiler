@@ -2,6 +2,7 @@
 #define DISPLAYWIDGET_H
 
 #include <QWidget>
+#include <QTableWidgetItem>
 
 namespace Ui {
 class DisplayWidget;
@@ -23,11 +24,17 @@ public slots:
     virtual void modify()=0;
     virtual void change(int row, int column)=0;
     virtual void changed(int row, int column)=0;
-    void filter(QString) { refresh(); }
+    inline void filter(QString) { refresh(); }
 
 
 protected:
     Ui::DisplayWidget *ui;
+
+    inline QTableWidgetItem *getUneditableItem(const QString& data) {
+        QTableWidgetItem *item= new QTableWidgetItem(data);
+        item->setFlags(item->flags() & ~Qt::ItemIsEditable);
+        return item;
+    }
 
     unsigned int offset;
 };
