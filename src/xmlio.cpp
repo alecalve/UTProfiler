@@ -4,11 +4,13 @@
 
 #include "exceptions.hpp"
 #include "uv.hpp"
+#include "dossier.hpp"
 
 #define UVM UvManager::getInstance()
 #define CUM CategorieUVManager::getInstance()
 #define NUM NoteUVManager::getInstance()
 #define FM FormationManager::getInstance()
+#define DM DossierManager::getInstance()
 
 void XmlIo::save() {
 
@@ -16,6 +18,7 @@ void XmlIo::save() {
     std::vector<CategorieUV> cats = CUM->iterator();
     std::vector<NoteUV> notes = NUM->iterator();
     std::vector<Formation> formations = FM->iterator();
+    std::vector<Dossier> dossiers = DM->iterator();
 
     QDomDocument doc;
     QDomElement root = doc.createElement("sauvegarde");
@@ -99,6 +102,61 @@ void XmlIo::save() {
         }
 
         rootFormations.appendChild(formation);
+    }
+
+    QDomElement rootDossiers= doc.createElement("dossiers");
+    root.appendChild(rootDossiers);
+
+    for(auto it=dossiers.begin(); it!=dossiers.end(); it++) {
+        QDomElement dossier = doc.createElement("dossier");
+
+        dossier.setAttribute(QString::fromStdString("login"), it->getName());
+        dossier.setAttribute(QString::fromStdString("extrascolaire"), QString::number(it->getExtraScolaire()));
+
+        std::vector<Formation> formations = it->getFormations();
+        for(auto i=formations.begin(); i!=formations.end(); i++) {
+            QDomElement formation = doc.createElement("formationetu");
+            formation.setAttribute(QString::fromStdString("name"), i->getName());
+            dossier.appendChild(formation);
+        }
+
+        std::vector<Semestre> semestres = it->getSemestres();
+        for(auto i=semestres.begin(); i!=semestres.end(); i++) {
+            QDomElement semestre = doc.createElement("semestreetu");
+            semestre.setAttribute(QString::fromStdString("nom"), i->getName());
+            semestre.setAttribute(QString::fromStdString("formation"), i->getFormation().getName());
+            semestre.setAttribute(QString::fromStdString("semestre"), i->getSemestre().representation);
+
+            std::map<QString, QString> resultats = i->getResultats();
+            for(auto res=resultats.begin(); res!=resultats.end(); res++) {
+                QDomElement resultat = doc.createElement("resultat");
+                resultat.setAttribute(QString::fromStdString("uv"), res->first);
+                resultat.setAttribute(QString::fromStdString("note"), res->second);
+                semestre.appendChild(resultat);
+            }
+
+            dossier.appendChild(semestre);
+        }
+
+        std::vector<Equivalence> equivalences = it->getEquivalences();
+        for(auto i=equivalences.begin(); i!=equivalences.end(); i++) {
+            QDomElement equivalence = doc.createElement("equivalence");
+            equivalence.setAttribute(QString::fromStdString("nom"), i->getName());
+            equivalence.setAttribute(QString::fromStdString("explication"), i->getExplication());
+            equivalence.setAttribute(QString::fromStdString("semestre"), i->getSemestre().representation);
+
+            std::map<CategorieUV, unsigned int> credits = i->getCredits();
+            for(auto res=credits.begin(); res!=credits.end(); res++) {
+                QDomElement resultat = doc.createElement("credit");
+                resultat.setAttribute(QString::fromStdString("categorie"), res->first.getName());
+                resultat.setAttribute(QString::fromStdString("credits"), res->second);
+                equivalence.appendChild(resultat);
+            }
+
+            dossier.appendChild(equivalence);
+        }
+
+        rootDossiers.appendChild(dossier);
     }
 
 
@@ -235,6 +293,71 @@ void XmlIo::load() {
         }
 
         FM->addItem(f);
+    }
+
+    QDomNodeList dossiers = document.elementsByTagName("dossier");
+
+    for(int i=0; i<dossiers.count(); i++) {
+        QDomNode node = dossiers.at(i);
+        QDomElement element = node.toElement();
+
+        QString nom;
+        bool extrascolaire;
+        nom = element.attribute("login");
+        std::cout<<nom.toStdString()<<std::endl;
+        extrascolaire = (bool) element.attribute("extrascolaire").toInt();
+
+        Dossier d(nom);
+        d.setExtraScolaire(extrascolaire);
+
+        QDomElement formation = node.firstChildElement("formationetu");
+
+        for(; !formation.isNull(); formation=formation.nextSiblingElement("formationetu")) {
+            QString name = formation.attribute("name");
+            d.addFormation(FM->getItem(name));
+        }
+
+        QDomElement semestre = node.firstChildElement("semestreetu");
+
+        for(; !semestre.isNull(); semestre=semestre.nextSiblingElement("semestreetu")) {
+            QString name= semestre.attribute("nom");
+            QString formation = semestre.attribute("formation");
+            QString sem = semestre.attribute("semestre");
+
+            Semestre s(name);
+            s.setFormation(FM->getItem(formation));
+            s.setSemestre(SemestreT(sem));
+
+            QDomElement resultat = semestre.firstChildElement("resultat");
+
+            for(; !resultat.isNull(); resultat=resultat.nextSiblingElement("resultat")) {
+                QString uv= resultat.attribute("uv");
+                QString note = resultat.attribute("note");
+                s.setResultat(uv, note);
+            }
+            d.addSemestre(s);
+        }
+
+        QDomElement equivalence = node.firstChildElement("equivalence");
+
+        for(; !equivalence.isNull(); equivalence=equivalence.nextSiblingElement("equivalence")) {
+            QString name= equivalence.attribute("nom");
+            QString explication= equivalence.attribute("explication");
+            QString sem = equivalence.attribute("semestre");
+
+            Equivalence eq(name, explication);
+            eq.setSemestre(sem);
+
+            QDomElement credit = equivalence.firstChildElement("credit");
+
+            for(; !credit.isNull(); credit=credit.nextSiblingElement("credit")) {
+                QString credits = credit.attribute("credits");
+                QString cat = credit.attribute("categorie");
+                eq.setCredits(CUM->getItem(cat), credits.toUInt());
+            }
+            d.addEquivalence(eq);
+        }
+        DM->addItem(d);
     }
 
 }
