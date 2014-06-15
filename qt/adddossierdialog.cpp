@@ -7,6 +7,7 @@
 #define FM FormationManager::getInstance()
 #define DM DossierManager::getInstance()
 
+//! Ouverture du Pop up création de dossier
 AddDossierDialog::AddDossierDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddDossierDialog)

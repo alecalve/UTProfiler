@@ -10,6 +10,7 @@
 #define CUM CategorieUVManager::getInstance()
 #define UVM UvManager::getInstance()
 
+//! Ouverture du Pop up de changement de crédits pour l'UV selectionnée
 ChangeCreditsDialog::ChangeCreditsDialog(QWidget *parent, QString u) :
     QDialog(parent),
     ui(new Ui::ChangeCreditsDialog)
