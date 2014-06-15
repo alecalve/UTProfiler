@@ -29,15 +29,11 @@ void XmlIo::save() {
         uv.setAttribute(QString::fromStdString("code"), it->getCode());
         uv.setAttribute(QString::fromStdString("descr"), it->getDescription());
         if (it->getOuvertureAutomne()) {
-            QDomElement semestre = doc.createElement("semestre");
-            semestre.setAttribute(QString::fromStdString("nom"), "A");
-            uv.appendChild(semestre);
+            uv.setAttribute(QString::fromStdString("automne"), "1");
         }
 
         if (it->getOuverturePrintemps()) {
-            QDomElement semestre = doc.createElement("semestre");
-            semestre.setAttribute(QString::fromStdString("nom"), "P");
-            uv.appendChild(semestre);
+            uv.setAttribute(QString::fromStdString("printemps"), "1");
         }
 
         auto recompenses = it->getRecompenses();
@@ -83,6 +79,9 @@ void XmlIo::save() {
 
         formation.setAttribute(QString::fromStdString("abbr"), it->getName());
         formation.setAttribute(QString::fromStdString("name"), it->getLongName());
+        if (it->hasParent()) {
+            formation.setAttribute(QString::fromStdString("parent"), it->getParent().getName());
+        }
 
         std::map<CategorieUV, int> requirementsV = it->getRequirements();
         for(auto i=requirementsV.begin(); i!=requirementsV.end(); i++) {
@@ -90,6 +89,13 @@ void XmlIo::save() {
             requirement.setAttribute(QString::fromStdString("categorie"), i->first.getName());
             requirement.setAttribute(QString::fromStdString("credits"), i->second);
             formation.appendChild(requirement);
+        }
+
+        std::vector<Uv> uvs = it->getUvs();
+        for(auto i=uvs.begin(); i!=uvs.end(); i++) {
+            QDomElement uv = doc.createElement("uvformation");
+            uv.setAttribute(QString::fromStdString("name"), i->getName());
+            formation.appendChild(uv);
         }
 
         rootFormations.appendChild(formation);
@@ -138,13 +144,20 @@ void XmlIo::load() {
 
     for(int i=0; i<uvs.count(); i++) {
         QString code, descr;
+        int pr, aut;
 
         QDomNode node = uvs.at(i);
         QDomElement element = node.toElement();
 
         code = element.attribute("code");
         descr = element.attribute("descr");
+        pr = element.attribute("printemps").toInt();
+        aut = element.attribute("automne").toInt();
+
         Uv uv = Uv(code, descr);
+
+        if (pr) { uv.setOuverturePrintemps(true); }
+        if (aut) { uv.setOuvertureAutomne(true); }
 
         QDomElement recompense = node.firstChildElement("recompense");
 
@@ -154,17 +167,6 @@ void XmlIo::load() {
             uv.setCredits(cat, creds);
         }
 
-        QDomElement semestre = node.firstChildElement("semestre");
-
-        for(; !semestre.isNull(); semestre=semestre.nextSiblingElement("semestre")) {
-            QString nom = semestre.attribute("name");
-
-            if (nom == "A") {
-                uv.setOuvertureAutomne(true);
-            } else if (nom == "P") {
-                uv.setOuverturePrintemps(true);
-            }
-        }
 
         UVM->addItem(uv);
     }
@@ -204,10 +206,17 @@ void XmlIo::load() {
     for(int i=0; i<formations.count(); i++) {
         QDomNode node = formations.at(i);
         QDomElement element = node.toElement();
-        QString nom, abbr;
+
+        QString nom, abbr, parent;
         nom = element.attribute("name");
         abbr = element.attribute("abbr");
+        parent = element.attribute("parent");
+
         Formation f(abbr,nom);
+
+        if (!parent.isEmpty()) {
+            f.setParent(parent);
+        }
 
         QDomElement requirement = node.firstChildElement("requirement");
 
@@ -215,6 +224,14 @@ void XmlIo::load() {
             QString cat = requirement.attribute("categorie");
             unsigned int credits = requirement.attribute("credits").toUInt();
             f.setRequirements(cat, credits);
+        }
+
+        QDomElement uv = node.firstChildElement("uvformation");
+
+        for(; !uv.isNull(); uv=uv.nextSiblingElement("uvformation")) {
+            QString name= uv.attribute("name");
+            Uv u = UVM->getItem(name);
+            f.addUv(u);
         }
 
         FM->addItem(f);
