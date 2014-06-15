@@ -2,6 +2,7 @@
 #define ADDDOSSIERDIALOG_H
 
 #include <QDialog>
+#include <QTableWidgetItem>
 
 #include "src/dossier.hpp"
 
@@ -35,11 +36,23 @@ public slots:
     //! Slot activé à l’ajout d’un semestre, met à jour l’UI
     void semestreAdded();
 
+    void semestreRemoved();
+    void formationRemoved();
+
 private:
     Ui::AddDossierDialog *ui;
 
     //! Indique si le dialog doit éditer ou créer un dossier
     bool editionMode;
+
+    //! Rafraîchi les tableaux contenant les formations et semestres
+    void refresh();
+
+    inline QTableWidgetItem *getUneditableItem(const QString& data) {
+        QTableWidgetItem *item= new QTableWidgetItem(data);
+        item->setFlags(item->flags() & ~Qt::ItemIsEditable);
+        return item;
+    }
 
     //! Dossier en cours de création ou d’édition
     Dossier dossier;

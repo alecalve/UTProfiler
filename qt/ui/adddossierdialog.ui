@@ -32,6 +32,17 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QPushButton" name="deleteFormation">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../icons.qrc">
+           <normaloff>:/new/icons/bin.png</normaloff>:/new/icons/bin.png</iconset>
+         </property>
+        </widget>
+       </item>
       </layout>
      </item>
      <item row="1" column="0">
@@ -87,6 +98,17 @@
          <property name="icon">
           <iconset resource="../icons.qrc">
            <normaloff>:/new/icons/add.png</normaloff>:/new/icons/add.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteSemestre">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../icons.qrc">
+           <normaloff>:/new/icons/bin.png</normaloff>:/new/icons/bin.png</iconset>
          </property>
         </widget>
        </item>
@@ -179,5 +201,7 @@
   <slot>createDossier()</slot>
   <slot>formationAdded()</slot>
   <slot>semestreAdded()</slot>
+  <slot>semestreRemoved()</slot>
+  <slot>formationRemoved()</slot>
  </slots>
 </ui>
