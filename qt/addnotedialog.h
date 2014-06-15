@@ -3,6 +3,7 @@
 
 #include <QDialog>
 
+//! Classe pop up ajout note
 namespace Ui {
 class AddNoteDialog;
 }
