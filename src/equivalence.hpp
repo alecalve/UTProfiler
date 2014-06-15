@@ -25,6 +25,16 @@ class Equivalence : public BaseItem {
         credits[categorie] = c;
     }
 
+    inline QStringList getCreditsList() const {
+        QStringList ret;
+        for(auto it=credits.begin(); it!=credits.end(); it++) {
+            QStringList temp;
+            temp << QString::number(it->second) << " " << it->first.getName();
+            ret << temp.join(" ");
+        }
+        return ret;
+    }
+
   private:
     std::map<CategorieUV, unsigned int> credits;
     QString explication;

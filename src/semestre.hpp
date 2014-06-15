@@ -20,6 +20,16 @@ class Semestre : public BaseItem {
     inline const Formation& getFormation() const { return formationSuivie; }
     inline const std::map<QString, QString>& getResultats() const { return resultats; }
 
+    inline QStringList getUvList() const {
+        QStringList ret;
+        for(auto it=resultats.begin(); it!=resultats.end(); it++) {
+            QStringList temp;
+            temp << it->first << " (" << it->second << ")";
+            ret << temp.join("");
+        }
+        return ret;
+    }
+
   private:
     //! Semestre du semestre
     SemestreT semestre;
