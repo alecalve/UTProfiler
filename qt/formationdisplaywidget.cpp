@@ -35,6 +35,7 @@ FormationDisplayWidget::FormationDisplayWidget(QWidget *parent) :
 FormationDisplayWidget::~FormationDisplayWidget() {  }
 void FormationDisplayWidget::modify() {}
 
+//! Ajout d'une nouvelle formation
 void FormationDisplayWidget::add() {
     AddFormation *dialog = new AddFormation(this);
     dialog->exec();
@@ -44,6 +45,7 @@ void FormationDisplayWidget::add() {
 
 }
 
+//! Suppression d'une formation
 void FormationDisplayWidget::del() {
     QList<QTableWidgetSelectionRange> ranges = ui->tableWidget->selectedRanges();
 

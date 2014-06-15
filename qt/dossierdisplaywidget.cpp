@@ -15,7 +15,7 @@
 #define NBCOLS 2
 #define NOM_COL 0
 #define FORM_COL 1
-
+//! Onglet de gestion des dossiers etudiants
 DossierDisplayWidget::DossierDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
