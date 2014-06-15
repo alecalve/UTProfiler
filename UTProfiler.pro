@@ -33,7 +33,9 @@ SOURCES += src/main.cpp\
     qt/adddossierdialog.cpp \
     qt/dossierdisplaywidget.cpp \
     qt/formationdisplaywidget.cpp \
-    src/formation.cpp
+    src/formation.cpp \
+    qt/exigencesdialog.cpp \
+    qt/choosedossierdialog.cpp
 
 HEADERS  += qt/mainwindow.h \
     src/uvmanager.hpp \
@@ -61,7 +63,9 @@ HEADERS  += qt/mainwindow.h \
     qt/adddossierdialog.h \
     qt/dossierdisplaywidget.h \
     qt/formationdisplaywidget.h \
-    src/equivalence.hpp
+    src/equivalence.hpp \
+    qt/exigencesdialog.h \
+    qt/choosedossierdialog.h
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
@@ -73,7 +77,9 @@ FORMS    += qt/ui/mainwindow.ui \
     qt/ui/addnotedialog.ui \
     qt/ui/addformation.ui \
     qt/ui/addnotedialog.ui \
-    qt/ui/adddossierdialog.ui
+    qt/ui/adddossierdialog.ui \
+    qt/ui/exigencesdialog.ui \
+    qt/ui/choosedossierdialog.ui
 
 RESOURCES += \
     qt/icons.qrc
