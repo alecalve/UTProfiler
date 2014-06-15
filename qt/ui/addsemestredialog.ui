@@ -9,99 +9,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>632</width>
-    <height>456</height>
+    <width>590</width>
+    <height>459</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Ajout d’un semestre d’étude</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
-    <layout class="QFormLayout" name="formLayout_2">
-     <property name="fieldGrowthPolicy">
-      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-     </property>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>Semestre</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QComboBox" name="semestreBox">
-       <property name="currentText">
-        <string>A</string>
-       </property>
-       <item>
-        <property name="text">
-         <string>A</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>P</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>Année</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QSpinBox" name="anneeBox">
-       <property name="minimum">
-        <number>2000</number>
-       </property>
-       <property name="maximum">
-        <number>3000</number>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" colspan="2">
-      <widget class="QCheckBox" name="extrascolaire">
-       <property name="text">
-        <string>Activité extrascolaire validée</string>
-       </property>
-       <property name="tristate">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="label_6">
-       <property name="text">
-        <string>Nom du semestre</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="QLineEdit" name="semestreEdit"/>
-     </item>
-     <item row="5" column="0">
-      <widget class="QLabel" name="label_7">
-       <property name="text">
-        <string>Formation en cours</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QComboBox" name="formationBox"/>
-     </item>
-     <item row="3" column="0" colspan="2">
-      <widget class="QCheckBox" name="equivalenceCheckBox">
-       <property name="text">
-        <string>Ce semestre est une équivalence</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
    <item row="2" column="1">
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
@@ -248,6 +163,91 @@
      </widget>
     </widget>
    </item>
+   <item row="0" column="0">
+    <layout class="QFormLayout" name="formLayout_2">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Semestre</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="semestreBox">
+       <property name="currentText">
+        <string>A</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>A</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>P</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Année</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="anneeBox">
+       <property name="minimum">
+        <number>2000</number>
+       </property>
+       <property name="maximum">
+        <number>3000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QCheckBox" name="extrascolaire">
+       <property name="text">
+        <string>Activité extrascolaire validée</string>
+       </property>
+       <property name="tristate">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QCheckBox" name="equivalenceCheckBox">
+       <property name="text">
+        <string>Ce semestre est une équivalence</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Nom du semestre</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="semestreEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Formation en cours</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="formationBox"/>
+     </item>
+    </layout>
+   </item>
   </layout>
  </widget>
  <resources>
@@ -302,26 +302,9 @@
     </hint>
    </hints>
   </connection>
-  <connection>
-   <sender>addCredits</sender>
-   <signal>clicked()</signal>
-   <receiver>AddSemestreDialog</receiver>
-   <slot>creditsAdded()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>516</x>
-     <y>188</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>315</x>
-     <y>227</y>
-    </hint>
-   </hints>
-  </connection>
  </connections>
  <slots>
   <slot>uvAdded()</slot>
   <slot>completeDossier()</slot>
-  <slot>creditsAdded()</slot>
  </slots>
 </ui>
