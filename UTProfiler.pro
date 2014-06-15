@@ -60,7 +60,8 @@ HEADERS  += qt/mainwindow.h \
     qt/addformation.h \
     qt/adddossierdialog.h \
     qt/dossierdisplaywidget.h \
-    qt/formationdisplaywidget.h
+    qt/formationdisplaywidget.h \
+    src/equivalence.hpp
 
 FORMS    += qt/ui/mainwindow.ui \
     qt/ui/changesemestredialog.ui \
