@@ -109,7 +109,7 @@ void NoteDisplayWidget::displayItem(const QString& item) {
         }
     }
 
-    ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(note));
+    ui->tableWidget->setItem(offset, NOM_COL, getUneditableItem(nom));
     ui->tableWidget->setItem(offset, REUSSITE_COL, new QTableWidgetItem(reussite));
 
     offset++;
