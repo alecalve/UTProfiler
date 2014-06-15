@@ -171,9 +171,7 @@
         <widget class="QTableWidget" name="tableWidget"/>
        </item>
       </layout>
-      <zorder>formLayoutWidget</zorder>
       <zorder>tableWidget</zorder>
-      <zorder>buttonBox</zorder>
       <zorder>label_2</zorder>
      </widget>
      <widget class="QWidget" name="tab_2">
@@ -304,9 +302,26 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>addCredits</sender>
+   <signal>clicked()</signal>
+   <receiver>AddSemestreDialog</receiver>
+   <slot>creditsAdded()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>315</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>uvAdded()</slot>
   <slot>completeDossier()</slot>
+  <slot>creditsAdded()</slot>
  </slots>
 </ui>
