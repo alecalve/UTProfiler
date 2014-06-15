@@ -51,6 +51,10 @@ void AddFormation::createFormation() {
         form.setParent(parent);
     }
 
+    for(int i=0; i<ui->tableUV->rowCount(); i++) {
+        form.addUv(ui->tableUV->item(i, 0)->text());
+    }
+
     FM->addItem(form);
     close();
 }
@@ -83,15 +87,26 @@ void AddFormation::uvAdded(){
 
 void AddFormation::creditsAdded(){
 
-    /*QString code = ui->
+    QString code = ui->boxCat->currentText();
+
     try {
-        UVM->getItem(code);
+        CUM->getItem(code);
     } catch(const Exception& e) {
         QMessageBox error(this);
         error.setText(e.getinfo());
         error.exec();
         return;
-    }*/
+    }
+
+    //Si cette catégorie a été rajoutée auparavant on ignore l’ajout
+    for(int i=0; i<ui->tableCredits->rowCount(); i++) {
+        if(ui->tableCredits->item(i, 0)->text() == code) {
+            return;
+        }
+    }
+
+    ui->tableUV->setRowCount(ui->tableCredits->rowCount() + 1);
+    ui->tableUV->setItem(ui->tableCredits->rowCount()-1, 0, new QTableWidgetItem(code));
 }
 
 
