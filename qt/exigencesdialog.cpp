@@ -8,6 +8,8 @@
 #include "src/strategy.hpp"
 
 #define UVM UvManager::getInstance()
+#define DM DossierManager::getInstance()
+
 #define NB_COLS 1
 
 ExigencesDialog::ExigencesDialog(QWidget *parent) :
@@ -104,7 +106,7 @@ void ExigencesDialog::resolve() {
 
     Completion completion;
     completion.setStrategy(new ConcreteStrategy());
-    completion.solve(*dossier, context);
+    DM->addItem(completion.solve(*dossier, context));
 
     accept();
 }
