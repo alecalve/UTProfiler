@@ -4,6 +4,7 @@
 #include "src/structures.hpp"
 
 #define NUM NoteUVManager::getInstance()
+
 //! Ouverture du Pop Up de création de note
 AddNoteDialog::AddNoteDialog(QWidget *parent) :
     QDialog(parent),
