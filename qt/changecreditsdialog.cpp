@@ -35,7 +35,6 @@ ChangeCreditsDialog::ChangeCreditsDialog(QWidget *parent, QString u) :
     ui->tableWidget->setColumnCount(2);
     ui->tableWidget->setHorizontalHeaderLabels(header);
     ui->tableWidget->setRowCount(0);
-    ui->tableWidget->setColumnCount(2);
     ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     connect(this, SIGNAL(accepted()), this, SLOT(closing()));
