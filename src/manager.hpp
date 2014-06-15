@@ -13,7 +13,7 @@
 class BaseItem {
 
   public:
-    BaseItem() : name("") {}
+    BaseItem() : name("BaseItem") {}
     BaseItem(const QString& n): name(n) {}
     const QString& getName() const { return name; }
     void setName(const QString& n) { name = n; }
