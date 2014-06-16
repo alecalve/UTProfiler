@@ -16,9 +16,11 @@ public:
     ~AddUVDialog();
 
 public slots:
+    //! Fermeture de la fenetre d'ajout d'uv
     void endCreationProcess();
 
 private:
+
     Ui::AddUVDialog *ui;
 };
 

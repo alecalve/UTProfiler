@@ -16,11 +16,13 @@ public:
     ~AddFormation();
 
 public slots :
+    //! Fonction pour créer une formation, ajouter une uv à la formation et ajouter le nombre de crédit à obtenir pour la formation
     void createFormation();
     void uvAdded();
     void creditsAdded();
 
 private:
+    //! attribut de la fenetre d'ajout de formation
     Ui::AddFormation *ui;
 };
 

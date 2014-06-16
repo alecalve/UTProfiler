@@ -28,6 +28,7 @@ public slots:
   void completeDossier();
 
 private:
+  //! dossier dont on souhaite ajouter un semestre d'étude, et fenettre de dialogue d'ajout de semestre
     Ui::AddSemestreDialog *ui;
     Dossier *dossier;
 };

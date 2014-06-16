@@ -3,6 +3,7 @@
 
 #include <QDialog>
 
+//! Classe pop up ajout note
 namespace Ui {
 class AddNoteDialog;
 }
@@ -16,9 +17,11 @@ public:
     ~AddNoteDialog();
 
 public slots:
+    //! fonction permettant la création d'une nouvelle note
     void createNote();
 
 private:
+    //! attribut de la fenetre de dialogue d'ajout de note
     Ui::AddNoteDialog *ui;
 };
 
