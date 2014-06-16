@@ -58,7 +58,7 @@ class Formation : public BaseItem {
     inline const std::vector<Uv>& getUvs() const { return uvs; }
 
     //! Vide la liste des UVs
-    inline void resetUVs() { uvs.clear(); std::cout<<uvs.size()<<std::endl; }
+    inline void resetUVs() { uvs.clear(); }
 
     //! Indique si cette formation a au moins un enfant
     inline bool hasChildren() const {
@@ -89,6 +89,12 @@ class Formation : public BaseItem {
 
     //! Indique le parent de la formation, ne se passe rien si le parent n’existe pas
     inline void setParent(const QString& p) {
+
+        //Si on veut rendre orphelin la formation, on peut
+        if (parent.isEmpty()) {
+            parent = "";
+            return;
+        }
         //On vérifie que le parent existe
         try {
             FM->getItem(p);
