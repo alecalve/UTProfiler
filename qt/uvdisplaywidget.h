@@ -18,6 +18,7 @@ class UvDisplayWidget : public DisplayWidget {
     void displayItem(const QString&);
 
   public slots:
+    //! fonctions héritées de display widget, elles sont redéfinies car elles étaient virtuelles
     void refresh();
     void del();
     void add();

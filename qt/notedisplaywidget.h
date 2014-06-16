@@ -17,7 +17,7 @@ class NoteDisplayWidget : public DisplayWidget {
     ~NoteDisplayWidget();
     void displayItem(const QString&);
 
-  public slots:
+  public slots: //! fonctions héritées de DisplayWidget
     void refresh();
     void del();
     void add();
