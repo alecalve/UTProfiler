@@ -18,6 +18,9 @@ class CategorieDisplayWidget : public DisplayWidget {
     void displayItem(const QString&);
 
   public slots:
+    //! 6 fonctions pour la fenetre des catégories : refresh pour rafraichir la fenetre, del pour supprimer une catégorie,
+    //! add pour ajouter une catégorie, modify pour modifier une catégorie, changed pour mettre a jour la valeur recuperer dans les champs text
+    //! change pour lancer les widgets pour mettre a jour les informations
     void refresh();
     void del();
     void add();

@@ -23,6 +23,7 @@ class ChangeSemestreDialog : public QDialog
     void closing();
 
   private:
+    //! Attribut : UV dont on souhaite changer les jours d'ouverture, et la fenetre pop up de changement de semestre
     Ui::ChangeSemestreDialog *ui;
     QString uv;
 };

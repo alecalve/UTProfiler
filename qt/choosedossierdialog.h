@@ -16,6 +16,7 @@ public:
     ~ChooseDossierDialog();
 
 public slots:
+    //! pour modifier/compléter un dossier
     void callCompleter();
 
 private:
