@@ -91,7 +91,7 @@ class Formation : public BaseItem {
     inline void setParent(const QString& p) {
 
         //Si on veut rendre orphelin la formation, on peut
-        if (parent.isEmpty()) {
+        if (p.isEmpty()) {
             parent = "";
             return;
         }
