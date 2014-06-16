@@ -18,12 +18,12 @@ class ChangeSemestreDialog : public QDialog
     explicit ChangeSemestreDialog(QWidget *parent = 0, QString u="");
     ~ChangeSemestreDialog();
 
-  public slots:
     //! Slot qui lorsque Ok est clické, déclenche le changement de valeur du semestre
+  public slots:
     void closing();
 
-  private:
     //! Attribut : UV dont on souhaite changer les jours d'ouverture, et la fenetre pop up de changement de semestre
+  private:
     Ui::ChangeSemestreDialog *ui;
     QString uv;
 };

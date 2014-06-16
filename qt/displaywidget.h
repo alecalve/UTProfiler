@@ -17,6 +17,9 @@ public:
     ~DisplayWidget();
     virtual void displayItem(const QString&)=0;
 
+    //! 6 fonctions pour la fenetre des catégories : refresh pour rafraichir la fenetre, del pour supprimer une catégorie,
+    //! add pour ajouter une catégorie, modify pour modifier une catégorie, changed pour mettre a jour la valeur recuperer dans les champs text
+    //! change pour lancer les widgets pour mettre a jour les informations
 public slots:
     virtual void refresh()=0;
     virtual void add()=0;

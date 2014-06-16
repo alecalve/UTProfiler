@@ -17,6 +17,7 @@ class FormationDisplayWidget : public DisplayWidget {
     ~FormationDisplayWidget();
     void displayItem(const QString&);
 
+    //! Meme fonction que la classe DisplayWidget dont elle hérite
   public slots:
     void refresh();
     void del();

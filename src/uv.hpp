@@ -10,21 +10,21 @@
 //! Classe des UV
 class Uv : public BaseItem {
 
+
+    //! Les fonctions getXXXX servent à recuperer l'attribut XXXX de l'UV, et les fonctions setXXX servent à définir les
+    //! attributs, la fonction resetCrédits sert à remettre les crédits donnés par l'UV à 0 dans toutes les catégories
+    //! la fonction operator== permet de comparer le code de 2 uvs et renvoie vrai si ils sont égaux et faux dans le cas contraire
   public:
 
     Uv() : BaseItem("") {}
 
     //! Constructeur par défaut, met les ouvertures printemps et automne à false, Appel le constructeur de la classe mère
-    //!BaseItem, et initialise le code et la description avec les paramètres d'entrées
+    //! BaseItem, et initialise le code et la description avec les paramètres d'entrées
     Uv(QString c, QString d) : BaseItem(c), code(c), description(d) {
         ouvertureAutomne = false;
         ouverturePrintemps = false;
         name = code;
     }
-
-    //! Les fonctions getXXXX servent à recuperer l'attribut XXXX de l'UV, et les fonctions setXXX servent à définir les
-    //! attributs, la fonction resetCrédits sert à remettre les crédits donnés par l'UV à 0 dans toutes les catégories
-    //! la fonction operator== permet de comparer le code de 2 uvs et renvoie vrai si ils sont égaux et faux dans le cas contraire
     inline const QString& getCode() const { return code; }
     inline const QString& getDescription() const { return description; }
     inline bool getOuvertureAutomne() const { return ouvertureAutomne; }
@@ -40,10 +40,10 @@ class Uv : public BaseItem {
     inline void resetCredits() { recompenses.clear(); }
     inline bool operator==(const Uv& u) { return (u.getCode() == code); }
 
-  private:
     //! Attribut du code de l'uv, sa description, son tableau des recompenses avec le nombre
     //! de crédit pour les differentes catégories, les attributs ouvertureAutomne/Printemps définissent
     //! si l'uv est ouverte au semestre d'Automne/Printemps
+  private:
     QString code;
     QString description;
     std::map<QString, unsigned int> recompenses;

@@ -29,8 +29,8 @@ public slots :
     void uvAdded();
     void creditsAdded();
 
-private:
     //! attribut de la fenetre d'ajout de formation
+private:
     Ui::AddFormation *ui;
 
     //! Formation à créer ou modifier

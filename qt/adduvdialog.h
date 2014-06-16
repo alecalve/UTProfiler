@@ -15,8 +15,8 @@ public:
     explicit AddUVDialog(QWidget *parent = 0);
     ~AddUVDialog();
 
-public slots:
     //! Fermeture de la fenetre d'ajout d'uv
+public slots:
     void endCreationProcess();
 
 private:
