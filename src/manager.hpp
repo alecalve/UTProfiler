@@ -10,18 +10,33 @@
 #include "singleton.hpp"
 #include "exceptions.hpp"
 
+
+//! Item de base destiné à être stocké par un manager
 class BaseItem {
 
   public:
+
+    //! Constructeur par défaut
     BaseItem() : name("BaseItem") {}
+
+    //! Constructeur de base, prends en arguments
     BaseItem(const QString& n): name(n) {}
+
+    //! Retourne le nom de l’objet
     const QString& getName() const { return name; }
+
+    //! Met à jour le nom de l’objet
     void setName(const QString& n) { name = n; }
 
+    //! Opérateur d’égalité, se base sur le nom
     bool operator==(const BaseItem& b) const { return (name == b.getName());}
+
+    //! Opérateur de comparaison, se base sur le nom
     bool operator<(const BaseItem& b) const { return (name<b.getName()); }
 
   protected:
+
+    //! Nom de l’objet
     QString name;
 
 };

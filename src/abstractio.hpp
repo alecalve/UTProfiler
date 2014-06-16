@@ -8,10 +8,16 @@
 class AbstractIo {
 
   public:
+    //! Constructeur par défaut
     AbstractIo() {}
+
+    //! Constructeur de base, prend en argument l’identifiant de la ressource (URL, nom de fichier, …)
     AbstractIo(const QString &s): identifier(s) {}
 
+    //! Met à jour l’identifiant de la ressource (URL, nom de fichier, …)
     void setIdentifier(const QString &s) { identifier = s; }
+
+    //! Renvoie l’identifiant de la ressource (URL, nom de fichier, …)
     const QString& getIdentifier() { return identifier; }
 
     //! Rempli les managers des données sauvegardées
@@ -19,6 +25,8 @@ class AbstractIo {
 
     //! Écrit une sauvegarde des données des managers
     virtual void save()=0;
+
+    //! Destructeur, ne fait rien
     virtual ~AbstractIo() {}
 
   protected:
