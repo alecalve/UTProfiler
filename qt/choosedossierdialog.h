@@ -15,8 +15,8 @@ public:
     explicit ChooseDossierDialog(QWidget *parent = 0);
     ~ChooseDossierDialog();
 
-public slots:
     //! pour modifier/compléter un dossier
+public slots:
     void callCompleter();
 
 private:

@@ -15,6 +15,7 @@ public:
     explicit AddCategorieDialog(QWidget *parent = 0);
     ~AddCategorieDialog();
 
+    //! Fonction de création d'une catégorie
 public slots:
     void createCategorie();
 

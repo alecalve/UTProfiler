@@ -27,8 +27,8 @@ public slots:
   //! Déclenché à la fermeture du dialog, crée le semestre et met à jour le dossier
   void completeDossier();
 
-private:
   //! dossier dont on souhaite ajouter un semestre d'étude, et fenettre de dialogue d'ajout de semestre
+private:
     Ui::AddSemestreDialog *ui;
     Dossier *dossier;
 };
