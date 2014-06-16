@@ -96,17 +96,59 @@ WARN_LOGFILE            = "/home/antoine/Documents/UTC/LO21/UTProfiler/doxygen/d
 # configuration options related to the input files
 #---------------------------------------------------------------------------
 INPUT                  = \
-	"../src/uvmanager.cpp" \
-	"../src/uvmanager.hpp" \
-	"../src/uv.cpp" \
-	"../src/uv.hpp" \
-	"../src/structures.hpp" \
-	"../src/singleton.hpp" \
-	"../src/uv.hpp" \
-	"../src/uv.cpp" \
-	"../src/manager.hpp" \
-	"../src/manager.cpp" \
-	"../src/main.cpp" 
+	 "../src/main.cpp" \
+   "../qt/mainwindow.cpp" \
+   "../src/uv.cpp" \
+   "../src/xmlio.cpp" \
+   "../qt/uvdisplaywidget.cpp" \
+   "../qt/changesemestredialog.cpp" \
+   "../qt/addsemestredialog.cpp" \
+   "../qt/changecreditsdialog.cpp" \
+   "../qt/displaywidget.cpp" \
+   "../qt/notedisplaywidget.cpp" \
+   "../qt/categoriedisplaywidget.cpp" \
+   "../qt/adduvdialog.cpp" \
+   "../qt/addcategoriedialog.cpp" \
+   "../qt/addnotedialog.cpp" \
+   "../qt/addformation.cpp" \
+   "../qt/adddossierdialog.cpp" \
+   "../qt/dossierdisplaywidget.cpp" \
+   "../qt/formationdisplaywidget.cpp" \
+   "../src/formation.cpp" \
+   "../qt/exigencesdialog.cpp" \
+   "../qt/choosedossierdialog.cpp" \
+	 "../qt/mainwindow.h" \
+   "../src/uvmanager.hpp" \
+   "../src/uv.hpp" \
+   "../src/structures.hpp" \
+   "../src/manager.hpp" \
+   "../src/singleton.hpp" \
+   "../src/exceptions.hpp" \
+   "../src/xmlio.hpp" \
+   "../src/abstractio.hpp" \
+   "../qt/uvdisplaywidget.h" \
+   "../qt/changesemestredialog.h" \
+   "../src/formation.hpp" \
+   "../src/dossier.hpp" \
+   "../src/semestre.hpp" \
+   "../qt/addsemestredialog.h" \
+   "../qt/changecreditsdialog.h" \
+   "../qt/displaywidget.h" \
+   "../qt/notedisplaywidget.h" \
+   "../qt/categoriedisplaywidget.h" \
+   "../qt/adduvdialog.h" \
+   "../qt/addcategoriedialog.h" \
+   "../qt/addnotedialog.h" \
+   "../qt/addformation.h" \
+   "../qt/adddossierdialog.h" \
+   "../qt/dossierdisplaywidget.h" \
+   "../qt/formationdisplaywidget.h" \
+   "../src/equivalence.hpp" \
+   "../qt/exigencesdialog.h" \
+   "../qt/choosedossierdialog.h" \
+   "../src/strategy.hpp" \
+   "../src/solvingcontext.hpp"
+
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          =
 RECURSIVE              = NO
