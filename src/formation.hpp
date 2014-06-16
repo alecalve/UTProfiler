@@ -22,24 +22,37 @@ typedef Singleton<Manager<Formation>> FormationManager;
 class Formation : public BaseItem {
 
   public:
+
+    //! Constructeur par défaut
     Formation() {}
+
+    //! Constructeur de base, prend en arguments l’abbréviation et le nom détaillé de la formation
     Formation(const QString& abbr, const QString& n)
         : BaseItem(abbr), longName(n), parent(""), nbLignes(0), nbColonnes(0),
           minCredits(0) {}
 
+    //! Renvoie le nom détaillé de la formation
     inline const QString& getLongName() const { return longName; }
+
+    //! Indique si la formation a une formation parente
     inline bool hasParent() const { return parent != ""; }
+
+    //! Ajoute une UV aux UVs proposées par la formation
     inline void addUv(const QString& u) { uvs.push_back(UVM->getItem(u)); }
+
+    //! Ajoute une UV aux UVs proposées par la formation
     inline void addUv(Uv u) { uvs.push_back(u); }
 
     //! Retourne le parent de la formation, lève une exception s’il n’existe pas
     inline const Formation& getParent() const { return FM->getItem(parent); }
 
+    //! Retourne les crédits minimums requis par catégories
     inline const std::map<CategorieUV, int>& getRequirements() const { return requirements; }
-    inline unsigned int getLignesTSH() const { return nbLignes; }
-    inline unsigned int getColonnesTSH() const { return nbColonnes; }
+
+    //! Retourne les UVs proposées à la formation
     inline const std::vector<Uv>& getUvs() const { return uvs; }
 
+    //! Indique si cette formation a au moins un enfant
     inline bool hasChildren() const {
         std::vector<Formation> formations = FM->iterator();
         for(auto it=formations.begin(); it!=formations.end(); it++) {
@@ -50,7 +63,10 @@ class Formation : public BaseItem {
         return false;
     }
 
+    //! Met à jour le nom détaillé de la formation
     inline void setLongName(const QString &l) { longName = l; }
+
+    //! Met à jour un nombre minimum de crédits pour une catégorie
     inline void setRequirements(const QString &c, unsigned int n) {
         //Vérifie si la catégorie existe
         CategorieUV cat("", "");
@@ -63,6 +79,7 @@ class Formation : public BaseItem {
         requirements[cat] = n;
     }
 
+    //! Indique le parent de la formation, ne se passe rien si le parent n’existe pas
     inline void setParent(const QString& p) {
         //On vérifie que le parent existe
         try {
@@ -73,10 +90,10 @@ class Formation : public BaseItem {
 
         parent = p;
     }
-    inline void setLignesTSH(unsigned int l) { nbLignes = l; }
-    inline void setColonnesTSH(unsigned int c) { nbColonnes = c; }
 
   protected:
+
+    //! Nom détaillé de la formation
     QString longName;
 
     //! Formation parente, vide si pas de parent
@@ -87,12 +104,6 @@ class Formation : public BaseItem {
 
     //! UVs de la formation
     std::vector<Uv> uvs;
-
-    //! Nombre de lignes présentes dans le tableau TSH
-    unsigned int nbLignes;
-
-    //! Nombre de colonnes présentes dans le tableau TSH
-    unsigned int nbColonnes;
 
     //! Nombre minimum de crédits à valider toutes catégories confondues
     unsigned int minCredits;

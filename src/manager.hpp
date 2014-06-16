@@ -19,7 +19,7 @@ class BaseItem {
     //! Constructeur par défaut
     BaseItem() : name("BaseItem") {}
 
-    //! Constructeur de base, prends en arguments
+    //! Constructeur de base, prend en arguments
     BaseItem(const QString& n): name(n) {}
 
     //! Retourne le nom de l’objet

@@ -55,12 +55,18 @@ struct SemestreT {
 class CategorieUV : public BaseItem {
 
   public:
+
+    //! Constructeur de base, prend en argumunt l’abbréviation de la catégorie et son nom complet
     CategorieUV(const QString& n, const QString& l) : BaseItem(n), longName(l) {}
 
+    //! Renvoie le nom complet de la catégorie
     const QString getLongName() const { return longName; }
+
+    //! Met à jour le nom complet de la catégorie
     void setLongName(const QString& l) { longName = l; }
 
   private:
+
     //! Nom développé de la catégorie
     QString longName;
 
@@ -70,18 +76,27 @@ class CategorieUV : public BaseItem {
 class NoteUV : public BaseItem {
 
   public:
+
+    //! Constructeur de base, prend en argumunt la note et si elle fait réussir l’UV
     NoteUV(const QString& n, bool r): BaseItem(n), reussite(r) {}
 
+    //! Indique si cette note fait réussir une UV
     bool getReussite() { return reussite; }
+
+    //! Utilisé pour indiquer si cette note fait réussir une UV
     void setReussite(bool r) { reussite = r; }
 
   private:
+
     //! Booléen indiquant la réussite de l'UV
     bool reussite;
 
 };
 
+//! Manager de CatégorieUV
 typedef Singleton<Manager<CategorieUV>> CategorieUVManager;
+
+//! Manager de NoteUV
 typedef Singleton<Manager<NoteUV>> NoteUVManager;
 
 #endif // STRUCTURES_H
