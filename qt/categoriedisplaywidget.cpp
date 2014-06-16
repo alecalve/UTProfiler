@@ -20,7 +20,7 @@ CategorieDisplayWidget::CategorieDisplayWidget(QWidget *parent) :
     DisplayWidget(parent)
 {
     QStringList cols;
-    cols<<"Nom"<<"Abbréviation";
+    cols<<"Abbrévation"<<"Nom";
     ui->searchOptions->addItems(cols);
 
     ui->tableWidget->setRowCount(0);
