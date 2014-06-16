@@ -3,6 +3,7 @@
 
 #include <QString>
 
+//! Exception de base
 class Exception{
     QString info;
 public :
