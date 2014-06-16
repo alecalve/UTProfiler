@@ -15,9 +15,11 @@
 class XmlIo : public AbstractIo {
 
   public:
+    //! Fonction pour le chargement et la sauvegarde de fichier XML contenant les infos sur l'université
     void load();
     void save();
   private:
+    //! variable contenant le nom d'un document
     QDomDocument document;
 
 };

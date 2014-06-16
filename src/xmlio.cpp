@@ -12,6 +12,7 @@
 #define FM FormationManager::getInstance()
 #define DM DossierManager::getInstance()
 
+//! Sauvegarde des données entrées lors de l'utilisation dans le fichier xml
 void XmlIo::save() {
 
     std::vector<Uv> uvs = UVM->iterator();
@@ -176,6 +177,9 @@ void XmlIo::save() {
 
 }
 
+
+//! Fonction pour charger le fichier xml contenant les informations de l'université, C'est également sur ce fichier que
+//! les données seront sauvegardées une fois modifiées
 void XmlIo::load() {
 
     document = QDomDocument();
