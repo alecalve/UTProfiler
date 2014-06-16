@@ -74,6 +74,7 @@ void AddFormation::createFormation() {
     abbr = ui->abbrEdit->text();
     nom = ui->nomEdit->text();
     formation.setLongName(nom);
+    formation.resetUVs();
 
     if (!editionMode) {
         formation.setName(abbr);
@@ -83,8 +84,11 @@ void AddFormation::createFormation() {
 
     QString parent = ui->boxParent->currentText();
 
+    std::cout<<ui->boxParent->currentIndex()<<std::endl;
     if (ui->boxParent->currentIndex() != 0) {
         formation.setParent(parent);
+    } else {
+        formation.setParent("");
     }
 
     for(int i=0; i<ui->tableUV->rowCount(); i++) {
@@ -96,11 +100,7 @@ void AddFormation::createFormation() {
     } else {
         Formation& original = FM->getItem(formation.getName());
         original.resetUVs();
-        std::cout<<original.getUvs().size()<<std::endl;
-        std::cout<<formation.getUvs().size()<<std::endl;
         original = formation;
-        std::cout<<original.getUvs().size()<<std::endl;
-        std::cout<<formation.getUvs().size()<<std::endl;
     }
     close();
 }
