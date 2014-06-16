@@ -54,7 +54,7 @@ void NoteDisplayWidget::del() {
 
     for(auto it=ranges.begin(); it!=ranges.end(); it++) {
         for(int i=it->bottomRow(); i>=it->topRow(); --i) {
-            QString nom = ui->tableWidget->itemAt(NOM_COL, i)->text();
+            QString nom = ui->tableWidget->item(i, NOM_COL)->text();
             try {
                 NUM->suppItem(nom);
             } catch (const Exception &e) {
