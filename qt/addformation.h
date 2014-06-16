@@ -9,6 +9,7 @@ namespace Ui {
 class AddFormation;
 }
 
+//! Dialog de création et d’édition de Formation
 class AddFormation : public QDialog
 {
     Q_OBJECT
@@ -24,12 +25,16 @@ public:
     void setFormation();
 
 public slots :
-    //! Fonction pour créer une formation, ajouter une uv à la formation et ajouter le nombre de crédit à obtenir pour la formation
+
+    //! Slot de création de formation, appelé à l’acceptation du dialog
     void createFormation();
+
+    //! Slot appelé en cas d’ajout d’UV
     void uvAdded();
+
+    //! Slot appelé en cas d’ajout de crédits
     void creditsAdded();
 
-    //! attribut de la fenetre d'ajout de formation
 private:
     Ui::AddFormation *ui;
 

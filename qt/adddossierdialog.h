@@ -6,11 +6,12 @@
 
 #include "src/dossier.hpp"
 
-//! Classe pour l'ouverture du pop up pour l'ajout ou la modification de Dossier
+
 namespace Ui {
 class AddDossierDialog;
 }
 
+//! Classe pour l'ouverture du pop up pour l'ajout ou la modification de Dossier
 class AddDossierDialog : public QDialog
 {
     Q_OBJECT

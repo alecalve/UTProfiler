@@ -8,6 +8,7 @@ namespace Ui {
 class AddNoteDialog;
 }
 
+//! Dialog de création de NoteUV
 class AddNoteDialog : public QDialog
 {
     Q_OBJECT
