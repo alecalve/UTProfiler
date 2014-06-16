@@ -28,8 +28,13 @@ class Formation : public BaseItem {
 
     //! Constructeur de base, prend en arguments l’abbréviation et le nom détaillé de la formation
     Formation(const QString& abbr, const QString& n)
-        : BaseItem(abbr), longName(n), parent(""), nbLignes(0), nbColonnes(0),
-          minCredits(0) {}
+        : BaseItem(abbr), longName(n), parent(""), minCredits(0) {}
+
+    //! Renvoie le nombre minimum de crédits à avoir
+    inline unsigned int getMinCredits() const { return minCredits; }
+
+    //! Met à jour le nombre minimum de crédits à avoir
+    inline void setMinCredits(unsigned int c) { minCredits = c; }
 
     //! Renvoie le nom détaillé de la formation
     inline const QString& getLongName() const { return longName; }
@@ -51,6 +56,9 @@ class Formation : public BaseItem {
 
     //! Retourne les UVs proposées à la formation
     inline const std::vector<Uv>& getUvs() const { return uvs; }
+
+    //! Vide la liste des UVs
+    inline void resetUVs() { uvs.clear(); std::cout<<uvs.size()<<std::endl; }
 
     //! Indique si cette formation a au moins un enfant
     inline bool hasChildren() const {

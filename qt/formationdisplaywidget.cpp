@@ -32,12 +32,29 @@ FormationDisplayWidget::FormationDisplayWidget(QWidget *parent) :
 
 }
 
-FormationDisplayWidget::~FormationDisplayWidget() {  }
-void FormationDisplayWidget::modify() {}
+FormationDisplayWidget::~FormationDisplayWidget() {}
+
+void FormationDisplayWidget::modify() {
+    if (ui->tableWidget->currentRow() < 0) {
+        QMessageBox error(this);
+        error.setText("Aucune ligne sélectionnée");
+        error.exec();
+        return;
+    }
+
+    AddFormation *dialog = new AddFormation(this);
+    dialog->setFormation(ui->tableWidget->item(ui->tableWidget->currentRow(), ABBR_COL)->text());
+    dialog->exec();
+    delete dialog;
+
+    refresh();
+
+}
 
 //! Ajout d'une nouvelle formation
 void FormationDisplayWidget::add() {
     AddFormation *dialog = new AddFormation(this);
+    dialog->setFormation();
     dialog->exec();
     delete dialog;
 

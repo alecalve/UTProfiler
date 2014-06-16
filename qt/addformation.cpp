@@ -37,26 +37,71 @@ AddFormation::AddFormation(QWidget *parent) :
     ui->tableUV->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 }
 
+void AddFormation::setFormation() {
+    editionMode = false;
+    formation = Formation();
+}
+
+void AddFormation::setFormation(const QString & f) {
+    editionMode = true;
+    formation = FM->getItem(f);
+    ui->abbrEdit->setText(formation.getName());
+    ui->abbrEdit->setEnabled(false);
+    ui->nomEdit->setText(formation.getLongName());
+    if (formation.hasParent()) {
+        ui->boxParent->setCurrentText(formation.getParent().getName());
+    }
+
+    std::vector<Uv> uvs = formation.getUvs();
+    for(auto it=uvs.begin(); it!=uvs.end(); it++) {
+        ui->tableUV->setRowCount(ui->tableUV->rowCount() + 1);
+        ui->tableUV->setItem(ui->tableUV->rowCount()-1, 0, new QTableWidgetItem(it->getName()));
+    }
+
+    std::map<CategorieUV, int> requirements = formation.getRequirements();
+    for(auto it=requirements.begin(); it!=requirements.end(); it++) {
+        ui->tableCredits->setRowCount(ui->tableCredits->rowCount() + 1);
+        ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 0, new QTableWidgetItem(it->first.getName()));
+        ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 1, new QTableWidgetItem(QString::number(it->second)));
+    }
+    ui->miniUv->setValue(formation.getMinCredits());
+}
+
 //! Création d'une formation (ex : GI, GP)
 //! Récupération du code et du nom dans 2 champs texte, puis appel du constructeur de la classe formation.
 void AddFormation::createFormation() {
     QString abbr, nom;
     abbr = ui->abbrEdit->text();
     nom = ui->nomEdit->text();
-    Formation form(abbr,nom);
+    formation.setLongName(nom);
+
+    if (!editionMode) {
+        formation.setName(abbr);
+    }
+
+    formation.setMinCredits(ui->miniUv->value());
 
     QString parent = ui->boxParent->currentText();
 
     if (ui->boxParent->currentIndex() != 0) {
-        std::cout<<ui->boxParent->currentIndex()<<std::endl;
-        form.setParent(parent);
+        formation.setParent(parent);
     }
 
     for(int i=0; i<ui->tableUV->rowCount(); i++) {
-        form.addUv(ui->tableUV->item(i, 0)->text());
+        formation.addUv(ui->tableUV->item(i, 0)->text());
     }
 
-    FM->addItem(form);
+    if (!editionMode) {
+        FM->addItem(formation);
+    } else {
+        Formation& original = FM->getItem(formation.getName());
+        original.resetUVs();
+        std::cout<<original.getUvs().size()<<std::endl;
+        std::cout<<formation.getUvs().size()<<std::endl;
+        original = formation;
+        std::cout<<original.getUvs().size()<<std::endl;
+        std::cout<<formation.getUvs().size()<<std::endl;
+    }
     close();
 }
 
@@ -91,6 +136,7 @@ void AddFormation::uvAdded(){
 void AddFormation::creditsAdded(){
 
     QString code = ui->boxCat->currentText();
+    QString creds = QString::number(ui->spinCatmin->value());
 
     try {
         CUM->getItem(code);
@@ -101,15 +147,17 @@ void AddFormation::creditsAdded(){
         return;
     }
 
-    //Si cette catégorie a été rajoutée auparavant on ignore l’ajout
+    //Si cette catégorie a été rajoutée auparavant on met à jour
     for(int i=0; i<ui->tableCredits->rowCount(); i++) {
         if(ui->tableCredits->item(i, 0)->text() == code) {
+            ui->tableCredits->setItem(i, 1, new QTableWidgetItem(creds));
             return;
         }
     }
 
-    ui->tableUV->setRowCount(ui->tableCredits->rowCount() + 1);
-    ui->tableUV->setItem(ui->tableCredits->rowCount()-1, 0, new QTableWidgetItem(code));
+    ui->tableCredits->setRowCount(ui->tableCredits->rowCount() + 1);
+    ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 0, new QTableWidgetItem(code));
+    ui->tableCredits->setItem(ui->tableCredits->rowCount()-1, 1, new QTableWidgetItem(creds));
 }
 
 
